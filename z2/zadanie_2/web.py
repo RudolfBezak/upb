@@ -1,6 +1,6 @@
 from flask import Flask, Response, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-from nacl.public import PrivateKey
+from nacl.public import PrivateKey, PublicKey, Box, SealedBox
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
@@ -28,33 +28,14 @@ class User(db.Model):
 with app.app_context():
     db.create_all()
 
-@staticmethod
-def generate_key_pair():
-    # Generate a new random private key
+def create_user(username: str) -> PrivateKey:
     private_key = PrivateKey.generate()
-
-    # Get the corresponding public key
     public_key = private_key.public_key
-
-    # Convert the public and private key to bytes (optional)
-    private_key_bytes = private_key.encode()
-    public_key_bytes = public_key.encode()
-
-    # Returning private key (for secure storage) and public key for DB storage
-    return private_key_bytes, public_key_bytes
-
-def create_user(username):
-    # Generate public/private key pair
-    private_key, public_key = User.generate_key_pair()
-
-    # Save the public key in the database
-    new_user = User(username=username, public_key=public_key.hex())
+    new_user = User(username=username, public_key=public_key.encode())
     
-    # Commit to the database
     db.session.add(new_user)
     db.session.commit()
 
-    # Return the private key for the user to store securely
     return private_key
 
 '''
@@ -70,7 +51,7 @@ def generate_keypair(user):
     
     privateKey = create_user(user)
 
-    return Response(privateKey, content_type='application/octet-stream')
+    return Response(privateKey.encode(), content_type='application/octet-stream')
 
 
 '''
@@ -82,11 +63,18 @@ def generate_keypair(user):
 '''
 @app.route('/api/encrypt/<user>', methods=['POST'])
 def encrypt_file(user):
-    '''
-        TODO: implementovat
-    '''
+    user_record = User.query.filter_by(username=user).first()
 
-    return Response(b'\xff', content_type='application/octet-stream')
+    if not user_record:
+      return jsonify({"error": "User not found"}), 404
+    
+    public_key: PublicKey = user_record.public_key
+    file_data = request.get_data()
+
+    sealedBox  = SealedBox(file_data, public_key)
+    encryptedFile = sealedBox.encrypt(file_data)
+
+    return Response(encryptedFile, content_type='application/octet-stream')
 
 
 '''
