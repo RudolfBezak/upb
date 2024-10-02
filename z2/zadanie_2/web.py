@@ -1,10 +1,11 @@
 from flask import Flask, Response, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from nacl.public import PrivateKey, PublicKey, Box, SealedBox
-from nacl.encoding import Base64Encoder
-from nacl.secret import SecretBox
-from nacl.utils import random
+from nacl.encoding import RawEncoder
 from nacl.signing import SigningKey, VerifyKey
+from nacl.secret import SecretBox
+
+
 
 app = Flask(__name__)
 
@@ -36,22 +37,24 @@ with app.app_context():
 def create_user(user: str) -> PrivateKey:
     private_key = PrivateKey.generate()
     public_key = private_key.public_key
-    public_key = public_key.encode(encoder=Base64Encoder)
-    private_key = private_key.encode(encoder=Base64Encoder)
+    print("private key lenght" + str(len(private_key.encode(encoder=RawEncoder))))
+    print("public key lenght" + str(len(public_key.encode(encoder=RawEncoder))))
+    public_keyEncoded = public_key.encode(encoder=RawEncoder)
+    private_keyEncoded = private_key.encode(encoder=RawEncoder)
 
     existing_user = User.query.filter_by(username=user).first()
 
     if existing_user:
-        existing_user.public_key = public_key
+        existing_user.public_key = public_keyEncoded
         print(f"Updated user '{user}' with new public key.")
     else:
-        new_user = User(username=user, public_key=public_key)
+        new_user = User(username=user, public_key=public_keyEncoded)
         db.session.add(new_user)
         print(f"Created new user '{user}'.")
 
     db.session.commit()
 
-    return private_key
+    return private_keyEncoded
 
 '''
     API request na generovanie klucoveho paru pre pozuivatela <user>
@@ -64,9 +67,9 @@ def create_user(user: str) -> PrivateKey:
 @app.route('/api/gen/<user>', methods=['GET'])
 def generate_keypair(user):
     
-    privateKey = create_user(user)
+    private_keyEncoded = create_user(user)
 
-    return Response(privateKey, content_type='application/octet-stream')
+    return Response(private_keyEncoded, content_type='application/octet-stream')
 
 
 '''
@@ -83,7 +86,7 @@ def encrypt_file(user: str):
     if not user_record:
       return jsonify({"error": "User not found"}), 404
     
-    publicKey = PublicKey(user_record.public_key, encoder=Base64Encoder)
+    publicKey = PublicKey(user_record.public_key, encoder=RawEncoder)
     fileData = request.get_data()
 
     sealedBox = SealedBox(publicKey)
@@ -106,7 +109,9 @@ def decrypt_file():
     key = key.read()
     file = file.read()
 
-    privateKey = PrivateKey(key, encoder=Base64Encoder)
+    print("key lenght" + str(len(key)))
+    privateKey = PrivateKey(key, encoder=RawEncoder)
+    print("private key lenght" + str(len(privateKey.encode(encoder=RawEncoder))))
     sealedBox = SealedBox(privateKey)
     decryptedFile = sealedBox.decrypt(file)
 
@@ -123,11 +128,13 @@ def decrypt_file():
 def sign_file():
 
     file = request.files.get('file')
-    key = request.files.get('key')
-    key = key.read()
+    prKey = request.files.get('key')
+    prKey = prKey.read()
     file = file.read()
-    privateKey = SigningKey(key, encoder=Base64Encoder)
-    signedFile = privateKey.sign(file, encoder=Base64Encoder)
+    print("key lenght" + str(len(prKey)))
+    signingKey = SigningKey(prKey, encoder=RawEncoder)
+    print("signing key lenght" + str(len(signingKey.encode(encoder=RawEncoder))))
+    signedFile = signingKey.sign(file, encoder=RawEncoder)
 
     return Response(signedFile, content_type='application/octet-stream')
 
@@ -141,21 +148,23 @@ def sign_file():
 @app.route('/api/verify/<user>', methods=['POST'])
 def verify_signature(user):
     user_record = User.query.filter_by(username=user).first()
-
     if not user_record:
-      return jsonify({"error": "User not found"}), 404
-    
+        return jsonify({"error": "User not found"}), 404
+
     file = request.files.get('file')
     signature = request.files.get('signature')
-    file = file.read()
-    signature = signature.read()
-    signature = Base64Encoder.decode(signature)
-    verifyKey = VerifyKey(user_record.public_key, encoder=Base64Encoder)
+    file_data = file.read()
+    signature_data = signature.read()
+    decoded_signature = RawEncoder.decode(signature_data)
+    print("public key lengh" + str(len(user_record.public_key)))
+    verify_key = VerifyKey(user_record.public_key, encoder=RawEncoder)
+    print("verify key lenght" + str(len(verify_key.encode(encoder=RawEncoder))))
+
     try:
-      verifyKey.verify(signature)
-      return jsonify({'verified': True})
-    except:
-      return jsonify({'verified': False})
+        verify_key.verify(file_data, decoded_signature)
+        return jsonify({'verified': True})
+    except Exception as e:
+        return jsonify({'verified': False, 'error': str(e)})
 
 
 

@@ -20,7 +20,7 @@ curl -v -X POST http://127.0.0.1:1337/api/decrypt \
 curl -X POST 127.0.0.1:1337/api/sign -F "file=@z2/document.pdf" -F "key=@z2/ubp.key" --output z2/signature.bin
 
 6.
-curl -X POST 127.0.0.1:1337/api/verify/upb -F "file=@z2/document.pdf" -F "signature=@z2/signature.bin" --output z2/signature.bin
+curl -X POST 127.0.0.1:1337/api/verify/ubp -F "file=@z2/document.pdf" -F "signature=@z2/signature.bin" --output z2/signature.bin
 
 
 
