@@ -1,1 +1,1 @@
-{"error":"The signature must be exactly 64 bytes long","verified":false}
+{"error":"Signature was forged or corrupt","verified":false}

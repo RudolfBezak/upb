@@ -151,17 +151,13 @@ def verify_signature(user):
     if not user_record:
         return jsonify({"error": "User not found"}), 404
 
-    file = request.files.get('file')
     signature = request.files.get('signature')
-    file_data = file.read()
     signature_data = signature.read()
     decoded_signature = RawEncoder.decode(signature_data)
-    print("public key lengh" + str(len(user_record.public_key)))
     verify_key = VerifyKey(user_record.public_key, encoder=RawEncoder)
-    print("verify key lenght" + str(len(verify_key.encode(encoder=RawEncoder))))
 
     try:
-        verify_key.verify(file_data, decoded_signature)
+        verify_key.verify(decoded_signature, encoder=RawEncoder)
         return jsonify({'verified': True})
     except Exception as e:
         return jsonify({'verified': False, 'error': str(e)})
