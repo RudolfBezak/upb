@@ -2,6 +2,10 @@ from flask import Flask, Response, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from nacl.public import PrivateKey, PublicKey, Box, SealedBox
 from nacl.encoding import Base64Encoder
+from nacl.secret import SecretBox
+from nacl.utils import random
+from nacl.signing import SigningKey, VerifyKey
+
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
@@ -79,11 +83,11 @@ def encrypt_file(user: str):
     if not user_record:
       return jsonify({"error": "User not found"}), 404
     
-    public_key = PublicKey(user_record.public_key, encoder=Base64Encoder)
-    file_data = request.get_data()
+    publicKey = PublicKey(user_record.public_key, encoder=Base64Encoder)
+    fileData = request.get_data()
 
-    sealedBox = SealedBox(public_key)
-    encryptedFile = sealedBox.encrypt(file_data)
+    sealedBox = SealedBox(publicKey)
+    encryptedFile = sealedBox.encrypt(fileData)
 
     return Response(encryptedFile, content_type='application/octet-stream')
 
@@ -102,8 +106,8 @@ def decrypt_file():
     key = key.read()
     file = file.read()
 
-    private_key = PrivateKey(key, encoder=Base64Encoder)
-    sealedBox = SealedBox(private_key)
+    privateKey = PrivateKey(key, encoder=Base64Encoder)
+    sealedBox = SealedBox(privateKey)
     decryptedFile = sealedBox.decrypt(file)
 
     return Response(decryptedFile, content_type='application/octet-stream')
@@ -117,14 +121,15 @@ def decrypt_file():
 '''
 @app.route('/api/sign', methods=['POST'])
 def sign_file():
-    '''
-        TODO: implementovat
-    '''
 
     file = request.files.get('file')
     key = request.files.get('key')
+    key = key.read()
+    file = file.read()
+    privateKey = SigningKey(key, encoder=Base64Encoder)
+    signedFile = privateKey.sign(file, encoder=Base64Encoder)
 
-    return Response(b'\xff', content_type='application/octet-stream')
+    return Response(signedFile, content_type='application/octet-stream')
 
 
 '''
@@ -135,14 +140,22 @@ def sign_file():
 '''
 @app.route('/api/verify/<user>', methods=['POST'])
 def verify_signature(user):
-    '''
-        TODO: implementovat
-    '''
+    user_record = User.query.filter_by(username=user).first()
 
+    if not user_record:
+      return jsonify({"error": "User not found"}), 404
+    
     file = request.files.get('file')
     signature = request.files.get('signature')
-
-    return jsonify({'verified': False})
+    file = file.read()
+    signature = signature.read()
+    signature = Base64Encoder.decode(signature)
+    verifyKey = VerifyKey(user_record.public_key, encoder=Base64Encoder)
+    try:
+      verifyKey.verify(signature)
+      return jsonify({'verified': True})
+    except:
+      return jsonify({'verified': False})
 
 
 
