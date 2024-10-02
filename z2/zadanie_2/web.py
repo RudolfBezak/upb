@@ -1,6 +1,7 @@
 from flask import Flask, Response, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from nacl.public import PrivateKey, PublicKey, Box, SealedBox
+from nacl.encoding import Base64Encoder
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
@@ -28,12 +29,22 @@ class User(db.Model):
 with app.app_context():
     db.create_all()
 
-def create_user(username: str) -> PrivateKey:
+def create_user(user: str) -> PrivateKey:
     private_key = PrivateKey.generate()
     public_key = private_key.public_key
-    new_user = User(username=username, public_key=public_key.encode())
-    
-    db.session.add(new_user)
+    public_key = public_key.encode(encoder=Base64Encoder)
+    private_key = private_key.encode(encoder=Base64Encoder)
+
+    existing_user = User.query.filter_by(username=user).first()
+
+    if existing_user:
+        existing_user.public_key = public_key
+        print(f"Updated user '{user}' with new public key.")
+    else:
+        new_user = User(username=user, public_key=public_key.encode())
+        db.session.add(new_user)
+        print(f"Created new user '{user}'.")
+
     db.session.commit()
 
     return private_key
@@ -51,7 +62,7 @@ def generate_keypair(user):
     
     privateKey = create_user(user)
 
-    return Response(privateKey.encode(), content_type='application/octet-stream')
+    return Response(privateKey, content_type='application/octet-stream')
 
 
 '''
@@ -62,16 +73,16 @@ def generate_keypair(user):
     ukazka: curl -X POST 127.0.0.1:1337/api/encrypt/ubp -H "Content-Type: application/octet-stream" --data-binary @file.pdf --output encrypted.bin
 '''
 @app.route('/api/encrypt/<user>', methods=['POST'])
-def encrypt_file(user):
+def encrypt_file(user: str):
     user_record = User.query.filter_by(username=user).first()
 
     if not user_record:
       return jsonify({"error": "User not found"}), 404
     
-    public_key: PublicKey = user_record.public_key
+    public_key = PublicKey(user_record.public_key, encoder=Base64Encoder)
     file_data = request.get_data()
 
-    sealedBox  = SealedBox(file_data, public_key)
+    sealedBox = SealedBox(public_key)
     encryptedFile = sealedBox.encrypt(file_data)
 
     return Response(encryptedFile, content_type='application/octet-stream')

@@ -1,0 +1,8 @@
+https://pynacl.readthedocs.io/en/latest/
+
+1.
+curl 127.0.0.1:1337/api/gen/upb
+
+
+2.
+curl -X POST 127.0.0.1:1337/api/encrypt/upb -H "Content-Type:application/octet-stream" --data-binary @z2/file.pdf --output encrypted.bin
