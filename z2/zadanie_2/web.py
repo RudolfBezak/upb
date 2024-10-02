@@ -41,7 +41,7 @@ def create_user(user: str) -> PrivateKey:
         existing_user.public_key = public_key
         print(f"Updated user '{user}' with new public key.")
     else:
-        new_user = User(username=user, public_key=public_key.encode())
+        new_user = User(username=user, public_key=public_key)
         db.session.add(new_user)
         print(f"Created new user '{user}'.")
 
@@ -96,14 +96,17 @@ def encrypt_file(user: str):
 '''
 @app.route('/api/decrypt', methods=['POST'])
 def decrypt_file():
-    '''
-        TODO: implementovat
-    '''
 
     file = request.files.get('file')
     key = request.files.get('key')
+    key = key.read()
+    file = file.read()
 
-    return Response(b'\xff', content_type='application/octet-stream')
+    private_key = PrivateKey(key, encoder=Base64Encoder)
+    sealedBox = SealedBox(private_key)
+    decryptedFile = sealedBox.decrypt(file)
+
+    return Response(decryptedFile, content_type='application/octet-stream')
 
 
 '''

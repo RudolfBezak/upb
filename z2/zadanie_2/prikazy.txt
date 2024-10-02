@@ -1,8 +1,15 @@
 https://pynacl.readthedocs.io/en/latest/
 
 1.
-curl 127.0.0.1:1337/api/gen/upb
-
+curl 127.0.0.1:1337/api/gen/ubp --output z2/ubp.key
 
 2.
-curl -X POST 127.0.0.1:1337/api/encrypt/upb -H "Content-Type:application/octet-stream" --data-binary @z2/file.pdf --output encrypted.bin
+curl -X POST 127.0.0.1:1337/api/encrypt/ubp -H "Content-Type:application/octet-stream" --data-binary @z2/file.pdf --output z2/encrypted.bin
+
+3.
+curl -X POST 127.0.0.1:1337/api/decrypt -F "file=@z2/encypted.bin" -F "key=@z2/ubp.key" --output z2/decrypted.pdf
+
+curl -v -X POST http://127.0.0.1:1337/api/decrypt \
+     -F "file=@z2/encrypted.bin" \
+     -F "key=@z2/ubp.key" \
+     --output z2/decrypted.pdf
