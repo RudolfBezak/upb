@@ -4,7 +4,9 @@ from nacl.signing import SigningKey, VerifyKey, SignedMessage
 from nacl.public import PrivateKey, PublicKey, SealedBox
 from nacl.encoding import RawEncoder
 from nacl.bindings import crypto_sign, crypto_sign_open, crypto_sign_keypair, crypto_sign_ed25519_pk_to_curve25519, crypto_sign_ed25519_sk_to_curve25519
-
+from nacl.hash import sha256
+import hmac
+from hashlib import sha256 as sha256_hash
 
 app = Flask(__name__)
 
@@ -35,12 +37,6 @@ with app.app_context():
 
 def create_user(user: str) -> PrivateKey:
     public_key, private_key = crypto_sign_keypair()
-    # private_key = PrivateKey.generate()
-    # public_key = private_key.public_key
-    # print("private key lenght" + str(len(private_key.encode(encoder=RawEncoder))))
-    # print("public key lenght" + str(len(public_key.encode(encoder=RawEncoder))))
-    # public_keyEncoded = public_key.encode(encoder=RawEncoder)
-    # private_keyEncoded = private_key.encode(encoder=RawEncoder)
 
     existing_user = User.query.filter_by(username=user).first()
 
@@ -113,7 +109,10 @@ def decrypt_file():
     key = crypto_sign_ed25519_sk_to_curve25519(key)
     privateKey = PrivateKey(key, encoder=RawEncoder)
     sealedBox = SealedBox(privateKey)
-    decryptedFile = sealedBox.decrypt(file)
+    try:
+      decryptedFile = sealedBox.decrypt(file)
+    except Exception as e:
+      return jsonify({'error': str(e)}), 400
 
     return Response(decryptedFile, content_type='application/octet-stream')
 
@@ -174,11 +173,26 @@ def verify_signature(user):
 '''
 @app.route('/api/encrypt2/<user>', methods=['POST'])
 def encrypt_file2(user):
-    '''
-        TODO: implementovat
-    '''
+    user_record = User.query.filter_by(username=user).first()
 
-    return Response(b'\xff', content_type='application/octet-stream')
+    if not user_record:
+        return jsonify({"error": "User not found"}), 404
+    
+    public_key = crypto_sign_ed25519_pk_to_curve25519(user_record.public_key)
+    public_key = PublicKey(public_key, encoder=RawEncoder)
+    fileData = request.get_data()
+
+    # Generate HMAC for file integrity
+    secret_key = b'some_shared_secret'  # Secret key for HMAC generation
+    file_hmac = hmac.new(secret_key, fileData, sha256_hash).digest()
+
+    # Combine file data and HMAC before encryption
+    data_to_encrypt = file_hmac + fileData
+
+    sealedBox = SealedBox(public_key)
+    encryptedFile = sealedBox.encrypt(data_to_encrypt)
+
+    return Response(encryptedFile, content_type='application/octet-stream')
 
 
 '''
@@ -189,15 +203,29 @@ def encrypt_file2(user):
 '''
 @app.route('/api/decrypt2', methods=['POST'])
 def decrypt_file2():
-    '''
-        TODO: implementovat
-    '''
-
     file = request.files.get('file')
     key = request.files.get('key')
+    key = key.read()
+    file = file.read()
+    key = crypto_sign_ed25519_sk_to_curve25519(key)
+    privateKey = PrivateKey(key, encoder=RawEncoder)
+    sealedBox = SealedBox(privateKey)
+    try:
+      decrypted_data = sealedBox.decrypt(file)
+    except Exception as e:
+      return jsonify({'error': str(e)}), 400
 
-    return Response(b'\xff', content_type='application/octet-stream')
+    received_hmac = decrypted_data[:32]  # HMAC is 32 bytes
+    original_file_data = decrypted_data[32:]
 
+    # Verify HMAC for integrity
+    secret_key = b'some_shared_secret'  # Secret key for HMAC generation
+    expected_hmac = hmac.new(secret_key, original_file_data, sha256_hash).digest()
+
+    if received_hmac != expected_hmac:
+        return jsonify({'error': 'Integrity check failed. File may have been tampered with.', 'verified': False}), 400
+
+    return Response(original_file_data, content_type='application/octet-stream')
 
 
 if __name__ == '__main__':
