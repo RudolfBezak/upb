@@ -1,4 +1,6 @@
 https://pynacl.readthedocs.io/en/latest/
+https://github.com/pyca/pynacl/tree/main/src/nacl/bindings
+https://nacl.cr.yp.to/index.html
 
 2.
 curl 127.0.0.1:1337/api/gen/ubp --output z2/ubp.key
@@ -21,6 +23,3 @@ curl -X POST 127.0.0.1:1337/api/sign -F "file=@z2/document.pdf" -F "key=@z2/ubp.
 
 6.
 curl -X POST 127.0.0.1:1337/api/verify/ubp -F "file=@z2/document.pdf" -F "signature=@z2/signature.bin" --output z2/signature.bin
-
-
-

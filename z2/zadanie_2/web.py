@@ -1,10 +1,9 @@
 from flask import Flask, Response, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-from nacl.public import PrivateKey, PublicKey, Box, SealedBox
+from nacl.signing import SigningKey, VerifyKey, SignedMessage
+from nacl.public import PrivateKey, PublicKey, SealedBox
 from nacl.encoding import RawEncoder
-from nacl.signing import SigningKey, VerifyKey
-from nacl.secret import SecretBox
-
+from nacl.bindings import crypto_sign, crypto_sign_open, crypto_sign_keypair, crypto_sign_ed25519_pk_to_curve25519, crypto_sign_ed25519_sk_to_curve25519
 
 
 app = Flask(__name__)
@@ -35,26 +34,27 @@ with app.app_context():
     db.create_all()
 
 def create_user(user: str) -> PrivateKey:
-    private_key = PrivateKey.generate()
-    public_key = private_key.public_key
-    print("private key lenght" + str(len(private_key.encode(encoder=RawEncoder))))
-    print("public key lenght" + str(len(public_key.encode(encoder=RawEncoder))))
-    public_keyEncoded = public_key.encode(encoder=RawEncoder)
-    private_keyEncoded = private_key.encode(encoder=RawEncoder)
+    public_key, private_key = crypto_sign_keypair()
+    # private_key = PrivateKey.generate()
+    # public_key = private_key.public_key
+    # print("private key lenght" + str(len(private_key.encode(encoder=RawEncoder))))
+    # print("public key lenght" + str(len(public_key.encode(encoder=RawEncoder))))
+    # public_keyEncoded = public_key.encode(encoder=RawEncoder)
+    # private_keyEncoded = private_key.encode(encoder=RawEncoder)
 
     existing_user = User.query.filter_by(username=user).first()
 
     if existing_user:
-        existing_user.public_key = public_keyEncoded
+        existing_user.public_key = public_key
         print(f"Updated user '{user}' with new public key.")
     else:
-        new_user = User(username=user, public_key=public_keyEncoded)
+        new_user = User(username=user, public_key=public_key)
         db.session.add(new_user)
         print(f"Created new user '{user}'.")
 
     db.session.commit()
 
-    return private_keyEncoded
+    return private_key
 
 '''
     API request na generovanie klucoveho paru pre pozuivatela <user>
@@ -86,10 +86,11 @@ def encrypt_file(user: str):
     if not user_record:
       return jsonify({"error": "User not found"}), 404
     
-    publicKey = PublicKey(user_record.public_key, encoder=RawEncoder)
+    public_key = crypto_sign_ed25519_pk_to_curve25519(user_record.public_key)
+    public_key = PublicKey(public_key, encoder=RawEncoder)
     fileData = request.get_data()
 
-    sealedBox = SealedBox(publicKey)
+    sealedBox = SealedBox(public_key)
     encryptedFile = sealedBox.encrypt(fileData)
 
     return Response(encryptedFile, content_type='application/octet-stream')
@@ -109,9 +110,8 @@ def decrypt_file():
     key = key.read()
     file = file.read()
 
-    print("key lenght" + str(len(key)))
+    key = crypto_sign_ed25519_sk_to_curve25519(key)
     privateKey = PrivateKey(key, encoder=RawEncoder)
-    print("private key lenght" + str(len(privateKey.encode(encoder=RawEncoder))))
     sealedBox = SealedBox(privateKey)
     decryptedFile = sealedBox.decrypt(file)
 
@@ -131,10 +131,7 @@ def sign_file():
     prKey = request.files.get('key')
     prKey = prKey.read()
     file = file.read()
-    print("key lenght" + str(len(prKey)))
-    signingKey = SigningKey(prKey, encoder=RawEncoder)
-    print("signing key lenght" + str(len(signingKey.encode(encoder=RawEncoder))))
-    signedFile = signingKey.sign(file, encoder=RawEncoder)
+    signedFile = crypto_sign(file, prKey)
 
     return Response(signedFile, content_type='application/octet-stream')
 
@@ -150,14 +147,18 @@ def verify_signature(user):
     user_record = User.query.filter_by(username=user).first()
     if not user_record:
         return jsonify({"error": "User not found"}), 404
+    
+    file = request.files.get('file')
+    file = file.read()
 
     signature = request.files.get('signature')
     signature_data = signature.read()
-    decoded_signature = RawEncoder.decode(signature_data)
-    verify_key = VerifyKey(user_record.public_key, encoder=RawEncoder)
+    signature_data = SignedMessage(signature_data)
+
+    public_key = user_record.public_key
 
     try:
-        verify_key.verify(decoded_signature, encoder=RawEncoder)
+        crypto_sign_open(signature_data, public_key)
         return jsonify({'verified': True})
     except Exception as e:
         return jsonify({'verified': False, 'error': str(e)})
