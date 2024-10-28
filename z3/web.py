@@ -163,9 +163,6 @@ def register():
         if (password != passwordCheck):
             flash('Passwords do not match.', 'danger')
             return render_template('register.html', form=form)
-        
-        print(password in common_passwords)
-        print(common_passwords)
 
         if password in common_passwords:
             flash('Your password is too common. Please choose a different one.', 'danger')
