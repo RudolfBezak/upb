@@ -71,16 +71,16 @@ int process_image(const char *filename)
         if (img.height != 0) 
         {
             int size3 = img.width / img.height;
-            char buff3[10];
+            // char buff3[10];
             char *buff4 = (char *)malloc(size3);
 
             if (buff4) 
             {
                 memcpy(buff4, img.data, sizeof(img.data));
 
-                char OOBR = buff3[size3];
+                // char OOBR = buff3[size3];
                 char OOBR_heap = buff4[size3];
-                buff3[size3] = 'c';
+                // buff3[size3] = 'c';
                 buff4[size3] = 'c';
 
                 if (size3 > 10) 
@@ -131,6 +131,6 @@ int main(int argc, char **argv)
         fprintf(stderr, "Error: Failed to process the image file.\n");
         return EXIT_FAILURE;
     }
-
+    
     return EXIT_SUCCESS;
 }

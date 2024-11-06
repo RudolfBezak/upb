@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="05/11/2024">
+            <location file="main.c" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="05/11/2024">
+            <location file="main.c" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="05/11/2024">
+            <location file="main.c" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;errno.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;errno.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="05/11/2024">
+            <location file="main.c" line="4"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="main.c" sinceDate="05/11/2024">
+            <location file="main.c" line="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &amp;#039;buff5&amp;#039; can be declared as pointer to const" verbose="Variable &amp;#039;buff5&amp;#039; can be declared as pointer to const" cwe="398" file0="main.c" sinceDate="05/11/2024">
+            <location file="main.c" line="103"/>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &amp;#039;buff&amp;#039; is not assigned a value." verbose="Variable &amp;#039;buff&amp;#039; is not assigned a value." cwe="665" file0="main.c" sinceDate="05/11/2024">
+            <location file="main.c" line="15"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;OOBR_heap&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;OOBR_heap&amp;#039; is assigned a value that is never used." cwe="563" file0="main.c" sinceDate="05/11/2024">
+            <location file="main.c" line="82"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;print_usage&amp;#039; is never used." verbose="The function &amp;#039;print_usage&amp;#039; is never used." cwe="561" sinceDate="05/11/2024">
+            <location file="main.c" line="20"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;process_image&amp;#039; is never used." verbose="The function &amp;#039;process_image&amp;#039; is never used." cwe="561" sinceDate="05/11/2024">
+            <location file="main.c" line="28"/>
+        </error>
+    </errors>
+</results>

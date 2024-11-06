@@ -1,0 +1,4 @@
+stack_operation call:[stack_operation] noreturn:[stack_operation]
+print_usage call:[fprintf] noreturn:[fprintf]
+process_image call:[fclose,fopen,fprintf,fread,free,malloc,memcpy,printf,sizeof,stack_operation,strerror,while] noreturn:[free,malloc,stack_operation,while]
+main

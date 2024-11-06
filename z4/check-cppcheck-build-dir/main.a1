@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1212473216777421476">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="4" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="0" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;buff5&apos; can be declared as pointer to const" verbose="Variable &apos;buff5&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="103" column="19" info="Variable &apos;buff5&apos; can be declared as pointer to const"/>
+            <symbol>buff5</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;buff&apos; is not assigned a value." verbose="Variable &apos;buff&apos; is not assigned a value." cwe="665" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="15" column="10"/>
+            <symbol>buff</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;OOBR_heap&apos; is assigned a value that is never used." verbose="Variable &apos;OOBR_heap&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="82" column="32"/>
+            <symbol>OOBR_heap</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/main.c:20:6" my-argnr="1" my-argname="program_name" file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" line="22" col="47" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/main.c:28:5" my-argnr="1" my-argname="filename" file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" line="33" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/main.c:28:5" my-argnr="1" my-argname="filename" file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" line="33" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" functionName="stack_operation" lineNumber="13"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" functionName="print_usage" lineNumber="20"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" functionName="process_image" lineNumber="28"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" functionName="main" lineNumber="114"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="errno"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fread"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="stack_operation"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strerror"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,4 @@
+C:\msys64\ucrt64\bin\gcc z4/main.c -o main 
+
+cd C:\Users\floduR\Desktop\upb\upb\z4
+gcc main.exe -o picture.png
