@@ -1,0 +1,6 @@
+isOrdinaryMember call:[isInIdentifierNamespace] noreturn:[isInIdentifierNamespace]
+findOrdinaryMember call:[begin,end,isOrdinaryMember,lookup]
+findOrdinaryMemberInDependentClasses call:[findOrdinaryMember,getAsTemplateDecl,getDecl,getTemplateName,getTemplatedDecl,getType] noreturn:[findOrdinaryMember]
+Collect call:[Collect,Stack,UniqueVirtualMethod,add,bases,begin,empty,end,getCanonicalDecl,getDecl,getType,isPolymorphic,isVirtual,methods,overridden_methods,pop_back_val,push_back,replaceAll] noreturn:[Collect,add,push_back]
+FinalOverriderCollector call:[begin,end]
+AddIndirectPrimaryBases call:[AddIndirectPrimaryBases,assert,bases,getASTRecordLayout,getDecl,getNumVBases,getPrimaryBase,getType,insert,isDependentType,isPrimaryBaseVirtual] noreturn:[AddIndirectPrimaryBases,insert]

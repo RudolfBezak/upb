@@ -1,0 +1,7 @@
+run call:[all,getName,outs] noreturn:[all]
+isRequired
+PrintCallback call:[PrintPass,addPass,registerPipelineStartEPCallback] noreturn:[addPass,registerPipelineStartEPCallback]
+LLVMPrintFunctionsConsumer call:[getCodeGenOpts,push_back] noreturn:[push_back]
+CreateASTConsumer
+ParseArgs
+getActionType

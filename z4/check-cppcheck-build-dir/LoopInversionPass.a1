@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18078238534781095403">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/LoopInversionPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/LoopInversionPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LoopInversionPass.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LoopInversionPass.cpp" line="14" column="0"/>
+        </error>
+        <error id="redundantPointerOp" severity="style" msg="Redundant pointer operation on &apos;BB&apos; - it&apos;s already a pointer." verbose="Redundant pointer operation on &apos;BB&apos; - it&apos;s already a pointer." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LoopInversionPass.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LoopInversionPass.cpp" line="52" column="21"/>
+            <symbol>BB</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LoopInversionPass.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LoopInversionPass.cpp" line="52" column="27"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="LayoutType"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="SP_TRIVIAL"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="atomic"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="block_size"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLayoutIndex"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pred_begin"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="setLayoutIndex"/>
+    <functioncall functionName="shouldOptimize"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="succ_begin"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="update"/>
+    <functioncall functionName="updateLayoutIndices"/>
+  </FileInfo>
+</analyzerinfo>

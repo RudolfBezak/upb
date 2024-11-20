@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2755034635306366202">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\exception3.cpp" line="1" column="0"/>
+        </error>
+  <FileInfo check="Class">
+<class name="ExcA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" line="3" col="1" hash="10222894230972888791"/>
+<class name="ExcB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" line="4" col="1" hash="10222041009949586280"/>
+<class name="ExcC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" line="5" col="1" hash="10220915110042487441"/>
+<class name="ExcD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" line="6" col="1" hash="10227679305577916938"/>
+<class name="ExcE" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" line="7" col="1" hash="10226826084554614427"/>
+<class name="ExcF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" line="8" col="1" hash="10225708980740541276"/>
+<class name="ExcG" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" line="9" col="1" hash="10224864555810264453"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" functionName="foo" lineNumber="11"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/exception3.cpp" functionName="main" lineNumber="19"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

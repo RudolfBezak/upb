@@ -1,0 +1,41 @@
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+clearDiagnostic call:[begin,empty,end,erase,getBegin,getEnd,getID,getLevel,getLocation,isBeforeInTranslationUnitThan,isInvalid,is_contained]
+hasDiagnostic call:[begin,empty,end,getBegin,getEnd,getID,getLocation,isBeforeInTranslationUnitThan,isInvalid,is_contained]
+reportDiagnostics call:[Report,begin,end] noreturn:[Report]
+hasErrors call:[begin,end,getLevel]
+CaptureDiagnosticConsumer
+BeginSourceFile call:[BeginSourceFile]
+FinishCapture call:[EndSourceFile]
+CaptureDiagnosticConsumer call:[assert] noreturn:[assert]
+HandleDiagnostic call:[StoredDiagnostic,getID,getLocation,isARCDiagnostic,isValid,push_back,setLastDiagnosticIgnored] noreturn:[push_back,setLastDiagnosticIgnored]
+HasARCRuntime call:[VersionTuple,getOS,getOSMajorVersion,getOSVersion,getTargetOpts,isWatchOS,isiOS,triple] noreturn:[VersionTuple]
+createInvocationForMigration call:[CompilerInvocation,DiagID,DiagnosticIDs,DiagnosticsEngine,Diags,FileMgr,HasARCRuntime,IgnoringDiagConsumer,StringRef,addMacroDef,begin,clear,empty,end,getARCMTMacroName,getDiagnosticOpts,getFileSystemOpts,getLangOpts,getOriginalSourceFile,getPreprocessorOpts,insert,move,push_back,release,reset,setGC,starts_with,string] noreturn:[clear,insert,push_back,release]
+emitPremigrationErrors call:[BeginSourceFile,DiagID,DiagnosticIDs,DiagnosticsEngine,Diags,EndSourceFile,errs,getLangOpts,getSourceManager,printer,reportDiagnostics,setSourceManager] noreturn:[EndSourceFile]
+applyTransforms call:[CInvok,CInvokForCheck,DiagID,DiagnosticIDs,DiagnosticsEngine,Diags,applyTransform,assert,checkForManualIssues,clear,empty,flushToDisk,getAllTransformations,getDiagnosticOpts,getFrontendOpts,getGC,getLangOpts,getMigratorOpts,getRemapper,migration,overwriteOriginal,push_back,size] noreturn:[flushToDisk,overwriteOriginal]
+ARCMTMacroTrackerPPCallbacks
+MacroExpands call:[getARCMTMacroName,getIdentifierInfo,getLocation,getName,push_back] noreturn:[push_back]
+ARCMTMacroTrackerAction
+CreateASTConsumer call:[addPPCallbacks,getPreprocessor]
+RewritesApplicator call:[start] noreturn:[start]
+RewritesApplicator call:[finish] noreturn:[finish]
+insert call:[InsertText,insert] noreturn:[insert]
+remove call:[RemoveText,remove] noreturn:[remove]
+increaseIndentation call:[IncreaseIndentation] noreturn:[IncreaseIndentation]

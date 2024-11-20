@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18230060245456269900">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/R_ABS.pic.lld.cpp" functionName="myfunc" lineNumber="17"/>
+    <functioncall functionName="myfunc"/>
+  </FileInfo>
+</analyzerinfo>

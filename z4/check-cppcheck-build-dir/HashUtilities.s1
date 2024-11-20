@@ -1,0 +1,8 @@
+hashInteger call:[push_back] noreturn:[push_back]
+hashSymbol call:[append,getFunctionForSymbol,getJumpTableContainingAddress,getSymbolValue,hashInteger] noreturn:[append]
+hashExpr call:[append,getKind,getLHS,getOpcode,getRHS,getSubExpr,getSymbol,getValue,hashExpr,hashInteger,hashSymbol,llvm_unreachable,string] noreturn:[append,llvm_unreachable,string]
+hashInstOperand call:[getExpr,getImm,getReg,hashExpr,hashInteger,isExpr,isImm,isReg,string] noreturn:[hashExpr,hashInteger,string]
+hashBlock call:[OperandHashFunc,append,getOpcode,getOpcodeName,getShortBranchOpcode,isConditionalBranch,isPseudo,isUnconditionalBranch,isX86,primeOperands,push_back,str] noreturn:[append,getShortBranchOpcode,push_back]
+hashBlockLoose call:[append,erase_if,getMnemonic,insert,isConditionalBranch,isNoop,isPseudo,isUnconditionalBranch,isspace] noreturn:[append,insert,isspace]
+hashBlockCalls call:[append,begin,end,getName,getTargetSymbol,isCall,push_back,sort,string] noreturn:[append,push_back]
+hashBlockCalls call:[append,begin,dropNumNames,end,find,push_back,sort,string] noreturn:[append,push_back]

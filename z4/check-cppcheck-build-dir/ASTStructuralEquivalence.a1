@@ -1,0 +1,973 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="861953809037462249">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTStructuralEquivalence.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTStructuralEquivalence.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="61" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="62" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="63" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="64" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclBase.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="65" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="66" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclFriend.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclFriend.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="67" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="68" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclOpenMP.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclOpenMP.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="69" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="70" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="71" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="72" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="73" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprOpenMP.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprOpenMP.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="74" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found." verbose="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="75" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/StmtObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="76" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtOpenACC.h&quot; not found." verbose="Include file: &quot;clang/AST/StmtOpenACC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="77" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtOpenMP.h&quot; not found." verbose="Include file: &quot;clang/AST/StmtOpenMP.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="78" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateBase.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="79" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateName.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="80" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="81" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/ExceptionSpecificationType.h&quot; not found." verbose="Include file: &quot;clang/Basic/ExceptionSpecificationType.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="82" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found." verbose="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="83" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="84" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="85" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/APInt.h&quot; not found." verbose="Include file: &quot;llvm/ADT/APInt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="86" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/APSInt.h&quot; not found." verbose="Include file: &quot;llvm/ADT/APSInt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="87" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="88" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="89" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Compiler.h&quot; not found." verbose="Include file: &quot;llvm/Support/Compiler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="90" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="91" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="92" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="93" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="94" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="420" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="445" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="2494" column="0"/>
+        </error>
+        <error id="checkLevelNormal" severity="information" msg="Limiting ValueFlow analysis in function &apos;IsStructurallyEquivalent&apos; since it is too complex. Please specify --check-level=exhaustive to perform full analysis." verbose="Limiting ValueFlow analysis in function &apos;IsStructurallyEquivalent&apos; since it is too complex. Please specify --check-level=exhaustive to perform full analysis." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="807" column="64"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="0" column="0"/>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="173" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="177" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="181" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="185" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="202" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="207" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="211" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="220" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="229" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="238" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="242" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="247" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="251" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="269" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="275" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="279" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="284" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="290" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="292" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="303" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="307" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="311" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="315" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="327" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="333" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="351" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="360" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="368" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="372" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="377" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" verbose="Unused private function: &apos;StmtComparer::IsStmtEquivalent&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="401" column="8"/>
+            <symbol>StmtComparer::IsStmtEquivalent</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;StmtComparer::TraverseStmt&apos;" verbose="Unused private function: &apos;StmtComparer::TraverseStmt&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="406" column="8"/>
+            <symbol>StmtComparer::TraverseStmt</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;StmtComparer&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;StmtComparer&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="423" column="3"/>
+            <symbol>StmtComparer</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;!Comparer.IsEquivalent(S1,S2)&apos; is always true" verbose="Condition &apos;!Comparer.IsEquivalent(S1,S2)&apos; is always true" cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="515" column="7" info="Condition &apos;!Comparer.IsEquivalent(S1,S2)&apos; is always true"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="515" column="29" info="Calling function &apos;IsEquivalent&apos; returns 0"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Context&apos; can be declared as reference to const" verbose="Parameter &apos;Context&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="752" column="68" info="Parameter &apos;Context&apos; can be declared as reference to const"/>
+            <symbol>Context</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Name1&apos; can be declared as pointer to const" verbose="Variable &apos;Name1&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="1427" column="19" info="Variable &apos;Name1&apos; can be declared as pointer to const"/>
+            <symbol>Name1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Name2&apos; can be declared as pointer to const" verbose="Variable &apos;Name2&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="1428" column="19" info="Variable &apos;Name2&apos; can be declared as pointer to const"/>
+            <symbol>Name2</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Name1&apos; can be declared as pointer to const" verbose="Variable &apos;Name1&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="1463" column="19" info="Variable &apos;Name1&apos; can be declared as pointer to const"/>
+            <symbol>Name1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Name2&apos; can be declared as pointer to const" verbose="Variable &apos;Name2&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTStructuralEquivalence.cpp" line="1464" column="19" info="Variable &apos;Name2&apos; can be declared as pointer to const"/>
+            <symbol>Name2</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2081" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2077:13" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2081" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2077:13" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2093" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2089:13" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2093" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2089:13" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2105" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2101:13" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2105" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2101:13" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2117" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2113:13" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" call-funcname="IsTemplateDeclCommonStructurallyEquivalent" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2117" col="8" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2113:13" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1447:13" call-funcname="IsStructurallyEquivalent" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2183" col="10" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2179:13" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:173:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="174" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:173:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="174" col="62" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:177:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="178" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:177:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="178" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:181:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="182" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:181:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="182" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:185:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="187" col="40" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:185:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="188" col="40" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:202:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="204" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:202:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="204" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:211:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="217" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:211:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="217" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:220:8" my-argnr="1" my-argname="DRE1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="221" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:220:8" my-argnr="2" my-argname="DRE2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="222" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:229:8" my-argnr="1" my-argname="DE1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="231" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:229:8" my-argnr="2" my-argname="DE2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="232" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:238:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="239" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:238:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="239" col="61" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:242:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="244" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:242:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="244" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:247:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="248" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:247:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="248" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:251:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="253" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:251:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="254" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:269:8" my-argnr="1" my-argname="CastE1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="271" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:269:8" my-argnr="2" my-argname="CastE2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="272" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:275:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="276" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:275:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="276" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:279:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="280" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:279:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="281" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:292:8" my-argnr="1" my-argname="S1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="293" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:292:8" my-argnr="2" my-argname="S2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="294" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:303:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="304" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:303:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="304" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:307:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="308" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:307:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="308" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:311:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="312" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:311:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="312" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:315:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="317" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:315:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="318" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:327:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="329" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:327:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="330" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:333:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="334" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:333:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="334" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:351:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="353" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:351:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="353" col="61" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:360:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="362" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:360:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="362" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:368:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="369" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:368:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="369" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:377:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="378" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:377:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="378" col="59" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:401:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="402" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:401:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="402" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:428:8" my-argnr="1" my-argname="S1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="429" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:428:8" my-argnr="2" my-argname="S2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="429" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:452:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="455" col="47" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:452:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="456" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:460:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="463" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:460:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="464" col="51" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:468:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="471" col="48" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:468:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="472" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:477:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="480" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:477:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="481" col="52" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:110:13" my-argnr="2" my-argname="NNS1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="545" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:110:13" my-argnr="3" my-argname="NNS2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="545" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:735:13" my-argnr="2" my-argname="Array1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="738" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:735:13" my-argnr="3" my-argname="Array2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="739" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:776:13" my-argnr="2" my-argname="Proto1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="780" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:776:13" my-argnr="3" my-argname="Proto2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="781" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1425:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1427" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1425:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1428" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1447:13" my-argnr="2" my-argname="Field1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1455" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1447:13" my-argnr="3" my-argname="Field2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1450" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1502:13" my-argnr="3" my-argname="Field2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1504" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1510:13" my-argnr="2" my-argname="Method1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1514" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1510:13" my-argnr="3" my-argname="Method2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1514" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1565:1" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1567" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1565:1" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1570" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1578:1" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1584" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1578:1" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1585" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1631:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1633" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1631:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1633" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1874:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1877" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1874:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1878" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1895:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1897" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1895:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1897" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1959:13" my-argnr="2" my-argname="Params1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1962" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1959:13" my-argnr="3" my-argname="Params2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1962" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1994:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1997" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1994:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1997" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2012:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2015" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2012:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2015" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2046:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2049" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2046:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2049" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2068" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2068" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2125:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2127" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2141:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2143" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2141:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2143" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2150:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2152" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2150:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2152" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2169:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2172" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2169:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2172" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2179:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2182" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2186:13" my-argnr="2" my-argname="Method1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2190" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2186:13" my-argnr="3" my-argname="Method2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2190" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2232:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2235" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2232:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2235" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:100:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2300" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:100:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2301" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:173:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="174" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:173:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="174" col="62" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:177:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="178" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:177:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="178" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:181:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="182" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:181:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="182" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:185:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="187" col="40" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:185:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="188" col="40" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:202:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="204" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:202:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="204" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:211:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="217" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:211:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="217" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:220:8" my-argnr="1" my-argname="DRE1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="221" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:220:8" my-argnr="2" my-argname="DRE2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="222" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:229:8" my-argnr="1" my-argname="DE1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="231" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:229:8" my-argnr="2" my-argname="DE2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="232" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:238:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="239" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:238:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="239" col="61" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:242:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="244" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:242:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="244" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:247:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="248" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:247:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="248" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:251:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="253" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:251:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="254" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:269:8" my-argnr="1" my-argname="CastE1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="271" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:269:8" my-argnr="2" my-argname="CastE2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="272" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:275:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="276" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:275:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="276" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:279:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="280" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:279:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="281" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:292:8" my-argnr="1" my-argname="S1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="293" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:292:8" my-argnr="2" my-argname="S2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="294" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:303:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="304" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:303:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="304" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:307:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="308" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:307:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="308" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:311:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="312" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:311:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="312" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:315:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="317" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:315:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="318" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:327:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="329" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:327:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="330" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:333:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="334" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:333:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="334" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:351:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="353" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:351:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="353" col="61" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:360:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="362" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:360:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="362" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:368:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="369" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:368:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="369" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:377:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="378" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:377:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="378" col="59" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:401:8" my-argnr="1" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="402" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:401:8" my-argnr="2" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="402" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:428:8" my-argnr="1" my-argname="S1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="429" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:428:8" my-argnr="2" my-argname="S2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="429" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:452:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="455" col="47" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:452:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="456" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:460:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="463" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:460:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="464" col="51" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:468:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="471" col="48" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:468:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="472" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:477:13" my-argnr="2" my-argname="E1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="480" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:477:13" my-argnr="3" my-argname="E2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="481" col="52" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:110:13" my-argnr="2" my-argname="NNS1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="545" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:110:13" my-argnr="3" my-argname="NNS2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="545" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:580:13" my-argnr="2" my-argname="N1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="583" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:580:13" my-argnr="3" my-argname="N2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="584" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:104:13" my-argnr="2" my-argname="Arg1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="664" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:104:13" my-argnr="3" my-argname="Arg2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="664" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:107:13" my-argnr="2" my-argname="Arg1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="729" col="44" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:107:13" my-argnr="3" my-argname="Arg2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="730" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:735:13" my-argnr="2" my-argname="Array1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="738" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:735:13" my-argnr="3" my-argname="Array2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="739" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:776:13" my-argnr="2" my-argname="Proto1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="780" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:776:13" my-argnr="3" my-argname="Proto2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="781" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1425:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1427" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1425:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1428" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1447:13" my-argnr="2" my-argname="Field1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1455" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1447:13" my-argnr="3" my-argname="Field2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1450" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1502:13" my-argnr="3" my-argname="Field2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1504" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1510:13" my-argnr="2" my-argname="Method1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1514" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1510:13" my-argnr="3" my-argname="Method2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1514" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1565:1" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1567" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1565:1" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1570" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1578:1" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1584" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1578:1" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1585" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1631:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1633" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1631:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1633" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1874:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1877" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1874:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1878" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1895:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1897" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1895:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1897" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1959:13" my-argnr="2" my-argname="Params1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1962" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1959:13" my-argnr="3" my-argname="Params2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1962" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1994:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1997" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:1994:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="1997" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2012:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2015" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2012:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2015" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2046:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2049" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2046:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2049" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2068" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2066:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2068" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2125:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2127" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2141:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2143" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2141:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2143" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2150:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2152" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2150:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2152" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2169:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2172" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2169:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2172" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2179:13" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2182" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2179:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2182" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2186:13" my-argnr="2" my-argname="Method1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2190" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2186:13" my-argnr="3" my-argname="Method2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2190" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2232:13" my-argnr="2" my-argname="D1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2235" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:2232:13" my-argnr="3" my-argname="D2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2235" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp:100:13" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" line="2306" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="116"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="173"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="177"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="181"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="185"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="202"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="207"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="211"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="220"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="229"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="238"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="242"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="247"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="251"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="269"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="275"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="279"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="284"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="290"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="292"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="303"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="307"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="311"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="315"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="327"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="333"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="351"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="360"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="368"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="372"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="377"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStmtEquivalent" lineNumber="401"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="TraverseStmt" lineNumber="406"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsEquivalent" lineNumber="428"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="452"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="460"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="477"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="487"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="533"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="542"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="580"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="661"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="713"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="726"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsArrayStructurallyEquivalent" lineNumber="735"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="752"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsEquivalentExceptionSpec" lineNumber="776"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="806"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1425"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1447"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1502"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1510"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalentLambdas" lineNumber="1565"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsRecordContextStructurallyEquivalent" lineNumber="1578"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="NameIsStructurallyEquivalent" lineNumber="1619"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1631"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1874"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1895"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1959"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="1994"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2012"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2046"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsTemplateDeclCommonStructurallyEquivalent" lineNumber="2066"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2077"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2089"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2101"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2113"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2125"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2141"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2150"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2169"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2179"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2186"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2232"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTStructuralEquivalence.cpp" functionName="IsStructurallyEquivalent" lineNumber="2296"/>
+    <functioncall functionName="AdjustedType"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ArrayType"/>
+    <functioncall functionName="AtomicType"/>
+    <functioncall functionName="AttributedType"/>
+    <functioncall functionName="AutoType"/>
+    <functioncall functionName="BTFTagAttributedType"/>
+    <functioncall functionName="BinaryOperator"/>
+    <functioncall functionName="BitIntType"/>
+    <functioncall functionName="BlockPointerType"/>
+    <functioncall functionName="BuiltinType"/>
+    <functioncall functionName="CXXConstructorDecl"/>
+    <functioncall functionName="CXXConversionDecl"/>
+    <functioncall functionName="CXXOperatorCallExpr"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="CheckCommonEquivalence"/>
+    <functioncall functionName="CheckKindSpecificEquivalence"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="CompleteType"/>
+    <functioncall functionName="ComplexType"/>
+    <functioncall functionName="ConstantArrayType"/>
+    <functioncall functionName="ConstantMatrixType"/>
+    <functioncall functionName="CountAttributedType"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DecltypeType"/>
+    <functioncall functionName="DeducedTemplateSpecializationType"/>
+    <functioncall functionName="DependentAddressSpaceType"/>
+    <functioncall functionName="DependentBitIntType"/>
+    <functioncall functionName="DependentNameType"/>
+    <functioncall functionName="DependentSizedArrayType"/>
+    <functioncall functionName="DependentSizedExtVectorType"/>
+    <functioncall functionName="DependentSizedMatrixType"/>
+    <functioncall functionName="DependentTemplateSpecializationType"/>
+    <functioncall functionName="DependentVectorType"/>
+    <functioncall functionName="Diag1"/>
+    <functioncall functionName="Diag2"/>
+    <functioncall functionName="ElaboratedType"/>
+    <functioncall functionName="ErrorOnTagTypeMismatch"/>
+    <functioncall functionName="FieldDecl"/>
+    <functioncall functionName="Finish"/>
+    <functioncall functionName="FunctionNoProto"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionType"/>
+    <functioncall functionName="HLSLAttributedResourceType"/>
+    <functioncall functionName="InjectedClassNameType"/>
+    <functioncall functionName="IsArrayStructurallyEquivalent"/>
+    <functioncall functionName="IsEquivalent"/>
+    <functioncall functionName="IsEquivalentExceptionSpec"/>
+    <functioncall functionName="IsRecordContextStructurallyEquivalent"/>
+    <functioncall functionName="IsStructurallyEquivalent"/>
+    <functioncall functionName="IsStructurallyEquivalentLambdas"/>
+    <functioncall functionName="IsTemplateDeclCommonStructurallyEquivalent"/>
+    <functioncall functionName="LastDiagFromC2"/>
+    <functioncall functionName="MacroQualifiedType"/>
+    <functioncall functionName="MemberPointerType"/>
+    <functioncall functionName="NameIsStructurallyEquivalent"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="ObjCInterfaceType"/>
+    <functioncall functionName="ObjCObjectPointerType"/>
+    <functioncall functionName="ObjCObjectType"/>
+    <functioncall functionName="ObjCTypeParamType"/>
+    <functioncall functionName="PackExpansionType"/>
+    <functioncall functionName="PackIndexingType"/>
+    <functioncall functionName="ParenType"/>
+    <functioncall functionName="PipeType"/>
+    <functioncall functionName="PointerType"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="RecordDecl"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="ReferenceType"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="SubstTemplateTypeParmPackType"/>
+    <functioncall functionName="SubstTemplateTypeParmType"/>
+    <functioncall functionName="TagType"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TemplateSpecializationType"/>
+    <functioncall functionName="TemplateTypeParmType"/>
+    <functioncall functionName="TypeOfExprType"/>
+    <functioncall functionName="TypeOfType"/>
+    <functioncall functionName="TypeSourceInfo"/>
+    <functioncall functionName="TypedefType"/>
+    <functioncall functionName="UnaryOperator"/>
+    <functioncall functionName="UnaryTransformType"/>
+    <functioncall functionName="UnresolvedUsingType"/>
+    <functioncall functionName="UsingType"/>
+    <functioncall functionName="ValueDecl"/>
+    <functioncall functionName="VariableArrayType"/>
+    <functioncall functionName="VectorType"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bases_begin"/>
+    <functioncall functionName="bases_end"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="children"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="desugar"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="enumerator_begin"/>
+    <functioncall functionName="enumerator_end"/>
+    <functioncall functionName="err_odr_different_num_template_parameters"/>
+    <functioncall functionName="err_odr_different_template_parameter_kind"/>
+    <functioncall functionName="err_odr_non_type_parameter_type_inconsistent"/>
+    <functioncall functionName="err_odr_parameter_pack_non_pack"/>
+    <functioncall functionName="err_odr_tag_type_inconsistent"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="field_begin"/>
+    <functioncall functionName="field_end"/>
+    <functioncall functionName="findUntaggedStructOrUnionIndex"/>
+    <functioncall functionName="friend_begin"/>
+    <functioncall functionName="friend_end"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAccess"/>
+    <functioncall functionName="getAccessControl"/>
+    <functioncall functionName="getAddrSpaceExpr"/>
+    <functioncall functionName="getApplicableDiagnostic"/>
+    <functioncall functionName="getArg"/>
+    <functioncall functionName="getArgs"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getArgumentPack"/>
+    <functioncall functionName="getAsAssumedTemplateName"/>
+    <functioncall functionName="getAsDecl"/>
+    <functioncall functionName="getAsDependentTemplateName"/>
+    <functioncall functionName="getAsExpr"/>
+    <functioncall functionName="getAsIdentifier"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getAsIntegral"/>
+    <functioncall functionName="getAsNamespace"/>
+    <functioncall functionName="getAsNamespaceAlias"/>
+    <functioncall functionName="getAsOverloadedTemplate"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getAsSubstTemplateTemplateParmPack"/>
+    <functioncall functionName="getAsTemplate"/>
+    <functioncall functionName="getAsTemplateDecl"/>
+    <functioncall functionName="getAsTemplateOrTemplatePattern"/>
+    <functioncall functionName="getAsType"/>
+    <functioncall functionName="getAssocTypeSourceInfos"/>
+    <functioncall functionName="getAssociatedDecl"/>
+    <functioncall functionName="getAttrs"/>
+    <functioncall functionName="getBaseType"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getBitWidth"/>
+    <functioncall functionName="getBytes"/>
+    <functioncall functionName="getCC"/>
+    <functioncall functionName="getCXXDeductionGuideTemplate"/>
+    <functioncall functionName="getCXXLiteralIdentifier"/>
+    <functioncall functionName="getCXXNameType"/>
+    <functioncall functionName="getCXXOverloadedOperator"/>
+    <functioncall functionName="getCalleeDecl"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getClass"/>
+    <functioncall functionName="getClassInterface"/>
+    <functioncall functionName="getColumnExpr"/>
+    <functioncall functionName="getConstraintExpr"/>
+    <functioncall functionName="getContainedType"/>
+    <functioncall functionName="getContainingInterface"/>
+    <functioncall functionName="getConversionType"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclKind"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDeducedType"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getDepth"/>
+    <functioncall functionName="getDescribedTemplate"/>
+    <functioncall functionName="getDesugaredType"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getElementType"/>
+    <functioncall functionName="getEquivalentType"/>
+    <functioncall functionName="getExceptionSpecType"/>
+    <functioncall functionName="getExceptionType"/>
+    <functioncall functionName="getExplicitSpecifier"/>
+    <functioncall functionName="getExtInfo"/>
+    <functioncall functionName="getExternalSource"/>
+    <functioncall functionName="getFoundDecl"/>
+    <functioncall functionName="getFriendDecl"/>
+    <functioncall functionName="getFriendLoc"/>
+    <functioncall functionName="getFriendType"/>
+    <functioncall functionName="getHasRegParm"/>
+    <functioncall functionName="getIdentKind"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getIdentifierInfoForSlot"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getIndexExpr"/>
+    <functioncall functionName="getIndexTypeQualifiers"/>
+    <functioncall functionName="getInit"/>
+    <functioncall functionName="getInitExpr"/>
+    <functioncall functionName="getInitVal"/>
+    <functioncall functionName="getInjectedSpecializationType"/>
+    <functioncall functionName="getInnerType"/>
+    <functioncall functionName="getIntegralType"/>
+    <functioncall functionName="getKeyword"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLambdaCallOperator"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMember"/>
+    <functioncall functionName="getMethodQuals"/>
+    <functioncall functionName="getModifiedType"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameAsString"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNamedType"/>
+    <functioncall functionName="getNoCallerSavedRegs"/>
+    <functioncall functionName="getNoCfCheck"/>
+    <functioncall functionName="getNoexceptExpr"/>
+    <functioncall functionName="getNonTransparentContext"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumBases"/>
+    <functioncall functionName="getNumBits"/>
+    <functioncall functionName="getNumBitsExpr"/>
+    <functioncall functionName="getNumColumns"/>
+    <functioncall functionName="getNumElements"/>
+    <functioncall functionName="getNumExceptions"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getNumProtocols"/>
+    <functioncall functionName="getNumRows"/>
+    <functioncall functionName="getNumTemplateArgs"/>
+    <functioncall functionName="getObjCInterfaceType"/>
+    <functioncall functionName="getOp"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperator"/>
+    <functioncall functionName="getOriginalType"/>
+    <functioncall functionName="getOverloadedOperator"/>
+    <functioncall functionName="getPackIndex"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getParamType"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPattern"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPointeeTypeAsWritten"/>
+    <functioncall functionName="getPrefix"/>
+    <functioncall functionName="getProducesResult"/>
+    <functioncall functionName="getProtocol"/>
+    <functioncall functionName="getQualifier"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getRecordType"/>
+    <functioncall functionName="getRefQualifier"/>
+    <functioncall functionName="getRegParm"/>
+    <functioncall functionName="getReplacementType"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getRowExpr"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSizeExpr"/>
+    <functioncall functionName="getSizeModifier"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSpecializedTemplate"/>
+    <functioncall functionName="getStmtClass"/>
+    <functioncall functionName="getStorageClass"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getTagKind"/>
+    <functioncall functionName="getTemplateArgs"/>
+    <functioncall functionName="getTemplateDepth"/>
+    <functioncall functionName="getTemplateLoc"/>
+    <functioncall functionName="getTemplateName"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getTrait"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeClass"/>
+    <functioncall functionName="getTypeConstraintArguments"/>
+    <functioncall functionName="getTypeConstraintConcept"/>
+    <functioncall functionName="getTypeDeclType"/>
+    <functioncall functionName="getTypeOfArgument"/>
+    <functioncall functionName="getTypedefNameForAnonDecl"/>
+    <functioncall functionName="getUnderlyingExpr"/>
+    <functioncall functionName="getUnderlyingType"/>
+    <functioncall functionName="getUnmodifiedType"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getValueType"/>
+    <functioncall functionName="getVectorKind"/>
+    <functioncall functionName="getWrappedType"/>
+    <functioncall functionName="hasExternalLexicalStorage"/>
+    <functioncall functionName="hasSameType"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isAnonymousStructOrUnion"/>
+    <functioncall functionName="isBeingDefined"/>
+    <functioncall functionName="isBitField"/>
+    <functioncall functionName="isCompleteDefinition"/>
+    <functioncall functionName="isComputedNoexcept"/>
+    <functioncall functionName="isConst"/>
+    <functioncall functionName="isConstrained"/>
+    <functioncall functionName="isDefaulted"/>
+    <functioncall functionName="isDeleted"/>
+    <functioncall functionName="isDirectMethod"/>
+    <functioncall functionName="isEquivalent"/>
+    <functioncall functionName="isExact"/>
+    <functioncall functionName="isFunctionOrMethod"/>
+    <functioncall functionName="isIdentifier"/>
+    <functioncall functionName="isImplicitObjectMemberFunction"/>
+    <functioncall functionName="isInlineNamespace"/>
+    <functioncall functionName="isInnerRef"/>
+    <functioncall functionName="isInstanceMethod"/>
+    <functioncall functionName="isLambda"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isOverloadedOperator"/>
+    <functioncall functionName="isParameterPack"/>
+    <functioncall functionName="isPureVirtual"/>
+    <functioncall functionName="isSameValue"/>
+    <functioncall functionName="isSigned"/>
+    <functioncall functionName="isSpelledAsLValue"/>
+    <functioncall functionName="isStatic"/>
+    <functioncall functionName="isThisDeclarationADefinition"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isUnion"/>
+    <functioncall functionName="isUnresolvedExceptionSpec"/>
+    <functioncall functionName="isUnsigned"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isVolatile"/>
+    <functioncall functionName="ivar_begin"/>
+    <functioncall functionName="ivar_end"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="meth_begin"/>
+    <functioncall functionName="meth_end"/>
+    <functioncall functionName="noload_decls"/>
+    <functioncall functionName="notePriorDiagnosticFrom"/>
+    <functioncall functionName="note_odr_base"/>
+    <functioncall functionName="note_odr_enumerator"/>
+    <functioncall functionName="note_odr_field"/>
+    <functioncall functionName="note_odr_field_name"/>
+    <functioncall functionName="note_odr_friend"/>
+    <functioncall functionName="note_odr_missing_base"/>
+    <functioncall functionName="note_odr_missing_enumerator"/>
+    <functioncall functionName="note_odr_missing_field"/>
+    <functioncall functionName="note_odr_missing_friend"/>
+    <functioncall functionName="note_odr_number_of_bases"/>
+    <functioncall functionName="note_odr_parameter_pack_non_pack"/>
+    <functioncall functionName="note_odr_tag_kind_here"/>
+    <functioncall functionName="note_odr_template_parameter_here"/>
+    <functioncall functionName="note_odr_template_parameter_list"/>
+    <functioncall functionName="note_odr_value_here"/>
+    <functioncall functionName="note_odr_virtual_base"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pack_elements"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="param_size"/>
+    <functioncall functionName="param_type_begin"/>
+    <functioncall functionName="param_type_end"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="protocol_begin"/>
+    <functioncall functionName="protocol_end"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="structurallyEquals"/>
+    <functioncall functionName="template_arguments"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="warn_odr_different_num_template_parameters"/>
+    <functioncall functionName="warn_odr_different_template_parameter_kind"/>
+    <functioncall functionName="warn_odr_field_type_inconsistent"/>
+    <functioncall functionName="warn_odr_function_type_inconsistent"/>
+    <functioncall functionName="warn_odr_ivar_type_inconsistent"/>
+    <functioncall functionName="warn_odr_non_type_parameter_type_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_method_num_params_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_method_param_type_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_method_result_type_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_method_variadic_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_property_impl_kind_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_property_type_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_superclass_inconsistent"/>
+    <functioncall functionName="warn_odr_objc_synthesize_ivar_inconsistent"/>
+    <functioncall functionName="warn_odr_parameter_pack_non_pack"/>
+    <functioncall functionName="warn_odr_tag_type_inconsistent"/>
+    <functioncall functionName="warn_odr_variable_multiple_def"/>
+    <functioncall functionName="warn_odr_variable_type_inconsistent"/>
+    <functioncall functionName="zip_longest"/>
+  </FileInfo>
+</analyzerinfo>

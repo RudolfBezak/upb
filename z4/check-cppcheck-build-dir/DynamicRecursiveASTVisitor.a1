@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5104693218954658937">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DynamicRecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/DynamicRecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="221" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="227" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="233" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="237" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="245" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="251" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found." verbose="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="259" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found." verbose="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="265" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="410" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="418" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="424" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="435" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found." verbose="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="444" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found." verbose="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="452" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Impl&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Impl&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DynamicRecursiveASTVisitor.cpp" line="94" column="3"/>
+            <symbol>Impl</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="shouldVisitTemplateInstantiations" lineNumber="96"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="shouldWalkTypesOfTypeLocs" lineNumber="100"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="shouldVisitImplicitCode" lineNumber="104"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="shouldVisitLambdaBody" lineNumber="108"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="shouldTraversePostOrder" lineNumber="113"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseAST" lineNumber="115"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseAttr" lineNumber="116"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseDecl" lineNumber="117"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseType" lineNumber="118"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTypeLoc" lineNumber="119"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseStmt" lineNumber="120"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseConstructorInitializer" lineNumber="122"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTemplateArgument" lineNumber="126"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTemplateArgumentLoc" lineNumber="130"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTemplateName" lineNumber="134"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseObjCProtocolLoc" lineNumber="138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTypeConstraint" lineNumber="142"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseConceptRequirement" lineNumber="145"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseConceptTypeRequirement" lineNumber="148"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseConceptExprRequirement" lineNumber="151"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseConceptNestedRequirement" lineNumber="154"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseConceptReference" lineNumber="158"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseCXXBaseSpecifier" lineNumber="162"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseDeclarationNameInfo" lineNumber="166"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseLambdaCapture" lineNumber="170"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseNestedNameSpecifier" lineNumber="175"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseNestedNameSpecifierLoc" lineNumber="179"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="VisitConceptReference" lineNumber="183"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="dataTraverseStmtPre" lineNumber="187"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="dataTraverseStmtPost" lineNumber="188"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="dataTraverseNode" lineNumber="192"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="VisitAttr" lineNumber="200"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="VisitDecl" lineNumber="201"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="VisitStmt" lineNumber="202"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="VisitType" lineNumber="203"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="VisitTypeLoc" lineNumber="204"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTemplateInstantiations" lineNumber="210"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTemplateInstantiations" lineNumber="211"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DynamicRecursiveASTVisitor.cpp" functionName="TraverseTemplateInstantiations" lineNumber="212"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="Impl"/>
+    <functioncall functionName="RecursiveASTVisitor"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TraverseAST"/>
+    <functioncall functionName="TraverseAttr"/>
+    <functioncall functionName="TraverseCXXBaseSpecifier"/>
+    <functioncall functionName="TraverseConceptExprRequirement"/>
+    <functioncall functionName="TraverseConceptNestedRequirement"/>
+    <functioncall functionName="TraverseConceptReference"/>
+    <functioncall functionName="TraverseConceptRequirement"/>
+    <functioncall functionName="TraverseConceptTypeRequirement"/>
+    <functioncall functionName="TraverseConstructorInitializer"/>
+    <functioncall functionName="TraverseDecl"/>
+    <functioncall functionName="TraverseDeclarationNameInfo"/>
+    <functioncall functionName="TraverseLambdaCapture"/>
+    <functioncall functionName="TraverseNestedNameSpecifier"/>
+    <functioncall functionName="TraverseNestedNameSpecifierLoc"/>
+    <functioncall functionName="TraverseObjCProtocolLoc"/>
+    <functioncall functionName="TraverseStmt"/>
+    <functioncall functionName="TraverseTemplateArgument"/>
+    <functioncall functionName="TraverseTemplateArgumentLoc"/>
+    <functioncall functionName="TraverseTemplateArguments"/>
+    <functioncall functionName="TraverseTemplateInstantiations"/>
+    <functioncall functionName="TraverseTemplateName"/>
+    <functioncall functionName="TraverseType"/>
+    <functioncall functionName="TraverseTypeConstraint"/>
+    <functioncall functionName="TraverseTypeLoc"/>
+    <functioncall functionName="VisitAttr"/>
+    <functioncall functionName="VisitConceptReference"/>
+    <functioncall functionName="VisitDecl"/>
+    <functioncall functionName="VisitStmt"/>
+    <functioncall functionName="VisitType"/>
+    <functioncall functionName="VisitTypeLoc"/>
+    <functioncall functionName="dataTraverseNode"/>
+    <functioncall functionName="dataTraverseStmtPost"/>
+    <functioncall functionName="dataTraverseStmtPre"/>
+    <functioncall functionName="false"/>
+  </FileInfo>
+</analyzerinfo>

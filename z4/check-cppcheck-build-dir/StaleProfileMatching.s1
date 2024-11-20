@@ -1,0 +1,15 @@
+BlendedBlockHash
+BlendedBlockHash
+combine
+distance call:[assert]
+init call:[assert,make_pair,push_back,size] noreturn:[push_back]
+matchBlock call:[matchWithCalls,matchWithOpcodes] noreturn:[matchWithCalls]
+isHighConfidenceMatch
+matchWithOpcodes call:[distance,end,find,max]
+matchWithCalls call:[end,find,max]
+createFlowFunction call:[InDegree,assert,back,emplace_back,empty,end,find,getIndex,insert,isEntryPoint,landing_pads,push_back,size,successors] noreturn:[assert,insert,push_back]
+matchWeightsByHashes call:[BlendedHash,InWeight,LLVM_DEBUG,OutWeight,YamlHash,assert,combine,dbgs,empty,getHash,hashBlockCalls,init,isHighConfidenceMatch,llvm_unreachable,lookup,matchBlock,max,push_back,size,utohexstr,xxh3_64bits] noreturn:[LLVM_DEBUG,llvm_unreachable,max,push_back,size,xxh3_64bits]
+preprocessUnreachableBlocks call:[VisitedEntry,VisitedExit,empty,front,isEntry,isExit,pop,push,size]
+canApplyInference call:[isEntry,size]
+applyInference call:[applyFlowInference] noreturn:[applyFlowInference]
+assignProfile call:[addAnnotation,assert,branch_info_begin,emplace_back,empty,getBinaryContext,getBranchInfo,getConditionalTailCall,getJumpTable,getKnownExecutionCount,getLabel,getLandingPad,getLastNonPseudoInstr,getSuccessor,hasAnnotation,isCall,isIndirectBranch,isIndirectCall,isPseudo,removeAnnotation,setExecutionCount,setHasInferredProfile,setOrUpdateAnnotation,size,successors] noreturn:[addAnnotation,emplace_back,removeAnnotation,setExecutionCount,setHasInferredProfile,setOrUpdateAnnotation]

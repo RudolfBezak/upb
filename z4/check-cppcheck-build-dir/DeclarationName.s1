@@ -1,0 +1,3 @@
+compareInt call:[return] noreturn:[return]
+printCXXConstructorDestructorName call:[adjustForCPlusPlus,getDecl,print,printName] noreturn:[print]
+operator<< call:[PrintingPolicy,print]

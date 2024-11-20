@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4312981738427223377">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/RuntimeLibs/RuntimeLibrary.h&quot; not found." verbose="Include file: &quot;bolt/RuntimeLibs/RuntimeLibrary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/Linker.h&quot; not found." verbose="Include file: &quot;bolt/Core/Linker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/RuntimeLibs/RuntimeLibraryVariables.inc&quot; not found." verbose="Include file: &quot;bolt/RuntimeLibs/RuntimeLibraryVariables.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/Magic.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/Magic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/Archive.h&quot; not found." verbose="Include file: &quot;llvm/Object/Archive.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/ObjectFile.h&quot; not found." verbose="Include file: &quot;llvm/Object/ObjectFile.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Path.h&quot; not found." verbose="Include file: &quot;llvm/Support/Path.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\RuntimeLibrary.cpp" line="20" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Binary"/>
+    <functioncall functionName="CMAKE_INSTALL_FULL_LIBDIR"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="check_error"/>
+    <functioncall functionName="children"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAsBinary"/>
+    <functioncall functionName="getBuffer"/>
+    <functioncall functionName="getBufferIdentifier"/>
+    <functioncall functionName="getError"/>
+    <functioncall functionName="getFile"/>
+    <functioncall functionName="getLibPathByInstalled"/>
+    <functioncall functionName="getLibPathByToolPath"/>
+    <functioncall functionName="getMemBufferRef"/>
+    <functioncall functionName="getMemoryBufferRef"/>
+    <functioncall functionName="identify_magic"/>
+    <functioncall functionName="loadObject"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="parent_path"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

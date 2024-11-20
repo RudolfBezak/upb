@@ -1,0 +1,2 @@
+hasAArch64ExclusiveMemop call:[block_begin,block_end,empty,front,getBinaryContext,getLayout,getName,getPrintName,insert,isAArch64ExclusiveClear,isAArch64ExclusiveLoad,isAArch64ExclusiveStore,outs,pop,push,size,succ_size,successors] noreturn:[push]
+insertInstructions call:[insertInstruction]

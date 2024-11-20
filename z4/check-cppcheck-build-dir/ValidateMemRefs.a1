@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2071350902780616516">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ValidateMemRefs.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ValidateMemRefs.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateMemRefs.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateMemRefs.cpp" line="10" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="JumpTableSupportLevel"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="ReplacedReferences"/>
+    <functioncall functionName="SP_INST_LINEAR"/>
+    <functioncall functionName="atomic"/>
+    <functioncall functionName="checkAndFixJTReference"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getJumpTableContainingAddress"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOrCreateGlobalSymbol"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getTargetSymbolInfo"/>
+    <functioncall functionName="hasCFG"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="runOnEachFunctionWithUniqueAllocId"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="scopeLock"/>
+    <functioncall functionName="setOperandToSymbolRef"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+  </FileInfo>
+</analyzerinfo>

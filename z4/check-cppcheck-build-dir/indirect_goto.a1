@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2409019468388233967">
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/indirect_goto.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\indirect_goto.c" line="2" column="35"/>
+        </error>
+</analyzerinfo>

@@ -1,0 +1,6 @@
+getInternalCallTarget call:[getBasicBlockForLabel,getBinaryContext,getNumPrimeOperands,getOperand,getTargetSymbol,isCall,isExpr] noreturn:[getBasicBlockForLabel]
+getStartingStateAtBB call:[begin,getEmpty,make_pair] noreturn:[make_pair]
+computeNext call:[computeNext,getInternalCallTarget,isReturn]
+getAnnotationName call:[StringRef] noreturn:[StringRef]
+StackPointerTrackingForInternalCalls
+run call:[run] noreturn:[run]

@@ -1,0 +1,6 @@
+testUseMiddleArgAfterDelete call:[f] noreturn:[f]
+test call:[f] noreturn:[f]
+test call:[__builtin_alloca,sizeof]
+test
+test
+test

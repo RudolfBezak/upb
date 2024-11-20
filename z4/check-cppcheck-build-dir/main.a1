@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<analyzerinfo hash="1212473216777421476">
+<analyzerinfo hash="9559482206125995216">
         <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
             <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="1" column="0"/>
         </error>
@@ -19,13 +19,25 @@
             <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="103" column="19" info="Variable &apos;buff5&apos; can be declared as pointer to const"/>
             <symbol>buff5</symbol>
         </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: buff3" verbose="Uninitialized variable: buff3" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="81" column="29"/>
+            <symbol>buff3</symbol>
+        </error>
         <error id="unassignedVariable" severity="style" msg="Variable &apos;buff&apos; is not assigned a value." verbose="Variable &apos;buff&apos; is not assigned a value." cwe="665" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
             <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="15" column="10"/>
             <symbol>buff</symbol>
         </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;OOBR&apos; is assigned a value that is never used." verbose="Variable &apos;OOBR&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="81" column="27"/>
+            <symbol>OOBR</symbol>
+        </error>
         <error id="unreadVariable" severity="style" msg="Variable &apos;OOBR_heap&apos; is assigned a value that is never used." verbose="Variable &apos;OOBR_heap&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
             <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="82" column="32"/>
             <symbol>OOBR_heap</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;buff3[size3]&apos; is assigned a value that is never used." verbose="Variable &apos;buff3[size3]&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/main.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\main.c" line="83" column="30"/>
+            <symbol>buff3[size3]</symbol>
         </error>
   <FileInfo check="Null pointer">
     <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/main.c:20:6" my-argnr="1" my-argname="program_name" file="C:/Users/floduR/Desktop/upb/upb/z4/main.c" line="22" col="47" value="0"/>
@@ -48,9 +60,12 @@
     <functioncall functionName="free"/>
     <functioncall functionName="malloc"/>
     <functioncall functionName="memcpy"/>
+    <functioncall functionName="print_usage"/>
     <functioncall functionName="printf"/>
+    <functioncall functionName="process_image"/>
     <functioncall functionName="stack_operation"/>
     <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
     <functioncall functionName="strerror"/>
   </FileInfo>
 </analyzerinfo>

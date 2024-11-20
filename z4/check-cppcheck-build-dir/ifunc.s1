@@ -1,0 +1,4 @@
+foo
+bar
+resolver_foo global:[use_foo]
+_start call:[ifoo] noreturn:[ifoo]

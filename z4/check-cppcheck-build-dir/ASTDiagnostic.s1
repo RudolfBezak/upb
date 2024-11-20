@@ -1,0 +1,82 @@
+ConvertTypeToDiagnosticString call:[OS,PrevTy,desugarForDiagnostic,getAsString,getCanonicalType,getElementType,getFromOpaquePtr,getNumElements,getPrintingPolicy,isNull] noreturn:[getCanonicalType]
+DiffNode
+DiffTree call:[DiffNode,push_back] noreturn:[push_back]
+SetTemplateDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetTypeDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetExpressionDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetTemplateTemplateDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetIntegerDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetDeclarationDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetFromDeclarationAndToIntegerDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetFromIntegerAndToDeclarationDiff call:[SetDefault,assert] noreturn:[SetDefault]
+SetDefault call:[assert]
+SetSame
+SetKind
+Up call:[assert]
+AddNode call:[DiffNode,assert,push_back]
+StartTraverse
+Parent
+GetTemplateDiff call:[assert]
+GetTypeDiff call:[assert]
+GetExpressionDiff call:[assert]
+GetTemplateTemplateDiff call:[assert]
+GetIntegerDiff call:[assert]
+GetDeclarationDiff call:[assert]
+GetFromDeclarationAndToIntegerDiff call:[assert]
+GetFromIntegerAndToDeclarationDiff call:[assert]
+FromDefault
+ToDefault
+NodeIsSame
+HasChildren
+MoveToChild
+AdvanceSibling
+HasNextSibling
+Empty call:[GetKind]
+GetKind
+InternalIterator call:[getKind,isEnd,pack_begin,pack_end,template_arguments]
+isValid
+isEnd call:[assert,size,template_arguments] noreturn:[size]
+operator++ call:[assert,getKind,isEnd,pack_begin,pack_end,size,template_arguments]
+operator* call:[assert,isEnd,template_arguments]
+operator-> call:[assert,operator*] noreturn:[operator*]
+TSTiterator
+operator++ call:[isValid]
+operator*
+operator-> call:[operator*] noreturn:[operator*]
+isEnd call:[isEnd] noreturn:[isEnd]
+hasDesugaredTA call:[isEnd,isValid] noreturn:[isEnd]
+getDesugaredTA call:[assert,isValid]
+GetTemplateSpecializationType call:[TemplateName,asArray,getCanonicalType,getDecl,getLocalUnqualifiedType,getReplacementType,getSpecializedTemplate,getTemplateArgs,getTemplateSpecializationType] noreturn:[getReplacementType]
+OnlyPerformTypeDiff call:[GetTemplateSpecializationType,hasSameTemplate,hasSameType,isNull]
+DiffTypes call:[DiffTemplate,GetType,OnlyPerformTypeDiff,QualType,SetSame,SetTemplateDiff,SetTypeDiff,assert,getAsTemplateDecl,getQualifiers,getTemplateName,hasSameType,isEnd,isNull] noreturn:[DiffTemplate,SetSame]
+DiffTemplateTemplates call:[GetTemplateDecl,SetSame,SetTemplateTemplateDiff,getCanonicalDecl,isEnd] noreturn:[SetSame]
+InitializeNonTypeDiffVariables call:[getArgument,getAsDecl,getAsExpr,getAsIntegral,getDefaultArgument,getDesugaredTA,getIntegralType,getKind,getParamTypeForDecl,getPointeeType,getType,hasDesugaredTA,hasSameType,isEnd,isParameterPack,isPointerType,llvm_unreachable] noreturn:[getAsExpr,llvm_unreachable]
+DiffNonTypes call:[InitializeNonTypeDiffVariables,IsEqualExpr,SetDeclarationDiff,SetExpressionDiff,SetFromDeclarationAndToIntegerDiff,SetFromIntegerAndToDeclarationDiff,SetIntegerDiff,SetSame,assert,getCanonicalDecl,hasSameType,isEnd] noreturn:[SetSame]
+DiffTemplate call:[AddNode,DiffNonTypes,DiffTemplateTemplates,DiffTypes,FromIter,ToIter,Up,assert,getAsTemplateDecl,getKind,getParam,getTemplateName,getTemplateParameters,isEnd,llvm_unreachable,min,size] noreturn:[DiffNonTypes,DiffTemplateTemplates,DiffTypes,Up,llvm_unreachable]
+makeTemplateList call:[getAliasedType,isTypeAlias,push_back]
+hasSameBaseTemplate call:[getCanonicalTemplateName,getTemplateName] noreturn:[getCanonicalTemplateName]
+hasSameTemplate call:[hasSameBaseTemplate,makeTemplateList,rbegin,rend]
+GetType call:[QualType,getAsType,getDesugaredTA,hasDesugaredTA,isEnd] noreturn:[QualType,getAsType]
+GetTemplateDecl call:[getAsTemplate,getAsTemplateDecl,getDesugaredTA,hasDesugaredTA,isEnd] noreturn:[getAsTemplateDecl]
+IsEqualExpr call:[Profile]
+TreeToString call:[AdvanceSibling,FromDefault,GetDeclarationDiff,GetExpressionDiff,GetFromDeclarationAndToIntegerDiff,GetFromIntegerAndToDeclarationDiff,GetIntegerDiff,GetKind,GetTemplateDiff,GetTemplateTemplateDiff,GetTypeDiff,HasChildren,HasNextSibling,MoveToChild,NodeIsSame,Parent,PrintAPSInt,PrintElideArgs,PrintExpr,PrintIntegerAndValueDecl,PrintQualifiers,PrintTemplateTemplate,PrintTypeNames,PrintValueDecl,PrintValueDeclAndInteger,ToDefault,TreeToString,assert,getDeclName,indent,llvm_unreachable,while] noreturn:[PrintElideArgs]
+Bold call:[assert]
+Unbold call:[assert]
+PrintTypeNames call:[Bold,PrintQualifiers,Unbold,assert,getAsString,getCanonicalType,getLocalQualifiers,getLocalUnqualifiedType,getNamedType,isNull,print]
+PrintExpr call:[Bold,PrintExpr,Unbold,assert] noreturn:[PrintExpr,Unbold]
+PrintExpr call:[printPretty]
+PrintTemplateTemplate call:[Bold,Unbold,assert,getDeclName,getName,getQualifiedNameAsString,string] noreturn:[Unbold,getDeclName,getQualifiedNameAsString]
+PrintAPSInt call:[PrintAPSInt,assert,hasSameType,isBooleanType,toString] noreturn:[PrintAPSInt,toString]
+PrintAPSInt call:[Bold,HasExtraInfo,PrintExpr,Unbold,getPrintingPolicy,isBooleanType,print,toString] noreturn:[Bold,PrintExpr,Unbold,toString]
+HasExtraInfo call:[IgnoreImpCasts,getOpcode,getSubExpr]
+PrintValueDecl call:[Bold,PrintExpr,Unbold,getType,getUnqualifiedType,print,printAsInit,printName] noreturn:[Bold]
+PrintValueDecl call:[Bold,PrintValueDecl,Unbold,assert] noreturn:[PrintValueDecl,Unbold]
+PrintValueDeclAndInteger call:[Bold,PrintAPSInt,PrintValueDecl,Unbold] noreturn:[Unbold]
+PrintIntegerAndValueDecl call:[Bold,PrintAPSInt,PrintValueDecl,Unbold] noreturn:[PrintAPSInt]
+PrintElideArgs
+PrintQualifiers call:[Bold,PrintQualifier,Unbold,empty,removeCommonQualifiers] noreturn:[PrintQualifier,Unbold]
+PrintQualifier call:[Bold,Unbold,empty,print] noreturn:[Bold,Unbold]
+TemplateDiff
+DiffTemplate call:[DiffTemplate,GetTemplateSpecializationType,QualType,SetTemplateDiff,getAsTemplateDecl,getQualifiers,getTemplateName,hasSameTemplate] noreturn:[DiffTemplate]
+Emit call:[Empty,StartTraverse,TreeToString,assert]
+FormatTemplateTypeDiff call:[DiffTemplate,Emit,TD] noreturn:[Emit]

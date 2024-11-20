@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12640094013703950381">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/PLTCall.h&quot; not found." verbose="Include file: &quot;bolt/Passes/PLTCall.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PLTCall.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PLTCall.cpp" line="15" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="OT_ALL"/>
+    <functioncall functionName="OT_HOT"/>
+    <functioncall functionName="OT_NONE"/>
+    <functioncall functionName="OptType"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="advance"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="createIndirectPltCall"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getPLTSymbol"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isPLTFunction"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="replaceInstruction"/>
+    <functioncall functionName="shouldOptimize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="values"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4156686507601185989">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FixRelaxationPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FixRelaxationPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FixRelaxationPass.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FixRelaxationPass.cpp" line="10" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FixRelaxationPass.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FixRelaxationPass.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="R_AARCH64_NONE"/>
+    <functioncall functionName="SP_INST_LINEAR"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getTargetAddend"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isADRP"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="matchAdrpAddPair"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="scopeLock"/>
+    <functioncall functionName="setOperandToSymbolRef"/>
+    <functioncall functionName="success"/>
+  </FileInfo>
+</analyzerinfo>

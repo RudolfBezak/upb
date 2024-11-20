@@ -1,0 +1,7 @@
+fiz call:[fiz] noreturn:[fiz]
+faz call:[faz] noreturn:[faz]
+zip
+zap
+foo call:[zip] noreturn:[zip]
+bar call:[zap] noreturn:[zap]
+main call:[foo] noreturn:[foo]

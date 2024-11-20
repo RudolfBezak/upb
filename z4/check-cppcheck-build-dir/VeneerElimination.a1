@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16969349109149641652">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/VeneerElimination.h&quot; not found." verbose="Include file: &quot;bolt/Passes/VeneerElimination.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\VeneerElimination.cpp" line="14" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;It&apos; shadows outer variable" verbose="Local variable &apos;It&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/VeneerElimination.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\VeneerElimination.cpp" line="76" column="14" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\VeneerElimination.cpp" line="68" column="14" info="Shadowed declaration"/>
+            <symbol>It</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Entry&apos; can be declared as reference to const" verbose="Variable &apos;Entry&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/VeneerElimination.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\VeneerElimination.cpp" line="58" column="14" info="Variable &apos;Entry&apos; can be declared as reference to const"/>
+            <symbol>Entry</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getSymbols"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isAArch64Veneer"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="replaceBranchTarget"/>
+    <functioncall functionName="setPseudo"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unordered_map"/>
+  </FileInfo>
+</analyzerinfo>

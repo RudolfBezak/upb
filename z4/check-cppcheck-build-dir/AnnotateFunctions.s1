@@ -1,0 +1,6 @@
+HandleTopLevelDecl call:[CreateImplicit,addAttr,getASTContext] noreturn:[addAttr]
+CreateASTConsumer
+ParseArgs
+getActionType
+PragmaAnnotateHandler
+HandlePragma call:[Diag,LexUnexpandedToken,Report,getCustomDiagID,getDiagnostics,getLocation,isNot] noreturn:[Report]

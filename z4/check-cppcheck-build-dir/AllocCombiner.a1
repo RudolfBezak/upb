@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9419241053603758281">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/AllocCombiner.h&quot; not found." verbose="Include file: &quot;bolt/Passes/AllocCombiner.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AllocCombiner.cpp" line="13" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AllocCombiner.cpp" line="46" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp:28:13" my-argnr="1" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp" line="30" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp:35:13" my-argnr="2" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp" line="36" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp:51:13" my-argnr="1" my-argname="Function" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp" line="52" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp" functionName="getStackAdjustmentSize" lineNumber="28"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp" functionName="isIndifferentToSP" lineNumber="35"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp" functionName="shouldProcess" lineNumber="51"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AllocCombiner.cpp" functionName="runForAllWeCare" lineNumber="55"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="FrameOptimizationType"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="addToImm"/>
+    <functioncall functionName="combineAdjustments"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="evaluateStackOffsetExpr"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="findInstruction"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getStackAdjustmentSize"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="hasCFG"/>
+    <functioncall functionName="hasImplicitDefOfPhysReg"/>
+    <functioncall functionName="hasImplicitUseOfPhysReg"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isIgnored"/>
+    <functioncall functionName="isIndifferentToSP"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isSUB"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isStackAdjustment"/>
+    <functioncall functionName="isTerminator"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="primeOperands"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="runForAllWeCare"/>
+    <functioncall functionName="shouldProcess"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+  </FileInfo>
+</analyzerinfo>

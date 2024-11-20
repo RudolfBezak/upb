@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4423778261984336503">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryData.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryData.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryData.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinarySection.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinarySection.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryData.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryData.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Regex.h&quot; not found." verbose="Include file: &quot;llvm/Support/Regex.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryData.cpp" line="16" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryData.cpp" line="52" column="3"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryData"/>
+    <functioncall functionName="Flags"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="OutputOffset"/>
+    <functioncall functionName="OutputSection"/>
+    <functioncall functionName="Parent"/>
+    <functioncall functionName="Size"/>
+    <functioncall functionName="Symbols"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAlignment"/>
+    <functioncall functionName="getEndAddress"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOutputAddress"/>
+    <functioncall functionName="getOutputSection"/>
+    <functioncall functionName="getSection"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isAbsolute"/>
+    <functioncall functionName="isJumpTable"/>
+    <functioncall functionName="isTopLevelJumpTable"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="printBrief"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="utohexstr"/>
+  </FileInfo>
+</analyzerinfo>

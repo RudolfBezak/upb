@@ -1,0 +1,1 @@
+main call:[dlclose,dlopen,dlsym,fib_func,int,printf]

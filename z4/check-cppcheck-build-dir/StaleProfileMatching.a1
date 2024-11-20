@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8735853561741743639">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/YAMLProfileReader.h&quot; not found." verbose="Include file: &quot;bolt/Profile/YAMLProfileReader.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/Bitfields.h&quot; not found." verbose="Include file: &quot;llvm/ADT/Bitfields.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/Hashing.h&quot; not found." verbose="Include file: &quot;llvm/ADT/Hashing.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/xxhash.h&quot; not found." verbose="Include file: &quot;llvm/Support/xxhash.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Transforms/Utils/SampleProfileInference.h&quot; not found." verbose="Include file: &quot;llvm/Transforms/Utils/SampleProfileInference.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="37" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;BI&apos; shadows outer variable" verbose="Local variable &apos;BI&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="741" column="45" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="722" column="10" info="Shadowed declaration"/>
+            <symbol>BI</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Jump&apos; can be declared as pointer to const" verbose="Variable &apos;Jump&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="611" column="20" info="Variable &apos;Jump&apos; can be declared as pointer to const"/>
+            <symbol>Jump</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Jump&apos; can be declared as pointer to const" verbose="Variable &apos;Jump&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="632" column="20" info="Variable &apos;Jump&apos; can be declared as pointer to const"/>
+            <symbol>Jump</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\StaleProfileMatching.cpp" line="558" column="59"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:160:12" my-argnr="1" my-argname="BBH" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="161" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:195:8" my-argnr="1" my-argname="Blocks" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="198" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:195:8" my-argnr="2" my-argname="Hashes" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="198" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:351:1" my-argnr="1" my-argname="BlockOrder" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="360" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:451:1" my-argnr="2" my-argname="BlockOrder" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="457" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:451:1" my-argnr="3" my-argname="YamlBF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="490" col="60" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:451:1" my-argnr="4" my-argname="Func" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="457" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:594:6" my-argnr="1" my-argname="Func" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="595" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:664:6" my-argnr="1" my-argname="Func" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="667" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:708:6" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="711" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:708:6" my-argnr="2" my-argname="BlockOrder" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="713" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp:708:6" my-argnr="3" my-argname="Func" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" line="713" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="combine" lineNumber="147"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="distance" lineNumber="160"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="init" lineNumber="195"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="matchBlock" lineNumber="212"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="isHighConfidenceMatch" lineNumber="221"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="matchWithOpcodes" lineNumber="232"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="matchWithCalls" lineNumber="249"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="createFlowFunction" lineNumber="351"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="matchWeightsByHashes" lineNumber="451"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="preprocessUnreachableBlocks" lineNumber="594"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="canApplyInference" lineNumber="664"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="applyInference" lineNumber="683"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/StaleProfileMatching.cpp" functionName="assignProfile" lineNumber="708"/>
+    <functioncall functionName="BC"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Element"/>
+    <functioncall functionName="Flow"/>
+    <functioncall functionName="FlowBlock"/>
+    <functioncall functionName="HashFunction"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="IdToYamLBF"/>
+    <functioncall functionName="IndirectCallSiteProfile"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="PredJumps"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="StaleMatchingCostBlockDec"/>
+    <functioncall functionName="StaleMatchingCostBlockInc"/>
+    <functioncall functionName="StaleMatchingCostBlockUnknownInc"/>
+    <functioncall functionName="StaleMatchingCostJumpDec"/>
+    <functioncall functionName="StaleMatchingCostJumpInc"/>
+    <functioncall functionName="StaleMatchingCostJumpUnknownFTInc"/>
+    <functioncall functionName="StaleMatchingCostJumpUnknownInc"/>
+    <functioncall functionName="StaleMatchingEvenFlowDistribution"/>
+    <functioncall functionName="StaleMatchingJoinIslands"/>
+    <functioncall functionName="StaleMatchingRebalanceUnknown"/>
+    <functioncall functionName="SuccJumps"/>
+    <functioncall functionName="TimeRewrite"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="applyFlowInference"/>
+    <functioncall functionName="applyInference"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="assignProfile"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="canApplyInference"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="combine"/>
+    <functioncall functionName="computeBlockHashes"/>
+    <functioncall functionName="createFlowFunction"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="distance"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getConditionalTailCall"/>
+    <functioncall functionName="getHash"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getJumpTable"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLandingPad"/>
+    <functioncall functionName="getLastNonPseudoInstr"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOrCreateAnnotationAs"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getSuccessor"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="hasCFG"/>
+    <functioncall functionName="hash"/>
+    <functioncall functionName="hashBlock"/>
+    <functioncall functionName="hashBlockCalls"/>
+    <functioncall functionName="hashBlockLoose"/>
+    <functioncall functionName="hashInstOperand"/>
+    <functioncall functionName="hash_16_bytes"/>
+    <functioncall functionName="hash_value"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isEntry"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isExit"/>
+    <functioncall functionName="isHighConfidenceMatch"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="landing_pads"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="matchBlock"/>
+    <functioncall functionName="matchWeightsByHashes"/>
+    <functioncall functionName="matchWithCalls"/>
+    <functioncall functionName="matchWithOpcodes"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="numeric_limits"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="predecessors"/>
+    <functioncall functionName="preprocessUnreachableBlocks"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="queue"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="setHasInferredProfile"/>
+    <functioncall functionName="setHash"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="unordered_set"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="xxh3_64bits"/>
+  </FileInfo>
+</analyzerinfo>

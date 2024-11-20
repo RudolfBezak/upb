@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2301329316973900310">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Comment.h&quot; not found." verbose="Include file: &quot;clang/AST/Comment.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/CharInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/CharInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="43" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="74" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="91" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="106" column="0"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;TL&apos; shadows outer argument" verbose="Local variable &apos;TL&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="180" column="13" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Comment.cpp" line="156" column="40" info="Shadowed declaration"/>
+            <symbol>TL</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp:128:16" my-argnr="1" my-argname="SrcTL" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp" line="129" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp" functionName="implements_child_begin_end" lineNumber="55"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp" functionName="implements_child_begin_end" lineNumber="60"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp" functionName="CheckCommentASTNodes" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp" functionName="lookThroughTypedefOrTypeAliasLocs" lineNumber="128"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Comment.cpp" functionName="getFunctionTypeLoc" lineNumber="156"/>
+    <functioncall functionName="AdjustedTypeLoc"/>
+    <functioncall functionName="AttributedTypeLoc"/>
+    <functioncall functionName="BlockPointerTypeLoc"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="ClassKind"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="ClassTemplatePartialSpecializationDecl"/>
+    <functioncall functionName="CommentDecl"/>
+    <functioncall functionName="DeclInfo"/>
+    <functioncall functionName="DeclaratorDecl"/>
+    <functioncall functionName="ElaboratedTypeLoc"/>
+    <functioncall functionName="EnumKind"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionKind"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="FunctionTypeLoc"/>
+    <functioncall functionName="IgnoreParens"/>
+    <functioncall functionName="IsFilled"/>
+    <functioncall functionName="IsInstanceMethod"/>
+    <functioncall functionName="MemberPointerTypeLoc"/>
+    <functioncall functionName="NamespaceKind"/>
+    <functioncall functionName="NotTemplate"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="ObjCPropertyDecl"/>
+    <functioncall functionName="OtherKind"/>
+    <functioncall functionName="PointerTypeLoc"/>
+    <functioncall functionName="QualifiedTypeLoc"/>
+    <functioncall functionName="ReferenceTypeLoc"/>
+    <functioncall functionName="Template"/>
+    <functioncall functionName="TemplateParameters"/>
+    <functioncall functionName="TemplatePartialSpecialization"/>
+    <functioncall functionName="TemplateSpecialization"/>
+    <functioncall functionName="TemplateSpecializationTypeLoc"/>
+    <functioncall functionName="TemplateTemplateParmDecl"/>
+    <functioncall functionName="Text"/>
+    <functioncall functionName="TextComment"/>
+    <functioncall functionName="TypeAliasTemplateDecl"/>
+    <functioncall functionName="TypedefKind"/>
+    <functioncall functionName="TypedefNameDecl"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="VarTemplateDecl"/>
+    <functioncall functionName="VariableKind"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="child_begin"/>
+    <functioncall functionName="child_end"/>
+    <functioncall functionName="child_iterator"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getArgLoc"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getCommentKind"/>
+    <functioncall functionName="getDeclInfo"/>
+    <functioncall functionName="getDepth"/>
+    <functioncall functionName="getDescribedVarTemplate"/>
+    <functioncall functionName="getFunctionTypeLoc"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getModifiedLoc"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNamedTypeLoc"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumTemplateParameterLists"/>
+    <functioncall functionName="getOriginalLoc"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getParamIndex"/>
+    <functioncall functionName="getParams"/>
+    <functioncall functionName="getPointeeLoc"/>
+    <functioncall functionName="getReturnLoc"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getTemplateParameterList"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getUnqualifiedLoc"/>
+    <functioncall functionName="involvesFunctionType"/>
+    <functioncall functionName="isInstance"/>
+    <functioncall functionName="isInstanceMethod"/>
+    <functioncall functionName="isParamIndexValid"/>
+    <functioncall functionName="isPositionValid"/>
+    <functioncall functionName="isVarArgParam"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isWhitespace"/>
+    <functioncall functionName="is_trivially_destructible_v"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookThroughTypedefOrTypeAliasLocs"/>
+    <functioncall functionName="parameters"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

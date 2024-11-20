@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16040379281332246377">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;stdio.h&quot; not found." verbose="Include file: &quot;stdio.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\bindings\python\tests\cindex\INPUTS\hello.cpp" line="1" column="0"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;argv&apos; can be declared as const array" verbose="Parameter &apos;argv&apos; can be declared as const array" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/bindings/python/tests/cindex/INPUTS/hello.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\bindings\python\tests\cindex\INPUTS\hello.cpp" line="3" column="26" info="Parameter &apos;argv&apos; can be declared as const array"/>
+            <symbol>argv</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/bindings/python/tests/cindex/INPUTS/hello.cpp" functionName="main" lineNumber="3"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

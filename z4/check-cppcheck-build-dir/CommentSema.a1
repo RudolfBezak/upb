@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18337059957153845003">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentSema.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentSema.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found." verbose="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallString.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallString.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringSwitch.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringSwitch.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentHTMLTagsProperties.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentHTMLTagsProperties.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="25" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="0" column="0"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;CorrectedParamIndex&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;CorrectedParamIndex&apos;. The initialized value is overwritten before it is read." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="776" column="27" info="CorrectedParamIndex is overwritten"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="772" column="34" info="CorrectedParamIndex is initialized"/>
+            <symbol>CorrectedParamIndex</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;MacroName&apos; shadows outer variable" verbose="Local variable &apos;MacroName&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="688" column="19" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentSema.cpp" line="673" column="17" info="Shadowed declaration"/>
+            <symbol>MacroName</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp:995:8" my-argnr="1" my-argname="ND" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" line="1013" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp:1045:6" my-argnr="2" my-argname="TemplateParameters" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" line="1049" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp:1082:6" my-argnr="1" my-argname="TemplateParameters" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" line="1085" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp:995:8" my-argnr="1" my-argname="ND" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" line="1013" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp:1045:6" my-argnr="2" my-argname="TemplateParameters" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" line="1049" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp:1082:6" my-argnr="1" my-argname="TemplateParameters" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" line="1085" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" functionName="getParamPassDirection" lineNumber="222"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" functionName="isClassOrStructDeclImpl" lineNumber="875"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" functionName="getBestDecl" lineNumber="997"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" functionName="getBestDeclIndex" lineNumber="1004"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" functionName="addDecl" lineNumber="1010"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" functionName="ResolveTParamReferenceHelper" lineNumber="1045"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentSema.cpp" functionName="CorrectTypoInTParamReferenceHelper" lineNumber="1082"/>
+    <functioncall functionName="Allocator"/>
+    <functioncall functionName="Anchor"/>
+    <functioncall functionName="Argument"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="Attribute"/>
+    <functioncall functionName="AvailabilityAttr"/>
+    <functioncall functionName="BlockCommandComment"/>
+    <functioncall functionName="BlockContentComment"/>
+    <functioncall functionName="Bold"/>
+    <functioncall functionName="BriefCommand"/>
+    <functioncall functionName="Case"/>
+    <functioncall functionName="Cases"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="CommentDecl"/>
+    <functioncall functionName="CorrectTypoInTParamReferenceHelper"/>
+    <functioncall functionName="CreateInsertion"/>
+    <functioncall functionName="CreateReplacement"/>
+    <functioncall functionName="CurrentDecl"/>
+    <functioncall functionName="DeclInfo"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="DeprecatedAttr"/>
+    <functioncall functionName="Diag"/>
+    <functioncall functionName="ElaboratedType"/>
+    <functioncall functionName="Emphasized"/>
+    <functioncall functionName="FullComment"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="HTMLEndTagComment"/>
+    <functioncall functionName="HTMLStartTagComment"/>
+    <functioncall functionName="HeaderfileCommand"/>
+    <functioncall functionName="In"/>
+    <functioncall functionName="InOut"/>
+    <functioncall functionName="InlineCommandComment"/>
+    <functioncall functionName="InlineCommandRenderKind"/>
+    <functioncall functionName="InlineContentComment"/>
+    <functioncall functionName="InvalidParamIndex"/>
+    <functioncall functionName="IsDeprecatedCommand"/>
+    <functioncall functionName="IsEmptyParagraphAllowed"/>
+    <functioncall functionName="IsFilled"/>
+    <functioncall functionName="IsObjCMethod"/>
+    <functioncall functionName="IsReturnsCommand"/>
+    <functioncall functionName="IsVariadic"/>
+    <functioncall functionName="Monospaced"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="Normal"/>
+    <functioncall functionName="ObjCInterfaceDecl"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="ObjCProtocolDecl"/>
+    <functioncall functionName="Out"/>
+    <functioncall functionName="PP"/>
+    <functioncall functionName="ParagraphComment"/>
+    <functioncall functionName="ParamCommandComment"/>
+    <functioncall functionName="ParamCommandPassDirection"/>
+    <functioncall functionName="ParamVars"/>
+    <functioncall functionName="RecordDecl"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="ResolveTParamReferenceHelper"/>
+    <functioncall functionName="Sema"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="StringSwitch"/>
+    <functioncall functionName="TParamCommandComment"/>
+    <functioncall functionName="TemplateParameters"/>
+    <functioncall functionName="TemplateTemplateParmDecl"/>
+    <functioncall functionName="TextComment"/>
+    <functioncall functionName="ThisDeclInfo"/>
+    <functioncall functionName="Traits"/>
+    <functioncall functionName="TypedefDecl"/>
+    <functioncall functionName="UnavailableAttr"/>
+    <functioncall functionName="VarArgParamIndex"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="VerbatimBlockComment"/>
+    <functioncall functionName="VerbatimBlockLineComment"/>
+    <functioncall functionName="VerbatimLineComment"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="actOnUnknownCommand"/>
+    <functioncall functionName="addDecl"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="checkBlockCommandDuplicate"/>
+    <functioncall functionName="checkBlockCommandEmptyParagraph"/>
+    <functioncall functionName="checkContainerDecl"/>
+    <functioncall functionName="checkContainerDeclVerbatimLine"/>
+    <functioncall functionName="checkDeprecatedCommand"/>
+    <functioncall functionName="checkFunctionDeclVerbatimLine"/>
+    <functioncall functionName="checkReturnsCommand"/>
+    <functioncall functionName="child_begin"/>
+    <functioncall functionName="child_end"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="copyArray"/>
+    <functioncall functionName="correctTypoInParmVarReference"/>
+    <functioncall functionName="correctTypoInTParamReference"/>
+    <functioncall functionName="desugar"/>
+    <functioncall functionName="doesThisDeclarationHaveABody"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="edit_distance"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="erase_if"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fill"/>
+    <functioncall functionName="getArgRange"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getBestDecl"/>
+    <functioncall functionName="getBestDeclIndex"/>
+    <functioncall functionName="getCommandID"/>
+    <functioncall functionName="getCommandInfo"/>
+    <functioncall functionName="getCommandMarker"/>
+    <functioncall functionName="getCommandName"/>
+    <functioncall functionName="getCommandNameRange"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDirectionAsString"/>
+    <functioncall functionName="getEnd"/>
+    <functioncall functionName="getID"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getIdentifierInfo"/>
+    <functioncall functionName="getInlineCommandRenderKind"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLastMacroWithSpelling"/>
+    <functioncall functionName="getLocWithOffset"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getParagraph"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getParamNameAsWritten"/>
+    <functioncall functionName="getParamNameRange"/>
+    <functioncall functionName="getParamPassDirection"/>
+    <functioncall functionName="getParamVars"/>
+    <functioncall functionName="getPresumedLineNumber"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getTagName"/>
+    <functioncall functionName="getTemplateKind"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypePtrOrNull"/>
+    <functioncall functionName="getUnderlyingType"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasParamName"/>
+    <functioncall functionName="inspectThisDecl"/>
+    <functioncall functionName="involvesFunctionType"/>
+    <functioncall functionName="isAnyFunctionDecl"/>
+    <functioncall functionName="isClassOrStructDecl"/>
+    <functioncall functionName="isClassOrStructDeclImpl"/>
+    <functioncall functionName="isClassOrStructOrTagTypedefDecl"/>
+    <functioncall functionName="isClassTemplateDecl"/>
+    <functioncall functionName="isDirectionExplicit"/>
+    <functioncall functionName="isFunctionDecl"/>
+    <functioncall functionName="isFunctionOrMethodVariadic"/>
+    <functioncall functionName="isFunctionPointerType"/>
+    <functioncall functionName="isFunctionPointerVarDecl"/>
+    <functioncall functionName="isFunctionTemplateDecl"/>
+    <functioncall functionName="isHTMLEndTagForbidden"/>
+    <functioncall functionName="isHTMLEndTagOptional"/>
+    <functioncall functionName="isMalformed"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjCInterfaceDecl"/>
+    <functioncall functionName="isObjCMethodDecl"/>
+    <functioncall functionName="isObjCPropertyDecl"/>
+    <functioncall functionName="isObjCProtocolDecl"/>
+    <functioncall functionName="isRecord"/>
+    <functioncall functionName="isRecordLikeDecl"/>
+    <functioncall functionName="isTemplateOrSpecialization"/>
+    <functioncall functionName="isUnion"/>
+    <functioncall functionName="isUnionDecl"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isVoidType"/>
+    <functioncall functionName="isWhitespace"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="kw___attribute"/>
+    <functioncall functionName="l_paren"/>
+    <functioncall functionName="l_square"/>
+    <functioncall functionName="lower"/>
+    <functioncall functionName="note_add_deprecation_attr"/>
+    <functioncall functionName="note_doc_block_command_previous"/>
+    <functioncall functionName="note_doc_block_command_previous_alias"/>
+    <functioncall functionName="note_doc_html_end_tag"/>
+    <functioncall functionName="note_doc_param_name_suggestion"/>
+    <functioncall functionName="note_doc_param_previous"/>
+    <functioncall functionName="note_doc_tparam_name_suggestion"/>
+    <functioncall functionName="note_doc_tparam_previous"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_back_val"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="r_paren"/>
+    <functioncall functionName="r_square"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="registerUnknownCommand"/>
+    <functioncall functionName="rend"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="resolveParamCommandIndexes"/>
+    <functioncall functionName="resolveParmVarReference"/>
+    <functioncall functionName="resolveTParamReference"/>
+    <functioncall functionName="setArgs"/>
+    <functioncall functionName="setAttrs"/>
+    <functioncall functionName="setCloseName"/>
+    <functioncall functionName="setDirection"/>
+    <functioncall functionName="setGreaterLoc"/>
+    <functioncall functionName="setIsMalformed"/>
+    <functioncall functionName="setIsVarArgParam"/>
+    <functioncall functionName="setLines"/>
+    <functioncall functionName="setParagraph"/>
+    <functioncall functionName="setParamIndex"/>
+    <functioncall functionName="setPosition"/>
+    <functioncall functionName="setSelfClosing"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="warn_doc_api_container_decl_mismatch"/>
+    <functioncall functionName="warn_doc_block_command_duplicate"/>
+    <functioncall functionName="warn_doc_block_command_empty_paragraph"/>
+    <functioncall functionName="warn_doc_container_decl_mismatch"/>
+    <functioncall functionName="warn_doc_deprecated_not_sync"/>
+    <functioncall functionName="warn_doc_function_method_decl_mismatch"/>
+    <functioncall functionName="warn_doc_html_end_forbidden"/>
+    <functioncall functionName="warn_doc_html_end_unbalanced"/>
+    <functioncall functionName="warn_doc_html_missing_end_tag"/>
+    <functioncall functionName="warn_doc_html_start_end_mismatch"/>
+    <functioncall functionName="warn_doc_param_duplicate"/>
+    <functioncall functionName="warn_doc_param_invalid_direction"/>
+    <functioncall functionName="warn_doc_param_not_attached_to_a_function_decl"/>
+    <functioncall functionName="warn_doc_param_not_found"/>
+    <functioncall functionName="warn_doc_param_spaces_in_direction"/>
+    <functioncall functionName="warn_doc_returns_attached_to_a_void_function"/>
+    <functioncall functionName="warn_doc_returns_not_attached_to_a_function_decl"/>
+    <functioncall functionName="warn_doc_tparam_duplicate"/>
+    <functioncall functionName="warn_doc_tparam_not_attached_to_a_template_decl"/>
+    <functioncall functionName="warn_doc_tparam_not_found"/>
+  </FileInfo>
+</analyzerinfo>

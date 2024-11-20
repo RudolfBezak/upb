@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11364762467672241789">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/Exceptions.h&quot; not found." verbose="Include file: &quot;bolt/Core/Exceptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/Twine.h&quot; not found." verbose="Include file: &quot;llvm/ADT/Twine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDebugFrame.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDebugFrame.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MathExtras.h&quot; not found." verbose="Include file: &quot;llvm/Support/MathExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="28" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Exceptions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ActionType&apos; can be reduced." verbose="The scope of the variable &apos;ActionType&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Exceptions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="279" column="15"/>
+            <symbol>ActionType</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Err&apos; shadows outer variable" verbose="Local variable &apos;Err&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Exceptions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="884" column="17" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="877" column="11" info="Shadowed declaration"/>
+            <symbol>Err</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Err&apos; shadows outer variable" verbose="Local variable &apos;Err&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Exceptions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="887" column="17" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="877" column="11" info="Shadowed declaration"/>
+            <symbol>Err</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::all_of or std::none_of algorithm instead of a raw loop." verbose="Consider using std::all_of or std::none_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Exceptions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="658" column="3"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::all_of or std::none_of algorithm instead of a raw loop." verbose="Consider using std::all_of or std::none_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Exceptions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Exceptions.cpp" line="662" column="3"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Address"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="CFIReaderWriter"/>
+    <functioncall functionName="CIEInfo"/>
+    <functioncall functionName="CtxMutex"/>
+    <functioncall functionName="DW_EH_PE_absptr"/>
+    <functioncall functionName="DW_EH_PE_omit"/>
+    <functioncall functionName="DW_EH_PE_sdata4"/>
+    <functioncall functionName="DW_EH_PE_udata4"/>
+    <functioncall functionName="EHFrameAddress"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="FDE"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="Offset"/>
+    <functioncall functionName="PatcherCallback"/>
+    <functioncall functionName="PrintExceptions"/>
+    <functioncall functionName="RWMutex"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="Verbosity"/>
+    <functioncall functionName="addCFIInstruction"/>
+    <functioncall functionName="addCallSites"/>
+    <functioncall functionName="addEHInfo"/>
+    <functioncall functionName="addFragmentsToSkip"/>
+    <functioncall functionName="addInterproceduralReference"/>
+    <functioncall functionName="areRelatedFragments"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="binary_search"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="cfiDefCfa"/>
+    <functioncall functionName="cfiDefCfaOffset"/>
+    <functioncall functionName="cfis"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createDefCfaRegister"/>
+    <functioncall functionName="createEscape"/>
+    <functioncall functionName="createFatalBOLTError"/>
+    <functioncall functionName="createGnuArgsSize"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createNegateRAState"/>
+    <functioncall functionName="createOffset"/>
+    <functioncall functionName="createRegister"/>
+    <functioncall functionName="createRememberState"/>
+    <functioncall functionName="createRestore"/>
+    <functioncall functionName="createRestoreState"/>
+    <functioncall functionName="createSameValue"/>
+    <functioncall functionName="createStringError"/>
+    <functioncall functionName="createUndefined"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="emplace_hint"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="encodeULEB128"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="entries"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="fragments"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAddressRange"/>
+    <functioncall functionName="getAddressSize"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataAtAddress"/>
+    <functioncall functionName="getBinaryFunctionContainingAddress"/>
+    <functioncall functionName="getCStr"/>
+    <functioncall functionName="getCodeAlignmentFactor"/>
+    <functioncall functionName="getConditionalTailCall"/>
+    <functioncall functionName="getDWARFEncodingSize"/>
+    <functioncall functionName="getDWARFObj"/>
+    <functioncall functionName="getData"/>
+    <functioncall functionName="getDataAlignmentFactor"/>
+    <functioncall functionName="getEHFrameAddress"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getEncodedPointer"/>
+    <functioncall functionName="getFirstInstructionOffset"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getFunctionEndLabel"/>
+    <functioncall functionName="getInitialLength"/>
+    <functioncall functionName="getInitialLocation"/>
+    <functioncall functionName="getInstLabel"/>
+    <functioncall functionName="getInstructionAtOffset"/>
+    <functioncall functionName="getLSDAAddress"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLinkedCIE"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOrCreateInstLabel"/>
+    <functioncall functionName="getPersonalityAddress"/>
+    <functioncall functionName="getPersonalityEncoding"/>
+    <functioncall functionName="getPointerAtAddress"/>
+    <functioncall functionName="getRelocatedValue"/>
+    <functioncall functionName="getSLEB128"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getU8"/>
+    <functioncall functionName="getULEB128"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="invalid_argument"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isInt"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isValidOffset"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="parse"/>
+    <functioncall functionName="parseCIE"/>
+    <functioncall functionName="parseFDE"/>
+    <functioncall functionName="processInterproceduralReferences"/>
+    <functioncall functionName="ref"/>
+    <functioncall functionName="setAddressSize"/>
+    <functioncall functionName="setHasIndirectTargetToSplitFragment"/>
+    <functioncall functionName="setLSDAAddress"/>
+    <functioncall functionName="setPersonalityEncoding"/>
+    <functioncall functionName="setPersonalityFunction"/>
+    <functioncall functionName="setUsesGnuArgsSize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="slice"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unique_lock"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

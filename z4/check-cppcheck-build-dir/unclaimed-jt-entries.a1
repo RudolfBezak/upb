@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12811303688276628630">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\unclaimed-jt-entries.c" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\unclaimed-jt-entries.c" line="2" column="0"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;argv&apos; can be declared as const array" verbose="Parameter &apos;argv&apos; can be declared as const array" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\unclaimed-jt-entries.c" line="6" column="26" info="Parameter &apos;argv&apos; can be declared as const array"/>
+            <symbol>argv</symbol>
+        </error>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c:6:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c" line="7" col="18" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c:6:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c" line="7" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c:6:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c" line="7" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/unclaimed-jt-entries.c" functionName="main" lineNumber="6"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

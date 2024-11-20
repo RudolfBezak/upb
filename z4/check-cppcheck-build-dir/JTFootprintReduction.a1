@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12099334016918083102">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/JTFootprintReduction.h&quot; not found." verbose="Include file: &quot;bolt/Passes/JTFootprintReduction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\JTFootprintReduction.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\JTFootprintReduction.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\JTFootprintReduction.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\JTFootprintReduction.cpp" line="16" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryFunctionCallGraph"/>
+    <functioncall functionName="JTFootprintOnlyPIC"/>
+    <functioncall functionName="JTT_NORMAL"/>
+    <functioncall functionName="JumpTable"/>
+    <functioncall functionName="JumpTableSupportLevel"/>
+    <functioncall functionName="MCInst"/>
+    <functioncall functionName="MCInstMatcher"/>
+    <functioncall functionName="MutableArrayRef"/>
+    <functioncall functionName="OptimizedScore"/>
+    <functioncall functionName="RegAnalysis"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="TotalJTScore"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="annotate"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="buildCallGraph"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="checkOpportunities"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createIJmp32Frag"/>
+    <functioncall functionName="createImm"/>
+    <functioncall functionName="createReg"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getJumpTable"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLastNonPseudo"/>
+    <functioncall functionName="getLivenessAnalysis"/>
+    <functioncall functionName="getNumNonPseudos"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isIgnored"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="match"/>
+    <functioncall functionName="matchAdd"/>
+    <functioncall functionName="matchAnyOperand"/>
+    <functioncall functionName="matchImm"/>
+    <functioncall functionName="matchIndJmp"/>
+    <functioncall functionName="matchLoad"/>
+    <functioncall functionName="matchLoadAddr"/>
+    <functioncall functionName="matchReg"/>
+    <functioncall functionName="matchSymbol"/>
+    <functioncall functionName="optimizeFunction"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="replaceInstruction"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="scavengeRegAfter"/>
+    <functioncall functionName="setJumpTable"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tryOptimizeNonPIC"/>
+    <functioncall functionName="tryOptimizePIC"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

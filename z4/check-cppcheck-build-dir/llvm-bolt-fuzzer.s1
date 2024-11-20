@@ -1,0 +1,2 @@
+LLVMFuzzerTestOneInput call:[StringRef,consumeError,create,createBinary,get,getMemBuffer,getMemBufferRef,move,run,strncmp,takeError] noreturn:[consumeError]
+LLVMFuzzerInitialize call:[InitializeAllAsmParsers,InitializeAllAsmPrinters,InitializeAllDisassemblers,InitializeAllTargetInfos,InitializeAllTargetMCs,InitializeAllTargets]

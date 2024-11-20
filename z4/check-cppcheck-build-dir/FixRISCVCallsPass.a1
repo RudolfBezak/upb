@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="896175046474672050">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FixRISCVCallsPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FixRISCVCallsPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FixRISCVCallsPass.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FixRISCVCallsPass.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FixRISCVCallsPass.cpp" line="12" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="SP_INST_LINEAR"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="createCall"/>
+    <functioncall functionName="createTailCall"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="isRISCV"/>
+    <functioncall functionName="isRISCVCall"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="moveAnnotations"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="scopeLock"/>
+    <functioncall functionName="setOffset"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="uint32_t"/>
+  </FileInfo>
+</analyzerinfo>

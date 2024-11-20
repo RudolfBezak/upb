@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15289750839618086199">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DebugNames.h&quot; not found." verbose="Include file: &quot;bolt/Core/DebugNames.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFExpression.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFExpression.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFTypeUnit.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFTypeUnit.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/EndianStream.h&quot; not found." verbose="Include file: &quot;llvm/Support/EndianStream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="16" column="0"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="140" column="33"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Expr&apos; shadows outer variable" verbose="Local variable &apos;Expr&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="144" column="42" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="139" column="21" info="Shadowed declaration"/>
+            <symbol>Expr</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Bucket&apos; can be declared as reference to const" verbose="Variable &apos;Bucket&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="464" column="14" info="Variable &apos;Bucket&apos; can be declared as reference to const"/>
+            <symbol>Bucket</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Bucket&apos; can be declared as reference to const" verbose="Variable &apos;Bucket&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="578" column="14" info="Variable &apos;Bucket&apos; can be declared as reference to const"/>
+            <symbol>Bucket</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Bucket&apos; can be declared as reference to const" verbose="Variable &apos;Bucket&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="589" column="14" info="Variable &apos;Bucket&apos; can be declared as reference to const"/>
+            <symbol>Bucket</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="132" column="14"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="144" column="3"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;Offset&apos; is assigned a value that is never used." verbose="Variable &apos;Offset&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="479" column="37"/>
+            <symbol>Offset</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ParentOffset&apos; is assigned a value that is never used." verbose="Variable &apos;ParentOffset&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugNames.cpp" line="566" column="35"/>
+            <symbol>ParentOffset</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp:118:13" my-argnr="2" my-argname="Die" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" line="120" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp:151:13" my-argnr="2" my-argname="Die" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" line="153" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp:203:17" my-argnr="2" my-argname="Unit" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" line="205" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" functionName="shouldIncludeVariable" lineNumber="118"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" functionName="canProcess" lineNumber="151"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" functionName="getNameOffset" lineNumber="203"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" functionName="getEntryID" lineNumber="220"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugNames.cpp" functionName="getDebugNamesHeaderSize" lineNumber="618"/>
+    <functioncall functionName="AbbrevTableSize"/>
+    <functioncall functionName="AbbreviationsVector"/>
+    <functioncall functionName="Alloc"/>
+    <functioncall functionName="Allocator"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="AugmentationStringSize"/>
+    <functioncall functionName="BC"/>
+    <functioncall functionName="BOLTDWARF5AccelTableData"/>
+    <functioncall functionName="BestForm"/>
+    <functioncall functionName="BucketCount"/>
+    <functioncall functionName="Buckets"/>
+    <functioncall functionName="CUIndexEncodingSize"/>
+    <functioncall functionName="CUIndexForm"/>
+    <functioncall functionName="CUList"/>
+    <functioncall functionName="CurrentUnitOffset"/>
+    <functioncall functionName="DWARF32"/>
+    <functioncall functionName="DWARF5AcceleratorTable"/>
+    <functioncall functionName="DWARFTypeUnit"/>
+    <functioncall functionName="DW_AT_abstract_origin"/>
+    <functioncall functionName="DW_AT_declaration"/>
+    <functioncall functionName="DW_AT_entry_pc"/>
+    <functioncall functionName="DW_AT_high_pc"/>
+    <functioncall functionName="DW_AT_linkage_name"/>
+    <functioncall functionName="DW_AT_location"/>
+    <functioncall functionName="DW_AT_low_pc"/>
+    <functioncall functionName="DW_AT_name"/>
+    <functioncall functionName="DW_AT_ranges"/>
+    <functioncall functionName="DW_AT_specification"/>
+    <functioncall functionName="DW_FORM_flag_present"/>
+    <functioncall functionName="DW_FORM_ref4"/>
+    <functioncall functionName="DW_IDX_compile_unit"/>
+    <functioncall functionName="DW_IDX_die_offset"/>
+    <functioncall functionName="DW_IDX_parent"/>
+    <functioncall functionName="DW_IDX_type_unit"/>
+    <functioncall functionName="DebugNamesAbbrev"/>
+    <functioncall functionName="DebugStrBufferVector"/>
+    <functioncall functionName="Entries"/>
+    <functioncall functionName="FC_Block"/>
+    <functioncall functionName="FC_Exprloc"/>
+    <functioncall functionName="FindNodeOrInsertPos"/>
+    <functioncall functionName="ForeignTUList"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="InsertNode"/>
+    <functioncall functionName="LocalTUList"/>
+    <functioncall functionName="NeedToCreate"/>
+    <functioncall functionName="Profile"/>
+    <functioncall functionName="StrOffsetsContributionDescriptor"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TUIndexEncodingSize"/>
+    <functioncall functionName="TUIndexForm"/>
+    <functioncall functionName="UniqueHashCount"/>
+    <functioncall functionName="UnitIndexAndEncoding"/>
+    <functioncall functionName="addAttribute"/>
+    <functioncall functionName="addString"/>
+    <functioncall functionName="addUnit"/>
+    <functioncall functionName="array_pod_sort"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="canProcess"/>
+    <functioncall functionName="caseFoldingDjbHash"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="computeBucketCount"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="distance"/>
+    <functioncall functionName="doesFormBelongToClass"/>
+    <functioncall functionName="emitAbbrevs"/>
+    <functioncall functionName="emitAugmentationString"/>
+    <functioncall functionName="emitBuckets"/>
+    <functioncall functionName="emitCUList"/>
+    <functioncall functionName="emitData"/>
+    <functioncall functionName="emitHashes"/>
+    <functioncall functionName="emitHeader"/>
+    <functioncall functionName="emitOffsets"/>
+    <functioncall functionName="emitStringOffsets"/>
+    <functioncall functionName="emitTUList"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="encodeULEB128"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="enumerate"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="finalize"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findAttribute"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAbbrevNumber"/>
+    <functioncall functionName="getAddressByteSize"/>
+    <functioncall functionName="getAttributes"/>
+    <functioncall functionName="getBuckets"/>
+    <functioncall functionName="getCStr"/>
+    <functioncall functionName="getCode"/>
+    <functioncall functionName="getContext"/>
+    <functioncall functionName="getDIEBlock"/>
+    <functioncall functionName="getDIEEntry"/>
+    <functioncall functionName="getDIEInteger"/>
+    <functioncall functionName="getDIELoc"/>
+    <functioncall functionName="getDWARFObj"/>
+    <functioncall functionName="getDWOId"/>
+    <functioncall functionName="getDebugNamesHeaderSize"/>
+    <functioncall functionName="getDebugNamesSection"/>
+    <functioncall functionName="getDieOffset"/>
+    <functioncall functionName="getDieTag"/>
+    <functioncall functionName="getDwarfOffsetByteSize"/>
+    <functioncall functionName="getEntry"/>
+    <functioncall functionName="getEntryID"/>
+    <functioncall functionName="getFixedFormByteSize"/>
+    <functioncall functionName="getForm"/>
+    <functioncall functionName="getFormParams"/>
+    <functioncall functionName="getIndexForEntry"/>
+    <functioncall functionName="getNameOffset"/>
+    <functioncall functionName="getNumDWOCUs"/>
+    <functioncall functionName="getNumber"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getParentDieOffset"/>
+    <functioncall functionName="getPatchOffset"/>
+    <functioncall functionName="getSecondIndexForEntry"/>
+    <functioncall functionName="getSecondUnitID"/>
+    <functioncall functionName="getStrSection"/>
+    <functioncall functionName="getStringOffsetSection"/>
+    <functioncall functionName="getStringOffsetsTableContribution"/>
+    <functioncall functionName="getStringSection"/>
+    <functioncall functionName="getTag"/>
+    <functioncall functionName="getTypeHash"/>
+    <functioncall functionName="getUnitID"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getVersion"/>
+    <functioncall functionName="hash_value"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCreated"/>
+    <functioncall functionName="isDWOUnit"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isParentRoot"/>
+    <functioncall functionName="isTU"/>
+    <functioncall functionName="isTypeUnit"/>
+    <functioncall functionName="isValidOffset"/>
+    <functioncall functionName="little"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="populateAbbrevsMap"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="raw_svector_ostream"/>
+    <functioncall functionName="read32le"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="setAbbrevNumber"/>
+    <functioncall functionName="setNumber"/>
+    <functioncall functionName="setPatchOffset"/>
+    <functioncall functionName="shouldIncludeVariable"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="try_emplace"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unique"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="writeAugmentationString"/>
+    <functioncall functionName="writeEntries"/>
+    <functioncall functionName="writeEntry"/>
+  </FileInfo>
+</analyzerinfo>

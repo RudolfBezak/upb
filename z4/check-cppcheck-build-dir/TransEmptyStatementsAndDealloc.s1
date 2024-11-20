@@ -1,0 +1,55 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+isEmptyARCMTMacroStatement call:[assert,empty,findSemiAfterLocation,getARCMTMacroName,getLocWithOffset,getSemiLoc,getSourceManager,hasLeadingEmptyMacro,isFileID,isInSameSLocAddrSpace,isInvalid,isMacroID,size,upper_bound]
+EmptyChecker
+VisitNullStmt call:[isEmptyARCMTMacroStatement] noreturn:[isEmptyARCMTMacroStatement]
+VisitCompoundStmt call:[Visit,body,body_empty]
+VisitIfStmt call:[Visit,getCond,getConditionVariable,getElse,getThen,hasSideEffects] noreturn:[Visit]
+VisitWhileStmt call:[Visit,getBody,getCond,getConditionVariable,hasSideEffects] noreturn:[Visit]
+VisitDoStmt call:[Visit,getBody,getCond,hasSideEffects] noreturn:[Visit]
+VisitObjCForCollectionStmt call:[Visit,getBody,getCollection,hasSideEffects] noreturn:[Visit]
+VisitObjCAutoreleasePoolStmt call:[Visit,getSubStmt] noreturn:[Visit]
+EmptyStatementsRemover
+TraverseStmtExpr call:[TraverseStmt,body_begin,body_end,check,getSubStmt] noreturn:[TraverseStmt,check]
+VisitCompoundStmt call:[body,check] noreturn:[check]
+getContext
+check call:[EmptyChecker,Trans,Visit,removeStmt] noreturn:[removeStmt]
+isBodyEmpty call:[EmptyChecker,Visit,body]
+cleanupDeallocOrFinalize call:[Trans,decls_begin,decls_end,get,getCompoundBody,getMethodFamily,getNullarySelector,getSelector,getSelectorStartLoc,getSourceRange,getTranslationUnitDecl,hasBody,instance_methods,isBodyEmpty,isInstanceMethod,remove,replaceText] noreturn:[remove,replaceText]
+removeEmptyStatementsAndDeallocFinalize call:[EmptyStatementsRemover,Trans,TraverseDecl,cleanupDeallocOrFinalize,getTranslationUnitDecl,remove,size] noreturn:[remove]

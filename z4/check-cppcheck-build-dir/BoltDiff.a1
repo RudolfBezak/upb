@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10681574350898861541">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/IdenticalCodeFolding.h&quot; not found." verbose="Include file: &quot;bolt/Passes/IdenticalCodeFolding.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BoltDiff.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/ProfileReaderBase.h&quot; not found." verbose="Include file: &quot;bolt/Profile/ProfileReaderBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BoltDiff.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BoltDiff.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BoltDiff.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BoltDiff.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BoltDiff.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BoltDiff.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp:325:8" my-argnr="1" my-argname="BB1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" line="327" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp:325:8" my-argnr="2" my-argname="BB2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" line="328" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="printColoredPercentage" lineNumber="99"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="setLightColor" lineNumber="111"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="setTitleColor" lineNumber="116"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="setRegularColor" lineNumber="121"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="getNormalizedScore" lineNumber="175"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="getNormalizedScore" lineNumber="184"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="getNormalizedScore" lineNumber="193"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="buildLookupMaps" lineNumber="205"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="matchFunctions" lineNumber="244"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="compareBBs" lineNumber="325"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="matchBasicBlocks" lineNumber="349"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="reportHottestBBDiffs" lineNumber="413"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="reportHottestEdgeDiffs" lineNumber="456"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="computeAggregatedLTOScore" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="reportHottestFuncDiffs" lineNumber="535"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="reportHottestFuncs" lineNumber="600"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="reportUnmapped" lineNumber="640"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BoltDiff.cpp" functionName="compareAndReport" lineNumber="653"/>
+    <functioncall functionName="CYAN"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="GREEN"/>
+    <functioncall functionName="IgnoreLTOSuffix"/>
+    <functioncall functionName="NormalizeByBin1"/>
+    <functioncall functionName="PrintDiffBBs"/>
+    <functioncall functionName="PrintDiffCFG"/>
+    <functioncall functionName="PrintProfiledUnmapped"/>
+    <functioncall functionName="PrintUnmapped"/>
+    <functioncall functionName="RED"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="RewriteInstanceDiff"/>
+    <functioncall functionName="StringMap"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="WHITE"/>
+    <functioncall functionName="YELLOW"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="buildLookupMaps"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="changeColor"/>
+    <functioncall functionName="compareAndReport"/>
+    <functioncall functionName="compareBBs"/>
+    <functioncall functionName="computeAggregatedLTOScore"/>
+    <functioncall functionName="computeHash"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getDemangledName"/>
+    <functioncall functionName="getFunctionScore"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLTOCommonName"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNames"/>
+    <functioncall functionName="getNormalizedScore"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getTotalScore"/>
+    <functioncall functionName="hasCFG"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="has_colors"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="logBOLTErrorsAndQuitOnFatal"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="make_tuple"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="matchBasicBlocks"/>
+    <functioncall functionName="matchFunctions"/>
+    <functioncall functionName="multimap"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="printColoredPercentage"/>
+    <functioncall functionName="reportHottestBBDiffs"/>
+    <functioncall functionName="reportHottestEdgeDiffs"/>
+    <functioncall functionName="reportHottestFuncDiffs"/>
+    <functioncall functionName="reportHottestFuncs"/>
+    <functioncall functionName="reportUnmapped"/>
+    <functioncall functionName="resetColor"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="runOnFunctions"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setLightColor"/>
+    <functioncall functionName="setRegularColor"/>
+    <functioncall functionName="setTitleColor"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="succ_begin"/>
+    <functioncall functionName="succ_end"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tuple"/>
+    <functioncall functionName="value_type"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

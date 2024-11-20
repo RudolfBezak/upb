@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14536325655057088358">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTTypeTraits.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTTypeTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConcept.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConcept.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found." verbose="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/OpenMPClause.h&quot; not found." verbose="Include file: &quot;clang/AST/OpenMPClause.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found." verbose="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="43" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="49" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Frontend/OpenMP/OMP.inc&quot; not found." verbose="Include file: &quot;llvm/Frontend/OpenMP/OMP.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="53" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AttrList.inc&quot; not found." verbose="Include file: &quot;clang/Basic/AttrList.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="56" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/DeclNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="125" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="136" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="146" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found." verbose="Include file: &quot;clang/AST/TypeLocNodes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="157" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Frontend/OpenMP/OMP.inc&quot; not found." verbose="Include file: &quot;llvm/Frontend/OpenMP/OMP.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="171" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AttrList.inc&quot; not found." verbose="Include file: &quot;clang/Basic/AttrList.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTTypeTraits.cpp" line="181" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ASTNodeKind"/>
+    <functioncall functionName="Attr"/>
+    <functioncall functionName="CXXBaseSpecifier"/>
+    <functioncall functionName="CXXCtorInitializer"/>
+    <functioncall functionName="ConceptReference"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="KindId"/>
+    <functioncall functionName="NKI_None"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="NestedNameSpecifier"/>
+    <functioncall functionName="NestedNameSpecifierLoc"/>
+    <functioncall functionName="OMPClause"/>
+    <functioncall functionName="ObjCProtocolLoc"/>
+    <functioncall functionName="ParentId"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="Stmt"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TemplateArgumentLoc"/>
+    <functioncall functionName="TemplateName"/>
+    <functioncall functionName="Type"/>
+    <functioncall functionName="TypeLoc"/>
+    <functioncall functionName="asStringRef"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getClauseKind"/>
+    <functioncall functionName="getEndLoc"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getNestedNameSpecifier"/>
+    <functioncall functionName="getProtocol"/>
+    <functioncall functionName="getRange"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getStmtClass"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeClass"/>
+    <functioncall functionName="getTypeLocClass"/>
+    <functioncall functionName="isBaseOf"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printPretty"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

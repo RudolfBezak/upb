@@ -1,0 +1,10 @@
+isIdenticalSplitEdgeBB call:[begin,end,equals,getOpcode,size,succ_begin,succ_size]
+compNextAux call:[getPopSize,getPushSize,isPop,isPush]
+computeNext call:[compNextAux,computeNext,end,find,getAnnotationName,getInsnToBBMap,rbegin] noreturn:[compNextAux]
+getAnnotationName call:[StringRef] noreturn:[StringRef]
+PredictiveStackPointerTracking
+run call:[run] noreturn:[run]
+operator<<
+operator<<
+operator== call:[return] noreturn:[return]
+operator== call:[return] noreturn:[return]

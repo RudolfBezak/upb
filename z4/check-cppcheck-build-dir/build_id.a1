@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13402026623895914096">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/build_id.c" functionName="get_build_id" lineNumber="20"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/build_id.c" functionName="main" lineNumber="22"/>
+    <functioncall functionName="get_build_id"/>
+  </FileInfo>
+</analyzerinfo>

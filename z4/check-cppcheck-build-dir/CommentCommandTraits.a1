@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16766868940266441567">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentCommandTraits.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentCommandTraits.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentCommandTraits.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentCommandInfo.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentCommandInfo.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentCommandTraits.cpp" line="16" column="0"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentCommandTraits.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentCommandTraits.cpp" line="29" column="16"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="Allocator"/>
+    <functioncall functionName="CommandInfo"/>
+    <functioncall functionName="CommandTraits"/>
+    <functioncall functionName="Commands"/>
+    <functioncall functionName="NextID"/>
+    <functioncall functionName="RegisteredCommands"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="createCommandInfoWithName"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="edit_distance"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="getBuiltinCommandInfo"/>
+    <functioncall functionName="getRegisteredCommandInfo"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerBlockCommand"/>
+    <functioncall functionName="registerCommentOptions"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

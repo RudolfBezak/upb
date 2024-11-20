@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18347229403372426459">
+        <error id="syntaxError" severity="error" msg="syntax error: =[...];" verbose="syntax error: =[...];" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/mismatched_deallocator_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\mismatched_deallocator_example.cpp" line="61" column="13"/>
+        </error>
+</analyzerinfo>

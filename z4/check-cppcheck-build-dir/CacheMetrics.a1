@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6029880868780354089">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/CacheMetrics.h&quot; not found." verbose="Include file: &quot;bolt/Passes/CacheMetrics.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CacheMetrics.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CacheMetrics.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CacheMetrics.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CacheMetrics.cpp" line="17" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CacheMetrics.cpp" line="154" column="15"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp:32:6" my-argnr="1" my-argname="BinaryFunctions" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp" line="37" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp:57:1" my-argnr="1" my-argname="BinaryFunctions" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp" line="62" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp:98:1" my-argnr="1" my-argname="BinaryFunctions" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp" line="101" col="38" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp" functionName="extractBasicBlockInfo" lineNumber="32"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp" functionName="calcTSPScore" lineNumber="57"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp" functionName="extractFunctionCalls" lineNumber="98"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CacheMetrics.cpp" functionName="expectedCacheHitRatio" lineNumber="142"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="block_empty"/>
+    <functioncall functionName="block_front"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="calcTSPScore"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="expectedCacheHitRatio"/>
+    <functioncall functionName="extractBasicBlockInfo"/>
+    <functioncall functionName="extractFunctionCalls"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getInputAddressRange"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getOriginalSize"/>
+    <functioncall functionName="getOutputAddressRange"/>
+    <functioncall functionName="getOutputSize"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasProfile"/>
+    <functioncall functionName="hasValidIndex"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isCold"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="numeric_limits"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

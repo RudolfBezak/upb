@@ -1,0 +1,10 @@
+erringFunc call:[runtime_error] noreturn:[runtime_error]
+libCallA call:[erringFunc] noreturn:[erringFunc]
+libCallB call:[runtime_error] noreturn:[runtime_error]
+handleEventA call:[libCallA,what] noreturn:[libCallA]
+handleEventB call:[libCallB,what] noreturn:[libCallB]
+generateEvent call:[return]
+TerminateException
+runEventLoop call:[TerminateException,generateEvent,handleEventA,handleEventB,what]
+CleanUp
+main call:[runEventLoop] noreturn:[runEventLoop]

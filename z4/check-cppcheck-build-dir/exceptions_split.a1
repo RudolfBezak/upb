@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9629933060284674143">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\Inputs\exceptions_split.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\Inputs\exceptions_split.cpp" line="7" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/Inputs/exceptions_split.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\Inputs\exceptions_split.cpp" line="19" column="12"/>
+            <symbol>r</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/Inputs/exceptions_split.cpp" functionName="foo" lineNumber="9"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/Inputs/exceptions_split.cpp" functionName="bar" lineNumber="11"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/Inputs/exceptions_split.cpp" functionName="filter_only" lineNumber="16"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/Inputs/exceptions_split.cpp" functionName="main" lineNumber="18"/>
+    <functioncall functionName="bar"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

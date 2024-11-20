@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="814497993601521894">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Aligner.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Aligner.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Aligner.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Aligner.cpp" line="14" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If LLVM_DEBUG is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If LLVM_DEBUG is a macro then please configure it." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Aligner.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Aligner.cpp" line="142" column="5"/>
+        </error>
+</analyzerinfo>

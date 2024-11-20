@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5661714503470353530">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Utils\Utils.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Utils\Utils.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCDwarf.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCDwarf.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Utils\Utils.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Utils\Utils.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Utils\Utils.cpp" line="17" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp:51:13" my-argnr="1" my-argname="Name" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" line="52" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp:60:13" my-argnr="1" my-argname="Name" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" line="61" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp:102:6" my-argnr="1" my-argname="L" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" line="104" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp:102:6" my-argnr="2" my-argname="R" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" line="104" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="report_error" lineNumber="22"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="report_error" lineNumber="28"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="check_error" lineNumber="35"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="check_error" lineNumber="41"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="getEscapedName" lineNumber="51"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="getUnescapedName" lineNumber="60"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="getCommonName" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="getLTOCommonName" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/Utils.cpp" functionName="readDWARFExpressionTargetReg" lineNumber="84"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="decodeULEB128"/>
+    <functioncall functionName="drop_front"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="getCommonName"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOperation"/>
+    <functioncall functionName="getRegister"/>
+    <functioncall functionName="getRegister2"/>
+    <functioncall functionName="getValues"/>
+    <functioncall functionName="handleAllErrors"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="report_error"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint8_t"/>
+  </FileInfo>
+</analyzerinfo>

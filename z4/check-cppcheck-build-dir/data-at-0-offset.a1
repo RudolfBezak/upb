@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16400437953211631569">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/data-at-0-offset.c" functionName="extra_space" lineNumber="5"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/data-at-0-offset.c" functionName="main" lineNumber="12"/>
+  </FileInfo>
+</analyzerinfo>

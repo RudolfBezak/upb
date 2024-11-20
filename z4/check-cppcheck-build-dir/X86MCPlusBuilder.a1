@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11850917729429384359">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/X86BaseInfo.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/X86BaseInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/X86EncodingOptimization.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/X86EncodingOptimization.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/X86MCTargetDesc.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/X86MCTargetDesc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCDisassembler/MCSymbolizer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCDisassembler/MCSymbolizer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlus.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlus.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCContext.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCFixupKindInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCFixupKindInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInst.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInst.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstBuilder.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstrInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstrInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegister.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegister.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/DataExtractor.h&quot; not found." verbose="Include file: &quot;llvm/Support/DataExtractor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorOr.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorOr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;X86GenInstrInfo.inc&quot; not found." verbose="Include file: &quot;X86GenInstrInfo.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="86" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;X86MCSymbolizer&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;X86MCSymbolizer&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.h" line="27" column="3"/>
+            <symbol>X86MCSymbolizer</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;IndJmpMatcherFrag2&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;IndJmpMatcherFrag2&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="476" column="5"/>
+            <symbol>IndJmpMatcherFrag2</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;LEAMatcher&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;LEAMatcher&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="610" column="5"/>
+            <symbol>LEAMatcher</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="1961" column="21" info="Second condition"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="1959" column="21" info="First condition"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;IsLoad&apos; shadows outer argument" verbose="Local variable &apos;IsLoad&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="962" column="12" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="907" column="48" info="Shadowed declaration"/>
+            <symbol>IsLoad</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;IsStore&apos; shadows outer argument" verbose="Local variable &apos;IsStore&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="963" column="12" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="907" column="62" info="Shadowed declaration"/>
+            <symbol>IsStore</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3358" column="23" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3320" column="23" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3373" column="23" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3320" column="23" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;MO&apos; can be declared as reference to const" verbose="Parameter &apos;MO&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="1915" column="40" info="Parameter &apos;MO&apos; can be declared as reference to const"/>
+            <symbol>MO</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;MO&apos; can be declared as reference to const" verbose="Parameter &apos;MO&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="1922" column="40" info="Parameter &apos;MO&apos; can be declared as reference to const"/>
+            <symbol>MO</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;ExpectReg&apos; can be declared as reference to const" verbose="Variable &apos;ExpectReg&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="1958" column="20" info="Variable &apos;ExpectReg&apos; can be declared as reference to const"/>
+            <symbol>ExpectReg</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;NumLocs&apos; can be declared as pointer to const" verbose="Variable &apos;NumLocs&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3233" column="15" info="Variable &apos;NumLocs&apos; can be declared as pointer to const"/>
+            <symbol>NumLocs</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Locs&apos; can be declared as pointer to const" verbose="Variable &apos;Locs&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3242" column="15" info="Variable &apos;Locs&apos; can be declared as pointer to const"/>
+            <symbol>Locs</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Locs&apos; can be declared as pointer to const" verbose="Variable &apos;Locs&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3250" column="15" info="Variable &apos;Locs&apos; can be declared as pointer to const"/>
+            <symbol>Locs</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;NumFuncs&apos; can be declared as pointer to const" verbose="Variable &apos;NumFuncs&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="3258" column="15" info="Variable &apos;NumFuncs&apos; can be declared as pointer to const"/>
+            <symbol>NumFuncs</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="644" column="5"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="870" column="7"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;InstInfo::DataSize&apos; is never used." verbose="struct member &apos;InstInfo::DataSize&apos; is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCPlusBuilder.cpp" line="2514" column="15"/>
+            <symbol>InstInfo::DataSize</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:907:8" call-funcname="isStackAccess" call-argnr="6" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1738" col="24" call-argexpr="SrcImm" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:907:8" call-funcname="isStackAccess" call-argnr="8" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1738" col="24" call-argexpr="StackOffset" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2307:8" call-funcname="createLoad" call-argnr="6" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2302" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2868:13" call-funcname="getIntArgRegister" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3127" col="42" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2258:8" call-funcname="createStackPointerDecrement" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3141" col="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2238:8" call-funcname="createStackPointerIncrement" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3150" col="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2868:13" call-funcname="getIntArgRegister" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3170" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2258:8" call-funcname="createStackPointerDecrement" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3181" col="32" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3091:8" call-funcname="createSwap" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3182" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2868:13" call-funcname="getIntArgRegister" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3189" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2258:8" call-funcname="createStackPointerDecrement" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3197" col="32" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2868:13" call-funcname="getIntArgRegister" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3207" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2425:23" call-funcname="createCmpJE" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3221" col="45" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" call-funcname="createDirectCall" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2761" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2759:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" call-funcname="createDirectCall" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2761" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2759:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" call-funcname="createDirectCall" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2768" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2764:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" call-funcname="createDirectCall" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2768" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2764:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:65:28" call-funcname="createIncMemory" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3075" col="34" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3054:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:65:28" call-funcname="createIncMemory" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3075" col="34" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3054:3" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" call-funcname="createDirectCall" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3160" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3115:23" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" call-funcname="createDirectCall" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3160" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3115:23" my-argnr="4"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3564:8" call-funcname="createMove" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3220" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3204:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2425:23" call-funcname="createCmpJE" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3221" col="34" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3204:3" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3564:8" call-funcname="createMove" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3220" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3204:3" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2734:8" call-funcname="createUncondBranch" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3267" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3264:23" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2734:8" call-funcname="createUncondBranch" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3267" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3264:23" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2734:8" call-funcname="createUncondBranch" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3317" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3271:18" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:65:28" my-argnr="2" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="77" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1608:23" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1630" col="72" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2425:23" my-argnr="4" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2434" col="66" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2734:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2740" col="65" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2743:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2748" col="68" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2751:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2756" col="68" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2776:8" my-argnr="4" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2781" col="68" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2785:8" my-argnr="4" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2790" col="68" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2794:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2800" col="65" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2843:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2848" col="65" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2896" col="68" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2901:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2907" col="68" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3231:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3233" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3240:3" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3242" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3248:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3250" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3256:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3258" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3564:8" my-argnr="4" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3574" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3578:8" my-argnr="4" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3588" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:53:6" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="54" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:57:6" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="57" col="45" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:59:6" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="60" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:102:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="103" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:106:12" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="107" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:193:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="194" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:197:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="198" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:202:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="203" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:206:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="207" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:219:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="220" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:223:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="224" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:227:7" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="228" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:262:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="263" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:266:7" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="267" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:309:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="310" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:313:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="314" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:317:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="318" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:321:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="322" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:331:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="332" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:347:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="348" col="15" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:360:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="361" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:373:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="374" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:385:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="386" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:454:10" my-argnr="1" my-argname="MIB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="455" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:490:10" my-argnr="1" my-argname="MIB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="491" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:541:10" my-argnr="1" my-argname="MIB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="542" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:593:10" my-argnr="1" my-argname="MIB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="594" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:632:10" my-argnr="1" my-argname="MIB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="633" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:650:7" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="651" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:659:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="660" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:665:3" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="666" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:696:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="699" col="64" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:718:20" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="719" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:746:8" my-argnr="1" my-argname="Regs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="747" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:755:8" my-argnr="1" my-argname="Regs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="756" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:775:8" my-argnr="1" my-argname="Regs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="776" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:821:8" my-argnr="1" my-argname="Regs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="822" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:831:8" my-argnr="1" my-argname="Regs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="832" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:853:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="854" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:882:18" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="884" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:907:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="912" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1032:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1033" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1116:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1117" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1200:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1202" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1221:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1223" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1272:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1274" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1310:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1336" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1474:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1477" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1506:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1507" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1523:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1524" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1565:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1567" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1587:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1589" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1608:23" my-argnr="1" my-argname="DirectCall" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1611" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1662:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1664" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1718:3" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1725" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:1781:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="1782" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2299:8" my-argnr="2" my-argname="StackReg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2302" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2299:8" my-argnr="4" my-argname="DstReg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2304" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2344:8" my-argnr="1" my-argname="Insts" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2366" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2370:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2371" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2375:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2376" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2440:3" my-argnr="1" my-argname="Fixup" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2442" col="55" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2440:3" my-argnr="2" my-argname="MAB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2442" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2502:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2529" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2667:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2672" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2734:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2736" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2743:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2745" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2751:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2753" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2764:8" my-argnr="1" my-argname="Seq" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2766" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2771:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2772" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2776:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2778" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2785:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2787" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2794:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2796" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2881:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2882" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2886:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2887" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2891:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2893" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2901:8" my-argnr="1" my-argname="Seq" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2903" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2913:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2914" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2919:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2920" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2928:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2929" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2937:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2939" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2963:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="2965" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:2997:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3007" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3014:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3030" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3036:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3037" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3043:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3044" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3048:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3049" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3091:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3093" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3104:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3106" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3231:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3233" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3240:3" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3242" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3248:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3250" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3256:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3258" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3271:18" my-argnr="3" my-argname="VtableSyms" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3290" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3564:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3566" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp:3578:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" line="3580" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="isMOVSX64rm32" lineNumber="53"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="isADD64rr" lineNumber="57"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="isADDri" lineNumber="59"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createIncMemory" lineNumber="65"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="getMemDataSize" lineNumber="882"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="analyzePICJumpTable" lineNumber="1874"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createAddRegImm" lineNumber="2997"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createClearRegWithNoEFlagsUpdate" lineNumber="3014"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createX86SaveOVFlagToRegister" lineNumber="3036"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createX86Lahf" lineNumber="3043"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createX86Sahf" lineNumber="3048"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createSwap" lineNumber="3091"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createIndirectBranch" lineNumber="3104"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createMove" lineNumber="3564"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createLea" lineNumber="3578"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCPlusBuilder.cpp" functionName="createX86MCPlusBuilder" lineNumber="3598"/>
+    <functioncall functionName="ADD16ri"/>
+    <functioncall functionName="ADD16ri8"/>
+    <functioncall functionName="ADD32ri"/>
+    <functioncall functionName="ADD32ri8"/>
+    <functioncall functionName="ADD64ri32"/>
+    <functioncall functionName="ADD64ri8"/>
+    <functioncall functionName="ADD64rm"/>
+    <functioncall functionName="ADD64rr"/>
+    <functioncall functionName="ADD8ri"/>
+    <functioncall functionName="AL"/>
+    <functioncall functionName="AND16ri"/>
+    <functioncall functionName="AND16ri8"/>
+    <functioncall functionName="AND32ri"/>
+    <functioncall functionName="AND32ri8"/>
+    <functioncall functionName="AND64ri32"/>
+    <functioncall functionName="AND64ri8"/>
+    <functioncall functionName="AND64rm"/>
+    <functioncall functionName="AND64rr"/>
+    <functioncall functionName="AND8ri"/>
+    <functioncall functionName="AddMatcher"/>
+    <functioncall functionName="AddrBaseReg"/>
+    <functioncall functionName="AddrDisp"/>
+    <functioncall functionName="AddrIndexReg"/>
+    <functioncall functionName="AddrNumOperands"/>
+    <functioncall functionName="AddrScaleAmt"/>
+    <functioncall functionName="AddrSegmentReg"/>
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="BlocksVectorTy"/>
+    <functioncall functionName="CALL64m"/>
+    <functioncall functionName="CALL64pcrel32"/>
+    <functioncall functionName="CALL64r"/>
+    <functioncall functionName="CL"/>
+    <functioncall functionName="CMOV16rm"/>
+    <functioncall functionName="CMOV16rr"/>
+    <functioncall functionName="CMOV32rm"/>
+    <functioncall functionName="CMOV32rr"/>
+    <functioncall functionName="CMOV64rm"/>
+    <functioncall functionName="CMOV64rr"/>
+    <functioncall functionName="CMP16ri"/>
+    <functioncall functionName="CMP16ri8"/>
+    <functioncall functionName="CMP32ri"/>
+    <functioncall functionName="CMP32ri8"/>
+    <functioncall functionName="CMP64mi32"/>
+    <functioncall functionName="CMP64ri32"/>
+    <functioncall functionName="CMP64ri8"/>
+    <functioncall functionName="CMP64rm"/>
+    <functioncall functionName="CMP64rr"/>
+    <functioncall functionName="CMP8ri"/>
+    <functioncall functionName="COND_A"/>
+    <functioncall functionName="COND_AE"/>
+    <functioncall functionName="COND_B"/>
+    <functioncall functionName="COND_BE"/>
+    <functioncall functionName="COND_E"/>
+    <functioncall functionName="COND_G"/>
+    <functioncall functionName="COND_GE"/>
+    <functioncall functionName="COND_INVALID"/>
+    <functioncall functionName="COND_L"/>
+    <functioncall functionName="COND_LE"/>
+    <functioncall functionName="COND_NE"/>
+    <functioncall functionName="COND_NO"/>
+    <functioncall functionName="COND_NP"/>
+    <functioncall functionName="COND_NS"/>
+    <functioncall functionName="COND_O"/>
+    <functioncall functionName="COND_P"/>
+    <functioncall functionName="COND_S"/>
+    <functioncall functionName="DataExtractor"/>
+    <functioncall functionName="EAX"/>
+    <functioncall functionName="ECX"/>
+    <functioncall functionName="EDX"/>
+    <functioncall functionName="EFLAGS"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="IndJmpMatcherFrag1"/>
+    <functioncall functionName="IndJmpMatcherFrag2"/>
+    <functioncall functionName="IndirectBranchType"/>
+    <functioncall functionName="InstrWindow"/>
+    <functioncall functionName="InstructionIterator"/>
+    <functioncall functionName="InstructionListType"/>
+    <functioncall functionName="JCC_1"/>
+    <functioncall functionName="JCC_4"/>
+    <functioncall functionName="JMP32m"/>
+    <functioncall functionName="JMP32r"/>
+    <functioncall functionName="JMP64m"/>
+    <functioncall functionName="JMP64r"/>
+    <functioncall functionName="JMP_1"/>
+    <functioncall functionName="JMP_4"/>
+    <functioncall functionName="LAHF"/>
+    <functioncall functionName="LEA64r"/>
+    <functioncall functionName="LEAMatcher"/>
+    <functioncall functionName="LFENCE"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="LOCK_INC64m"/>
+    <functioncall functionName="LoadMatcherFrag1"/>
+    <functioncall functionName="MCInst"/>
+    <functioncall functionName="MCInstBuilder"/>
+    <functioncall functionName="MCInstMatcher"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="MCPhysReg"/>
+    <functioncall functionName="MCPlusBuilder"/>
+    <functioncall functionName="MCSymbol"/>
+    <functioncall functionName="MCSymbolRefExpr"/>
+    <functioncall functionName="MCSymbolizer"/>
+    <functioncall functionName="MOV16mi"/>
+    <functioncall functionName="MOV16mr"/>
+    <functioncall functionName="MOV16ri"/>
+    <functioncall functionName="MOV16rm"/>
+    <functioncall functionName="MOV16rr"/>
+    <functioncall functionName="MOV32mi"/>
+    <functioncall functionName="MOV32mr"/>
+    <functioncall functionName="MOV32ri"/>
+    <functioncall functionName="MOV32rm"/>
+    <functioncall functionName="MOV32rr"/>
+    <functioncall functionName="MOV64mi32"/>
+    <functioncall functionName="MOV64mr"/>
+    <functioncall functionName="MOV64ri"/>
+    <functioncall functionName="MOV64ri32"/>
+    <functioncall functionName="MOV64rm"/>
+    <functioncall functionName="MOV64rr"/>
+    <functioncall functionName="MOV8mi"/>
+    <functioncall functionName="MOV8mr"/>
+    <functioncall functionName="MOV8ri"/>
+    <functioncall functionName="MOV8rm"/>
+    <functioncall functionName="MOV8rr"/>
+    <functioncall functionName="MutableArrayRef"/>
+    <functioncall functionName="NOOP"/>
+    <functioncall functionName="NoRegister"/>
+    <functioncall functionName="OR16ri"/>
+    <functioncall functionName="OR16ri8"/>
+    <functioncall functionName="OR32ri"/>
+    <functioncall functionName="OR32ri8"/>
+    <functioncall functionName="OR64ri32"/>
+    <functioncall functionName="OR64ri8"/>
+    <functioncall functionName="OR64rm"/>
+    <functioncall functionName="OR64rr"/>
+    <functioncall functionName="OR8ri"/>
+    <functioncall functionName="PAUSE"/>
+    <functioncall functionName="POP16r"/>
+    <functioncall functionName="POP32r"/>
+    <functioncall functionName="POP64r"/>
+    <functioncall functionName="POPF16"/>
+    <functioncall functionName="POPF32"/>
+    <functioncall functionName="POPF64"/>
+    <functioncall functionName="POSSIBLE_FIXED_BRANCH"/>
+    <functioncall functionName="POSSIBLE_PIC_FIXED_BRANCH"/>
+    <functioncall functionName="POSSIBLE_PIC_JUMP_TABLE"/>
+    <functioncall functionName="PUSH16i"/>
+    <functioncall functionName="PUSH16i8"/>
+    <functioncall functionName="PUSH16r"/>
+    <functioncall functionName="PUSH32i"/>
+    <functioncall functionName="PUSH32i8"/>
+    <functioncall functionName="PUSH32r"/>
+    <functioncall functionName="PUSH64i32"/>
+    <functioncall functionName="PUSH64i8"/>
+    <functioncall functionName="PUSH64r"/>
+    <functioncall functionName="PUSHF16"/>
+    <functioncall functionName="PUSHF32"/>
+    <functioncall functionName="PUSHF64"/>
+    <functioncall functionName="R10"/>
+    <functioncall functionName="R11"/>
+    <functioncall functionName="R12"/>
+    <functioncall functionName="R13"/>
+    <functioncall functionName="R14"/>
+    <functioncall functionName="R15"/>
+    <functioncall functionName="R8"/>
+    <functioncall functionName="R9"/>
+    <functioncall functionName="RAX"/>
+    <functioncall functionName="RBP"/>
+    <functioncall functionName="RBX"/>
+    <functioncall functionName="RCX"/>
+    <functioncall functionName="RDI"/>
+    <functioncall functionName="RDX"/>
+    <functioncall functionName="REP_MOVSB_64"/>
+    <functioncall functionName="RET64"/>
+    <functioncall functionName="RIP"/>
+    <functioncall functionName="RSI"/>
+    <functioncall functionName="RSP"/>
+    <functioncall functionName="R_X86_64_16"/>
+    <functioncall functionName="R_X86_64_32"/>
+    <functioncall functionName="R_X86_64_64"/>
+    <functioncall functionName="R_X86_64_8"/>
+    <functioncall functionName="R_X86_64_PC16"/>
+    <functioncall functionName="R_X86_64_PC32"/>
+    <functioncall functionName="R_X86_64_PC64"/>
+    <functioncall functionName="R_X86_64_PC8"/>
+    <functioncall functionName="Relocation"/>
+    <functioncall functionName="SAHF"/>
+    <functioncall functionName="SETCCr"/>
+    <functioncall functionName="SUB16ri"/>
+    <functioncall functionName="SUB16ri8"/>
+    <functioncall functionName="SUB32ri"/>
+    <functioncall functionName="SUB32ri8"/>
+    <functioncall functionName="SUB64ri32"/>
+    <functioncall functionName="SUB64ri8"/>
+    <functioncall functionName="SUB64rm"/>
+    <functioncall functionName="SUB64rr"/>
+    <functioncall functionName="SUB8ri"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST16ri"/>
+    <functioncall functionName="TEST32ri"/>
+    <functioncall functionName="TEST64mr"/>
+    <functioncall functionName="TEST64ri32"/>
+    <functioncall functionName="TEST64rr"/>
+    <functioncall functionName="TEST8ri"/>
+    <functioncall functionName="TRAP"/>
+    <functioncall functionName="UNKNOWN"/>
+    <functioncall functionName="VK_None"/>
+    <functioncall functionName="X86MCSymbolizer"/>
+    <functioncall functionName="X86MemOperand"/>
+    <functioncall functionName="XCHG64rm"/>
+    <functioncall functionName="XMM0"/>
+    <functioncall functionName="XMM1"/>
+    <functioncall functionName="XMM2"/>
+    <functioncall functionName="XMM3"/>
+    <functioncall functionName="XMM4"/>
+    <functioncall functionName="XMM5"/>
+    <functioncall functionName="XMM6"/>
+    <functioncall functionName="XMM7"/>
+    <functioncall functionName="XOR16ri"/>
+    <functioncall functionName="XOR16ri8"/>
+    <functioncall functionName="XOR32ri"/>
+    <functioncall functionName="XOR32ri8"/>
+    <functioncall functionName="XOR64ri32"/>
+    <functioncall functionName="XOR64ri8"/>
+    <functioncall functionName="XOR64rm"/>
+    <functioncall functionName="XOR64rr"/>
+    <functioncall functionName="XOR8ri"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="addEHInfo"/>
+    <functioncall functionName="addExpr"/>
+    <functioncall functionName="addGnuArgsSize"/>
+    <functioncall functionName="addImm"/>
+    <functioncall functionName="addOperand"/>
+    <functioncall functionName="addReg"/>
+    <functioncall functionName="analyzePICJumpTable"/>
+    <functioncall functionName="annotate"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clearOffset"/>
+    <functioncall functionName="convertIndirectCallToLoad"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createAdd"/>
+    <functioncall functionName="createAddRegImm"/>
+    <functioncall functionName="createClearRegWithNoEFlagsUpdate"/>
+    <functioncall functionName="createCmpJE"/>
+    <functioncall functionName="createDirectCall"/>
+    <functioncall functionName="createExpr"/>
+    <functioncall functionName="createImm"/>
+    <functioncall functionName="createIncMemory"/>
+    <functioncall functionName="createIndirectBranch"/>
+    <functioncall functionName="createLea"/>
+    <functioncall functionName="createLoad"/>
+    <functioncall functionName="createLoadImmediate"/>
+    <functioncall functionName="createMove"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createPopFlags"/>
+    <functioncall functionName="createPopRegister"/>
+    <functioncall functionName="createPushFlags"/>
+    <functioncall functionName="createPushRegister"/>
+    <functioncall functionName="createReg"/>
+    <functioncall functionName="createReturn"/>
+    <functioncall functionName="createStackPointerDecrement"/>
+    <functioncall functionName="createStackPointerIncrement"/>
+    <functioncall functionName="createSwap"/>
+    <functioncall functionName="createUncondBranch"/>
+    <functioncall functionName="createX86Lahf"/>
+    <functioncall functionName="createX86Sahf"/>
+    <functioncall functionName="createX86SaveOVFlagToRegister"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="defOperands"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="evaluateX86MemoryOperand"/>
+    <functioncall functionName="extractFixupExpr"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliasSized"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getAnnotationAs"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getCondCode"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getFixupKindInfo"/>
+    <functioncall functionName="getFlags"/>
+    <functioncall functionName="getFramePointer"/>
+    <functioncall functionName="getGnuArgsSize"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getIntArgRegister"/>
+    <functioncall functionName="getInvertedCondCode"/>
+    <functioncall functionName="getJumpTable"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLoc"/>
+    <functioncall functionName="getMemDataSize"/>
+    <functioncall functionName="getMemOperandDisp"/>
+    <functioncall functionName="getMemOperandSize"/>
+    <functioncall functionName="getMemoryOperandNo"/>
+    <functioncall functionName="getNoRegister"/>
+    <functioncall functionName="getNumDefs"/>
+    <functioncall functionName="getNumOperands"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOpcodeForShortImmediateForm"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOperandBias"/>
+    <functioncall functionName="getOperandType"/>
+    <functioncall functionName="getOrCreateSymbol"/>
+    <functioncall functionName="getPopSize"/>
+    <functioncall functionName="getProgramCounter"/>
+    <functioncall functionName="getPushSize"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getRegSize"/>
+    <functioncall functionName="getShortBranchOpcode"/>
+    <functioncall functionName="getSigned"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="getSubtargetInfo"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getX86SubSuperRegister"/>
+    <functioncall functionName="hasDefOfPhysReg"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="isADD"/>
+    <functioncall functionName="isADD64rr"/>
+    <functioncall functionName="isADDri"/>
+    <functioncall functionName="isAND"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isBranchOnReg"/>
+    <functioncall functionName="isCMP"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isImm"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isInst"/>
+    <functioncall functionName="isInt"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isJCC"/>
+    <functioncall functionName="isLEA64r"/>
+    <functioncall functionName="isMOVSX64rm32"/>
+    <functioncall functionName="isMoveMem2Reg"/>
+    <functioncall functionName="isNOP"/>
+    <functioncall functionName="isPop"/>
+    <functioncall functionName="isPrefix"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isPush"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isSUB"/>
+    <functioncall functionName="isStackAccess"/>
+    <functioncall functionName="isSubRegisterEq"/>
+    <functioncall functionName="isTEST"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isTerminator"/>
+    <functioncall functionName="isUpper8BitReg"/>
+    <functioncall functionName="kTailCall"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_error_code"/>
+    <functioncall functionName="make_tuple"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="match"/>
+    <functioncall functionName="mayLoad"/>
+    <functioncall functionName="mayStore"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="moveAnnotations"/>
+    <functioncall functionName="needsAddressSizeOverride"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="operands"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="primeOperands"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="result_out_of_range"/>
+    <functioncall functionName="reverse_iterator"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setFlags"/>
+    <functioncall functionName="setImm"/>
+    <functioncall functionName="setLoc"/>
+    <functioncall functionName="setOffset"/>
+    <functioncall functionName="setOpcode"/>
+    <functioncall functionName="setOperandToSymbolRef"/>
+    <functioncall functionName="setTailCall"/>
+    <functioncall functionName="shortenInstruction"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stripAnnotations"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="test"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="useOperands"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

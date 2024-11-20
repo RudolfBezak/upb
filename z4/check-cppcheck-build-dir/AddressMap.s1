@@ -1,0 +1,2 @@
+emitAddress call:[emitIntValue,emitSymbolValue] noreturn:[emitSymbolValue]
+emitLabel call:[emitIntValue,emitSymbolValue] noreturn:[emitSymbolValue]

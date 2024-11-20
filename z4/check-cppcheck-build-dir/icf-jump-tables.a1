@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11755208067260236770">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/icf-jump-tables.c" functionName="inc" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/icf-jump-tables.c" functionName="inc_dup" lineNumber="15"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/icf-jump-tables.c" functionName="main" lineNumber="27"/>
+    <functioncall functionName="inc"/>
+    <functioncall functionName="inc_dup"/>
+    <functioncall functionName="puts"/>
+  </FileInfo>
+</analyzerinfo>

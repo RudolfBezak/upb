@@ -1,0 +1,8 @@
+orderedSections call:[Sections,getOrdinal,map_range,sections,sort] noreturn:[getOrdinal]
+sectionAlignment call:[assert,empty,front,getAlignment,orderedBlocks] noreturn:[getAlignment]
+sectionName call:[assert,find,getName,isMachO,substr] noreturn:[substr]
+AllocInfo call:[deallocate_buffer] noreturn:[deallocate_buffer]
+allocateSection call:[allocate_buffer,push_back,sectionAlignment,sectionSize]
+BOLTInFlightAlloc
+abandon call:[OnAbandoned,success] noreturn:[OnAbandoned]
+finalize call:[FinalizedAlloc,OnFinalized,fromPtr,release] noreturn:[OnFinalized]

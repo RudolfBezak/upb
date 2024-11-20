@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12575108735119660825">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/CallGraphWalker.h&quot; not found." verbose="Include file: &quot;bolt/Core/CallGraphWalker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Elem&apos; can be declared as reference to const" verbose="Variable &apos;Elem&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="201" column="39" info="Variable &apos;Elem&apos; can be declared as reference to const"/>
+            <symbol>Elem</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;MapEntry&apos; can be declared as reference to const" verbose="Variable &apos;MapEntry&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="304" column="16" info="Variable &apos;MapEntry&apos; can be declared as reference to const"/>
+            <symbol>MapEntry</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: Res" verbose="Unused variable: Res" cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameAnalysis.cpp" line="323" column="21"/>
+            <symbol>Res</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp:46:6" my-argnr="1" my-argname="Function" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" line="47" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp:70:14" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" line="71" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp:70:14" my-argnr="2" my-argname="FIE" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" line="71" col="39" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="shouldFrameOptimize" lineNumber="46"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="decodeFrameAccess" lineNumber="113"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="enterNewBB" lineNumber="168"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="getFIE" lineNumber="169"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="getSPOffset" lineNumber="170"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="isValidAccess" lineNumber="171"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="doesEscapeStackAddress" lineNumber="172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameAnalysis.cpp" functionName="doNext" lineNumber="174"/>
+    <functioncall functionName="ArgAccesses"/>
+    <functioncall functionName="ArgInStackAccess"/>
+    <functioncall functionName="ArgsTouchedMap"/>
+    <functioncall functionName="BC"/>
+    <functioncall functionName="CommaSeparated"/>
+    <functioncall functionName="CountDenominator"/>
+    <functioncall functionName="DEBUG_WITH_TYPE"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="ExperimentalSW"/>
+    <functioncall functionName="FrameAnalysis"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="NoThreads"/>
+    <functioncall functionName="PredicateTy"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="SP_BB_QUADRATIC"/>
+    <functioncall functionName="SP_INST_LINEAR"/>
+    <functioncall functionName="StackPointerTracking"/>
+    <functioncall functionName="TimeFA"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="addArgAccessesFor"/>
+    <functioncall functionName="addArgInStackAccessFor"/>
+    <functioncall functionName="addFIEFor"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clearSPTMap"/>
+    <functioncall functionName="computeArgsAccessed"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="decodeFrameAccess"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="doNext"/>
+    <functioncall functionName="doesEscapeStackAddress"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="enterNewBB"/>
+    <functioncall functionName="escapesVariable"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="getArgAccessesFor"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCFIFor"/>
+    <functioncall functionName="getFIE"/>
+    <functioncall functionName="getFramePointer"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getFunctionScore"/>
+    <functioncall functionName="getLLVMRegNum"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOperation"/>
+    <functioncall functionName="getOrCreateAnnotationIndex"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getRegister"/>
+    <functioncall functionName="getSPOffset"/>
+    <functioncall functionName="getSPT"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="getStateAt"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getline"/>
+    <functioncall functionName="hasCFG"/>
+    <functioncall functionName="hasName"/>
+    <functioncall functionName="hasUnknownControlFlow"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isIgnored"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isStackAccess"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isValidAccess"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_error_code"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="preComputeSPT"/>
+    <functioncall functionName="printInstruction"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerVisitor"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="requiresAlignedAddress"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="restoreFrameIndex"/>
+    <functioncall functionName="result_out_of_range"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="runOnEachFunctionWithUniqueAllocId"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="shouldFrameOptimize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stack"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="traverseCG"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tryGetAnnotationAs"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="updateArgsTouchedFor"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="value_desc"/>
+    <functioncall functionName="walk"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10547189292719102540">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found." verbose="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found." verbose="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found." verbose="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateName.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Compiler.h&quot; not found." verbose="Include file: &quot;llvm/Support/Compiler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="36" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;Data&apos; can be declared as pointer to const" verbose="Parameter &apos;Data&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="396" column="48" info="Parameter &apos;Data&apos; can be declared as pointer to const"/>
+            <symbol>Data</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;Data&apos; can be declared as pointer to const" verbose="Parameter &apos;Data&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NestedNameSpecifier.cpp" line="404" column="32" info="Parameter &apos;Data&apos; can be declared as pointer to const"/>
+            <symbol>Data</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp:464:13" call-funcname="Append" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" line="493" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp:490:13" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp:464:13" call-funcname="Append" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" line="501" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp:499:13" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp:396:23" my-argnr="1" my-argname="Data" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" line="398" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp:404:14" my-argnr="1" my-argname="Data" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" line="406" col="39" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" functionName="LoadSourceLocation" lineNumber="396"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" functionName="LoadPointer" lineNumber="404"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" functionName="Append" lineNumber="464"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" functionName="SaveSourceLocation" lineNumber="490"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NestedNameSpecifier.cpp" functionName="SavePointer" lineNumber="499"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="Buffer"/>
+    <functioncall functionName="BufferCapacity"/>
+    <functioncall functionName="BufferSize"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="Data"/>
+    <functioncall functionName="Dependent"/>
+    <functioncall functionName="DependentTemplateSpecializationType"/>
+    <functioncall functionName="ElaboratedType"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="FindNodeOrInsertPos"/>
+    <functioncall functionName="FindOrInsert"/>
+    <functioncall functionName="Global"/>
+    <functioncall functionName="GlobalSpecifier"/>
+    <functioncall functionName="Identifier"/>
+    <functioncall functionName="IdentifierInfo"/>
+    <functioncall functionName="InsertNode"/>
+    <functioncall functionName="Instantiation"/>
+    <functioncall functionName="LoadPointer"/>
+    <functioncall functionName="LoadSourceLocation"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="Namespace"/>
+    <functioncall functionName="NamespaceAlias"/>
+    <functioncall functionName="NamespaceAliasDecl"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="NestedNameSpecifier"/>
+    <functioncall functionName="NestedNameSpecifierLoc"/>
+    <functioncall functionName="NestedNameSpecifierLocBuilder"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="PrintingPolicy"/>
+    <functioncall functionName="Profile"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="Qualifier"/>
+    <functioncall functionName="Representation"/>
+    <functioncall functionName="SavePointer"/>
+    <functioncall functionName="SaveSourceLocation"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="Specifier"/>
+    <functioncall functionName="StoredDecl"/>
+    <functioncall functionName="StoredIdentifier"/>
+    <functioncall functionName="StoredTypeSpec"/>
+    <functioncall functionName="StoredTypeSpecWithTemplate"/>
+    <functioncall functionName="Super"/>
+    <functioncall functionName="SuperSpecifier"/>
+    <functioncall functionName="TemplateSpecializationType"/>
+    <functioncall functionName="Type"/>
+    <functioncall functionName="TypeLoc"/>
+    <functioncall functionName="TypeSpec"/>
+    <functioncall functionName="TypeSpecWithTemplate"/>
+    <functioncall functionName="UIntTy"/>
+    <functioncall functionName="UnexpandedPack"/>
+    <functioncall functionName="asArray"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bases"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsIdentifier"/>
+    <functioncall functionName="getAsNamespace"/>
+    <functioncall functionName="getAsNamespaceAlias"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getAsType"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getDataLength"/>
+    <functioncall functionName="getDependence"/>
+    <functioncall functionName="getEnd"/>
+    <functioncall functionName="getFromRawEncoding"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getInt"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLocalDataLength"/>
+    <functioncall functionName="getLocalSourceRange"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNestedNameSpecifier"/>
+    <functioncall functionName="getOpaqueData"/>
+    <functioncall functionName="getPrefix"/>
+    <functioncall functionName="getRawEncoding"/>
+    <functioncall functionName="getSpecializedTemplate"/>
+    <functioncall functionName="getTemplateArgs"/>
+    <functioncall functionName="getTemplateName"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTrivialTypeSourceInfo"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="isAnonymousNamespace"/>
+    <functioncall functionName="isDependent"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="pop_back_val"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printName"/>
+    <functioncall functionName="printTemplateArgumentList"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="safe_malloc"/>
+    <functioncall functionName="safe_realloc"/>
+    <functioncall functionName="setInt"/>
+    <functioncall functionName="setPointer"/>
+    <functioncall functionName="template_arguments"/>
+    <functioncall functionName="toNestedNameSpecifierDependendence"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

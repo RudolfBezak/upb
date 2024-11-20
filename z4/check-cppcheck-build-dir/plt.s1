@@ -1,0 +1,1 @@
+main global:[memcpy_p,memset_p] call:[memcpy_p,memset_p,printf,sizeof] noreturn:[printf]

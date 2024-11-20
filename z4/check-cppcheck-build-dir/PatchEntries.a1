@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2892420431328930133">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/PatchEntries.h&quot; not found." verbose="Include file: &quot;bolt/Passes/PatchEntries.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PatchEntries.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found." verbose="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PatchEntries.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PatchEntries.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PatchEntries.cpp" line="17" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ForcePatch"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="Patch"/>
+    <functioncall functionName="addBasicBlock"/>
+    <functioncall functionName="addInstructions"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="calculateEmittedSize"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="computeCodeSize"/>
+    <functioncall functionName="createFatalBOLTError"/>
+    <functioncall functionName="createInjectedBinaryFunction"/>
+    <functioncall functionName="createLongTailCall"/>
+    <functioncall functionName="createTempSymbol"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="forEachEntryPoint"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getFileOffset"/>
+    <functioncall functionName="getMaxSize"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOriginSection"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="hasEHRanges"/>
+    <functioncall functionName="hasExternalRefRelocations"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="setFileOffset"/>
+    <functioncall functionName="setIgnored"/>
+    <functioncall functionName="setIsPatched"/>
+    <functioncall functionName="setOriginSection"/>
+    <functioncall functionName="setOutputAddress"/>
+    <functioncall functionName="shouldEmit"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

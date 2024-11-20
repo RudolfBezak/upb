@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7068758460555779267">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt.c" functionName="main" lineNumber="6"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

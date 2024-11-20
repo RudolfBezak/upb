@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10872217306762823316">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DebugData.h&quot; not found." verbose="Include file: &quot;bolt/Core/DebugData.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="21" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;SDTInfoKV&apos; can be declared as reference to const" verbose="Variable &apos;SDTInfoKV&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/SDTRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\SDTRewriter.cpp" line="148" column="14" info="Variable &apos;SDTInfoKV&apos; can be declared as reference to const"/>
+            <symbol>SDTInfoKV</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/SDTRewriter.cpp" functionName="readSection" lineNumber="65"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/SDTRewriter.cpp" functionName="printSDTMarkers" lineNumber="163"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="BoltCategory"/>
+    <functioncall functionName="DataExtractor"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="MetadataRewriter"/>
+    <functioncall functionName="SimpleBinaryPatcher"/>
+    <functioncall functionName="addLE64Patch"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="bad_address"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="createStringError"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="executable_format_error"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinaryFunctionContainingAddress"/>
+    <functioncall functionName="getCStr"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getInstructionAtOffset"/>
+    <functioncall functionName="getPatcher"/>
+    <functioncall functionName="getU32"/>
+    <functioncall functionName="getU64"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isNoop"/>
+    <functioncall functionName="isValidOffset"/>
+    <functioncall functionName="make_error_code"/>
+    <functioncall functionName="make_first_range"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="not_supported"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="printSDTMarkers"/>
+    <functioncall functionName="readSection"/>
+    <functioncall functionName="registerPatcher"/>
+    <functioncall functionName="setHasSDTMarker"/>
+    <functioncall functionName="setOffset"/>
+    <functioncall functionName="shouldEmit"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="translateInputToOutputAddress"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="utohexstr"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,4 @@
+extractBasicBlockInfo call:[getAddress,getBinaryContext,getInputAddressRange,getOriginalSize,getOutputAddressRange,getOutputSize,isSimple] noreturn:[getOriginalSize,getOutputSize]
+calcTSPScore call:[assert,blocks,branch_info_begin,end,find,getLayout,hasProfile,make_pair,successors] noreturn:[make_pair]
+extractFunctionCalls call:[block_empty,blocks,emplace_back,getBinaryContext,getFunctionForSymbol,getKnownExecutionCount,getLayout,getTargetSymbol,isCall] noreturn:[emplace_back]
+expectedCacheHitRatio call:[assert,block_empty,block_front,end,extractFunctionCalls,find,getKnownExecutionCount,getLayout,max,pow]

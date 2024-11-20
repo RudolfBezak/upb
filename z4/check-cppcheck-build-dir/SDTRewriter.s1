@@ -1,0 +1,5 @@
+SDTRewriter
+readSection call:[DataExtractor,alignTo,errs,getCStr,getCodePointerSize,getContents,getU32,getU64,getUniqueSectionByName,isLittleEndian,isValidOffset,printSDTMarkers] noreturn:[printSDTMarkers]
+preCFGInitializer call:[createStringError,getAddress,getBinaryFunctionContainingAddress,getInstructionAtOffset,isNoop,make_error_code,make_first_range,readSection,setHasSDTMarker,setOffset,shouldEmit,success] noreturn:[createStringError,setHasSDTMarker,success]
+postEmitFinalizer call:[addLE64Patch,getBinaryFunctionContainingAddress,getPatcher,registerPatcher,success,translateInputToOutputAddress] noreturn:[addLE64Patch,success]
+printSDTMarkers call:[make_second_range,outs,size,utohexstr]

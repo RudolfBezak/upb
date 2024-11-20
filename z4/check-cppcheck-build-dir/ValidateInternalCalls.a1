@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7449505732288516416">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ValidateInternalCalls.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ValidateInternalCalls.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;StackPointerTrackingForInternalCalls&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;StackPointerTrackingForInternalCalls&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="86" column="3"/>
+            <symbol>StackPointerTrackingForInternalCalls</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Target&apos; can be declared as pointer to const" verbose="Variable &apos;Target&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ValidateInternalCalls.cpp" line="73" column="23" info="Variable &apos;Target&apos; can be declared as pointer to const"/>
+            <symbol>Target</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp:30:19" my-argnr="1" my-argname="Function" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp" line="32" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp" functionName="getInternalCallTarget" lineNumber="30"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp" functionName="getStartingStateAtBB" lineNumber="52"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp" functionName="computeNext" lineNumber="60"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp" functionName="getAnnotationName" lineNumber="81"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ValidateInternalCalls.cpp" functionName="run" lineNumber="89"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="CLOBBERS_NONE"/>
+    <functioncall functionName="Func"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCPhysReg"/>
+    <functioncall functionName="ReachingDefOrUse"/>
+    <functioncall functionName="ReachingInsns"/>
+    <functioncall functionName="RegAnalysis"/>
+    <functioncall functionName="StackPointerTrackingBase"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="addInstructions"/>
+    <functioncall functionName="addSuccessor"/>
+    <functioncall functionName="analyzeFunction"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clearAnnotations"/>
+    <functioncall functionName="computeNext"/>
+    <functioncall functionName="createBasicBlock"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="evaluateStackOffsetExpr"/>
+    <functioncall functionName="expr_begin"/>
+    <functioncall functionName="expr_end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="fixCFGForIC"/>
+    <functioncall functionName="fixCFGForPIC"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBasicBlockAfter"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getEmpty"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFirstPointAt"/>
+    <functioncall functionName="getInputOffset"/>
+    <functioncall functionName="getInsnToBBMap"/>
+    <functioncall functionName="getInst"/>
+    <functioncall functionName="getInternalCallTarget"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getProcessedICTag"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="getStateAt"/>
+    <functioncall functionName="getStateBefore"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getTouchedRegs"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="hasTailCallsInRange"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertBasicBlocks"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isReturn"/>
+    <functioncall functionName="isStackAccess"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="moveAllSuccessorsTo"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="queue"/>
+    <functioncall functionName="removeAllSuccessors"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setConservativeStrategy"/>
+    <functioncall functionName="setIgnored"/>
+    <functioncall functionName="setPreserveNops"/>
+    <functioncall functionName="setSimple"/>
+    <functioncall functionName="splitInstructions"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

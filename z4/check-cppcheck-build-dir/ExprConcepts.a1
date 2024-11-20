@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16829184789885246376">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConcept.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConcept.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found." verbose="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclarationName.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclarationName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found." verbose="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found." verbose="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateBase.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/TrailingObjects.h&quot; not found." verbose="Include file: &quot;llvm/Support/TrailingObjects.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConcepts.cpp" line="29" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprConcepts.cpp" functionName="RequirementContainsError" lineNumber="108"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ConceptRef"/>
+    <functioncall functionName="ConceptSpecializationExpr"/>
+    <functioncall functionName="ConceptSpecializationExprClass"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="ExprRequirement"/>
+    <functioncall functionName="IsSatisfied"/>
+    <functioncall functionName="NestedRequirement"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NumLocalParameters"/>
+    <functioncall functionName="NumRequirements"/>
+    <functioncall functionName="OK_Ordinary"/>
+    <functioncall functionName="ParmVarDecl"/>
+    <functioncall functionName="Requirement"/>
+    <functioncall functionName="RequirementContainsError"/>
+    <functioncall functionName="RequiresExpr"/>
+    <functioncall functionName="RequiresExprClass"/>
+    <functioncall functionName="TemplateParameterList"/>
+    <functioncall functionName="TemplateTypeParmDecl"/>
+    <functioncall functionName="UnexpandedPack"/>
+    <functioncall functionName="VK_PRValue"/>
+    <functioncall functionName="ValueInstantiation"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="computeDependence"/>
+    <functioncall functionName="containsErrors"/>
+    <functioncall functionName="containsUnexpandedParameterPack"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getConstraintExpr"/>
+    <functioncall functionName="getDependence"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getNestedNameSpecifier"/>
+    <functioncall functionName="getNestedNameSpecifierLoc"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeConstraint"/>
+    <functioncall functionName="hasInvalidConstraint"/>
+    <functioncall functionName="isDependent"/>
+    <functioncall functionName="isInstantiationDependent"/>
+    <functioncall functionName="isInstantiationDependentType"/>
+    <functioncall functionName="isSatisfied"/>
+    <functioncall functionName="isTypeConstraint"/>
+    <functioncall functionName="isValueDependent"/>
+    <functioncall functionName="setDependence"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="totalSizeToAlloc"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

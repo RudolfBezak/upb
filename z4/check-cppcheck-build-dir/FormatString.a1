@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4768892199346506021">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatStringParsing.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatStringParsing.h" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/FormatString.h&quot; not found." verbose="Include file: &quot;clang/AST/FormatString.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatStringParsing.h" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatString.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatString.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ConvertUTF.h&quot; not found." verbose="Include file: &quot;llvm/Support/ConvertUTF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatString.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatString.cpp" line="18" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SpecifierResult&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SpecifierResult&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\FormatStringParsing.h" line="77" column="3"/>
+            <symbol>SpecifierResult</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:40:16" call-funcname="ParseAmount" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="71" col="10" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:41:16" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:40:16" call-funcname="ParseAmount" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="82" col="33" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:44:16" my-argnr="4"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:44:16" call-funcname="ParsePositionAmount" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="133" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:48:6" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:41:16" call-funcname="ParseNonPositionAmount" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="129" col="22" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:48:6" my-argnr="4"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:41:16" call-funcname="ParseNonPositionAmount" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="129" col="22" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:48:6" my-argnr="5"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:40:16" call-funcname="ParseAmount" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="151" col="31" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:53:6" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <pointer-arith>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:69:6" my-argnr="1" my-argname="SpecifierBegin" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="298" col="7" value="1"/>
+    </pointer-arith>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:41:16" my-argnr="1" my-argname="Beg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="66" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:44:16" my-argnr="3" my-argname="Beg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="80" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:41:16" my-argnr="1" my-argname="Beg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="66" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:44:16" my-argnr="3" my-argname="Beg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="80" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h:57:6" my-argnr="5" my-argname="LO" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" line="186" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h" functionName="getStart" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h" functionName="shouldStop" lineNumber="84"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h" functionName="hasValue" lineNumber="85"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h" functionName="getValue" lineNumber="86"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatStringParsing.h" functionName="getValue" lineNumber="90"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParseAmount" lineNumber="37"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParseNonPositionAmount" lineNumber="63"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParsePositionAmount" lineNumber="75"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParseFieldWidth" lineNumber="122"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParseArgPosition" lineNumber="144"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParseVectorModifier" lineNumber="181"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParseLengthModifier" lineNumber="211"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/FormatString.cpp" functionName="ParseUTF8InvalidSpecifier" lineNumber="296"/>
+    <functioncall functionName="Arg"/>
+    <functioncall functionName="ArgType"/>
+    <functioncall functionName="AsAllocate"/>
+    <functioncall functionName="AsChar"/>
+    <functioncall functionName="AsInt32"/>
+    <functioncall functionName="AsInt3264"/>
+    <functioncall functionName="AsInt64"/>
+    <functioncall functionName="AsIntMax"/>
+    <functioncall functionName="AsLong"/>
+    <functioncall functionName="AsLongDouble"/>
+    <functioncall functionName="AsLongLong"/>
+    <functioncall functionName="AsMAllocate"/>
+    <functioncall functionName="AsPtrDiff"/>
+    <functioncall functionName="AsQuad"/>
+    <functioncall functionName="AsShort"/>
+    <functioncall functionName="AsShortLong"/>
+    <functioncall functionName="AsSizeT"/>
+    <functioncall functionName="AsWide"/>
+    <functioncall functionName="BlockPointerType"/>
+    <functioncall functionName="BuiltinType"/>
+    <functioncall functionName="Constant"/>
+    <functioncall functionName="ConversionSpecifier"/>
+    <functioncall functionName="EnumType"/>
+    <functioncall functionName="FieldWidthPos"/>
+    <functioncall functionName="HandleIncompleteSpecifier"/>
+    <functioncall functionName="HandleInvalidPosition"/>
+    <functioncall functionName="HandlePosition"/>
+    <functioncall functionName="HandleZeroPosition"/>
+    <functioncall functionName="Invalid"/>
+    <functioncall functionName="K"/>
+    <functioncall functionName="LM"/>
+    <functioncall functionName="LengthModifier"/>
+    <functioncall functionName="Match"/>
+    <functioncall functionName="MatchPromotion"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="NoMatch"/>
+    <functioncall functionName="NoMatchPedantic"/>
+    <functioncall functionName="NoMatchPromotionTypeConfusion"/>
+    <functioncall functionName="NoMatchSignedness"/>
+    <functioncall functionName="NoMatchTypeConfusion"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="ObjCObjectPointerType"/>
+    <functioncall functionName="OptionalAmount"/>
+    <functioncall functionName="ParseAmount"/>
+    <functioncall functionName="ParseNonPositionAmount"/>
+    <functioncall functionName="ParsePositionAmount"/>
+    <functioncall functionName="PointerType"/>
+    <functioncall functionName="Ptr"/>
+    <functioncall functionName="SpecifierResult"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="TypedefType"/>
+    <functioncall functionName="UsesDotPrefix"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="canDecayToPointerType"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="dArg"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsString"/>
+    <functioncall functionName="getAsStructureType"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getConstantAmount"/>
+    <functioncall functionName="getCorrespondingUnsaturatedType"/>
+    <functioncall functionName="getCorrespondingUnsignedType"/>
+    <functioncall functionName="getDecayedType"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getExtVectorType"/>
+    <functioncall functionName="getHowSpecified"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getIntegerType"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumBytesForUTF8"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPointerType"/>
+    <functioncall functionName="getPositionalArgIndex"/>
+    <functioncall functionName="getPrintingPolicy"/>
+    <functioncall functionName="getPromotedIntegerType"/>
+    <functioncall functionName="getRepresentativeType"/>
+    <functioncall functionName="getTriple"/>
+    <functioncall functionName="getUnderlyingType"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="getWIntType"/>
+    <functioncall functionName="getWideCharType"/>
+    <functioncall functionName="hasSameUnqualifiedType"/>
+    <functioncall functionName="hasSignedIntegerRepresentation"/>
+    <functioncall functionName="hasValue"/>
+    <functioncall functionName="hs"/>
+    <functioncall functionName="isAnyIntArg"/>
+    <functioncall functionName="isBlockPointerType"/>
+    <functioncall functionName="isCharType"/>
+    <functioncall functionName="isComplete"/>
+    <functioncall functionName="isConstQualified"/>
+    <functioncall functionName="isDoubleArg"/>
+    <functioncall functionName="isFixedPointArg"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isNullPtrType"/>
+    <functioncall functionName="isOSDarwin"/>
+    <functioncall functionName="isOSFreeBSD"/>
+    <functioncall functionName="isOSMSVCRT"/>
+    <functioncall functionName="isOSWindows"/>
+    <functioncall functionName="isObjCObjectPointerType"/>
+    <functioncall functionName="isPS"/>
+    <functioncall functionName="isPromotableIntegerType"/>
+    <functioncall functionName="isSaturatedFixedPointType"/>
+    <functioncall functionName="isUnscopedEnumerationType"/>
+    <functioncall functionName="isVoidType"/>
+    <functioncall functionName="kind"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="oArg"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="setArgIndex"/>
+    <functioncall functionName="setFieldWidth"/>
+    <functioncall functionName="setKind"/>
+    <functioncall functionName="setLengthModifier"/>
+    <functioncall functionName="setUsesPositionalArg"/>
+    <functioncall functionName="setVectorNumElts"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uArg"/>
+    <functioncall functionName="usesPositionalArg"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14024366379831766619">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentBriefParser.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentBriefParser.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentBriefParser.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentBriefParser.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/CharInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/CharInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentBriefParser.cpp" line="11" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentBriefParser.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentBriefParser.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentBriefParser.cpp:20:6" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentBriefParser.cpp" line="22" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentBriefParser.cpp" functionName="cleanupBrief" lineNumber="20"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentBriefParser.cpp" functionName="isWhitespace" lineNumber="42"/>
+    <functioncall functionName="BriefParser"/>
+    <functioncall functionName="ConsumeToken"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="at_command"/>
+    <functioncall functionName="backslash_command"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cleanupBrief"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eof"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getCommandID"/>
+    <functioncall functionName="getCommandInfo"/>
+    <functioncall functionName="getText"/>
+    <functioncall functionName="is"/>
+    <functioncall functionName="isNot"/>
+    <functioncall functionName="isWhitespace"/>
+    <functioncall functionName="newline"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

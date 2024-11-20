@@ -1,0 +1,13 @@
+isMarkedAsCallSuper call:[contains] noreturn:[contains]
+MethodUsageVisitor
+VisitCallExpr call:[erase,getCalleeDecl] noreturn:[erase]
+CallSuperVisitor call:[getCustomDiagID] noreturn:[getCustomDiagID]
+VisitCXXMethodDecl call:[Report,TraverseDecl,Visitor,getLocation,hasBody,insert,isMarkedAsCallSuper,isThisDeclarationADefinition,overridden_methods] noreturn:[Report,insert]
+HandleTranslationUnit call:[TraverseDecl,Visitor,getDiagnostics,getTranslationUnitDecl,lateDiagAppertainsToDecl] noreturn:[TraverseDecl,lateDiagAppertainsToDecl]
+lateDiagAppertainsToDecl call:[Report,getCustomDiagID,getLocation] noreturn:[Report]
+CreateASTConsumer
+ParseArgs call:[empty,errs]
+getActionType
+CallSuperAttrInfo
+diagAppertainsToDecl call:[Diag,getLoc,insert,isRegularKeywordAttribute,isVirtual]
+handleDeclAttribute

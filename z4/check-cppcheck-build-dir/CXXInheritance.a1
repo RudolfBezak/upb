@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2489497022054365796">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found." verbose="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclBase.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecordLayout.h&quot; not found." verbose="Include file: &quot;clang/AST/RecordLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateName.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseMap.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/iterator_range.h&quot; not found." verbose="Include file: &quot;llvm/ADT/iterator_range.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="31" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;OverriddenMethods&apos; shadows outer variable" verbose="Local variable &apos;OverriddenMethods&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="613" column="14" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="574" column="28" info="Shadowed declaration"/>
+            <symbol>OverriddenMethods</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;RD&apos; can be declared as pointer to const" verbose="Variable &apos;RD&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXInheritance.cpp" line="424" column="18" info="Variable &apos;RD&apos; can be declared as pointer to const"/>
+            <symbol>RD</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:502:8" call-funcname="Collect" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="527" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:502:8" call-funcname="Collect" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="552" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:502:8" call-funcname="Collect" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="527" col="9" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:502:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:380:13" my-argnr="1" my-argname="ND" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="381" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:385:13" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="387" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:410:1" my-argnr="1" my-argname="Specifier" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="413" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:502:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="518" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:380:13" my-argnr="1" my-argname="ND" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="381" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:385:13" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="387" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:410:1" my-argnr="1" my-argname="Specifier" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="413" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:502:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="518" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp:678:1" my-argnr="2" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" line="681" col="35" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" functionName="isOrdinaryMember" lineNumber="380"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" functionName="findOrdinaryMember" lineNumber="385"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" functionName="findOrdinaryMemberInDependentClasses" lineNumber="410"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" functionName="Collect" lineNumber="509"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXInheritance.cpp" functionName="AddIndirectPrimaryBases" lineNumber="678"/>
+    <functioncall functionName="Access"/>
+    <functioncall functionName="AddIndirectPrimaryBases"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="Collect"/>
+    <functioncall functionName="Decls"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DetectVirtual"/>
+    <functioncall functionName="DetectedVirtual"/>
+    <functioncall functionName="Equals"/>
+    <functioncall functionName="FindAmbiguities"/>
+    <functioncall functionName="FindBaseClass"/>
+    <functioncall functionName="FindVirtualBaseClass"/>
+    <functioncall functionName="IDNS_Member"/>
+    <functioncall functionName="MergeAccess"/>
+    <functioncall functionName="Origin"/>
+    <functioncall functionName="RecordPaths"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="ScratchPath"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="TemplateSpecializationType"/>
+    <functioncall functionName="UniqueVirtualMethod"/>
+    <functioncall functionName="add"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="bases"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase_if"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="findOrdinaryMember"/>
+    <functioncall functionName="findOrdinaryMemberInDependentClasses"/>
+    <functioncall functionName="forallBases"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getASTRecordLayout"/>
+    <functioncall functionName="getAccessSpecifier"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getAsTemplateDecl"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getNumVBases"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPrimaryBase"/>
+    <functioncall functionName="getTemplateName"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="hasDefinition"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCurrentInstantiation"/>
+    <functioncall functionName="isDependentContext"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isDerivedFrom"/>
+    <functioncall functionName="isDetectingVirtual"/>
+    <functioncall functionName="isFileContext"/>
+    <functioncall functionName="isFindingAmbiguities"/>
+    <functioncall functionName="isInIdentifierNamespace"/>
+    <functioncall functionName="isOrdinaryMember"/>
+    <functioncall functionName="isPolymorphic"/>
+    <functioncall functionName="isPrimaryBaseVirtual"/>
+    <functioncall functionName="isRecordingPaths"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isVirtuallyDerivedFrom"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="iterator_range"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="lookupInBases"/>
+    <functioncall functionName="method_iterator"/>
+    <functioncall functionName="methods"/>
+    <functioncall functionName="overridden_methods"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_back_val"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="remove_if"/>
+    <functioncall functionName="replaceAll"/>
+    <functioncall functionName="setOrigin"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

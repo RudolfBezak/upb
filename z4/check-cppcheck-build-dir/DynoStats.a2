@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="457217786595131208">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DynoStats.h&quot; not found." verbose="Include file: &quot;bolt/Core/DynoStats.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\DynoStats.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\DynoStats.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;gtest/gtest.h&quot; not found." verbose="Include file: &quot;gtest/gtest.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\DynoStats.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\DynoStats.cpp" line="12" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/DynoStats.cpp" functionName="TEST" lineNumber="16"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="DynoStatsTest"/>
+    <functioncall functionName="TEST"/>
+    <functioncall functionName="emptyFuncs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getDynoStats"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+  </FileInfo>
+</analyzerinfo>

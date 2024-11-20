@@ -1,0 +1,2 @@
+get_build_id global:[build_id_note]
+main call:[get_build_id]

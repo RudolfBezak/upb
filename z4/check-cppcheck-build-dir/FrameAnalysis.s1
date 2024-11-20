@@ -1,0 +1,10 @@
+shouldFrameOptimize call:[FuncsFile,any_of,assert,empty,getline,hasName,hasUnknownControlFlow,push_back] noreturn:[any_of,hasName,push_back]
+operator<< call:[utohexstr] noreturn:[utohexstr]
+decodeFrameAccess call:[LLVM_DEBUG,assert,dbgs,dump,getFramePointer,getLLVMRegNum,getStackPointer,isStackAccess,printInstruction]
+FrameAccessAnalysis
+enterNewBB
+getFIE
+getSPOffset
+isValidAccess
+doesEscapeStackAddress
+doNext call:[LLVM_DEBUG,assert,dbgs,decodeFrameAccess,dump,empty,escapesVariable,getCFIFor,getOffset,getOperation,getPrintName,getRegister,getStateAt,isCFI,llvm_unreachable,make_pair,pop,push,tie,top] noreturn:[decodeFrameAccess]

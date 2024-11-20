@@ -1,0 +1,6 @@
+isIfThenSubgraph call:[assert,isPredecessor,pred_begin,pred_size,succ_size]
+matchCFGSubgraph call:[assert,getConditionalSuccessor,isIfThenSubgraph]
+canConvertInstructions call:[Cmov,LLVM_DEBUG,convertMoveToConditionalMove,dbgs,empty,getLastNonPseudoInstr,getName,isPseudo,isUnconditionalBranch,printInstruction] noreturn:[printInstruction]
+convertMoves call:[assert,begin,convertMoveToConditionalMove,end,eraseInstruction,isPseudo,isUnconditionalBranch]
+calculateMispredictionRate call:[branch_info]
+calculateConditionBias call:[getBranchStats]

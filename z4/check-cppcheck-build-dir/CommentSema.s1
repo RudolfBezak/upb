@@ -1,0 +1,8 @@
+getParamPassDirection call:[Case,Cases,Default] noreturn:[Default]
+isClassOrStructDeclImpl call:[isUnion] noreturn:[isUnion]
+SimpleTypoCorrector
+getBestDecl
+getBestDeclIndex call:[assert,getBestDecl]
+addDecl call:[abs,edit_distance,getIdentifier,getName,size]
+ResolveTParamReferenceHelper call:[ResolveTParamReferenceHelper,getIdentifier,getName,getParam,getTemplateParameters,pop_back,push_back,size] noreturn:[pop_back]
+CorrectTypoInTParamReferenceHelper call:[CorrectTypoInTParamReferenceHelper,addDecl,getParam,getTemplateParameters,size] noreturn:[CorrectTypoInTParamReferenceHelper]

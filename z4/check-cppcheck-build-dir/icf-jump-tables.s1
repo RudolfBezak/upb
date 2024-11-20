@@ -1,0 +1,3 @@
+inc call:[puts]
+inc_dup call:[puts]
+main call:[inc,inc_dup] noreturn:[inc_dup]

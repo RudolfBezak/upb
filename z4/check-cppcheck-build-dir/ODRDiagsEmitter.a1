@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8576112632143457735">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ODRDiagsEmitter.h&quot; not found." verbose="Include file: &quot;clang/AST/ODRDiagsEmitter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ODRDiagsEmitter.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclFriend.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclFriend.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ODRDiagsEmitter.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ODRDiagsEmitter.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ODRHash.h&quot; not found." verbose="Include file: &quot;clang/AST/ODRHash.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ODRDiagsEmitter.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/DiagnosticAST.h&quot; not found." verbose="Include file: &quot;clang/Basic/DiagnosticAST.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ODRDiagsEmitter.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Module.h&quot; not found." verbose="Include file: &quot;clang/Basic/Module.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ODRDiagsEmitter.cpp" line="14" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ODRDiagsEmitter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ODRDiagsEmitter.cpp" line="0" column="0"/>
+        </error>
+</analyzerinfo>

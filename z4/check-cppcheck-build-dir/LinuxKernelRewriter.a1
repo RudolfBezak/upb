@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15115874206834766820">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCDisassembler/MCDisassembler.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCDisassembler/MCDisassembler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/BinaryStreamWriter.h&quot; not found." verbose="Include file: &quot;llvm/Support/BinaryStreamWriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="23" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;LinuxKernelRewriter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;LinuxKernelRewriter&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="289" column="3"/>
+            <symbol>LinuxKernelRewriter</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;Inst&apos; is redundant or there is possible null pointer dereference: Inst." verbose="Either the condition &apos;Inst&apos; is redundant or there is possible null pointer dereference: Inst." cwe="476" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="583" column="42" info="Null pointer dereference"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\LinuxKernelRewriter.cpp" line="583" column="11" info="Assuming that condition &apos;Inst&apos; is not redundant"/>
+            <symbol>Inst</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp:277:9" call-funcname="tryReadAltInstructions" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" line="1391" col="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp:277:9" call-funcname="tryReadAltInstructions" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" line="1398" col="32" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ORCState" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" line="94" col="1" hash="3497698436790903233"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp:99:8" my-argnr="1" my-argname="Other" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" line="100" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp:155:10" my-argnr="1" my-argname="Other" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" line="156" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="processLKSections" lineNumber="373"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="processLKKSymtab" lineNumber="384"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="processSMPLocks" lineNumber="414"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="processInstructionFixups" lineNumber="471"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readORCTables" lineNumber="483"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="processORCPostCFG" lineNumber="655"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="rewriteORCTables" lineNumber="716"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="validateORCTables" lineNumber="855"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readStaticCalls" lineNumber="889"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="rewriteStaticCalls" lineNumber="984"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readExceptionTable" lineNumber="1021"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="rewriteExceptionTable" lineNumber="1113"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readParaInstructions" lineNumber="1132"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="skipFunctionsWithAnnotation" lineNumber="1192"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="rewriteParaInstructions" lineNumber="1209"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readBugTable" lineNumber="1229"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="rewriteBugTable" lineNumber="1284"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readAltInstructions" lineNumber="1350"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="tryReadAltInstructions" lineNumber="1402"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="processAltInstructionsPostCFG" lineNumber="1507"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readPCIFixupTable" lineNumber="1531"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="readStaticKeysJumpTable" lineNumber="1626"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="rewriteStaticKeysJumpTable" lineNumber="1784"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/LinuxKernelRewriter.cpp" functionName="updateStaticKeysJumpTablePostEmit" lineNumber="1857"/>
+    <functioncall functionName="Align"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="BinaryStreamWriter"/>
+    <functioncall functionName="BoltCategory"/>
+    <functioncall functionName="DataExtractor"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCSymbol"/>
+    <functioncall functionName="MetadataRewriter"/>
+    <functioncall functionName="MutableArrayRef"/>
+    <functioncall functionName="R_X86_64_64"/>
+    <functioncall functionName="R_X86_64_PC32"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="Verbosity"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="addEntryPointAtOffset"/>
+    <functioncall functionName="addRelocation"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="back_inserter"/>
+    <functioncall functionName="bad_address"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="big"/>
+    <functioncall functionName="bytesRemaining"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="computeInstructionSize"/>
+    <functioncall functionName="consumeError"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="containsAddress"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createCondBranch"/>
+    <functioncall functionName="createLongCondBranch"/>
+    <functioncall functionName="createLongUncondBranch"/>
+    <functioncall functionName="createStringError"/>
+    <functioncall functionName="createUncondBranch"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eof"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="executable_format_error"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAnnotationAs"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getBinaryFunctionAtAddress"/>
+    <functioncall functionName="getBinaryFunctionContainingAddress"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getDynamicBranchID"/>
+    <functioncall functionName="getImageAddress"/>
+    <functioncall functionName="getImageSize"/>
+    <functioncall functionName="getInputFileOffset"/>
+    <functioncall functionName="getInstruction"/>
+    <functioncall functionName="getInstructionAtOffset"/>
+    <functioncall functionName="getInstructionContainingOffset"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getMainFragment"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumOccurrences"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOrCreateInstLabel"/>
+    <functioncall functionName="getOutputContents"/>
+    <functioncall functionName="getPC32"/>
+    <functioncall functionName="getSectionForAddress"/>
+    <functioncall functionName="getSignedValueAtAddress"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSplitFragments"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getU16"/>
+    <functioncall functionName="getU32"/>
+    <functioncall functionName="getU64"/>
+    <functioncall functionName="getU8"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="getUnsigned"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="hasInstructions"/>
+    <functioncall functionName="hasORC"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isDynamicBranch"/>
+    <functioncall functionName="isEmitted"/>
+    <functioncall functionName="isFinalized"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isNoop"/>
+    <functioncall functionName="isValidOffset"/>
+    <functioncall functionName="little"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="moveAnnotations"/>
+    <functioncall functionName="nulls"/>
+    <functioncall functionName="numeric_limits"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="partition_point"/>
+    <functioncall functionName="processAltInstructionsPostCFG"/>
+    <functioncall functionName="processInstructionFixups"/>
+    <functioncall functionName="processLKKSymtab"/>
+    <functioncall functionName="processLKSections"/>
+    <functioncall functionName="processORCPostCFG"/>
+    <functioncall functionName="processSMPLocks"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="readAltInstructions"/>
+    <functioncall functionName="readBugTable"/>
+    <functioncall functionName="readExceptionTable"/>
+    <functioncall functionName="readORCTables"/>
+    <functioncall functionName="readPCIFixupTable"/>
+    <functioncall functionName="readParaInstructions"/>
+    <functioncall functionName="readStaticCalls"/>
+    <functioncall functionName="readStaticKeysJumpTable"/>
+    <functioncall functionName="registerBranch"/>
+    <functioncall functionName="rewriteBugTable"/>
+    <functioncall functionName="rewriteExceptionTable"/>
+    <functioncall functionName="rewriteORCTables"/>
+    <functioncall functionName="rewriteParaInstructions"/>
+    <functioncall functionName="rewriteStaticCalls"/>
+    <functioncall functionName="rewriteStaticKeysJumpTable"/>
+    <functioncall functionName="seek"/>
+    <functioncall functionName="setDynamicBranch"/>
+    <functioncall functionName="setHasORC"/>
+    <functioncall functionName="setIgnored"/>
+    <functioncall functionName="setOffset"/>
+    <functioncall functionName="setOutputFileOffset"/>
+    <functioncall functionName="setSimple"/>
+    <functioncall functionName="setSize"/>
+    <functioncall functionName="shouldEmit"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="skipFunctionsWithAnnotation"/>
+    <functioncall functionName="slice"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="tell"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tryGetAnnotationAs"/>
+    <functioncall functionName="tryReadAltInstructions"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="updateContents"/>
+    <functioncall functionName="updateStaticKeysJumpTablePostEmit"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="validateORCTables"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="writeInteger"/>
+    <functioncall functionName="writeNopData"/>
+  </FileInfo>
+</analyzerinfo>

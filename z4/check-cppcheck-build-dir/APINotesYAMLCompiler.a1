@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3737152519518929813">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/APINotesYAMLCompiler.h&quot; not found." verbose="Include file: &quot;clang/APINotes/APINotesYAMLCompiler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/APINotesWriter.h&quot; not found." verbose="Include file: &quot;clang/APINotes/APINotesWriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/Types.h&quot; not found." verbose="Include file: &quot;clang/APINotes/Types.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Specifiers.h&quot; not found." verbose="Include file: &quot;clang/Basic/Specifiers.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SourceMgr.h&quot; not found." verbose="Include file: &quot;llvm/Support/SourceMgr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/VersionTuple.h&quot; not found." verbose="Include file: &quot;llvm/Support/VersionTuple.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/YAMLTraits.h&quot; not found." verbose="Include file: &quot;llvm/Support/YAMLTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="27" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If LLVM_YAML_IS_FLOW_SEQUENCE_VECTOR is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If LLVM_YAML_IS_FLOW_SEQUENCE_VECTOR is a macro then please configure it." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesYAMLCompiler.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesYAMLCompiler.cpp" line="84" column="1"/>
+        </error>
+</analyzerinfo>

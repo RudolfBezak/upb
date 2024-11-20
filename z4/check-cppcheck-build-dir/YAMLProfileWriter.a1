@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3440565908773840926">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/YAMLProfileWriter.h&quot; not found." verbose="Include file: &quot;bolt/Profile/YAMLProfileWriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/BoltAddressTranslation.h&quot; not found." verbose="Include file: &quot;bolt/Profile/BoltAddressTranslation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/DataAggregator.h&quot; not found." verbose="Include file: &quot;bolt/Profile/DataAggregator.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/ProfileReaderBase.h&quot; not found." verbose="Include file: &quot;bolt/Profile/ProfileReaderBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCPseudoProbe.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCPseudoProbe.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="20" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="0" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileWriter.cpp" line="325" column="28"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BoltOptCategory"/>
+    <functioncall functionName="CallSiteInfo"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Filename"/>
+    <functioncall functionName="FuncHash"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="IndirectCallSiteProfile"/>
+    <functioncall functionName="InlineTree"/>
+    <functioncall functionName="InlineTreeDesc"/>
+    <functioncall functionName="InlineTreeMapTy"/>
+    <functioncall functionName="InlineTreeNode"/>
+    <functioncall functionName="OF_None"/>
+    <functioncall functionName="PF_LBR"/>
+    <functioncall functionName="PF_NONE"/>
+    <functioncall functionName="ProfilePseudoProbeDesc"/>
+    <functioncall functionName="ProfileUseDFS"/>
+    <functioncall functionName="PseudoProbeInfo"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="StringSet"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back_inserter"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="branch_info"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="collectInlineTree"/>
+    <functioncall functionName="computeBlockHashes"/>
+    <functioncall functionName="computeHash"/>
+    <functioncall functionName="convert"/>
+    <functioncall functionName="convertBFInlineTree"/>
+    <functioncall functionName="convertPseudoProbeDesc"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dfs"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="error_code"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAddress2ProbesMap"/>
+    <functioncall functionName="getAnnotationWithDefault"/>
+    <functioncall functionName="getBasicBlockContainingOffset"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getChildren"/>
+    <functioncall functionName="getConditionalTailCall"/>
+    <functioncall functionName="getDummyInlineRoot"/>
+    <functioncall functionName="getEventNames"/>
+    <functioncall functionName="getFileBuildID"/>
+    <functioncall functionName="getFilename"/>
+    <functioncall functionName="getFuncDescForGUID"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getFunctionNumber"/>
+    <functioncall functionName="getGUID"/>
+    <functioncall functionName="getGUID2FuncDescMap"/>
+    <functioncall functionName="getHash"/>
+    <functioncall functionName="getInlineSite"/>
+    <functioncall functionName="getInlineTreeVec"/>
+    <functioncall functionName="getInputAddressRange"/>
+    <functioncall functionName="getInputOffset"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLayoutIndex"/>
+    <functioncall functionName="getLocationName"/>
+    <functioncall functionName="getNumNonPseudos"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOneName"/>
+    <functioncall functionName="getProfileFlags"/>
+    <functioncall functionName="getProfileReader"/>
+    <functioncall functionName="getPseudoProbeDecoder"/>
+    <functioncall functionName="getReaderName"/>
+    <functioncall functionName="getSecondaryEntryPointSymbol"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasProfile"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="hash_combine"/>
+    <functioncall functionName="hash_combine_range"/>
+    <functioncall functionName="isBATFunction"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="isLandingPad"/>
+    <functioncall functionName="isTrustedSource"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="nullopt_t"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="predecessors"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="raw_fd_ostream"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="setCSIDestination"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="translateSymbol"/>
+    <functioncall functionName="tryGetAnnotationAs"/>
+    <functioncall functionName="tuple"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="updateLayoutIndices"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="writeBlockProbes"/>
+  </FileInfo>
+</analyzerinfo>

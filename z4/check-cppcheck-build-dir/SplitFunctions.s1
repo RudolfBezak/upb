@@ -1,0 +1,36 @@
+DeprecatedSplitFunctionOptionParser
+parse call:[errs,formatv,parse] noreturn:[parse]
+hasFullProfile call:[all_of,blocks,getExecutionCount] noreturn:[all_of]
+allBlocksCold call:[all_of,blocks,getExecutionCount] noreturn:[all_of]
+canSplit call:[allBlocksCold,hasFullProfile,hasValidProfile] noreturn:[allBlocksCold]
+compactFragments
+fragment call:[cold,getExecutionCount,make_range,setFragmentNum] noreturn:[setFragmentNum]
+canSplit call:[allBlocksCold,hasFullProfile,hasValidProfile] noreturn:[allBlocksCold]
+SplitCacheDirected call:[buildCallGraph,initializeAuxiliaryVariables] noreturn:[buildCallGraph]
+compactFragments
+fragment call:[BlockOrder,assert,cold,findSplitIndex,front,getFunction,getKnownExecutionCount,main,setFragmentNum,size,warm] noreturn:[setFragmentNum]
+sum
+shouldConsiderForCallGraph call:[empty,hasValidIndex,hasValidProfile] noreturn:[empty]
+initializeAuxiliaryVariables call:[blocks,calculateEmittedSize,getLayout,getOutputSize,getSortedFunctions,isSplit,shouldConsiderForCallGraph]
+buildCallGraph call:[block_empty,blocks,contains,front,getFunctionForSymbol,getKnownExecutionCount,getLayout,getSortedFunctions,getTargetSymbol,isCall,push_back,resize,shouldConsiderForCallGraph] noreturn:[push_back]
+estimatePostSplitBBAddress call:[assert,calculateEmittedSize,cold,getFragmentNum,getFunction,getLayout,getLayoutIndex,getOutputSize,main,make_pair,setFragmentNum,setOutputEndAddress,setOutputStartAddress,size,update,warm] noreturn:[make_pair,setFragmentNum]
+extractCoverCalls call:[AbsoluteDifference,emplace_back,front,getFunction,getKnownExecutionCount,getSortedFunctions,shouldConsiderForCallGraph] noreturn:[emplace_back]
+computeCallScore call:[pow] noreturn:[pow]
+computeJumpScore call:[pow] noreturn:[pow]
+computeJumpScore call:[AbsoluteDifference,branch_info,computeJumpScore,getKnownExecutionCount,getOutputAddressRange,successors,zip] noreturn:[computeJumpScore]
+computeLocalCallScore call:[AbsoluteDifference,assert,back,computeCallScore,getKnownExecutionCount,getOutputAddressRange] noreturn:[computeCallScore]
+computeCoverCallScore call:[assert,computeCallScore] noreturn:[computeCallScore]
+computeSplitScore call:[computeCoverCallScore,computeJumpScore,computeLocalCallScore,estimatePostSplitBBAddress,tie]
+getMostLikelySuccessor call:[assert,getConditionalSuccessor,getFallthroughBranchInfo,getSuccessor,getTakenBranchInfo,succ_size] noreturn:[getConditionalSuccessor,getSuccessor]
+findSplitIndex call:[assert,cold,computeSplitScore,extractCoverCalls,getFragmentNum,getMostLikelySuccessor,long,main,size,sum]
+SplitRandom2
+canSplit
+compactFragments
+fragment call:[Dist,LLVM_DEBUG,assert,cold,dbgs,formatv,make_range,setFragmentNum] noreturn:[LLVM_DEBUG,setFragmentNum]
+SplitRandomN
+canSplit
+compactFragments
+fragment call:[Dist,FragmentNum,Lottery,assert,begin,end,iota,make_range,push_back,resize,setFragmentNum,shuffle,sort]
+canSplit
+compactFragments
+fragment call:[FragmentNum,make_range,setFragmentNum] noreturn:[setFragmentNum]

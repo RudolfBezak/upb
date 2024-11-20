@@ -1,0 +1,140 @@
+ContextTableKey
+ContextTableKey
+ContextTableKey
+ContextTableKey
+hashValue call:[hash_value] noreturn:[hash_value]
+operator==
+SingleDeclTableKey
+SingleDeclTableKey
+SingleDeclTableKey
+hashValue call:[hash_value,make_pair] noreturn:[hash_value]
+operator==
+getEmptyKey call:[getEmptyKey]
+getTombstoneKey call:[getTombstoneKey]
+getHashValue call:[hash_combine,hash_value,size] noreturn:[hash_combine]
+isEqual
+getEmptyKey call:[ContextTableKey] noreturn:[ContextTableKey]
+getTombstoneKey call:[getTombstoneKey]
+getHashValue call:[hashValue] noreturn:[hashValue]
+isEqual
+getEmptyKey call:[SingleDeclTableKey] noreturn:[SingleDeclTableKey]
+getTombstoneKey call:[getTombstoneKey]
+getHashValue call:[hashValue] noreturn:[hashValue]
+isEqual
+getIdentifier call:[empty,size,try_emplace]
+getSelector call:[getIdentifier,push_back,reserve,size,try_emplace] noreturn:[push_back]
+Implementation
+emitBlockID call:[EmitRecord,data,empty,size] noreturn:[EmitRecord]
+emitRecordID call:[EmitRecord,assert,data,memcpy,resize,size] noreturn:[EmitRecord]
+ComputeHash call:[djbHash] noreturn:[djbHash]
+EmitKeyDataLength call:[size,sizeof,writer]
+EmitKey
+EmitData call:[writer]
+ComputeHash call:[hashValue]
+EmitKeyDataLength call:[sizeof,writer]
+EmitKey call:[writer]
+EmitData call:[writer]
+getVersionTupleSize call:[getBuild,getMinor,getSubminor,sizeof] noreturn:[sizeof]
+getVersionedInfoSize call:[getInfoSize,getVersionTupleSize,sizeof] noreturn:[getInfoSize]
+emitVersionTuple call:[getBuild,getMajor,getMinor,getSubminor,writer]
+emitVersionedInfo call:[assert,begin,emitInfo,emitVersionTuple,end,size,sort,writer] noreturn:[emitInfo]
+emitCommonEntityInfo call:[c_str,isSwiftPrivate,size,write,writer] noreturn:[write]
+getCommonEntityInfoSize call:[size] noreturn:[size]
+getCommonTypeInfoSize call:[getCommonEntityInfoSize,getNSErrorDomain,getSwiftBridge,size] noreturn:[getCommonEntityInfoSize]
+emitCommonTypeInfo call:[c_str,emitCommonEntityInfo,getNSErrorDomain,getSwiftBridge,size,write,writer] noreturn:[write]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hash_value]
+getUnversionedInfoSize call:[getCommonTypeInfoSize]
+emitUnversionedInfo call:[emitCommonTypeInfo,getDefaultNullability,getSwiftImportAsNonGeneric,getSwiftObjCMembers,hasDesignatedInits,value] noreturn:[value]
+getVariableInfoSize call:[getCommonEntityInfoSize,getType,size] noreturn:[size]
+emitVariableInfo call:[data,emitCommonEntityInfo,getNullability,getType,size,write,writer] noreturn:[write]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hash_value]
+getUnversionedInfoSize call:[getVariableInfoSize]
+emitUnversionedInfo call:[emitVariableInfo,getSwiftImportAsAccessors,value]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hash_value]
+getUnversionedInfoSize call:[getFunctionInfoSize,getParamInfoSize] noreturn:[getParamInfoSize]
+emitUnversionedInfo call:[emitFunctionInfo,emitParamInfo,writer] noreturn:[emitParamInfo]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hashValue]
+getUnversionedInfoSize call:[getFunctionInfoSize,getParamInfoSize] noreturn:[getParamInfoSize]
+emitUnversionedInfo call:[emitFunctionInfo,emitParamInfo,writer] noreturn:[emitParamInfo]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hashValue]
+getUnversionedInfoSize call:[getVariableInfoSize] noreturn:[getVariableInfoSize]
+emitUnversionedInfo call:[emitVariableInfo] noreturn:[emitVariableInfo]
+ComputeHash call:[getHashValue] noreturn:[getHashValue]
+EmitKeyDataLength call:[size,sizeof,writer]
+EmitKey call:[writer]
+EmitData call:[writer]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hashValue]
+getUnversionedInfoSize call:[getVariableInfoSize] noreturn:[getVariableInfoSize]
+emitUnversionedInfo call:[emitVariableInfo] noreturn:[emitVariableInfo]
+getParamInfoSize call:[getVariableInfoSize]
+emitParamInfo call:[emitVariableInfo,getRetainCountConvention,isLifetimebound,isNoEscape,value,writer]
+getFunctionInfoSize call:[getCommonEntityInfoSize,getParamInfoSize,size,sizeof] noreturn:[getParamInfoSize]
+emitFunctionInfo call:[data,emitCommonEntityInfo,emitParamInfo,getRetainCountConvention,size,value,write,writer] noreturn:[emitParamInfo,write]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hashValue]
+getUnversionedInfoSize call:[getFunctionInfoSize] noreturn:[getFunctionInfoSize]
+emitUnversionedInfo call:[emitFunctionInfo] noreturn:[emitFunctionInfo]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hash_value]
+getUnversionedInfoSize call:[getCommonEntityInfoSize] noreturn:[getCommonEntityInfoSize]
+emitUnversionedInfo call:[emitCommonEntityInfo] noreturn:[emitCommonEntityInfo]
+getUnversionedInfoSize call:[getCommonTypeInfoSize,size] noreturn:[getCommonTypeInfoSize]
+emitUnversionedInfo call:[assert,c_str,emitCommonTypeInfo,isFlagEnum,isSwiftCopyable,size,value,write,writer] noreturn:[assert,emitCommonTypeInfo,write]
+getUnversionedInfoSize call:[getCommonTypeInfoSize] noreturn:[getCommonTypeInfoSize]
+emitUnversionedInfo call:[emitCommonTypeInfo,writer] noreturn:[emitCommonTypeInfo]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hashValue]
+getUnversionedInfoSize call:[getCommonTypeInfoSize] noreturn:[getCommonTypeInfoSize]
+emitUnversionedInfo call:[emitCommonTypeInfo] noreturn:[emitCommonTypeInfo]
+getKeyLength call:[sizeof] noreturn:[sizeof]
+EmitKey call:[writer]
+ComputeHash call:[hashValue]
+getUnversionedInfoSize call:[getCommonTypeInfoSize] noreturn:[getCommonTypeInfoSize]
+emitUnversionedInfo call:[emitCommonTypeInfo] noreturn:[emitCommonTypeInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]
+asDerived
+asDerived
+EmitKeyDataLength call:[asDerived,getKeyLength,getUnversionedInfoSize,getVersionedInfoSize,writer] noreturn:[getUnversionedInfoSize]
+EmitData call:[asDerived,emitUnversionedInfo,emitVersionedInfo] noreturn:[emitUnversionedInfo,emitVersionedInfo]

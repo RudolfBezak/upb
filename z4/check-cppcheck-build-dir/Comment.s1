@@ -1,0 +1,5 @@
+implements_child_begin_end call:[good] noreturn:[good]
+implements_child_begin_end call:[bad] noreturn:[bad]
+CheckCommentASTNodes
+lookThroughTypedefOrTypeAliasLocs call:[IgnoreParens,getModifiedLoc,getNamedTypeLoc,getOriginalLoc,getPointeeLoc,getUnqualifiedLoc] noreturn:[getModifiedLoc,getNamedTypeLoc,getOriginalLoc,getUnqualifiedLoc]
+getFunctionTypeLoc call:[getArgLoc,getArgument,getKind,getNumArgs,getTypeLoc,getTypeSourceInfo,getUnqualifiedLoc,lookThroughTypedefOrTypeAliasLocs] noreturn:[lookThroughTypedefOrTypeAliasLocs]

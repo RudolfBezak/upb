@@ -1,0 +1,4 @@
+Foo
+Foo
+Foo
+main call:[Derived1,Derived2,Derived3,Foo,atoi,printf] noreturn:[printf]

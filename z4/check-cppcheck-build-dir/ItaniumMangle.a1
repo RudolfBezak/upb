@@ -1,0 +1,1266 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15984647053018566787">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclOpenMP.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclOpenMP.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Mangle.h&quot; not found." verbose="Include file: &quot;clang/AST/Mangle.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/ABI.h&quot; not found." verbose="Include file: &quot;clang/Basic/ABI.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/DiagnosticAST.h&quot; not found." verbose="Include file: &quot;clang/Basic/DiagnosticAST.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Module.h&quot; not found." verbose="Include file: &quot;clang/Basic/Module.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Thunk.h&quot; not found." verbose="Include file: &quot;clang/Basic/Thunk.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="38" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/TargetParser/RISCVTargetParser.h&quot; not found." verbose="Include file: &quot;llvm/TargetParser/RISCVTargetParser.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="40" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="572" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3048" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/BuiltinTypes.def&quot; not found." verbose="Include file: &quot;clang/AST/BuiltinTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3372" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3391" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3412" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3442" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3447" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3453" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3458" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3463" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3468" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TransformTypeTraits.def&quot; not found." verbose="Include file: &quot;clang/Basic/TransformTypeTraits.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="4444" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="4797" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="0" column="0"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style reference casting" verbose="C-style reference casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="442" column="31"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;FD&apos; shadows outer variable" verbose="Local variable &apos;FD&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="1603" column="24" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="1497" column="9" info="Shadowed declaration"/>
+            <symbol>FD</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Context&apos; shadows outer variable" verbose="Local variable &apos;Context&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="1993" column="13" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="218" column="29" info="Shadowed declaration"/>
+            <symbol>Context</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Context&apos; shadows outer variable" verbose="Local variable &apos;Context&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2111" column="13" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="218" column="29" info="Shadowed declaration"/>
+            <symbol>Context</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;DC&apos; shadows outer argument" verbose="Local variable &apos;DC&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2239" column="24" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2210" column="54" info="Shadowed declaration"/>
+            <symbol>DC</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Context&apos; shadows outer variable" verbose="Local variable &apos;Context&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2309" column="20" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="218" column="29" info="Shadowed declaration"/>
+            <symbol>Context</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;E&apos; shadows outer argument" verbose="Local variable &apos;E&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="5155" column="16" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="4717" column="51" info="Shadowed declaration"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;E&apos; shadows outer argument" verbose="Local variable &apos;E&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="5183" column="18" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="4717" column="51" info="Shadowed declaration"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;SeqID&apos; shadows outer variable" verbose="Local variable &apos;SeqID&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="6887" column="12" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="243" column="12" info="Shadowed declaration"/>
+            <symbol>SeqID</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;ThisAdjustment&apos; can be declared as reference to const" verbose="Variable &apos;ThisAdjustment&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="7269" column="9" info="Variable &apos;ThisAdjustment&apos; can be declared as reference to const"/>
+            <symbol>ThisAdjustment</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;UuidExp&apos; can be declared as pointer to const" verbose="Variable &apos;UuidExp&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="4892" column="15" info="Variable &apos;UuidExp&apos; can be declared as pointer to const"/>
+            <symbol>UuidExp</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;II&apos; can be declared as pointer to const" verbose="Variable &apos;II&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="6499" column="23" info="Variable &apos;II&apos; can be declared as pointer to const"/>
+            <symbol>II</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;TD&apos; can be declared as pointer to const" verbose="Variable &apos;TD&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="6874" column="21" info="Variable &apos;TD&apos; can be declared as pointer to const"/>
+            <symbol>TD</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;TD&apos; can be declared as pointer to const" verbose="Variable &apos;TD&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="7046" column="21" info="Variable &apos;TD&apos; can be declared as pointer to const"/>
+            <symbol>TD</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2095" column="12"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="6310" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="6402" column="0"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: type_name" verbose="Unused variable: type_name" cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3108" column="15"/>
+            <symbol>type_name</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:521:8" call-funcname="mangleUnqualifiedName" call-argnr="5" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="518" col="26" call-argexpr="AdditionalAbiTags" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2341" col="35" info="Calling function &apos;mangleUnqualifiedName&apos;, 3rd argument &apos;nullptr&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:499:8" call-funcname="extendSubstitutions" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="899" col="22" call-argexpr="&amp;FunctionEncodingMangler" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:579:8" call-funcname="mangleBareFunctionType" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="959" col="25" call-argexpr="MangleReturnType" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="949" col="27" info="Assignment &apos;MangleReturnType=false&apos;, assigned value is 0"/>
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="950" col="45" info="Assuming condition is false"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:511:8" call-funcname="mangleNameWithAbiTags" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1021" col="28" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:511:8" call-funcname="mangleNameWithAbiTags" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1044" col="26" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:526:8" call-funcname="mangleUnscopedTemplateName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1155" col="31" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:533:8" call-funcname="mangleLocalName" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1975" col="20" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:533:8" call-funcname="mangleLocalName" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1980" col="20" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:524:8" call-funcname="mangleUnscopedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2085" col="23" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:544:8" call-funcname="mangleNestedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2087" col="21" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:982:1" call-funcname="isTemplate" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2119" col="39" call-argexpr="TemplateArgs" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2118" col="52" info="Assignment &apos;TemplateArgs=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:461:8" call-funcname="mangleNumber" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2148" col="17" call-argexpr="Number-2" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2147" col="14" info="Assuming that condition &apos;Number&gt;1&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:579:8" call-funcname="mangleBareFunctionType" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2163" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:982:1" call-funcname="isTemplate" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2232" col="33" call-argexpr="TemplateArgs" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2231" col="46" info="Assignment &apos;TemplateArgs=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" call-funcname="mangleUnqualifiedName" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2237" col="26" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" call-funcname="mangleUnqualifiedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2237" col="26" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" call-funcname="mangleUnqualifiedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2241" col="26" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" call-funcname="mangleUnqualifiedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2296" col="28" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" call-funcname="mangleUnqualifiedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2298" col="28" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:982:1" call-funcname="isTemplate" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2335" col="33" call-argexpr="TemplateArgs" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="2334" col="46" info="Assignment &apos;TemplateArgs=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" call-funcname="mangleUnqualifiedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2341" col="26" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:2920:13" call-funcname="isTypeSubstitutable" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3010" col="24" call-argexpr="quals" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="3016" col="7" info="Assuming that condition &apos;quals&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:622:8" call-funcname="mangleValueInTemplateArg" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4966" col="31" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:596:8" call-funcname="mangleMemberExpr" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="5078" col="21" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:596:8" call-funcname="mangleMemberExpr" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="5089" col="21" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:620:8" call-funcname="mangleTemplateArg" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="5714" col="26" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:618:8" call-funcname="mangleTemplateArg" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6106" col="22" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumMangle.cpp" line="6105" col="21" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:622:8" call-funcname="mangleValueInTemplateArg" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6470" col="31" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:622:8" call-funcname="mangleValueInTemplateArg" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6474" col="31" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:622:8" call-funcname="mangleValueInTemplateArg" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6503" col="31" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:622:8" call-funcname="mangleValueInTemplateArg" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6528" col="31" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:622:8" call-funcname="mangleValueInTemplateArg" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6544" col="31" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:62:13" call-funcname="isLambda" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="141" col="9" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:139:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:521:8" call-funcname="mangleUnqualifiedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="518" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:521:8" call-funcname="mangleUnqualifiedName" call-argnr="5" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="518" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:516:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:407:21" call-funcname="GetLocalClassDecl" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1974" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:535:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:475:8" call-funcname="mangleSubstitution" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2331" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:558:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:475:8" call-funcname="mangleSubstitution" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3058" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:467:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:503:8" call-funcname="mangleUnresolvedName" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4601" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:596:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:503:8" call-funcname="mangleUnresolvedName" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4601" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:596:8" my-argnr="6"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:607:8" call-funcname="mangleExpression" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6242" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:621:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:483:8" call-funcname="mangleStandardSubstitution" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6840" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:475:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:50:28" my-argnr="1" my-argname="fn" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="51" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:171:15" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="174" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:509:8" my-argnr="1" my-argname="FD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="903" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:405:8" my-argnr="1" my-argname="DC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="975" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:513:8" my-argnr="1" my-argname="ND" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1114" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:501:8" my-argnr="1" my-argname="qualifier" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1368" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:530:8" my-argnr="1" my-argname="II" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1781" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:528:8" my-argnr="1" my-argname="II" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1789" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:536:8" my-argnr="1" my-argname="Block" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1993" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:538:8" my-argnr="1" my-argname="Params" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2073" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:541:8" my-argnr="1" my-argname="Constraint" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2092" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:543:8" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2111" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:468:8" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2154" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:552:8" my-argnr="1" my-argname="qualifier" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2168" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:578:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3522" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:579:8" my-argnr="1" my-argname="Proto" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3653" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:574:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3709" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:581:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3818" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:582:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3873" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:3876:18" my-argnr="1" my-argname="EltType" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3877" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:583:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3913" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:584:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3950" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:585:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3978" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:586:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4048" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:587:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4052" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:588:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4150" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:595:8" my-argnr="1" my-argname="Base" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4567" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:4607:13" my-argnr="1" my-argname="call" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4608" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:604:8" my-argnr="1" my-argname="InitList" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4643" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:607:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4791" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:627:8" my-argnr="1" my-argname="parm" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="5842" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:6376:24" my-argnr="3" my-argname="FD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6386" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:476:8" my-argnr="1" my-argname="NNS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6848" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:409:8" my-argnr="1" my-argname="SD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6932" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:499:8" my-argnr="1" my-argname="Other" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7059" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:137:8" my-argnr="1" my-argname="M" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7438" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:50:28" my-argnr="1" my-argname="fn" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="51" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:171:15" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="174" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:509:8" my-argnr="1" my-argname="FD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="903" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:405:8" my-argnr="1" my-argname="DC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="975" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:513:8" my-argnr="1" my-argname="ND" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1114" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:462:8" my-argnr="1" my-argname="f" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1228" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:460:8" my-argnr="1" my-argname="Value" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:501:8" my-argnr="1" my-argname="qualifier" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1368" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:530:8" my-argnr="1" my-argname="II" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1781" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:528:8" my-argnr="1" my-argname="II" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1789" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:536:8" my-argnr="1" my-argname="Block" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="1993" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:538:8" my-argnr="1" my-argname="Params" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2073" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:541:8" my-argnr="1" my-argname="Constraint" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2092" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:543:8" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2111" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:468:8" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2154" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:552:8" my-argnr="1" my-argname="qualifier" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="2168" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:578:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3522" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:579:8" my-argnr="1" my-argname="Proto" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3653" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:574:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3709" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:581:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3818" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:582:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3873" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:3876:18" my-argnr="1" my-argname="EltType" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3877" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:583:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3913" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:584:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3950" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:585:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="3978" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:586:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4048" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:587:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4052" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:588:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4150" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:595:8" my-argnr="1" my-argname="Base" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4567" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:4607:13" my-argnr="1" my-argname="call" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4608" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:604:8" my-argnr="1" my-argname="InitList" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4643" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:607:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="4791" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:627:8" my-argnr="1" my-argname="parm" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="5842" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:617:8" my-argnr="2" my-argname="AL" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6117" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:618:8" my-argnr="1" my-argname="Info" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6138" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:6276:13" my-argnr="2" my-argname="V" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6280" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:6361:17" my-argnr="2" my-argname="LV" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6362" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:6376:24" my-argnr="3" my-argname="FD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6386" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:622:8" my-argnr="2" my-argname="V" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6433" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:476:8" my-argnr="1" my-argname="NNS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6848" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:409:8" my-argnr="1" my-argname="SD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="6932" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:499:8" my-argnr="1" my-argname="Other" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7059" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:456:15" my-argnr="2" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7106" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:7173:13" my-argnr="1" my-argname="Mangler" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7182" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:7173:13" my-argnr="2" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7176" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:7173:13" my-argnr="3" my-argname="Thunk" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7177" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:102:8" my-argnr="2" my-argname="Thunk" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7242" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:120:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7288" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:121:8" my-argnr="2" my-argname="Out" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7296" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:129:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7349" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:130:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7358" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:106:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7368" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp:137:8" my-argnr="1" my-argname="M" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" line="7438" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isLocalContainerContext" lineNumber="46"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getStructor" lineNumber="50"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getStructor" lineNumber="57"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isLambda" lineNumber="62"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getNextDiscriminator" lineNumber="139"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getEffectiveParentContext" lineNumber="207"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getDepth" lineNumber="254"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isInResultType" lineNumber="259"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="push" lineNumber="263"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="enterResultType" lineNumber="269"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="leaveResultType" lineNumber="273"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="pop" lineNumber="277"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="write" lineNumber="306"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getUsedAbiTags" lineNumber="344"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="setUsedAbiTags" lineNumber="345"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getEmittedAbiTags" lineNumber="349"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getSortedUniqueUsedAbiTags" lineNumber="353"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="pop" lineNumber="369"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="writeSortedUniqueAbiTags" lineNumber="382"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getASTContext" lineNumber="398"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isCompatibleWith" lineNumber="400"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getStream" lineNumber="453"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="disableDerivedAbiTags" lineNumber="455"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="addSubstitution" lineNumber="485"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="addSubstitution" lineNumber="490"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleUnqualifiedName" lineNumber="516"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getStdNamespace" lineNumber="640"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getEffectiveDeclContext" lineNumber="655"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isInternalLinkageDecl" lineNumber="714"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangle" lineNumber="819"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleFunctionEncoding" lineNumber="836"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleFunctionEncodingBareType" lineNumber="902"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isStd" lineNumber="964"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isStdNamespace" lineNumber="974"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isTemplate" lineNumber="982"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="asTemplateName" lineNumber="1009"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleName" lineNumber="1014"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="GetLocalClassDecl" lineNumber="1048"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleModuleName" lineNumber="1113"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleModuleNamePrefix" lineNumber="1124"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateName" lineNumber="1150"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleFloat" lineNumber="1214"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleFloatLiteral" lineNumber="1256"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleFixedPointLiteral" lineNumber="1263"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleNullPointer" lineNumber="1270"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleNumber" lineNumber="1277"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleNumber" lineNumber="1286"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleCallOffset" lineNumber="1296"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="manglePrefix" lineNumber="1316"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleUnresolvedPrefix" lineNumber="1351"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleUnresolvedName" lineNumber="1443"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleRegCallName" lineNumber="1765"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleDeviceStubName" lineNumber="1777"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleSourceName" lineNumber="1785"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleNestedName" lineNumber="1826"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getParentOfLocalEntity" lineNumber="1855"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleBlockForPrefix" lineNumber="1973"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleUnqualifiedBlock" lineNumber="1990"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateParamDecl" lineNumber="2028"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateParameterList" lineNumber="2070"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTypeConstraint" lineNumber="2079"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTypeConstraint" lineNumber="2090"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleRequiresClause" lineNumber="2100"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleLambda" lineNumber="2108"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleLambdaSig" lineNumber="2152"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="manglePrefix" lineNumber="2167"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="manglePrefix" lineNumber="2210"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplatePrefix" lineNumber="2247"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplatePrefix" lineNumber="2277"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getClosurePrefix" lineNumber="2305"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleClosurePrefix" lineNumber="2328"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleType" lineNumber="2354"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleUnresolvedTypeOrSimpleId" lineNumber="2415"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleOperatorName" lineNumber="2593"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleOperatorName" lineNumber="2623"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleQualifiers" lineNumber="2736"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleVendorQualifier" lineNumber="2891"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleVendorType" lineNumber="2895"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleRefQualifier" lineNumber="2899"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleObjCMethodName" lineNumber="2916"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isTypeSubstitutable" lineNumber="2920"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleType" lineNumber="2948"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleCXXRecordDecl" lineNumber="3057"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getCallingConvQualifierName" lineNumber="3472"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleExtFunctionInfo" lineNumber="3520"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleExtParameterInfo" lineNumber="3538"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleBareFunctionType" lineNumber="3626"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleType" lineNumber="3708"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleNeonVectorType" lineNumber="3817"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleNeonVectorType" lineNumber="3868"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleAArch64VectorBase" lineNumber="3876"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleAArch64NeonVectorType" lineNumber="3912"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleAArch64NeonVectorType" lineNumber="3945"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleAArch64FixedSveVectorType" lineNumber="3977"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleAArch64FixedSveVectorType" lineNumber="4042"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleRISCVFixedRVVVectorType" lineNumber="4051"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleRISCVFixedRVVVectorType" lineNumber="4144"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleIntegerLiteral" lineNumber="4549"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleMemberExprBase" lineNumber="4565"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleMemberExpr" lineNumber="4589"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isParenthesizedADLCallee" lineNumber="4607"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleCastExpression" lineNumber="4635"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleInitListElements" lineNumber="4642"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleRequirement" lineNumber="4649"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleExpression" lineNumber="4717"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleFunctionParam" lineNumber="5841"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleCXXCtorType" lineNumber="5880"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleCXXDtorType" lineNumber="5909"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isOverloadable" lineNumber="5957"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="needToMangleTemplateParam" lineNumber="5974"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getArgInfo" lineNumber="6039"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getTrailingRequiresClauseToMangle" lineNumber="6092"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateArgs" lineNumber="6099"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateArgs" lineNumber="6112"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateArgs" lineNumber="6124"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateArg" lineNumber="6136"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateArg" lineNumber="6155"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateArgExpr" lineNumber="6240"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isZeroInitialized" lineNumber="6276"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getLValueType" lineNumber="6361"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="getUnionInitName" lineNumber="6376"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleValueInTemplateArg" lineNumber="6417"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleTemplateParameter" lineNumber="6789"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleSeqID" lineNumber="6807"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleExistingSubstitution" lineNumber="6830"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleSubstitution" lineNumber="6838"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleSubstitution" lineNumber="6847"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="hasMangledSubstitutionQualifiers" lineNumber="6857"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleSubstitution" lineNumber="6862"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleSubstitution" lineNumber="6873"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleSubstitution" lineNumber="6882"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isSpecializedAs" lineNumber="6896"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="isStdCharSpecialization" lineNumber="6929"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleStandardSubstitution" lineNumber="6960"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="addSubstitution" lineNumber="7033"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="addSubstitution" lineNumber="7045"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="addSubstitution" lineNumber="7053"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="extendSubstitutions" lineNumber="7058"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="makeFunctionReturnTypeTags" lineNumber="7067"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="makeVariableTypeTags" lineNumber="7088"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="shouldHaveAbiTags" lineNumber="7102"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumMangle.cpp" functionName="mangleOverrideDiscrimination" lineNumber="7173"/>
+    <functioncall functionName="APFloat"/>
+    <functioncall functionName="APSInt"/>
+    <functioncall functionName="APValue"/>
+    <functioncall functionName="AbiTagAttr"/>
+    <functioncall functionName="AbiTagList"/>
+    <functioncall functionName="AbiTagState"/>
+    <functioncall functionName="ArrayIndex"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ArraySubscriptExpr"/>
+    <functioncall functionName="ArrayType"/>
+    <functioncall functionName="AutoType"/>
+    <functioncall functionName="BinaryOperator"/>
+    <functioncall functionName="BindingDecl"/>
+    <functioncall functionName="BlockDecl"/>
+    <functioncall functionName="BuiltinTemplateDecl"/>
+    <functioncall functionName="BuiltinType"/>
+    <functioncall functionName="CPlusPlus"/>
+    <functioncall functionName="CUDAGlobalAttr"/>
+    <functioncall functionName="CXXBaseSpecifier"/>
+    <functioncall functionName="CXXBindTemporaryExpr"/>
+    <functioncall functionName="CXXBoolLiteralExpr"/>
+    <functioncall functionName="CXXConstructExpr"/>
+    <functioncall functionName="CXXConstructorDecl"/>
+    <functioncall functionName="CXXConversionDecl"/>
+    <functioncall functionName="CXXCtorType"/>
+    <functioncall functionName="CXXDefaultArgExpr"/>
+    <functioncall functionName="CXXDefaultInitExpr"/>
+    <functioncall functionName="CXXDeleteExpr"/>
+    <functioncall functionName="CXXDependentScopeMemberExpr"/>
+    <functioncall functionName="CXXDestructorDecl"/>
+    <functioncall functionName="CXXDtorType"/>
+    <functioncall functionName="CXXFoldExpr"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXNameMangler"/>
+    <functioncall functionName="CXXNewExpr"/>
+    <functioncall functionName="CXXNoexceptExpr"/>
+    <functioncall functionName="CXXOperatorCallExpr"/>
+    <functioncall functionName="CXXPseudoDestructorExpr"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="CXXRewrittenBinaryOperator"/>
+    <functioncall functionName="CXXStdInitializerListExpr"/>
+    <functioncall functionName="CXXTemporaryObjectExpr"/>
+    <functioncall functionName="CXXThrowExpr"/>
+    <functioncall functionName="CXXTypeidExpr"/>
+    <functioncall functionName="CXXUnresolvedConstructExpr"/>
+    <functioncall functionName="CXXUuidofExpr"/>
+    <functioncall functionName="CallExpr"/>
+    <functioncall functionName="CapturedDecl"/>
+    <functioncall functionName="Char_S"/>
+    <functioncall functionName="Char_U"/>
+    <functioncall functionName="CharacterLiteral"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="CoawaitExpr"/>
+    <functioncall functionName="ComplexType"/>
+    <functioncall functionName="ConceptDecl"/>
+    <functioncall functionName="ConceptSpecializationExpr"/>
+    <functioncall functionName="ConditionalOperator"/>
+    <functioncall functionName="ConstantArrayType"/>
+    <functioncall functionName="ConstantExpr"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="Ctor_Comdat"/>
+    <functioncall functionName="Ctor_Complete"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="DecompositionDecl"/>
+    <functioncall functionName="DeducedTemplateSpecializationType"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="DefaultKey"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DependentAddressSpaceType"/>
+    <functioncall functionName="DependentCoawaitExpr"/>
+    <functioncall functionName="DependentNameType"/>
+    <functioncall functionName="DependentScopeDeclRefExpr"/>
+    <functioncall functionName="DependentTemplateSpecializationType"/>
+    <functioncall functionName="DesignatedInitExpr"/>
+    <functioncall functionName="DiagLoc"/>
+    <functioncall functionName="Dtor_Comdat"/>
+    <functioncall functionName="Dtor_Complete"/>
+    <functioncall functionName="ElaboratedType"/>
+    <functioncall functionName="EnableIfAttr"/>
+    <functioncall functionName="EnumConstantDecl"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="EvaluateKnownConstInt"/>
+    <functioncall functionName="ExplicitCastExpr"/>
+    <functioncall functionName="ExprRequirement"/>
+    <functioncall functionName="ExprWithCleanups"/>
+    <functioncall functionName="ExtInfo"/>
+    <functioncall functionName="FieldDecl"/>
+    <functioncall functionName="FloatingLiteral"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionParmPackExpr"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="FunctionType"/>
+    <functioncall functionName="GetLocalClassDecl"/>
+    <functioncall functionName="GlobalDecl"/>
+    <functioncall functionName="HaveDecl"/>
+    <functioncall functionName="IgnoreImplicit"/>
+    <functioncall functionName="IgnoreParenImpCasts"/>
+    <functioncall functionName="IgnoreParens"/>
+    <functioncall functionName="ImaginaryLiteral"/>
+    <functioncall functionName="ImplicitCastExpr"/>
+    <functioncall functionName="IndirectFieldDecl"/>
+    <functioncall functionName="InitListExpr"/>
+    <functioncall functionName="InjectedClassNameType"/>
+    <functioncall functionName="Int"/>
+    <functioncall functionName="Int128"/>
+    <functioncall functionName="IntegerLiteral"/>
+    <functioncall functionName="ItaniumMangleContext"/>
+    <functioncall functionName="ItaniumMangleContextImpl"/>
+    <functioncall functionName="LValueBase"/>
+    <functioncall functionName="LValuePathEntry"/>
+    <functioncall functionName="LambdaExpr"/>
+    <functioncall functionName="LinkageSpecDecl"/>
+    <functioncall functionName="Long"/>
+    <functioncall functionName="MSGuidDecl"/>
+    <functioncall functionName="MaterializeTemporaryExpr"/>
+    <functioncall functionName="MatrixSubscriptExpr"/>
+    <functioncall functionName="MemberExpr"/>
+    <functioncall functionName="MemberPointerType"/>
+    <functioncall functionName="MutableArrayRef"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="NestedRequirement"/>
+    <functioncall functionName="NonTypeTemplateParmDecl"/>
+    <functioncall functionName="OMPDeclareMapperDecl"/>
+    <functioncall functionName="OMPDeclareReductionDecl"/>
+    <functioncall functionName="OO_Conditional"/>
+    <functioncall functionName="ObjCBoolLiteralExpr"/>
+    <functioncall functionName="ObjCBridgedCastExpr"/>
+    <functioncall functionName="ObjCContainerDecl"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="ObjCSel"/>
+    <functioncall functionName="Offset"/>
+    <functioncall functionName="OpenMPIsTargetDevice"/>
+    <functioncall functionName="OverloadableAttr"/>
+    <functioncall functionName="PackExpansionExpr"/>
+    <functioncall functionName="PackExpansionType"/>
+    <functioncall functionName="ParenExpr"/>
+    <functioncall functionName="ParenListExpr"/>
+    <functioncall functionName="ParmVarDecl"/>
+    <functioncall functionName="PassObjectSizeAttr"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="Qualifiers"/>
+    <functioncall functionName="RecordDecl"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="RegCall4"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="RequiresExpr"/>
+    <functioncall functionName="SChar"/>
+    <functioncall functionName="SYCLIsDevice"/>
+    <functioncall functionName="SYCLUniqueStableNameExpr"/>
+    <functioncall functionName="Short"/>
+    <functioncall functionName="SizeOfPackExpr"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="SubstNonTypeTemplateParmExpr"/>
+    <functioncall functionName="TagDecl"/>
+    <functioncall functionName="TagType"/>
+    <functioncall functionName="TemplateArgManglingInfo"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TemplateDecl"/>
+    <functioncall functionName="TemplateName"/>
+    <functioncall functionName="TemplateParamObjectDecl"/>
+    <functioncall functionName="TemplateSpecializationType"/>
+    <functioncall functionName="TemplateTemplateParmDecl"/>
+    <functioncall functionName="TemplateTypeParmDecl"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="TypeInfoLValue"/>
+    <functioncall functionName="TypeRequirement"/>
+    <functioncall functionName="TypeTraitExpr"/>
+    <functioncall functionName="TypedefType"/>
+    <functioncall functionName="UChar"/>
+    <functioncall functionName="UInt"/>
+    <functioncall functionName="UInt128"/>
+    <functioncall functionName="ULong"/>
+    <functioncall functionName="UShort"/>
+    <functioncall functionName="UnaryExprOrTypeTraitExpr"/>
+    <functioncall functionName="UnaryOperator"/>
+    <functioncall functionName="UnresolvedLookupExpr"/>
+    <functioncall functionName="UnresolvedMemberExpr"/>
+    <functioncall functionName="UnresolvedUsingType"/>
+    <functioncall functionName="UsingType"/>
+    <functioncall functionName="VTablePointerAuthenticationAttr"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="VarTemplateSpecializationDecl"/>
+    <functioncall functionName="VectorType"/>
+    <functioncall functionName="Ver11"/>
+    <functioncall functionName="Ver12"/>
+    <functioncall functionName="Ver14"/>
+    <functioncall functionName="Ver17"/>
+    <functioncall functionName="Ver18"/>
+    <functioncall functionName="Ver19"/>
+    <functioncall functionName="Zero"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="addSubstitution"/>
+    <functioncall functionName="addressSpaceMapManglingFor"/>
+    <functioncall functionName="arg_begin"/>
+    <functioncall functionName="arg_end"/>
+    <functioncall functionName="arguments"/>
+    <functioncall functionName="asTemplateName"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="baseForVTableAuthentication"/>
+    <functioncall functionName="bases"/>
+    <functioncall functionName="bases_begin"/>
+    <functioncall functionName="bases_end"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bindings"/>
+    <functioncall functionName="bitcastToAPInt"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="declaresSameEntity"/>
+    <functioncall functionName="decls_begin"/>
+    <functioncall functionName="designators"/>
+    <functioncall functionName="desugar"/>
+    <functioncall functionName="disableDerivedAbiTags"/>
+    <functioncall functionName="drop_back"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="enterResultType"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="exceptions"/>
+    <functioncall functionName="extendSubstitutions"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fields"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findFirstNamedDataMember"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getABI"/>
+    <functioncall functionName="getAPValueResult"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAddrSpaceExpr"/>
+    <functioncall functionName="getAddressDiscrimination"/>
+    <functioncall functionName="getAddressSpace"/>
+    <functioncall functionName="getAllocatedType"/>
+    <functioncall functionName="getAnonField"/>
+    <functioncall functionName="getAnonymousStructId"/>
+    <functioncall functionName="getAnonymousStructIdForDebugInfo"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getArg"/>
+    <functioncall functionName="getArgInfo"/>
+    <functioncall functionName="getArgs"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getArgumentExpr"/>
+    <functioncall functionName="getArgumentType"/>
+    <functioncall functionName="getArrayElementTypeNoTypeQual"/>
+    <functioncall functionName="getArrayFiller"/>
+    <functioncall functionName="getArrayIndex"/>
+    <functioncall functionName="getArrayInitializedElt"/>
+    <functioncall functionName="getArrayInitializedElts"/>
+    <functioncall functionName="getArrayRangeEnd"/>
+    <functioncall functionName="getArrayRangeStart"/>
+    <functioncall functionName="getArraySize"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsArrayIndex"/>
+    <functioncall functionName="getAsArrayType"/>
+    <functioncall functionName="getAsArrayTypeUnsafe"/>
+    <functioncall functionName="getAsBaseOrMember"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsDecl"/>
+    <functioncall functionName="getAsDependentTemplateName"/>
+    <functioncall functionName="getAsExpr"/>
+    <functioncall functionName="getAsFunction"/>
+    <functioncall functionName="getAsIdentifier"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getAsIntegral"/>
+    <functioncall functionName="getAsNamespace"/>
+    <functioncall functionName="getAsNamespaceAlias"/>
+    <functioncall functionName="getAsOpaquePtr"/>
+    <functioncall functionName="getAsStructuralValue"/>
+    <functioncall functionName="getAsSubstTemplateTemplateParm"/>
+    <functioncall functionName="getAsTemplate"/>
+    <functioncall functionName="getAsTemplateDecl"/>
+    <functioncall functionName="getAsTemplateOrTemplatePattern"/>
+    <functioncall functionName="getAsType"/>
+    <functioncall functionName="getAsVoidPointer"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getAttributeLoc"/>
+    <functioncall functionName="getAttrs"/>
+    <functioncall functionName="getAuxTargetInfo"/>
+    <functioncall functionName="getBFloat16Mangling"/>
+    <functioncall functionName="getBase"/>
+    <functioncall functionName="getBaseType"/>
+    <functioncall functionName="getBitWidth"/>
+    <functioncall functionName="getBlockId"/>
+    <functioncall functionName="getBlockManglingContextDecl"/>
+    <functioncall functionName="getBlockManglingNumber"/>
+    <functioncall functionName="getBoolValue"/>
+    <functioncall functionName="getBridgeKindName"/>
+    <functioncall functionName="getCC"/>
+    <functioncall functionName="getCVRQualifiers"/>
+    <functioncall functionName="getCXXLiteralIdentifier"/>
+    <functioncall functionName="getCXXNameType"/>
+    <functioncall functionName="getCXXOverloadedOperator"/>
+    <functioncall functionName="getCallConv"/>
+    <functioncall functionName="getCallee"/>
+    <functioncall functionName="getCallingConvQualifierName"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalNestedNameSpecifier"/>
+    <functioncall functionName="getCanonicalTemplateArgument"/>
+    <functioncall functionName="getCanonicalTemplateName"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getClangABICompat"/>
+    <functioncall functionName="getClass"/>
+    <functioncall functionName="getClosurePrefix"/>
+    <functioncall functionName="getColumnExpr"/>
+    <functioncall functionName="getColumnIdx"/>
+    <functioncall functionName="getComplexFloatImag"/>
+    <functioncall functionName="getComplexFloatReal"/>
+    <functioncall functionName="getComplexIntImag"/>
+    <functioncall functionName="getComplexIntReal"/>
+    <functioncall functionName="getConceptNameInfo"/>
+    <functioncall functionName="getCond"/>
+    <functioncall functionName="getConstraintExpr"/>
+    <functioncall functionName="getConstructor"/>
+    <functioncall functionName="getContainedDeducedType"/>
+    <functioncall functionName="getContainedType"/>
+    <functioncall functionName="getCtorType"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getCustomDiscriminationValue"/>
+    <functioncall functionName="getDecayedType"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDecomposedForm"/>
+    <functioncall functionName="getDeducedType"/>
+    <functioncall functionName="getDependentTemplateName"/>
+    <functioncall functionName="getDepth"/>
+    <functioncall functionName="getDestroyedType"/>
+    <functioncall functionName="getDiags"/>
+    <functioncall functionName="getDiscriminatorOverride"/>
+    <functioncall functionName="getDtorType"/>
+    <functioncall functionName="getEffectiveDeclContext"/>
+    <functioncall functionName="getEffectiveParentContext"/>
+    <functioncall functionName="getElementType"/>
+    <functioncall functionName="getEmittedAbiTags"/>
+    <functioncall functionName="getExceptionSpecType"/>
+    <functioncall functionName="getExpansionTemplateParameters"/>
+    <functioncall functionName="getExpansionType"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getExprLoc"/>
+    <functioncall functionName="getExprOperand"/>
+    <functioncall functionName="getExprSubstitutionDiagnostic"/>
+    <functioncall functionName="getExtInfo"/>
+    <functioncall functionName="getExtParameterInfo"/>
+    <functioncall functionName="getExtraDiscrimination"/>
+    <functioncall functionName="getFieldIndex"/>
+    <functioncall functionName="getFieldName"/>
+    <functioncall functionName="getFirstDecl"/>
+    <functioncall functionName="getFirstQualifierFoundInScope"/>
+    <functioncall functionName="getFixedPoint"/>
+    <functioncall functionName="getFloat"/>
+    <functioncall functionName="getFloat128Mangling"/>
+    <functioncall functionName="getFormalLinkage"/>
+    <functioncall functionName="getFunctionScopeDepth"/>
+    <functioncall functionName="getFunctionScopeIndex"/>
+    <functioncall functionName="getGenericLambdaTemplateParameterList"/>
+    <functioncall functionName="getIbm128Mangling"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getInheritedConstructor"/>
+    <functioncall functionName="getInit"/>
+    <functioncall functionName="getInitVal"/>
+    <functioncall functionName="getInitializationStyle"/>
+    <functioncall functionName="getInitializer"/>
+    <functioncall functionName="getInjectedSpecializationType"/>
+    <functioncall functionName="getInt"/>
+    <functioncall functionName="getIntegralType"/>
+    <functioncall functionName="getKernelReferenceKind"/>
+    <functioncall functionName="getKey"/>
+    <functioncall functionName="getKeyword"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getLParenLoc"/>
+    <functioncall functionName="getLValueBase"/>
+    <functioncall functionName="getLValueOffset"/>
+    <functioncall functionName="getLValuePath"/>
+    <functioncall functionName="getLValueType"/>
+    <functioncall functionName="getLambdaClass"/>
+    <functioncall functionName="getLambdaContextDecl"/>
+    <functioncall functionName="getLambdaExplicitTemplateParameters"/>
+    <functioncall functionName="getLambdaManglingNumber"/>
+    <functioncall functionName="getLambdaStaticInvoker"/>
+    <functioncall functionName="getLambdaTypeInfo"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLanguageLinkage"/>
+    <functioncall functionName="getLength"/>
+    <functioncall functionName="getLexicalDeclContext"/>
+    <functioncall functionName="getLocalParameters"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getLongDoubleMangling"/>
+    <functioncall functionName="getManglingNumber"/>
+    <functioncall functionName="getMember"/>
+    <functioncall functionName="getMemberDecl"/>
+    <functioncall functionName="getMemberName"/>
+    <functioncall functionName="getMemberPointerDecl"/>
+    <functioncall functionName="getMemberPointerPath"/>
+    <functioncall functionName="getMemberPointerPathAdjustment"/>
+    <functioncall functionName="getMethodQualifiers"/>
+    <functioncall functionName="getMethodQuals"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNamedConcept"/>
+    <functioncall functionName="getNamedType"/>
+    <functioncall functionName="getNamespace"/>
+    <functioncall functionName="getNestedNameSpecifier"/>
+    <functioncall functionName="getNestedNameSpecifierLoc"/>
+    <functioncall functionName="getNextDiscriminator"/>
+    <functioncall functionName="getNoexceptExpr"/>
+    <functioncall functionName="getNullPtrType"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumBits"/>
+    <functioncall functionName="getNumBitsExpr"/>
+    <functioncall functionName="getNumColumns"/>
+    <functioncall functionName="getNumDecls"/>
+    <functioncall functionName="getNumElements"/>
+    <functioncall functionName="getNumExpansionTemplateParameters"/>
+    <functioncall functionName="getNumExpansionTypes"/>
+    <functioncall functionName="getNumExprs"/>
+    <functioncall functionName="getNumInits"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getNumRows"/>
+    <functioncall functionName="getNumTemplateArgs"/>
+    <functioncall functionName="getObjCLifetime"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOperator"/>
+    <functioncall functionName="getOverloadedOperator"/>
+    <functioncall functionName="getOwningModuleForLinkage"/>
+    <functioncall functionName="getPack"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getParamDecl"/>
+    <functioncall functionName="getParamType"/>
+    <functioncall functionName="getParamTypeForDecl"/>
+    <functioncall functionName="getParameterABISpelling"/>
+    <functioncall functionName="getParameterPack"/>
+    <functioncall functionName="getParameterType"/>
+    <functioncall functionName="getParenOrBraceRange"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getParentOfLocalEntity"/>
+    <functioncall functionName="getPartialArguments"/>
+    <functioncall functionName="getPattern"/>
+    <functioncall functionName="getPointeeCXXRecordDecl"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getPointerAuthVTablePointerDiscriminator"/>
+    <functioncall functionName="getPointerDiffType"/>
+    <functioncall functionName="getPrefix"/>
+    <functioncall functionName="getPrimaryModuleInterfaceName"/>
+    <functioncall functionName="getPrimaryTemplate"/>
+    <functioncall functionName="getProducesResult"/>
+    <functioncall functionName="getQualifiedType"/>
+    <functioncall functionName="getQualifier"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getQuantity"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getRawData"/>
+    <functioncall functionName="getRecordType"/>
+    <functioncall functionName="getRedeclContext"/>
+    <functioncall functionName="getRefQualifier"/>
+    <functioncall functionName="getReplacement"/>
+    <functioncall functionName="getRequirements"/>
+    <functioncall functionName="getRequiresClause"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getReturnTypeRequirement"/>
+    <functioncall functionName="getRowExpr"/>
+    <functioncall functionName="getRowIdx"/>
+    <functioncall functionName="getScopeTypeInfo"/>
+    <functioncall functionName="getSelectedType"/>
+    <functioncall functionName="getSemantics"/>
+    <functioncall functionName="getSignatureParameterType"/>
+    <functioncall functionName="getSingleStepDesugaredType"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSizeExpr"/>
+    <functioncall functionName="getSizeType"/>
+    <functioncall functionName="getSortedUniqueUsedAbiTags"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSpecializedTemplate"/>
+    <functioncall functionName="getStdNamespace"/>
+    <functioncall functionName="getStmtClass"/>
+    <functioncall functionName="getStmtClassName"/>
+    <functioncall functionName="getStream"/>
+    <functioncall functionName="getStructBase"/>
+    <functioncall functionName="getStructField"/>
+    <functioncall functionName="getStructor"/>
+    <functioncall functionName="getStructuralValueType"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSubstitutionDiagnostic"/>
+    <functioncall functionName="getSyntacticForm"/>
+    <functioncall functionName="getTargetAddressSpace"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getTemplateArgs"/>
+    <functioncall functionName="getTemplateArgsAsWritten"/>
+    <functioncall functionName="getTemplateArguments"/>
+    <functioncall functionName="getTemplateDeclAndDefaultArgs"/>
+    <functioncall functionName="getTemplateName"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplateSpecializationArgs"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getTrailingRequiresClause"/>
+    <functioncall functionName="getTrailingRequiresClauseToMangle"/>
+    <functioncall functionName="getTrait"/>
+    <functioncall functionName="getTraitSpelling"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="getTriple"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeArgs"/>
+    <functioncall functionName="getTypeClass"/>
+    <functioncall functionName="getTypeConstraint"/>
+    <functioncall functionName="getTypeConstraintArguments"/>
+    <functioncall functionName="getTypeConstraintConcept"/>
+    <functioncall functionName="getTypeInfo"/>
+    <functioncall functionName="getTypeOperand"/>
+    <functioncall functionName="getTypeSize"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getTypedefNameForAnonDecl"/>
+    <functioncall functionName="getUTTKind"/>
+    <functioncall functionName="getUnderlyingExpr"/>
+    <functioncall functionName="getUnionField"/>
+    <functioncall functionName="getUnionInitName"/>
+    <functioncall functionName="getUnionValue"/>
+    <functioncall functionName="getUnqualifiedArrayType"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="getUsedAbiTags"/>
+    <functioncall functionName="getVScaleRange"/>
+    <functioncall functionName="getVaListTagDecl"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getValueType"/>
+    <functioncall functionName="getVectorElt"/>
+    <functioncall functionName="getVectorKind"/>
+    <functioncall functionName="getVectorLength"/>
+    <functioncall functionName="getWithDecl"/>
+    <functioncall functionName="getWrappedType"/>
+    <functioncall functionName="hasAPValueResult"/>
+    <functioncall functionName="hasAddressSpace"/>
+    <functioncall functionName="hasArrayFiller"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasConst"/>
+    <functioncall functionName="hasContainedType"/>
+    <functioncall functionName="hasExtParameterInfos"/>
+    <functioncall functionName="hasGlobalStorage"/>
+    <functioncall functionName="hasInitializer"/>
+    <functioncall functionName="hasInstantiationDependentExceptionSpec"/>
+    <functioncall functionName="hasInvalidConstraint"/>
+    <functioncall functionName="hasLValuePath"/>
+    <functioncall functionName="hasLinkage"/>
+    <functioncall functionName="hasMangledSubstitutionQualifiers"/>
+    <functioncall functionName="hasNoexceptRequirement"/>
+    <functioncall functionName="hasQualifiers"/>
+    <functioncall functionName="hasRestrict"/>
+    <functioncall functionName="hasSameType"/>
+    <functioncall functionName="hasSelectedType"/>
+    <functioncall functionName="hasSimilarType"/>
+    <functioncall functionName="hasTypeConstraint"/>
+    <functioncall functionName="hasUnaligned"/>
+    <functioncall functionName="hasVolatile"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isARM"/>
+    <functioncall functionName="isAnonymousNamespace"/>
+    <functioncall functionName="isAnonymousStructOrUnion"/>
+    <functioncall functionName="isArgumentType"/>
+    <functioncall functionName="isArray"/>
+    <functioncall functionName="isArrayDesignator"/>
+    <functioncall functionName="isArrayForm"/>
+    <functioncall functionName="isArrayRangeDesignator"/>
+    <functioncall functionName="isArrayType"/>
+    <functioncall functionName="isArrow"/>
+    <functioncall functionName="isAux"/>
+    <functioncall functionName="isBitField"/>
+    <functioncall functionName="isBooleanType"/>
+    <functioncall functionName="isBuiltinType"/>
+    <functioncall functionName="isCXXClassMember"/>
+    <functioncall functionName="isCXXInstanceMember"/>
+    <functioncall functionName="isCompatibleWith"/>
+    <functioncall functionName="isComputedNoexcept"/>
+    <functioncall functionName="isConstrained"/>
+    <functioncall functionName="isConsumed"/>
+    <functioncall functionName="isDecltypeAuto"/>
+    <functioncall functionName="isDependent"/>
+    <functioncall functionName="isDependentAddressSpaceType"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isDynamic"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isExpandedParameterPack"/>
+    <functioncall functionName="isExplicitObjectMemberFunction"/>
+    <functioncall functionName="isExprSubstitutionFailure"/>
+    <functioncall functionName="isExternC"/>
+    <functioncall functionName="isExternallyVisible"/>
+    <functioncall functionName="isFieldDesignator"/>
+    <functioncall functionName="isFileContext"/>
+    <functioncall functionName="isFunctionOrMethod"/>
+    <functioncall functionName="isGenericLambda"/>
+    <functioncall functionName="isGlobalDelete"/>
+    <functioncall functionName="isGlobalNew"/>
+    <functioncall functionName="isIdentifier"/>
+    <functioncall functionName="isImplicitAccess"/>
+    <functioncall functionName="isImplicitCXXThis"/>
+    <functioncall functionName="isImplicitObjectMemberFunction"/>
+    <functioncall functionName="isInAnonymousNamespace"/>
+    <functioncall functionName="isInResultType"/>
+    <functioncall functionName="isInstantiationDependent"/>
+    <functioncall functionName="isInstantiationDependentType"/>
+    <functioncall functionName="isInteger"/>
+    <functioncall functionName="isIntegerType"/>
+    <functioncall functionName="isInternalLinkageDecl"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isKindOfType"/>
+    <functioncall functionName="isLValueOnePastTheEnd"/>
+    <functioncall functionName="isLambda"/>
+    <functioncall functionName="isLeftFold"/>
+    <functioncall functionName="isListInitialization"/>
+    <functioncall functionName="isLocalContainerContext"/>
+    <functioncall functionName="isMSVCRTEntryPoint"/>
+    <functioncall functionName="isMain"/>
+    <functioncall functionName="isMemberLikeConstrainedFriend"/>
+    <functioncall functionName="isModulePartition"/>
+    <functioncall functionName="isNamespace"/>
+    <functioncall functionName="isNegative"/>
+    <functioncall functionName="isNoEscape"/>
+    <functioncall functionName="isNothrow"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isNullPointer"/>
+    <functioncall functionName="isOSDarwin"/>
+    <functioncall functionName="isOSSolaris"/>
+    <functioncall functionName="isOSzOS"/>
+    <functioncall functionName="isOpenCLSpecificType"/>
+    <functioncall functionName="isOverloadable"/>
+    <functioncall functionName="isPackExpansion"/>
+    <functioncall functionName="isParameterPack"/>
+    <functioncall functionName="isParenthesizedADLCallee"/>
+    <functioncall functionName="isPartiallySubstituted"/>
+    <functioncall functionName="isPointerOrReferenceType"/>
+    <functioncall functionName="isPointerType"/>
+    <functioncall functionName="isPosZero"/>
+    <functioncall functionName="isRecord"/>
+    <functioncall functionName="isRecordType"/>
+    <functioncall functionName="isReferenceType"/>
+    <functioncall functionName="isSVESizelessBuiltinType"/>
+    <functioncall functionName="isSigned"/>
+    <functioncall functionName="isSignedInteger"/>
+    <functioncall functionName="isSignedIntegerType"/>
+    <functioncall functionName="isSpecialized"/>
+    <functioncall functionName="isSpecializedAs"/>
+    <functioncall functionName="isSpecificBuiltinType"/>
+    <functioncall functionName="isStd"/>
+    <functioncall functionName="isStdCharSpecialization"/>
+    <functioncall functionName="isStdInitListInitialization"/>
+    <functioncall functionName="isStdNamespace"/>
+    <functioncall functionName="isStr"/>
+    <functioncall functionName="isSubstitutionFailure"/>
+    <functioncall functionName="isTemplate"/>
+    <functioncall functionName="isThumb"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isTypeAlias"/>
+    <functioncall functionName="isTypeOperand"/>
+    <functioncall functionName="isTypeSubstitutable"/>
+    <functioncall functionName="isUnion"/>
+    <functioncall functionName="isUnnamedBitField"/>
+    <functioncall functionName="isUnsigned"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isVoidPointerType"/>
+    <functioncall functionName="isZero"/>
+    <functioncall functionName="isZeroInitialized"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="leaveResultType"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="makeFunctionReturnTypeTags"/>
+    <functioncall functionName="makeVariableTypeTags"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="mangle"/>
+    <functioncall functionName="mangleAArch64FixedSveVectorType"/>
+    <functioncall functionName="mangleAArch64NeonVectorType"/>
+    <functioncall functionName="mangleAArch64VectorBase"/>
+    <functioncall functionName="mangleBareFunctionType"/>
+    <functioncall functionName="mangleBlockForPrefix"/>
+    <functioncall functionName="mangleCXXCtorType"/>
+    <functioncall functionName="mangleCXXDtorType"/>
+    <functioncall functionName="mangleCXXRTTIName"/>
+    <functioncall functionName="mangleCXXRecordDecl"/>
+    <functioncall functionName="mangleCallOffset"/>
+    <functioncall functionName="mangleCastExpression"/>
+    <functioncall functionName="mangleClosurePrefix"/>
+    <functioncall functionName="mangleDeviceStubName"/>
+    <functioncall functionName="mangleExistingSubstitution"/>
+    <functioncall functionName="mangleExpression"/>
+    <functioncall functionName="mangleExtFunctionInfo"/>
+    <functioncall functionName="mangleExtParameterInfo"/>
+    <functioncall functionName="mangleFixedPointLiteral"/>
+    <functioncall functionName="mangleFloat"/>
+    <functioncall functionName="mangleFloatLiteral"/>
+    <functioncall functionName="mangleFunctionEncoding"/>
+    <functioncall functionName="mangleFunctionEncodingBareType"/>
+    <functioncall functionName="mangleFunctionParam"/>
+    <functioncall functionName="mangleInitListElements"/>
+    <functioncall functionName="mangleIntegerLiteral"/>
+    <functioncall functionName="mangleLambda"/>
+    <functioncall functionName="mangleLambdaSig"/>
+    <functioncall functionName="mangleLocalName"/>
+    <functioncall functionName="mangleMSGuidDecl"/>
+    <functioncall functionName="mangleMemberExpr"/>
+    <functioncall functionName="mangleMemberExprBase"/>
+    <functioncall functionName="mangleModuleName"/>
+    <functioncall functionName="mangleModuleNamePrefix"/>
+    <functioncall functionName="mangleName"/>
+    <functioncall functionName="mangleNameWithAbiTags"/>
+    <functioncall functionName="mangleNeonVectorType"/>
+    <functioncall functionName="mangleNestedName"/>
+    <functioncall functionName="mangleNestedNameWithClosurePrefix"/>
+    <functioncall functionName="mangleNullPointer"/>
+    <functioncall functionName="mangleNumber"/>
+    <functioncall functionName="mangleObjCMethodName"/>
+    <functioncall functionName="mangleObjCMethodNameAsSourceName"/>
+    <functioncall functionName="mangleOperatorName"/>
+    <functioncall functionName="mangleOverrideDiscrimination"/>
+    <functioncall functionName="manglePrefix"/>
+    <functioncall functionName="mangleQualifiers"/>
+    <functioncall functionName="mangleRISCVFixedRVVVectorType"/>
+    <functioncall functionName="mangleRefQualifier"/>
+    <functioncall functionName="mangleRegCallName"/>
+    <functioncall functionName="mangleRequirement"/>
+    <functioncall functionName="mangleRequiresClause"/>
+    <functioncall functionName="mangleSeqID"/>
+    <functioncall functionName="mangleSourceName"/>
+    <functioncall functionName="mangleSourceNameWithAbiTags"/>
+    <functioncall functionName="mangleStandardSubstitution"/>
+    <functioncall functionName="mangleSubstitution"/>
+    <functioncall functionName="mangleTemplateArg"/>
+    <functioncall functionName="mangleTemplateArgExpr"/>
+    <functioncall functionName="mangleTemplateArgs"/>
+    <functioncall functionName="mangleTemplateName"/>
+    <functioncall functionName="mangleTemplateParamDecl"/>
+    <functioncall functionName="mangleTemplateParameter"/>
+    <functioncall functionName="mangleTemplateParameterList"/>
+    <functioncall functionName="mangleTemplatePrefix"/>
+    <functioncall functionName="mangleType"/>
+    <functioncall functionName="mangleTypeConstraint"/>
+    <functioncall functionName="mangleUnqualifiedBlock"/>
+    <functioncall functionName="mangleUnqualifiedName"/>
+    <functioncall functionName="mangleUnresolvedName"/>
+    <functioncall functionName="mangleUnresolvedPrefix"/>
+    <functioncall functionName="mangleUnresolvedTypeOrSimpleId"/>
+    <functioncall functionName="mangleUnscopedName"/>
+    <functioncall functionName="mangleUnscopedTemplateName"/>
+    <functioncall functionName="mangleValueInTemplateArg"/>
+    <functioncall functionName="mangleVendorQualifier"/>
+    <functioncall functionName="mangleVendorType"/>
+    <functioncall functionName="needToMangleTemplateParam"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pack_begin"/>
+    <functioncall functionName="pack_elements"/>
+    <functioncall functionName="pack_size"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="placement_arg_begin"/>
+    <functioncall functionName="placement_arg_end"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="qual_empty"/>
+    <functioncall functionName="quals"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="recurse"/>
+    <functioncall functionName="removeObjCLifetime"/>
+    <functioncall functionName="removeRestrict"/>
+    <functioncall functionName="requiresADL"/>
+    <functioncall functionName="rsplit"/>
+    <functioncall functionName="setImplicit"/>
+    <functioncall functionName="setIsSigned"/>
+    <functioncall functionName="setUsedAbiTags"/>
+    <functioncall functionName="set_difference"/>
+    <functioncall functionName="shouldHaveAbiTags"/>
+    <functioncall functionName="shouldMangleDeclName"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="split"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="tags"/>
+    <functioncall functionName="template_arguments"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique"/>
+    <functioncall functionName="unresolvedType"/>
+    <functioncall functionName="utostr"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="writeAbiTags"/>
+    <functioncall functionName="writeSortedUniqueAbiTags"/>
+  </FileInfo>
+</analyzerinfo>

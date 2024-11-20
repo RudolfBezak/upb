@@ -1,0 +1,52 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+ZeroOutInDeallocRemover call:[get,getNullarySelector] noreturn:[getNullarySelector]
+VisitObjCMessageExpr call:[IgnoreParenCasts,Trans,begin,end,getArg,getDecl,getInstanceReceiver,getReceiverKind,getSelector,getSetterName,isNullPointerConstant,isRemovable,removeStmt] noreturn:[removeStmt]
+VisitPseudoObjectExpr call:[Trans,isRemovable,isZeroingPropIvar,removeStmt] noreturn:[removeStmt]
+VisitBinaryOperator call:[Trans,isRemovable,isZeroingPropIvar,removeStmt] noreturn:[removeStmt]
+TraverseObjCMethodDecl call:[TraverseObjCMethodDecl,clear,collectRemovables,getBody,getDeclContext,getMethodFamily,getPropertyAttributes,getPropertyDecl,getPropertyImplementation,getSelector,getSelfDecl,getSetterMethodDecl,hasBody,isDefined,isInstanceMethod,property_impls]
+TraverseFunctionDecl
+TraverseBlockDecl
+TraverseBlockExpr
+isRemovable call:[count] noreturn:[count]
+isZeroingPropIvar call:[IgnoreParens,isZeroingPropIvar] noreturn:[isZeroingPropIvar]
+isZeroingPropIvar call:[begin,end,getDecl,getLHS,getOpcode,getPropertyIvarDecl,getRHS,getType,isObjCObjectPointerType,isZero,isZeroingPropIvar] noreturn:[isZero,isZeroingPropIvar]
+isZeroingPropIvar call:[IgnoreParens,count,getExplicitProperty,getLHS,getOpcode,getRHS,getSourceExpr,getSyntacticForm,isImplicitProperty,isZero] noreturn:[isZero]
+isZero call:[isNullPointerConstant,isZeroingPropIvar] noreturn:[isZeroingPropIvar]
+removeZeroOutPropsInDeallocFinalize call:[TraverseDecl,getTranslationUnitDecl,trans] noreturn:[TraverseDecl]

@@ -1,0 +1,3 @@
+createNewRetpoline call:[LLVM_DEBUG,NewBlocks,Twine,addInstruction,addInstructions,addSuccessor,begin,createBasicBlock,createDirectCall,createInjectedBinaryFunction,createLfence,createLoad,createNamedTempSymbol,createPause,createPopRegister,createPushRegister,createReturn,createSaveToStack,createShortJmp,dbgs,end,get,getLabel,getStackPointer,getX86R11,insertBasicBlocks,isMem,isReg,llvm_unreachable,move,setCFIState,to_string,updateState] noreturn:[addInstruction,llvm_unreachable,setCFIState]
+createRetpolineFunctionTag call:[TagOS,get,getNoRegister,isReg,print,printRegName] noreturn:[print,printRegName]
+createBranchReplacement call:[createDirectCall,createLoad,get,getX86R11,isJump,isMem,isTailCall,push_back] noreturn:[push_back]

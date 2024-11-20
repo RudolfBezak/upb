@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2698663289469457827">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\HashUtilities.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\HashUtilities.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found." verbose="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\HashUtilities.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\HashUtilities.cpp" line="16" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\HashUtilities.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp:35:13" my-argnr="1" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp:53:13" my-argnr="2" my-argname="Expr" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" line="54" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp:77:13" my-argnr="2" my-argname="Operand" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" line="78" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp:88:13" my-argnr="1" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" line="90" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp:185:1" my-argnr="2" my-argname="YamlBB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" line="189" col="55" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashInteger" lineNumber="21"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashSymbol" lineNumber="35"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashExpr" lineNumber="53"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashInstOperand" lineNumber="77"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashBlock" lineNumber="88"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashBlockLoose" lineNumber="128"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashBlockCalls" lineNumber="162"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/HashUtilities.cpp" functionName="hashBlockCalls" lineNumber="185"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="MCBinaryExpr"/>
+    <functioncall functionName="MCConstantExpr"/>
+    <functioncall functionName="MCSymbolRefExpr"/>
+    <functioncall functionName="MCUnaryExpr"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="dropNumNames"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase_if"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getJumpTableContainingAddress"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getMnemonic"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOpcodeName"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getShortBranchOpcode"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getSymbolValue"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="hashExpr"/>
+    <functioncall functionName="hashInteger"/>
+    <functioncall functionName="hashSymbol"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isConditionalBranch"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isImm"/>
+    <functioncall functionName="isNoop"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isUnconditionalBranch"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="isspace"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="primeOperands"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,109 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+getSummaryManager call:[RetainSummaryManager,reset] noreturn:[reset]
+ObjCMigrateASTConsumer call:[begin,end,insert] noreturn:[insert]
+Initialize call:[EditedSource,NSAPI,getLangOpts,getSourceManager,reset] noreturn:[reset]
+HandleTopLevelDecl call:[begin,end,migrateDecl] noreturn:[migrateDecl]
+HandleInterestingDecl
+HandleTopLevelDeclInObjCContainer call:[HandleTopLevelDecl] noreturn:[HandleTopLevelDecl]
+canModifyFile call:[contains,empty,filename] noreturn:[contains]
+canModifyFile call:[canModifyFile,getName] noreturn:[canModifyFile]
+canModifyFile call:[canModifyFile,getFileEntryRefForID,getSourceManager,isInvalid] noreturn:[canModifyFile]
+canModify call:[canModify,canModifyFile,getCategoryDecl,getClassInterface,getDeclContext,getFileID,getLocation,getSourceManager] noreturn:[canModify,canModifyFile]
+subscriptOperatorNeedsParens call:[IgnoreImpCasts]
+rewriteToPropertyDotSyntax call:[Range,SourceRange,SpaceRange,findPropertyDecl,getArgs,getBegin,getBeginLoc,getCharacterData,getEnd,getEndLoc,getInstanceReceiver,getLocForEndOfToken,getLocWithOffset,getMethodDecl,getName,getNumArgs,getReceiverKind,getSelectorLoc,getSourceManager,getSourceRange,getSuperLoc,getType,insertBefore,insertWrap,isImplicit,isObjCBuiltinType,isPropertyAccessor,replace,subscriptOperatorNeedsParens] noreturn:[insertWrap,replace]
+ObjCMigrator
+shouldVisitTemplateInstantiations
+shouldWalkTypesOfTypeLocs
+VisitObjCMessageExpr call:[commit,rewriteToObjCLiteralSyntax,rewriteToObjCSubscriptSyntax,rewriteToPropertyDotSyntax] noreturn:[commit]
+TraverseObjCMessageExpr call:[TraverseStmt,WalkUpFromObjCMessageExpr,children] noreturn:[WalkUpFromObjCMessageExpr]
+BodyMigrator
+shouldVisitTemplateInstantiations
+shouldWalkTypesOfTypeLocs
+TraverseStmt call:[ObjCMigrator,ParentMap,TraverseStmt,reset]
+migrateDecl call:[BodyMigrator,TraverseDecl] noreturn:[TraverseDecl]
+append_attr
+MigrateBlockOrFunctionPointerTypeVariable call:[c_str]
+PropertyMemoryAttribute call:[get,getInterface,getObjCLifetime,getObjectType,isBlockPointerType,isObjCRetainableType,lookupNestedProtocol]
+rewriteToObjCProperty call:[MigrateBlockOrFunctionPointerTypeVariable,PropertyMemoryAttribute,PropertyName,PropertyNameStringRef,SourceRange,SubPolicy,append_attr,c_str,contains,drop_front,getASTContext,getAsString,getBeginLoc,getCanonicalType,getCharRange,getDeclaratorEndLoc,getLocWithOffset,getNameAsString,getNameForSlot,getPrintingPolicy,getQualifiedType,getQualifiers,getReturnType,getSelector,getSelectorStartLoc,getType,getUnqualifiedType,hasObjCLifetime,isBlockPointerType,isFunctionPointerType,isMacroDefined,isRealType,isUppercase,param_begin,remove,removeObjCLifetime,replace,size,string,toLowercase] noreturn:[MigrateBlockOrFunctionPointerTypeVariable,append_attr,getQualifiedType,remove,toLowercase]
+IsCategoryNameWithDeprecatedSuffix call:[ends_with,getName] noreturn:[ends_with]
+migrateObjCContainerDecl call:[IsCategoryNameWithDeprecatedSuffix,instance_properties,isDeprecated,methods,migrateNsReturnsInnerPointer,migrateProperty,migratePropertyNsReturnsInnerPointer] noreturn:[migrateNsReturnsInnerPointer,migratePropertyNsReturnsInnerPointer]
+ClassImplementsAllMethodsAndProperties call:[FindPropertyImplDecl,ObjCMethodsAreEqual,empty,getAsIdentifierInfo,getDeclName,getDefinition,getImplementationControl,getPropertyAttributes,getPropertyImplementation,getQueryKind,getType,hasSameType,instance_properties,isImplicit,lookup,meth_begin,meth_end,methods]
+rewriteToObjCInterfaceDecl call:[empty,getLocation,getNameAsString,getReferencedProtocols,getSuperClass,getSuperClassLoc,insertAfterToken,protocol_loc_end,size]
+GetUnsignedName call:[Case,Default]
+rewriteToNSEnumDecl call:[EnumDclRange,GetUnsignedName,R,SourceRange,TDRange,findLocationAfterSemi,findSemiAfterLocation,getASTContext,getBeginLoc,getEndLoc,getIdentifier,getLocWithOffset,getName,insertFromRange,isValid,remove,replace] noreturn:[GetUnsignedName,insertFromRange,remove]
+rewriteToNSMacroDecl call:[Policy,SourceRange,assert,getAsString,getBegin,getBeginLoc,getBraceRange,getCharRange,getEndLoc,getIdentifier,getIntegerType,getLocWithOffset,getName,getPrintingPolicy,isInvalid,isNull,remove,replace] noreturn:[remove]
+UseNSOptionsMacro call:[IgnoreParenCasts,enumerators,getEndLoc,getInitExpr,getInitVal,getLength,getLiteralData,getRawToken,getZExtValue,isBitwiseOp,isLiteral,isPowerOf2_64,isShiftOp,toLowercase]
+migrateProtocolConformance call:[ClassImplementsAllMethodsAndProperties,CollectInheritedProtocols,commit,count,empty,getAsIdentifierInfo,getClassInterface,getDeclName,isDeprecated,lookupProtocolNamed,push_back,rewriteToObjCInterfaceDecl,size] noreturn:[commit,push_back]
+CacheObjCNSIntegerTypedefed call:[getType,getTypeSourceInfo,isObjCNSIntegerType,isObjCNSUIntegerType]
+migrateNSEnumDecl call:[GetNSIntegralKind,InsertFoundation,UseNSOptionsMacro,commit,empty,getBeginLoc,getDecl,getFileID,getIdentifier,getLocation,getSourceManager,getType,getTypeSourceInfo,isCompleteDefinition,isDeprecated,rewriteToNSEnumDecl,rewriteToNSMacroDecl]
+ReplaceWithInstancetype call:[SourceRange,commit,getBeginLoc,getEndLoc,getObjCInstanceType,getReturnType,getReturnTypeSourceInfo,getTypeLoc,isInstanceMethod,replace] noreturn:[commit]
+ReplaceWithClasstype call:[SourceRange,commit,getBeginLoc,getClassInterface,getEndLoc,getName,getReturnTypeSourceInfo,getTypeLoc,replace,string] noreturn:[commit]
+migrateMethodInstanceType call:[ReplaceWithInstancetype,get,getClassInterface,getInstTypeMethodFamily,getReturnType,getSelector,isObjCIdType,lookupInheritedClass,migrateFactoryMethod] noreturn:[ReplaceWithInstancetype,getClassInterface]
+TypeIsInnerPointer call:[getDecl,getPointeeType,getUnderlyingType,getUnqualifiedType,isAnyPointerType,isBlockPointerType,isCFObjectRef,isCompleteDefinition,isFunctionPointerType,isObjCBuiltinType,isObjCObjectPointerType,isPointerType,isRecordType] noreturn:[getUnderlyingType]
+versionsMatch call:[return] noreturn:[return]
+AvailabilityAttrsMatch call:[getDeprecated,getIntroduced,getObsoleted,getUnavailable,return,versionsMatch] noreturn:[return]
+MatchTwoAttributeLists call:[AvailabilityAttrsMatch,getKind,size] noreturn:[AvailabilityAttrsMatch]
+AttributesMatch call:[MatchTwoAttributeLists,getAttrs,hasAttrs,size] noreturn:[MatchTwoAttributeLists]
+IsValidIdentifier call:[get,getTokenID,isAsciiIdentifierStart,toLowercase]
+migrateProperty call:[AttributesMatch,IsValidIdentifier,commit,constructSetterSelector,data,get,getIdentifierInfoForSlot,getIdentifierTable,getInstTypeMethodFamily,getInstanceMethod,getName,getReturnType,getSelector,getSelectorTable,getType,hasSameUnqualifiedType,isDeprecated,isInstanceMethod,isObjCRetainableType,isPropertyAccessor,isUppercase,isVoidType,param_begin,param_size,rewriteToObjCProperty,starts_with] noreturn:[getInstanceMethod]
+migrateNsReturnsInnerPointer call:[TypeIsInnerPointer,commit,getEndLoc,getReturnType,insertBefore,isImplicit,isInstanceMethod,isMacroDefined] noreturn:[commit]
+migratePropertyNsReturnsInnerPointer call:[TypeIsInnerPointer,commit,getEndLoc,getType,insertBefore,isMacroDefined] noreturn:[commit]
+migrateAllMethodInstaceType call:[IsCategoryNameWithDeprecatedSuffix,isDeprecated,methods,migrateMethodInstanceType] noreturn:[migrateMethodInstanceType]
+migrateFactoryMethod call:[LoweredClassName,LoweredMethodName,MethodNamePrefix,ReplaceWithClasstype,ReplaceWithInstancetype,STRefMethodName,getClassInterface,getIdentifierInfoForSlot,getName,getObjCInstanceType,getReturnType,getSelector,isInstanceMethod,isObjCIdType,lower,rfind,starts_with,string,strlen,substr] noreturn:[ReplaceWithClasstype,ReplaceWithInstancetype,getClassInterface,string,strlen]
+IsVoidStarType call:[IsVoidStarType,getPointeeType,getUnqualifiedType,isPointerType,isVoidType] noreturn:[IsVoidStarType]
+AuditedType call:[IsVoidStarType,isAnyPointerType,isBlockPointerType,isCFObjectRef,isObjCBuiltinType,isObjCObjectPointerType]
+AnnotateImplicitBridging call:[FileID,clear,commit,empty,getBeginLoc,getEndLoc,getLocForEndOfToken,getLocation,getRawToken,insertAfterToken,insertBefore,isMacroDefined,size] noreturn:[clear,getLocation]
+migrateCFAnnotation call:[AnnotateImplicitBridging,assert,empty,getFileID,getLocation,getSourceManager,isDeprecated,isInvalid,migrateAddFunctionAnnotation,migrateAddMethodAnnotation,push_back] noreturn:[AnnotateImplicitBridging,getFileID]
+AddCFAnnotations call:[commit,getArg,getEndLoc,getKind,getLocation,getObjKind,getRetEffect,insertAfterToken,insertBefore,isMacroDefined,isOwned,notOwned,param_begin,param_end] noreturn:[commit]
+migrateAddFunctionAnnotation call:[AddCFAnnotations,AnyCall,AuditedType,getArg,getKind,getNumParams,getObjKind,getRetEffect,getReturnType,getSummary,getSummaryManager,getType,hasBody,isOwned,notOwned,param_begin,param_end]
+migrateARCSafeAnnotation call:[isDeprecated,methods,migrateCFAnnotation] noreturn:[migrateCFAnnotation]
+AddCFAnnotations call:[commit,getArg,getEndLoc,getKind,getLocation,getMethodFamily,getObjKind,getRetEffect,insertBefore,isMacroDefined,isOwned,notOwned,param_begin,param_end] noreturn:[commit]
+migrateAddMethodAnnotation call:[AddCFAnnotations,AnyCall,AuditedType,commit,getArg,getEndLoc,getKind,getMethodFamily,getObjKind,getReceiverEffect,getRetEffect,getReturnType,getSummary,getSummaryManager,getType,hasBody,insertBefore,isImplicit,isMacroDefined,isOwned,notOwned,param_begin,param_end] noreturn:[commit]
+shouldVisitTemplateInstantiations
+shouldWalkTypesOfTypeLocs
+VisitObjCMessageExpr call:[getMethodFamily,getReceiverKind]
+hasSuperInitCall call:[SuperInitChecker,TraverseStmt,getBody] noreturn:[TraverseStmt]
+inferDesignatedInitializers call:[commit,getClassInterface,getEndLoc,getMethod,getMethodFamily,getSelector,hasDesignatedInitializers,hasSuperInitCall,insert,instance_methods,isDeprecated,isDesignatedInitializerForTheInterface,isMacroDefined] noreturn:[commit]
+InsertFoundation call:[commit,get,getLangOpts,getMacroDefinitionAtLoc,insert,isInvalid] noreturn:[insert]
+RewritesReceiver
+insert call:[InsertText] noreturn:[InsertText]
+replace call:[ReplaceText,getBegin,getRangeSize] noreturn:[ReplaceText]
+JSONEditWriter
+JSONEditWriter
+EntryWriter
+EntryWriter
+writeLoc call:[StringRef,assert,getDecomposedLoc,getFileEntryRefForID,getName,isValid,make_absolute,str,tie,write_escaped]
+writeRemove call:[assert,getBegin,getDecomposedLoc,getEnd,isCharRange]
+writeText call:[write_escaped]
+insert call:[Writer,writeLoc,writeText] noreturn:[writeText]
+replace call:[Writer,getBegin,writeLoc,writeRemove,writeText] noreturn:[writeText]
+remove call:[Writer,getBegin,writeLoc,writeRemove] noreturn:[writeRemove]
+HandleTranslationUnit call:[AnnotateImplicitBridging,CacheObjCNSIntegerTypedefed,FixupRelativePath,OS,Rec,Report,Writer,applyRewrites,assert,buffer_begin,buffer_end,canModify,decls_begin,decls_end,filePath,flushToDisk,flushToFile,getCanonicalDecl,getCustomDiagID,getDiagnostics,getFileEntryRefForID,getFileID,getLangOpts,getLocation,getMemBufferCopy,getName,getSourceManager,getTranslationUnitDecl,inferDesignatedInitializers,insert,isValid,memBuf,message,migrateARCSafeAnnotation,migrateAllMethodInstaceType,migrateCFAnnotation,migrateNSEnumDecl,migrateObjCContainerDecl,migrateProtocolConformance,move,remap,rewriter,str,vecOS,write] noreturn:[AnnotateImplicitBridging,CacheObjCNSIntegerTypedefed,flushToDisk,flushToFile,inferDesignatedInitializers,migrateARCSafeAnnotation,migrateAllMethodInstaceType,migrateCFAnnotation,migrateNSEnumDecl,migrateObjCContainerDecl,migrateProtocolConformance,remap]
+getAllowListFilenames call:[directory_iterator,empty,filename,increment,is_directory,is_regular_file,path,push_back,string] noreturn:[push_back]
+getEmptyKey call:[int]
+getTombstoneKey call:[int]
+getHashValue call:[hash_combine,return] noreturn:[hash_combine]
+isEqual
+RemapFileParser
+parse call:[YAMLStream,begin,end,get,getFile,getMemBufferRef,getRoot,parseEdit] noreturn:[parseEdit]
+parseEdit call:[begin,end,getAsInteger,getKey,getOptionalFileRef,getValue,push_back,string] noreturn:[push_back,string]
+reportDiag call:[Report,getCustomDiagID,str]
+applyEditsToTemp call:[Editor,OS,Rec,SM,SourceLocation,TmpOut,applyRewrites,assert,begin,close,commit,createFileID,createTemporaryFile,data,drop_front,empty,end,extension,filename,getCharRange,getLocForStartOfFile,getLocWithOffset,getName,getRewriteBufferFor,insert,isInvalid,remove,replace,reportDiag,rewriter,size,str,string,write] noreturn:[commit,getCharRange,insert,remove,replace,string]

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3986752971239100211">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\internalcall-main.c" line="3" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/internalcall-main.c" functionName="main" lineNumber="11"/>
+    <functioncall functionName="getCallback"/>
+    <functioncall functionName="getCallback2"/>
+    <functioncall functionName="getCallback3"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

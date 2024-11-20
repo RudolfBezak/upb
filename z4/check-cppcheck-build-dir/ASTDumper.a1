@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15829377908103955199">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTDumper.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTDumper.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConcept.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConcept.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclLookups.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclLookups.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/JSONNodeDumper.h&quot; not found." verbose="Include file: &quot;clang/AST/JSONNodeDumper.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Builtins.h&quot; not found." verbose="Include file: &quot;clang/Basic/Builtins.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTDumper.cpp" line="21" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ASTDumper"/>
+    <functioncall functionName="AddChild"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclKindNameColor"/>
+    <functioncall functionName="DeclNameColor"/>
+    <functioncall functionName="FullComment"/>
+    <functioncall functionName="GetTraversalKind"/>
+    <functioncall functionName="NullColor"/>
+    <functioncall functionName="OS"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="ShowColors"/>
+    <functioncall functionName="SpecializationDecl"/>
+    <functioncall functionName="TranslationUnitDecl"/>
+    <functioncall functionName="UndeserializedColor"/>
+    <functioncall functionName="Visit"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="dumpAsDecl"/>
+    <functioncall functionName="dumpBareDeclRef"/>
+    <functioncall functionName="dumpDeclRef"/>
+    <functioncall functionName="dumpInvalidDeclContext"/>
+    <functioncall functionName="dumpLookups"/>
+    <functioncall functionName="dumpPointer"/>
+    <functioncall functionName="dumpTemplateDecl"/>
+    <functioncall functionName="dumpTemplateDeclSpecialization"/>
+    <functioncall functionName="dumpTemplateParameters"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getCommentCommandTraits"/>
+    <functioncall functionName="getDeclKind"/>
+    <functioncall functionName="getDeserialize"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getLookupName"/>
+    <functioncall functionName="getNamedConcept"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPointerType"/>
+    <functioncall functionName="getPreviousDecl"/>
+    <functioncall functionName="getPrimaryContext"/>
+    <functioncall functionName="getPrintingPolicy"/>
+    <functioncall functionName="getShowColors"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplateSpecializationKind"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="hasExternalVisibleStorage"/>
+    <functioncall functionName="hasValidDeclKind"/>
+    <functioncall functionName="isCanonicalDecl"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isUnconditionallyVisible"/>
+    <functioncall functionName="lookups"/>
+    <functioncall functionName="noload_lookups"/>
+    <functioncall functionName="redecls"/>
+    <functioncall functionName="setDeserialize"/>
+    <functioncall functionName="specializations"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

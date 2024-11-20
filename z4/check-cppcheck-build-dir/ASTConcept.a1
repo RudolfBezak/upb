@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8913867614739302568">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConcept.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConcept.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTConcept.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTConcept.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found." verbose="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTConcept.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTConcept.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTConcept.cpp" line="18" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTConcept.cpp:23:1" my-argnr="2" my-argname="Detail" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTConcept.cpp" line="26" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTConcept.cpp" functionName="CreateUnsatisfiedConstraintRecord" lineNumber="23"/>
+    <functioncall functionName="ASTConstraintSatisfaction"/>
+    <functioncall functionName="AddInteger"/>
+    <functioncall functionName="AddPointer"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ConceptReference"/>
+    <functioncall functionName="CreateUnsatisfiedConstraintRecord"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="NestedNameSpec"/>
+    <functioncall functionName="Profile"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="UnsatisfiedConstraintRecord"/>
+    <functioncall functionName="arguments"/>
+    <functioncall functionName="backupStr"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getNestedNameSpecifier"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="hasExplicitTemplateArgs"/>
+    <functioncall functionName="is"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printName"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="totalSizeToAlloc"/>
+  </FileInfo>
+</analyzerinfo>

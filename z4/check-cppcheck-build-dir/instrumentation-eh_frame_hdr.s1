@@ -1,0 +1,4 @@
+foo call:[runtime_error] noreturn:[runtime_error]
+bar call:[foo] noreturn:[foo]
+main call:[bar,printf,what] noreturn:[bar,printf]
+_start call:[main] noreturn:[main]

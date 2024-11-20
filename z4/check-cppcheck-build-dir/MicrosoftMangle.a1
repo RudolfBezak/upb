@@ -1,0 +1,828 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8812288847459499520">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found." verbose="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CharUnits.h&quot; not found." verbose="Include file: &quot;clang/AST/CharUnits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclOpenMP.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclOpenMP.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/GlobalDecl.h&quot; not found." verbose="Include file: &quot;clang/AST/GlobalDecl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Mangle.h&quot; not found." verbose="Include file: &quot;clang/AST/Mangle.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/VTableBuilder.h&quot; not found." verbose="Include file: &quot;clang/AST/VTableBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/ABI.h&quot; not found." verbose="Include file: &quot;clang/Basic/ABI.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/DiagnosticOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/DiagnosticOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/FileManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/FileManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CRC.h&quot; not found." verbose="Include file: &quot;llvm/Support/CRC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MD5.h&quot; not found." verbose="Include file: &quot;llvm/Support/MD5.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MathExtras.h&quot; not found." verbose="Include file: &quot;llvm/Support/MathExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/StringSaver.h&quot; not found." verbose="Include file: &quot;llvm/Support/StringSaver.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/xxhash.h&quot; not found." verbose="Include file: &quot;llvm/Support/xxhash.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="40" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="453" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2620" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/BuiltinTypes.def&quot; not found." verbose="Include file: &quot;clang/AST/BuiltinTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2730" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2748" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2773" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2802" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2808" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2812" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2815" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2817" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2819" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="0" column="0"/>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;MicrosoftCXXNameMangler::mangleObjCProtocol&apos;" verbose="Unused private function: &apos;MicrosoftCXXNameMangler::mangleObjCProtocol&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="477" column="8"/>
+            <symbol>MicrosoftCXXNameMangler::mangleObjCProtocol</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;MicrosoftCXXNameMangler::mangleObjCLifetime&apos;" verbose="Unused private function: &apos;MicrosoftCXXNameMangler::mangleObjCLifetime&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="478" column="8"/>
+            <symbol>MicrosoftCXXNameMangler::mangleObjCLifetime</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;MicrosoftCXXNameMangler::mangleObjCKindOfType&apos;" verbose="Unused private function: &apos;MicrosoftCXXNameMangler::mangleObjCKindOfType&apos;" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="480" column="8"/>
+            <symbol>MicrosoftCXXNameMangler::mangleObjCKindOfType</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;msvc_hashing_ostream&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;msvc_hashing_ostream&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="62" column="3"/>
+            <symbol>msvc_hashing_ostream</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="2414" column="20"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Found&apos; shadows outer variable" verbose="Local variable &apos;Found&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1124" column="38" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1121" column="29" info="Shadowed declaration"/>
+            <symbol>Found</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;Name&apos; shadows outer argument" verbose="Local variable &apos;Name&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1278" column="29" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1084" column="69" info="Shadowed declaration"/>
+            <symbol>Name</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;Name&apos; shadows outer argument" verbose="Local variable &apos;Name&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1187" column="31" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1084" column="69" info="Shadowed declaration"/>
+            <symbol>Name</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;Name&apos; shadows outer argument" verbose="Local variable &apos;Name&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1201" column="31" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1084" column="69" info="Shadowed declaration"/>
+            <symbol>Name</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;GD&apos; shadows outer argument" verbose="Local variable &apos;GD&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1208" column="29" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1083" column="64" info="Shadowed declaration"/>
+            <symbol>GD</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;Name&apos; shadows outer argument" verbose="Local variable &apos;Name&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1238" column="33" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1084" column="69" info="Shadowed declaration"/>
+            <symbol>Name</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;Name&apos; shadows outer argument" verbose="Local variable &apos;Name&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1315" column="29" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1084" column="69" info="Shadowed declaration"/>
+            <symbol>Name</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;ND&apos; shadows outer variable" verbose="Local variable &apos;ND&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1428" column="27" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1372" column="20" info="Shadowed declaration"/>
+            <symbol>ND</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;TD&apos; shadows outer argument" verbose="Local variable &apos;TD&apos; shadows outer argument" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1914" column="21" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1750" column="69" info="Shadowed declaration"/>
+            <symbol>TD</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Adjustment&apos; can be declared as reference to const" verbose="Variable &apos;Adjustment&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="3896" column="9" info="Variable &apos;Adjustment&apos; can be declared as reference to const"/>
+            <symbol>Adjustment</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:404:8" call-funcname="mangleFunctionType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="656" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:404:8" call-funcname="mangleFunctionType" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="656" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="693" col="15" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="702" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="709" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="711" col="15" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="712" col="21" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="763" col="15" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:394:8" call-funcname="mangleNumber" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="774" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="838" col="17" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="894" col="15" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="916" col="15" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:1055:19" call-funcname="isTemplate" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1093" col="33" call-argexpr="TemplateArgs" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="1092" col="46" info="Assignment &apos;TemplateArgs=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:474:8" call-funcname="mangleTemplateArgValue" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1220" col="31" call-argexpr="TplArgKind::ClassNTTP" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1693" col="15" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:474:8" call-funcname="mangleTemplateArgValue" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1819" col="29" call-argexpr="TplArgKind::ClassNTTP" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:380:8" call-funcname="mangleMemberFunctionPointer" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1841" col="36" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:380:8" call-funcname="mangleMemberFunctionPointer" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1841" col="36" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:374:8" call-funcname="mangleMemberDataPointer" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1846" col="34" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:374:8" call-funcname="mangleMemberDataPointer" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1846" col="34" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1880" col="17" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:474:8" call-funcname="mangleTemplateArgValue" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1882" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:402:8" call-funcname="mangleType" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2393" col="15" call-argexpr="QMM_Drop" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2501" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2518" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2531" col="21" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2588" col="21" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2593" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2603" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2912" col="21" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2974" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:431:8" call-funcname="mangleQualifiers" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3017" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:216:8" call-funcname="getNextDiscriminator" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4172" col="39" call-argexpr="ScopeDepth" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftMangle.cpp" line="4171" col="25" info="Assignment &apos;ScopeDepth=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:404:8" call-funcname="mangleFunctionType" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4337" col="23" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:89:1" call-funcname="getLambdaDefaultArgumentDeclContext" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="107" col="27" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:100:27" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:100:27" call-funcname="getEffectiveDeclContext" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="217" col="29" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:216:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:371:8" call-funcname="mangleName" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="898" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:385:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:371:8" call-funcname="mangleName" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="920" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:388:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:464:8" call-funcname="mangleIntegerLiteral" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1706" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:467:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:166:8" call-funcname="mangleCXXVFTable" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3924" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:173:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:166:8" call-funcname="mangleCXXVFTable" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4082" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:198:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:306:8" call-funcname="mangleInitFiniStub" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4206" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:208:8" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:306:8" call-funcname="mangleInitFiniStub" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4213" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:209:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:252:15" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="253" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:280:12" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="281" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:290:12" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="291" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:373:8" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="671" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:374:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="730" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:378:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="781" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:380:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="815" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:392:8" my-argnr="1" my-argname="MD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="960" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:467:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1705" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:470:8" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1718" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:477:8" my-argnr="1" my-argname="PD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2171" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:443:8" my-argnr="1" my-argname="POSA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2410" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:463:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3212" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:468:8" my-argnr="1" my-argname="FT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3219" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:458:8" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3263" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:459:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3294" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:166:8" my-argnr="1" my-argname="Derived" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3910" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:205:8" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4165" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:306:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4190" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:215:8" my-argnr="1" my-argname="SL" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4247" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:483:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4331" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:484:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4347" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:485:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4364" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:486:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4373" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:252:15" my-argnr="1" my-argname="Lambda" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="253" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:280:12" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="281" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:290:12" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="291" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:153:3" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="508" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:373:8" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="671" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:374:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="730" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:378:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="781" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:380:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="815" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:385:8" my-argnr="1" my-argname="FD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="898" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:388:8" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="920" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:392:8" my-argnr="1" my-argname="MD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="960" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:392:8" my-argnr="2" my-argname="ML" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="957" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:438:3" my-argnr="2" my-argname="TemplateArgs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1662" col="56" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:467:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1705" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:470:8" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1718" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:470:8" my-argnr="2" my-argname="TemplateArgs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1719" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:472:8" my-argnr="2" my-argname="TA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1788" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:474:8" my-argnr="2" my-argname="V" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="1931" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:477:8" my-argnr="1" my-argname="PD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2171" col="54" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:443:8" my-argnr="1" my-argname="POSA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="2410" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:463:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3212" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:468:8" my-argnr="1" my-argname="FT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3219" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:458:8" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3263" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:459:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3294" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:3786:13" my-argnr="2" my-argname="Adjustment" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3790" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:158:8" my-argnr="2" my-argname="ML" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3856" col="40" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:161:8" my-argnr="1" my-argname="MD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3866" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:161:8" my-argnr="2" my-argname="Thunk" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3871" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:166:8" my-argnr="1" my-argname="Derived" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3910" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:169:8" my-argnr="1" my-argname="Derived" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3937" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:174:8" my-argnr="1" my-argname="SrcRD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3964" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:174:8" my-argnr="2" my-argname="DstRD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="3966" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:189:8" my-argnr="1" my-argname="Derived" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4051" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:193:8" my-argnr="1" my-argname="Derived" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4060" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:195:8" my-argnr="1" my-argname="Derived" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4069" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:206:8" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4146" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:205:8" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4165" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:306:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4190" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:215:8" my-argnr="1" my-argname="SL" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4247" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:483:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4331" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:484:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4347" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:485:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4364" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp:486:8" my-argnr="1" my-argname="T" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" line="4373" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getGlobalDeclAsDeclContext" lineNumber="47"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getLambdaDefaultArgumentDeclContext" lineNumber="89"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getEffectiveDeclContext" lineNumber="100"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getEffectiveParentContext" lineNumber="126"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getStructor" lineNumber="130"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getNextDiscriminator" lineNumber="216"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getLambdaId" lineNumber="280"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getLambdaIdForDebugInfo" lineNumber="290"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getAnonymousNamespaceHash" lineNumber="301"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getASTContext" lineNumber="336"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getStream" lineNumber="368"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="isStructorDecl" lineNumber="414"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="is64BitPointer" lineNumber="418"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleUnqualifiedName" lineNumber="425"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="Error" lineNumber="578"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="Error" lineNumber="587"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="Error" lineNumber="595"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangle" lineNumber="603"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleFunctionEncoding" lineNumber="629"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleVariableEncoding" lineNumber="662"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleMemberDataPointer" lineNumber="716"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleMemberDataPointerInClassNTTP" lineNumber="779"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleMemberFunctionPointer" lineNumber="801"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleFunctionPointer" lineNumber="880"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleVarDecl" lineNumber="902"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleMemberFunctionPointerInClassNTTP" lineNumber="924"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleVirtualMemPtrThunk" lineNumber="952"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleName" lineNumber="968"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleNumber" lineNumber="980"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleNumber" lineNumber="984"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleFloat" lineNumber="1005"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleBits" lineNumber="1037"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="isTemplate" lineNumber="1055"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleUnqualifiedName" lineNumber="1083"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleNestedName" lineNumber="1371"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleCXXDtorType" lineNumber="1476"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleOperatorName" lineNumber="1496"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleSourceName" lineNumber="1629"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleObjCMethodName" lineNumber="1641"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleTemplateInstantiationName" lineNumber="1645"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleUnscopedTemplateName" lineNumber="1671"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleIntegerLiteral" lineNumber="1677"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleExpression" lineNumber="1701"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleTemplateArgs" lineNumber="1715"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="getAsArrayToPointerDecayedDecl" lineNumber="1736"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleTemplateArg" lineNumber="1750"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleTemplateArgValue" lineNumber="1927"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleObjCProtocol" lineNumber="2164"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleObjCLifetime" lineNumber="2176"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleObjCKindOfType" lineNumber="2205"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleQualifiers" lineNumber="2222"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleRefQualifier" lineNumber="2305"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="manglePointerExtQualifiers" lineNumber="2322"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="manglePointerCVQualifiers" lineNumber="2338"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleFunctionArgumentType" lineNumber="2357"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="manglePassObjectSizeArg" lineNumber="2408"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleAddressSpaceType" lineNumber="2432"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleAutoReturnType" lineNumber="2505"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleType" lineNumber="2556"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleFunctionType" lineNumber="2874"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleFunctionClass" lineNumber="3074"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleCallingConvention" lineNumber="3138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleCallingConvention" lineNumber="3210"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleThrowSpecification" lineNumber="3215"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleTagTypeKind" lineNumber="3237"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleType" lineNumber="3262"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleArtificialTagType" lineNumber="3268"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleDecayedArrayType" lineNumber="3291"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleArrayType" lineNumber="3313"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="isArtificialTagType" lineNumber="3463"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleThunkThisAdjustment" lineNumber="3786"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleInitFiniStub" lineNumber="4184"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleAutoReturnType" lineNumber="4329"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleAutoReturnType" lineNumber="4345"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleAutoReturnType" lineNumber="4362"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftMangle.cpp" functionName="mangleAutoReturnType" lineNumber="4371"/>
+    <functioncall functionName="APInt"/>
+    <functioncall functionName="APSInt"/>
+    <functioncall functionName="AS_public"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="AutoType"/>
+    <functioncall functionName="BitIntType"/>
+    <functioncall functionName="BlockDecl"/>
+    <functioncall functionName="BuiltinType"/>
+    <functioncall functionName="CPlusPlus"/>
+    <functioncall functionName="CUDAGlobalAttr"/>
+    <functioncall functionName="CXXConstructorDecl"/>
+    <functioncall functionName="CXXConversionDecl"/>
+    <functioncall functionName="CXXDestructorDecl"/>
+    <functioncall functionName="CXXDtorType"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="CapturedDecl"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="ConstantArrayType"/>
+    <functioncall functionName="Ctor_Complete"/>
+    <functioncall functionName="DLLImportAttr"/>
+    <functioncall functionName="DecayedType"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DecompositionDecl"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Dtor_Base"/>
+    <functioncall functionName="Dtor_Complete"/>
+    <functioncall functionName="Enum"/>
+    <functioncall functionName="EnumDecl"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ExtVectorType"/>
+    <functioncall functionName="FieldDecl"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="FunctionType"/>
+    <functioncall functionName="GlobalDecl"/>
+    <functioncall functionName="HLSL"/>
+    <functioncall functionName="I"/>
+    <functioncall functionName="IndirectFieldDecl"/>
+    <functioncall functionName="LValueReferenceType"/>
+    <functioncall functionName="MSGuidDecl"/>
+    <functioncall functionName="MSVC2015"/>
+    <functioncall functionName="MSVC2017_5"/>
+    <functioncall functionName="MSVC2017_7"/>
+    <functioncall functionName="MSVC2019"/>
+    <functioncall functionName="MemberPointerType"/>
+    <functioncall functionName="MicrosoftCXXNameMangler"/>
+    <functioncall functionName="MicrosoftMangleContext"/>
+    <functioncall functionName="MicrosoftMangleContextImpl"/>
+    <functioncall functionName="MicrosoftVTableContext"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="NativeHalfType"/>
+    <functioncall functionName="NonTypeTemplateParmDecl"/>
+    <functioncall functionName="OMPDeclareMapperDecl"/>
+    <functioncall functionName="OMPDeclareReductionDecl"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="ObjCObjectType"/>
+    <functioncall functionName="OverloadableAttr"/>
+    <functioncall functionName="ParmVarDecl"/>
+    <functioncall functionName="PassObjectSizeAttr"/>
+    <functioncall functionName="PointerType"/>
+    <functioncall functionName="QMM_Drop"/>
+    <functioncall functionName="QMM_Escape"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="Qualifiers"/>
+    <functioncall functionName="RValueReferenceType"/>
+    <functioncall functionName="RecordDecl"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="RegCall4"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="SemanticsToEnum"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="Struct"/>
+    <functioncall functionName="TagDecl"/>
+    <functioncall functionName="TagType"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TemplateDecl"/>
+    <functioncall functionName="TemplateParamObjectDecl"/>
+    <functioncall functionName="TemplateTemplateParmDecl"/>
+    <functioncall functionName="TemplateTypeParmDecl"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="TypeAliasDecl"/>
+    <functioncall functionName="Union"/>
+    <functioncall functionName="ValueDecl"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="VarTemplateSpecializationDecl"/>
+    <functioncall functionName="VectorType"/>
+    <functioncall functionName="addressSpaceMapManglingFor"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bases"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bitcastToAPInt"/>
+    <functioncall functionName="canThrow"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="drop_front"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="ends_with"/>
+    <functioncall functionName="enumerator_begin"/>
+    <functioncall functionName="enumerator_end"/>
+    <functioncall functionName="extend"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fields"/>
+    <functioncall functionName="final"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getASTRecordLayout"/>
+    <functioncall functionName="getAccess"/>
+    <functioncall functionName="getAddressSpace"/>
+    <functioncall functionName="getAnonymousNamespaceHash"/>
+    <functioncall functionName="getAnonymousStructId"/>
+    <functioncall functionName="getArrayFiller"/>
+    <functioncall functionName="getArrayInitializedElt"/>
+    <functioncall functionName="getArrayInitializedElts"/>
+    <functioncall functionName="getArraySize"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsArrayIndex"/>
+    <functioncall functionName="getAsArrayToPointerDecayedDecl"/>
+    <functioncall functionName="getAsArrayType"/>
+    <functioncall functionName="getAsArrayTypeUnsafe"/>
+    <functioncall functionName="getAsBaseOrMember"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsConstantArrayType"/>
+    <functioncall functionName="getAsDecl"/>
+    <functioncall functionName="getAsDependentSizedArrayType"/>
+    <functioncall functionName="getAsExpr"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getAsIncompleteArrayType"/>
+    <functioncall functionName="getAsIntegral"/>
+    <functioncall functionName="getAsOpaquePtr"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getAsStructuralValue"/>
+    <functioncall functionName="getAsTemplate"/>
+    <functioncall functionName="getAsTemplateDecl"/>
+    <functioncall functionName="getAsType"/>
+    <functioncall functionName="getAsVariableArrayType"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getBaseType"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getBitWidth"/>
+    <functioncall functionName="getBlockId"/>
+    <functioncall functionName="getBlockManglingContextDecl"/>
+    <functioncall functionName="getBlockManglingNumber"/>
+    <functioncall functionName="getBracketsRange"/>
+    <functioncall functionName="getCRC"/>
+    <functioncall functionName="getCXXLiteralIdentifier"/>
+    <functioncall functionName="getCXXOverloadedOperator"/>
+    <functioncall functionName="getCallConv"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getChainingSize"/>
+    <functioncall functionName="getCharByteWidth"/>
+    <functioncall functionName="getCharWidth"/>
+    <functioncall functionName="getClass"/>
+    <functioncall functionName="getCodeUnit"/>
+    <functioncall functionName="getComplexFloatImag"/>
+    <functioncall functionName="getComplexFloatReal"/>
+    <functioncall functionName="getComplexIntImag"/>
+    <functioncall functionName="getComplexIntReal"/>
+    <functioncall functionName="getContainedAutoType"/>
+    <functioncall functionName="getContainedDeducedType"/>
+    <functioncall functionName="getCtorType"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDeclaratorForUnnamedTagDecl"/>
+    <functioncall functionName="getDeducedType"/>
+    <functioncall functionName="getDefaultCallingConvention"/>
+    <functioncall functionName="getDesugaredType"/>
+    <functioncall functionName="getDiags"/>
+    <functioncall functionName="getDtorType"/>
+    <functioncall functionName="getEffectiveDeclContext"/>
+    <functioncall functionName="getEffectiveParentContext"/>
+    <functioncall functionName="getElementType"/>
+    <functioncall functionName="getExprLoc"/>
+    <functioncall functionName="getFieldIndex"/>
+    <functioncall functionName="getFieldOffset"/>
+    <functioncall functionName="getFileEntryRefForID"/>
+    <functioncall functionName="getFirstDecl"/>
+    <functioncall functionName="getFloat"/>
+    <functioncall functionName="getFormalLinkage"/>
+    <functioncall functionName="getFunctionScopeIndex"/>
+    <functioncall functionName="getGlobalDeclAsDeclContext"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getIncompleteArrayType"/>
+    <functioncall functionName="getIndexTypeCVRQualifiers"/>
+    <functioncall functionName="getInt"/>
+    <functioncall functionName="getIntegerConstantExpr"/>
+    <functioncall functionName="getIntegralType"/>
+    <functioncall functionName="getInterface"/>
+    <functioncall functionName="getKernelReferenceKind"/>
+    <functioncall functionName="getKeyword"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLValueBase"/>
+    <functioncall functionName="getLValueOffset"/>
+    <functioncall functionName="getLValuePath"/>
+    <functioncall functionName="getLValueReferenceType"/>
+    <functioncall functionName="getLambdaContextDecl"/>
+    <functioncall functionName="getLambdaDefaultArgumentDeclContext"/>
+    <functioncall functionName="getLambdaId"/>
+    <functioncall functionName="getLambdaIdForDebugInfo"/>
+    <functioncall functionName="getLambdaManglingNumber"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLanguageLinkage"/>
+    <functioncall functionName="getLength"/>
+    <functioncall functionName="getLimitedValue"/>
+    <functioncall functionName="getLocalQualifiers"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMSInheritanceModel"/>
+    <functioncall functionName="getMainFileID"/>
+    <functioncall functionName="getManglingNumber"/>
+    <functioncall functionName="getMemberPointerDecl"/>
+    <functioncall functionName="getMethodQuals"/>
+    <functioncall functionName="getMethodVFTableLocation"/>
+    <functioncall functionName="getMostRecentCXXRecordDecl"/>
+    <functioncall functionName="getMostRecentNonInjectedDecl"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNextDiscriminator"/>
+    <functioncall functionName="getNonTypeTemplateArgumentType"/>
+    <functioncall functionName="getNullPtrType"/>
+    <functioncall functionName="getNumBits"/>
+    <functioncall functionName="getNumElements"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getObjCLifetime"/>
+    <functioncall functionName="getOffsetOfBaseWithVBPtr"/>
+    <functioncall functionName="getOriginalType"/>
+    <functioncall functionName="getPackAsArray"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getParamDecl"/>
+    <functioncall functionName="getParamType"/>
+    <functioncall functionName="getParamTypeForDecl"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getPointerWidth"/>
+    <functioncall functionName="getPrimaryTemplate"/>
+    <functioncall functionName="getPrintingPolicy"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getQuantity"/>
+    <functioncall functionName="getRecordType"/>
+    <functioncall functionName="getRedeclContext"/>
+    <functioncall functionName="getRefQualifier"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getSelectedType"/>
+    <functioncall functionName="getSemantics"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSizeExpr"/>
+    <functioncall functionName="getSizeModifier"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSpecializedTemplate"/>
+    <functioncall functionName="getStmtClassName"/>
+    <functioncall functionName="getStream"/>
+    <functioncall functionName="getStructBase"/>
+    <functioncall functionName="getStructField"/>
+    <functioncall functionName="getStructor"/>
+    <functioncall functionName="getStructuralValueType"/>
+    <functioncall functionName="getTLSKind"/>
+    <functioncall functionName="getTagKind"/>
+    <functioncall functionName="getTargetAddressSpace"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getTemplateArgs"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplateSpecializationArgs"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getTriple"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeArgs"/>
+    <functioncall functionName="getTypeClass"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="getTypeSize"/>
+    <functioncall functionName="getTypedefNameForAnonDecl"/>
+    <functioncall functionName="getTypedefNameForUnnamedTagDecl"/>
+    <functioncall functionName="getUnionField"/>
+    <functioncall functionName="getUnionValue"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="getUnsigned"/>
+    <functioncall functionName="getVBPtrOffset"/>
+    <functioncall functionName="getVTableContext"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getValueType"/>
+    <functioncall functionName="getVectorElt"/>
+    <functioncall functionName="getVectorLength"/>
+    <functioncall functionName="getWithDecl"/>
+    <functioncall functionName="getZExtSize"/>
+    <functioncall functionName="getZExtValue"/>
+    <functioncall functionName="hasAddressSpace"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasConst"/>
+    <functioncall functionName="hasLValuePath"/>
+    <functioncall functionName="hasLinkage"/>
+    <functioncall functionName="hasNameForLinkage"/>
+    <functioncall functionName="hasObjCLifetime"/>
+    <functioncall functionName="hasRestrict"/>
+    <functioncall functionName="hasUnaligned"/>
+    <functioncall functionName="hasVolatile"/>
+    <functioncall functionName="inheritanceModelHasNVOffsetField"/>
+    <functioncall functionName="inheritanceModelHasVBPtrOffsetField"/>
+    <functioncall functionName="inheritanceModelHasVBTableOffsetField"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="is64BitPointer"/>
+    <functioncall functionName="isAnonymousNamespace"/>
+    <functioncall functionName="isAnonymousStructOrUnion"/>
+    <functioncall functionName="isAnyPointerType"/>
+    <functioncall functionName="isArrayType"/>
+    <functioncall functionName="isArtificialTagType"/>
+    <functioncall functionName="isAsciiIdentifierContinue"/>
+    <functioncall functionName="isAux"/>
+    <functioncall functionName="isBlockPointerType"/>
+    <functioncall functionName="isCompatibleWithMSVC"/>
+    <functioncall functionName="isConstantArrayType"/>
+    <functioncall functionName="isDecltypeAuto"/>
+    <functioncall functionName="isDependentSizedArrayType"/>
+    <functioncall functionName="isDynamic"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isExplicitObjectParameter"/>
+    <functioncall functionName="isExternC"/>
+    <functioncall functionName="isExternallyVisible"/>
+    <functioncall functionName="isFunctionOrMethod"/>
+    <functioncall functionName="isFunctionType"/>
+    <functioncall functionName="isIdentifier"/>
+    <functioncall functionName="isImplicitObjectMemberFunction"/>
+    <functioncall functionName="isIncompleteArrayType"/>
+    <functioncall functionName="isInstance"/>
+    <functioncall functionName="isKindOfType"/>
+    <functioncall functionName="isLValue"/>
+    <functioncall functionName="isLValueOnePastTheEnd"/>
+    <functioncall functionName="isLambda"/>
+    <functioncall functionName="isLetter"/>
+    <functioncall functionName="isMSVCRTEntryPoint"/>
+    <functioncall functionName="isMemberDataPointer"/>
+    <functioncall functionName="isMemberDataPointerType"/>
+    <functioncall functionName="isMemberFunctionPointerType"/>
+    <functioncall functionName="isMemberPointerType"/>
+    <functioncall functionName="isNamespace"/>
+    <functioncall functionName="isNegative"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjCClass"/>
+    <functioncall functionName="isObjCId"/>
+    <functioncall functionName="isPointerType"/>
+    <functioncall functionName="isPtrSizeAddressSpace"/>
+    <functioncall functionName="isReadOnly"/>
+    <functioncall functionName="isRecordType"/>
+    <functioncall functionName="isReferenceType"/>
+    <functioncall functionName="isSpecialized"/>
+    <functioncall functionName="isStaticDataMember"/>
+    <functioncall functionName="isStaticLocal"/>
+    <functioncall functionName="isStructorDecl"/>
+    <functioncall functionName="isTemplate"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isUnnamedBitField"/>
+    <functioncall functionName="isUnsigned"/>
+    <functioncall functionName="isVariableArrayType"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isVoidType"/>
+    <functioncall functionName="isWide"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="isa_and_nonnull"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="lshrInPlace"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="mangle"/>
+    <functioncall functionName="mangleAddressSpaceType"/>
+    <functioncall functionName="mangleArrayType"/>
+    <functioncall functionName="mangleArtificialTagType"/>
+    <functioncall functionName="mangleAutoReturnType"/>
+    <functioncall functionName="mangleBits"/>
+    <functioncall functionName="mangleCXXDtorType"/>
+    <functioncall functionName="mangleCXXName"/>
+    <functioncall functionName="mangleCXXRTTI"/>
+    <functioncall functionName="mangleCXXVFTable"/>
+    <functioncall functionName="mangleCallingConvention"/>
+    <functioncall functionName="mangleDecayedArrayType"/>
+    <functioncall functionName="mangleExpression"/>
+    <functioncall functionName="mangleFloat"/>
+    <functioncall functionName="mangleFunctionArgumentType"/>
+    <functioncall functionName="mangleFunctionClass"/>
+    <functioncall functionName="mangleFunctionEncoding"/>
+    <functioncall functionName="mangleFunctionPointer"/>
+    <functioncall functionName="mangleFunctionType"/>
+    <functioncall functionName="mangleInitFiniStub"/>
+    <functioncall functionName="mangleIntegerLiteral"/>
+    <functioncall functionName="mangleMSGuidDecl"/>
+    <functioncall functionName="mangleMemberDataPointer"/>
+    <functioncall functionName="mangleMemberDataPointerInClassNTTP"/>
+    <functioncall functionName="mangleMemberFunctionPointer"/>
+    <functioncall functionName="mangleMemberFunctionPointerInClassNTTP"/>
+    <functioncall functionName="mangleName"/>
+    <functioncall functionName="mangleNestedName"/>
+    <functioncall functionName="mangleNumber"/>
+    <functioncall functionName="mangleObjCKindOfType"/>
+    <functioncall functionName="mangleObjCLifetime"/>
+    <functioncall functionName="mangleObjCMethodName"/>
+    <functioncall functionName="mangleObjCMethodNameAsSourceName"/>
+    <functioncall functionName="mangleObjCProtocol"/>
+    <functioncall functionName="mangleOperatorName"/>
+    <functioncall functionName="manglePassObjectSizeArg"/>
+    <functioncall functionName="manglePointerCVQualifiers"/>
+    <functioncall functionName="manglePointerExtQualifiers"/>
+    <functioncall functionName="mangleQualifiers"/>
+    <functioncall functionName="mangleRefQualifier"/>
+    <functioncall functionName="mangleSourceName"/>
+    <functioncall functionName="mangleTagTypeKind"/>
+    <functioncall functionName="mangleTemplateArg"/>
+    <functioncall functionName="mangleTemplateArgValue"/>
+    <functioncall functionName="mangleTemplateArgs"/>
+    <functioncall functionName="mangleTemplateInstantiationName"/>
+    <functioncall functionName="mangleThrowSpecification"/>
+    <functioncall functionName="mangleThunkThisAdjustment"/>
+    <functioncall functionName="mangleType"/>
+    <functioncall functionName="mangleUnqualifiedName"/>
+    <functioncall functionName="mangleUnscopedTemplateName"/>
+    <functioncall functionName="mangleVarDecl"/>
+    <functioncall functionName="mangleVariableEncoding"/>
+    <functioncall functionName="mangleVirtualMemPtrThunk"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="msvc_hashing_ostream"/>
+    <functioncall functionName="nullFieldOffsetIsZero"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="qual_empty"/>
+    <functioncall functionName="quals"/>
+    <functioncall functionName="raw_svector_ostream"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="removeUnaligned"/>
+    <functioncall functionName="rend"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="save"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="shouldMangleDeclName"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="stringifyResult"/>
+    <functioncall functionName="stripObjCKindOfType"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="tell"/>
+    <functioncall functionName="toCharUnitsFromBits"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uge"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="ule"/>
+    <functioncall functionName="update"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="utostr"/>
+    <functioncall functionName="withConst"/>
+    <functioncall functionName="withoutObjCLifetime"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="xxh3_64bits"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1732781273930696311">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCDisassembler/MCSymbolizer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCDisassembler/MCSymbolizer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/X86BaseInfo.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/X86BaseInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/Relocation.h&quot; not found." verbose="Include file: &quot;bolt/Core/Relocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInst.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInst.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="16" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCSymbolizer.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;X86MCSymbolizer&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;X86MCSymbolizer&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCSymbolizer.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\X86\X86MCSymbolizer.h" line="27" column="3"/>
+            <symbol>X86MCSymbolizer</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/X86/X86MCSymbolizer.cpp" functionName="handleGOTPC64" lineNumber="168"/>
+    <functioncall functionName="AddrBaseReg"/>
+    <functioncall functionName="AddrDisp"/>
+    <functioncall functionName="AddrIndexReg"/>
+    <functioncall functionName="AddrScaleAmt"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="MCSymbol"/>
+    <functioncall functionName="MCSymbolizer"/>
+    <functioncall functionName="X86MCSymbolizer"/>
+    <functioncall functionName="addOperand"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createAdd"/>
+    <functioncall functionName="createExpr"/>
+    <functioncall functionName="createNonFatalBOLTError"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataAtAddress"/>
+    <functioncall functionName="getBinaryDataContainingAddress"/>
+    <functioncall functionName="getGOTSymbol"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getMemoryOperandNo"/>
+    <functioncall functionName="getNumOperands"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOrCreateSymbol"/>
+    <functioncall functionName="getProgramCounter"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getRelocationAt"/>
+    <functioncall functionName="getRelocationInRange"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="handleAddressRef"/>
+    <functioncall functionName="handleGOTPC64"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isPCRelative"/>
+    <functioncall functionName="isX86GOTPC64"/>
+    <functioncall functionName="isX86GOTPCRELX"/>
+    <functioncall functionName="logBOLTErrorsAndQuitOnFatal"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="setSimple"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

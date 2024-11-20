@@ -1,0 +1,7 @@
+test call:[open] noreturn:[open]
+test call:[pthread_once] noreturn:[pthread_once]
+test call:[malloc] noreturn:[malloc]
+test call:[calloc] noreturn:[calloc]
+test call:[malloc,realloc] noreturn:[realloc]
+test call:[alloca] noreturn:[alloca]
+test call:[valloc] noreturn:[valloc]

@@ -1,0 +1,4 @@
+relaxStubToShortJmp call:[addInstructions,begin,clear,createShortJmp,end,get,getBinaryContext,getFunction] noreturn:[addInstructions]
+relaxStubToLongJmp call:[addInstructions,begin,clear,createLongJmp,end,get,getBinaryContext,getFunction] noreturn:[addInstructions]
+getBBAtHotColdSplitPoint call:[assert,begin,block_begin,block_end,empty,getLayout,isCold,isSplit,llvm_unreachable,next] noreturn:[llvm_unreachable]
+mayNeedStub call:[isBranch,isCall,isIndirectBranch,isIndirectCall,return] noreturn:[isIndirectCall]

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2284834399695843367">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\DataflowAnalysis.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\DataflowAnalysis.cpp" line="14" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp:20:14" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp" line="22" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp:20:14" my-argnr="2" my-argname="State" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp" line="24" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp:48:6" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp" line="50" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp:70:6" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp" line="72" col="33" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp" functionName="doForAllPreds" lineNumber="48"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/DataflowAnalysis.cpp" functionName="doForAllSuccs" lineNumber="70"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="ProgramPoint"/>
+    <functioncall functionName="all"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="flip"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getFirstPointAt"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLastPointAt"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isLandingPad"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="predecessors"/>
+    <functioncall functionName="set_bits"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="throwers"/>
+  </FileInfo>
+</analyzerinfo>

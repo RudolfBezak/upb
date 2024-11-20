@@ -1,0 +1,8 @@
+PrintFunctionsConsumer
+HandleTopLevelDecl call:[begin,end,errs,getNameAsString]
+HandleTranslationUnit call:[LateTemplateParser,TraverseDecl,Visitor,count,errs,find,getLangOpts,getNameAsString,getSema,getTranslationUnitDecl,insert,isLateTemplateParsed] noreturn:[insert]
+Visitor
+VisitFunctionDecl call:[count,getNameAsString,insert,isLateTemplateParsed] noreturn:[insert]
+CreateASTConsumer
+ParseArgs call:[PrintHelp,Report,empty,errs,getCustomDiagID,getDiagnostics,insert,size] noreturn:[PrintHelp,insert]
+PrintHelp

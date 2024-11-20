@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1660915203883409483">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/BinaryPassManager.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/BinaryPassManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ADRRelaxationPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ADRRelaxationPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Aligner.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Aligner.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/AllocCombiner.h&quot; not found." verbose="Include file: &quot;bolt/Passes/AllocCombiner.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/AsmDump.h&quot; not found." verbose="Include file: &quot;bolt/Passes/AsmDump.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/CMOVConversion.h&quot; not found." verbose="Include file: &quot;bolt/Passes/CMOVConversion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ContinuityStats.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ContinuityStats.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FixRISCVCallsPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FixRISCVCallsPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FixRelaxationPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FixRelaxationPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FrameOptimizer.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FrameOptimizer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Hugify.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Hugify.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/IdenticalCodeFolding.h&quot; not found." verbose="Include file: &quot;bolt/Passes/IdenticalCodeFolding.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/IndirectCallPromotion.h&quot; not found." verbose="Include file: &quot;bolt/Passes/IndirectCallPromotion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Inliner.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Inliner.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Instrumentation.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Instrumentation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/JTFootprintReduction.h&quot; not found." verbose="Include file: &quot;bolt/Passes/JTFootprintReduction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/LongJmp.h&quot; not found." verbose="Include file: &quot;bolt/Passes/LongJmp.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/LoopInversionPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/LoopInversionPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/MCF.h&quot; not found." verbose="Include file: &quot;bolt/Passes/MCF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/PLTCall.h&quot; not found." verbose="Include file: &quot;bolt/Passes/PLTCall.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/PatchEntries.h&quot; not found." verbose="Include file: &quot;bolt/Passes/PatchEntries.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/RegReAssign.h&quot; not found." verbose="Include file: &quot;bolt/Passes/RegReAssign.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ReorderData.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ReorderData.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ReorderFunctions.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ReorderFunctions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/RetpolineInsertion.h&quot; not found." verbose="Include file: &quot;bolt/Passes/RetpolineInsertion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/SplitFunctions.h&quot; not found." verbose="Include file: &quot;bolt/Passes/SplitFunctions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StokeInfo.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StokeInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/TailDuplication.h&quot; not found." verbose="Include file: &quot;bolt/Passes/TailDuplication.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ThreeWayBranch.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ThreeWayBranch.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ValidateInternalCalls.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ValidateInternalCalls.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="38" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ValidateMemRefs.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ValidateMemRefs.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="39" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/VeneerElimination.h&quot; not found." verbose="Include file: &quot;bolt/Passes/VeneerElimination.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="40" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="41" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FormatVariadic.h&quot; not found." verbose="Include file: &quot;llvm/Support/FormatVariadic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="42" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="43" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="44" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="46" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BinaryPassManager.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BinaryPassManager.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ADRRelaxationPass"/>
+    <functioncall functionName="AlignerPass"/>
+    <functioncall functionName="AllocCombinerPass"/>
+    <functioncall functionName="AsmDumpPass"/>
+    <functioncall functionName="AssignSections"/>
+    <functioncall functionName="BC"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="BinaryFunctionPass"/>
+    <functioncall functionName="BoltCategory"/>
+    <functioncall functionName="BoltOptCategory"/>
+    <functioncall functionName="CMOVConversion"/>
+    <functioncall functionName="CMOVConversionFlag"/>
+    <functioncall functionName="CheckLargeFunctions"/>
+    <functioncall functionName="CleanMCState"/>
+    <functioncall functionName="DumpDotAll"/>
+    <functioncall functionName="DynoStatsAll"/>
+    <functioncall functionName="DynoStatsPrintPass"/>
+    <functioncall functionName="DynoStatsSetPass"/>
+    <functioncall functionName="EliminateUnreachable"/>
+    <functioncall functionName="EliminateUnreachableBlocks"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="EstimateEdgeCounts"/>
+    <functioncall functionName="FinalizeFunctions"/>
+    <functioncall functionName="FixRISCVCallsPass"/>
+    <functioncall functionName="FixRelaxations"/>
+    <functioncall functionName="FixupBranches"/>
+    <functioncall functionName="FrameOptimizerPass"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="HugePage"/>
+    <functioncall functionName="Hugify"/>
+    <functioncall functionName="ICF"/>
+    <functioncall functionName="IdenticalCodeFolding"/>
+    <functioncall functionName="IndirectCallPromotion"/>
+    <functioncall functionName="InlineMemcpy"/>
+    <functioncall functionName="Inliner"/>
+    <functioncall functionName="InstructionLowering"/>
+    <functioncall functionName="Instrument"/>
+    <functioncall functionName="Instrumentation"/>
+    <functioncall functionName="JTFootprintReduction"/>
+    <functioncall functionName="JTFootprintReductionFlag"/>
+    <functioncall functionName="KeepNops"/>
+    <functioncall functionName="LongJmpPass"/>
+    <functioncall functionName="LoopInversionPass"/>
+    <functioncall functionName="LowerAnnotations"/>
+    <functioncall functionName="NeverPrint"/>
+    <functioncall functionName="NormalizeCFG"/>
+    <functioncall functionName="OptType"/>
+    <functioncall functionName="PLTCall"/>
+    <functioncall functionName="PatchEntries"/>
+    <functioncall functionName="Peepholes"/>
+    <functioncall functionName="PrintAfterBranchFixup"/>
+    <functioncall functionName="PrintAfterLowering"/>
+    <functioncall functionName="PrintContinuityStats"/>
+    <functioncall functionName="PrintEstimateEdgeCounts"/>
+    <functioncall functionName="PrintFOP"/>
+    <functioncall functionName="PrintFinalized"/>
+    <functioncall functionName="PrintFixRISCVCalls"/>
+    <functioncall functionName="PrintFixRelaxations"/>
+    <functioncall functionName="PrintICF"/>
+    <functioncall functionName="PrintICP"/>
+    <functioncall functionName="PrintInline"/>
+    <functioncall functionName="PrintJTFootprintReduction"/>
+    <functioncall functionName="PrintLongJmp"/>
+    <functioncall functionName="PrintNormalized"/>
+    <functioncall functionName="PrintPLT"/>
+    <functioncall functionName="PrintPeepholes"/>
+    <functioncall functionName="PrintProfileStats"/>
+    <functioncall functionName="PrintProgramStats"/>
+    <functioncall functionName="PrintRegReAssign"/>
+    <functioncall functionName="PrintReordered"/>
+    <functioncall functionName="PrintReorderedFunctions"/>
+    <functioncall functionName="PrintRetpolineInsertion"/>
+    <functioncall functionName="PrintSCTC"/>
+    <functioncall functionName="PrintSimplifyROLoads"/>
+    <functioncall functionName="PrintSplit"/>
+    <functioncall functionName="PrintStoke"/>
+    <functioncall functionName="PrintUCE"/>
+    <functioncall functionName="PrintVeneerElimination"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="RegReAssign"/>
+    <functioncall functionName="RemoveNops"/>
+    <functioncall functionName="ReorderBasicBlocks"/>
+    <functioncall functionName="ReorderData"/>
+    <functioncall functionName="ReorderFunctions"/>
+    <functioncall functionName="RetpolineInsertion"/>
+    <functioncall functionName="ShortenInstructions"/>
+    <functioncall functionName="SimplifyConditionalTailCalls"/>
+    <functioncall functionName="SimplifyRODataLoads"/>
+    <functioncall functionName="SpecializeMemcpy1"/>
+    <functioncall functionName="SplitFunctions"/>
+    <functioncall functionName="Stoke"/>
+    <functioncall functionName="StokeInfo"/>
+    <functioncall functionName="StringOps"/>
+    <functioncall functionName="StripRepRet"/>
+    <functioncall functionName="TailDuplication"/>
+    <functioncall functionName="ThreeWayBranch"/>
+    <functioncall functionName="ThreeWayBranchFlag"/>
+    <functioncall functionName="TimeOpts"/>
+    <functioncall functionName="TimerGroupDesc"/>
+    <functioncall functionName="TimerGroupName"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="ValidateInternalCalls"/>
+    <functioncall functionName="ValidateMemRefs"/>
+    <functioncall functionName="VeneerElimination"/>
+    <functioncall functionName="Verbosity"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="accumulate"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="callWithDynoStats"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="createFatalBOLTError"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dumpGraphForPass"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="formatv"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumOccurrences"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isRISCV"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="joinErrors"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printPass"/>
+    <functioncall functionName="registerPass"/>
+    <functioncall functionName="runOnFunctions"/>
+    <functioncall functionName="runPasses"/>
+    <functioncall functionName="shouldPrint"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="validateCFG"/>
+    <functioncall functionName="value_desc"/>
+  </FileInfo>
+</analyzerinfo>

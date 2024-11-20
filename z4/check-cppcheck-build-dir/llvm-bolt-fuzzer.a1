@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14409217998136680470">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found." verbose="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="11" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;E&apos; shadows outer variable" verbose="Local variable &apos;E&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/llvm-bolt-fuzzer/llvm-bolt-fuzzer.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="49" column="13" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="43" column="9" info="Shadowed declaration"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;E&apos; shadows outer variable" verbose="Local variable &apos;E&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/llvm-bolt-fuzzer/llvm-bolt-fuzzer.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="54" column="13" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="43" column="9" info="Shadowed declaration"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;argc&apos; can be declared as pointer to const" verbose="Parameter &apos;argc&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/llvm-bolt-fuzzer/llvm-bolt-fuzzer.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\llvm-bolt-fuzzer\llvm-bolt-fuzzer.cpp" line="59" column="62" info="Parameter &apos;argc&apos; can be declared as pointer to const"/>
+            <symbol>argc</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Binary"/>
+    <functioncall functionName="ELF64LEObjectFile"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="consumeError"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinary"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getMemBuffer"/>
+    <functioncall functionName="getMemBufferRef"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

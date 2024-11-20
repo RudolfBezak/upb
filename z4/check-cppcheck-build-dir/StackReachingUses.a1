@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="947668048535135869">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StackReachingUses.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StackReachingUses.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackReachingUses.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackReachingUses.cpp" line="14" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StackReachingUses.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackReachingUses.cpp" line="0" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StackReachingUses.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackReachingUses.cpp" line="55" column="5"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Func"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="doesXKillsY"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="expr_begin"/>
+    <functioncall functionName="expr_end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getArgAccessesFor"/>
+    <functioncall functionName="getBitVectorIndex"/>
+    <functioncall functionName="getFIEFor"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

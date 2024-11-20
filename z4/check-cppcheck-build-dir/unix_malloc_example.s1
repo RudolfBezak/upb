@@ -1,0 +1,5 @@
+test call:[free,malloc] noreturn:[free]
+test call:[free,malloc,sizeof]
+test call:[malloc]
+test call:[free] noreturn:[free]
+test call:[free,malloc,sizeof] noreturn:[free]

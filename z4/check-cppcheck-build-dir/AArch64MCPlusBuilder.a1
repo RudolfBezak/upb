@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14828055193768370972">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/AArch64AddressingModes.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/AArch64AddressingModes.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/AArch64FixupKinds.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/AArch64FixupKinds.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/AArch64MCExpr.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/AArch64MCExpr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/AArch64MCTargetDesc.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/AArch64MCTargetDesc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Utils/AArch64BaseInfo.h&quot; not found." verbose="Include file: &quot;Utils/AArch64BaseInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCContext.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCFixupKindInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCFixupKindInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstBuilder.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstrInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstrInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="26" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;UsesLoad&apos; can be declared as reference to const" verbose="Variable &apos;UsesLoad&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="752" column="31" info="Variable &apos;UsesLoad&apos; can be declared as reference to const"/>
+            <symbol>UsesLoad</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;UsesJTBaseAdd&apos; can be declared as reference to const" verbose="Variable &apos;UsesJTBaseAdd&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="781" column="31" info="Variable &apos;UsesJTBaseAdd&apos; can be declared as reference to const"/>
+            <symbol>UsesJTBaseAdd</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Locs&apos; can be declared as pointer to const" verbose="Variable &apos;Locs&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="1477" column="15" info="Variable &apos;Locs&apos; can be declared as pointer to const"/>
+            <symbol>Locs</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\AArch64\AArch64MCPlusBuilder.cpp" line="306" column="5"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:413:8" call-funcname="evaluateAArch64MemoryOperand" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="442" col="38" call-argexpr="DispValue" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:413:8" call-funcname="evaluateAArch64MemoryOperand" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="442" col="38" call-argexpr="&amp;DispExpr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:543:8" call-funcname="getSymbolRefOperandNum" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="577" col="32" call-argexpr="OpNum" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:543:8" call-funcname="getSymbolRefOperandNum" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="605" col="32" call-argexpr="OpNum" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:795:3" call-funcname="computeLocalUDChain" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="879" col="28" call-argexpr="&amp;Instruction" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:652:8" call-funcname="analyzeIndirectBranchFragment" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="881" col="39" call-argexpr="DispExpr" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:652:8" call-funcname="analyzeIndirectBranchFragment" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="881" col="39" call-argexpr="DispValue" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:652:8" call-funcname="analyzeIndirectBranchFragment" call-argnr="5" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="881" col="39" call-argexpr="ScaleValue" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:652:8" call-funcname="analyzeIndirectBranchFragment" call-argnr="6" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="881" col="39" call-argexpr="PCRelBase" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:496:17" call-funcname="getTargetExprFor" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1146" col="59" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:496:17" call-funcname="getTargetExprFor" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1361" col="59" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1444:8" call-funcname="createIndirectBranch" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1466" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1036:23" call-funcname="createCmpJE" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1609" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:393:8" call-funcname="evaluateADR" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="416" col="14" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:413:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:615:8" call-funcname="replaceBranchTarget" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1010" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:995:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:615:8" call-funcname="replaceBranchTarget" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1010" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:995:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1142:8" call-funcname="createDirectCall" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1054" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1052:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1142:8" call-funcname="createDirectCall" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1054" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1052:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1261:8" call-funcname="createShortJmp" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1059" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1057:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1261:8" call-funcname="createShortJmp" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1059" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1057:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1270" col="33" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1261:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1270" col="33" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1261:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1475:23" call-funcname="createGetter" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1487" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1486:23" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1475:23" call-funcname="createGetter" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1492" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1491:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1475:23" call-funcname="createGetter" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1496" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1495:23" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1475:23" call-funcname="createGetter" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1500" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1499:23" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1566" col="9" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1538:23" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1566" col="9" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1538:23" my-argnr="4"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1603" col="9" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1580:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1036:23" call-funcname="createCmpJE" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1609" col="9" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1580:3" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1603" col="9" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1580:3" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1633" col="32" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1624:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1657:23" call-funcname="materializeAddress" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1633" col="32" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1624:3" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1261:8" call-funcname="createShortJmp" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1653" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1650:23" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1261:8" call-funcname="createShortJmp" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1653" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1650:23" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:615:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="636" col="65" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:652:8" my-argnr="2" my-argname="UDChain" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="661" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1036:23" my-argnr="4" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1048" col="66" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1142:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1147" col="74" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1204:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1218" col="68" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1357:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1362" col="71" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1475:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1477" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:35:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="36" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:42:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="43" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:49:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="50" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:60:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="61" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:71:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="72" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:87:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="88" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:103:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="105" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:112:13" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="114" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:148:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="149" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:152:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="153" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:156:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="157" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:160:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="161" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:169:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="170" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:176:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="177" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:183:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="184" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:192:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="193" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:213:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="214" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:231:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="232" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:249:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="250" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:257:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="258" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:265:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="266" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:269:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="270" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:284:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="285" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:299:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="300" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:303:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="304" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:317:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="319" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:336:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="337" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:374:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="378" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:393:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="395" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:413:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="415" col="15" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:437:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="442" col="39" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:457:20" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="458" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:480:8" my-argnr="1" my-argname="Regs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="481" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:496:17" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="500" col="15" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:575:19" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="577" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:603:11" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="605" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:652:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="658" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:978:12" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="981" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:995:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="997" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1013:7" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1014" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1062:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1063" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1129:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1130" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1134:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1135" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1142:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1144" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1204:8" my-argnr="1" my-argname="Seq" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1221" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1287:12" my-argnr="4" my-argname="CurInst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1291" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1323:8" my-argnr="1" my-argname="Adrp" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1324" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1357:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1359" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1416:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1417" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1422:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1425" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1433:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1436" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1444:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1446" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1475:23" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1477" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1531:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1533" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1680:3" my-argnr="1" my-argname="Fixup" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1682" col="55" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp:1680:3" my-argnr="2" my-argname="MAB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" line="1682" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="getSystemFlag" lineNumber="35"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="setSystemFlag" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createPushRegisters" lineNumber="49"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createPopRegisters" lineNumber="60"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="loadReg" lineNumber="71"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="storeReg" lineNumber="87"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="atomicAdd" lineNumber="103"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createMovz" lineNumber="112"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createIncMemory" lineNumber="121"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isAddXri" lineNumber="156"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isTB" lineNumber="169"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isCB" lineNumber="176"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isMOVW" lineNumber="183"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isADD" lineNumber="192"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isLDRB" lineNumber="213"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isLDRH" lineNumber="231"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isLDRW" lineNumber="249"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isLDRX" lineNumber="257"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="isLoadFromStack" lineNumber="303"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="getSpRegister" lineNumber="340"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="evaluateADR" lineNumber="393"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="evaluateAArch64MemoryOperand" lineNumber="413"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="getSymbolRefOperandNum" lineNumber="543"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="analyzeIndirectBranchFragment" lineNumber="652"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="computeLocalUDChain" lineNumber="795"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="getInvertedBranchOpcode" lineNumber="962"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createIndirectBranch" lineNumber="1444"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createGetter" lineNumber="1475"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createIndirectCallInst" lineNumber="1531"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/AArch64/AArch64MCPlusBuilder.cpp" functionName="createAArch64MCPlusBuilder" lineNumber="1736"/>
+    <functioncall functionName="AArch64MCExpr"/>
+    <functioncall functionName="ADDXri"/>
+    <functioncall functionName="ADRP"/>
+    <functioncall functionName="B"/>
+    <functioncall functionName="BL"/>
+    <functioncall functionName="BLR"/>
+    <functioncall functionName="BR"/>
+    <functioncall functionName="BRK"/>
+    <functioncall functionName="Bcc"/>
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="CBNZW"/>
+    <functioncall functionName="CBNZX"/>
+    <functioncall functionName="CBZW"/>
+    <functioncall functionName="CBZX"/>
+    <functioncall functionName="CondCode"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="FP"/>
+    <functioncall functionName="HINT"/>
+    <functioncall functionName="LDADDX"/>
+    <functioncall functionName="LDPXpost"/>
+    <functioncall functionName="LDRXpost"/>
+    <functioncall functionName="LDRXui"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="LR"/>
+    <functioncall functionName="MCBinaryExpr"/>
+    <functioncall functionName="MCConstantExpr"/>
+    <functioncall functionName="MCFixupKind"/>
+    <functioncall functionName="MCInst"/>
+    <functioncall functionName="MCInstBuilder"/>
+    <functioncall functionName="MCPlusBuilder"/>
+    <functioncall functionName="MCSymbolRefExpr"/>
+    <functioncall functionName="MOVKXi"/>
+    <functioncall functionName="MOVZXi"/>
+    <functioncall functionName="MRS"/>
+    <functioncall functionName="MSR"/>
+    <functioncall functionName="NZCV"/>
+    <functioncall functionName="NoRegister"/>
+    <functioncall functionName="ORRXrs"/>
+    <functioncall functionName="POSSIBLE_PIC_JUMP_TABLE"/>
+    <functioncall functionName="RET"/>
+    <functioncall functionName="R_AARCH64_ABS16"/>
+    <functioncall functionName="R_AARCH64_ABS32"/>
+    <functioncall functionName="R_AARCH64_ABS64"/>
+    <functioncall functionName="R_AARCH64_ADD_ABS_LO12_NC"/>
+    <functioncall functionName="R_AARCH64_ADR_GOT_PAGE"/>
+    <functioncall functionName="R_AARCH64_CALL26"/>
+    <functioncall functionName="R_AARCH64_JUMP26"/>
+    <functioncall functionName="R_AARCH64_LD64_GOT_LO12_NC"/>
+    <functioncall functionName="R_AARCH64_NONE"/>
+    <functioncall functionName="R_AARCH64_PREL16"/>
+    <functioncall functionName="R_AARCH64_PREL32"/>
+    <functioncall functionName="R_AARCH64_PREL64"/>
+    <functioncall functionName="Relocation"/>
+    <functioncall functionName="SP"/>
+    <functioncall functionName="STPXpre"/>
+    <functioncall functionName="STRXpre"/>
+    <functioncall functionName="STRXui"/>
+    <functioncall functionName="SUBSXri"/>
+    <functioncall functionName="SUBXri"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TBNZW"/>
+    <functioncall functionName="TBNZX"/>
+    <functioncall functionName="TBZW"/>
+    <functioncall functionName="TBZX"/>
+    <functioncall functionName="UNKNOWN"/>
+    <functioncall functionName="VK_ABS"/>
+    <functioncall functionName="VK_ABS_G0_NC"/>
+    <functioncall functionName="VK_ABS_G1_NC"/>
+    <functioncall functionName="VK_ABS_G2_NC"/>
+    <functioncall functionName="VK_ABS_G3"/>
+    <functioncall functionName="VK_ABS_PAGE"/>
+    <functioncall functionName="VK_LO12"/>
+    <functioncall functionName="VK_None"/>
+    <functioncall functionName="WSP"/>
+    <functioncall functionName="X0"/>
+    <functioncall functionName="X1"/>
+    <functioncall functionName="X16"/>
+    <functioncall functionName="X17"/>
+    <functioncall functionName="X18"/>
+    <functioncall functionName="X19"/>
+    <functioncall functionName="X2"/>
+    <functioncall functionName="X20"/>
+    <functioncall functionName="X21"/>
+    <functioncall functionName="X22"/>
+    <functioncall functionName="X23"/>
+    <functioncall functionName="X24"/>
+    <functioncall functionName="X25"/>
+    <functioncall functionName="X26"/>
+    <functioncall functionName="X27"/>
+    <functioncall functionName="X28"/>
+    <functioncall functionName="X3"/>
+    <functioncall functionName="X4"/>
+    <functioncall functionName="X5"/>
+    <functioncall functionName="X6"/>
+    <functioncall functionName="X7"/>
+    <functioncall functionName="XZR"/>
+    <functioncall functionName="addExpr"/>
+    <functioncall functionName="addImm"/>
+    <functioncall functionName="addOperand"/>
+    <functioncall functionName="addReg"/>
+    <functioncall functionName="analyzeIndirectBranchFragment"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="atomicAdd"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clearOffset"/>
+    <functioncall functionName="computeLocalUDChain"/>
+    <functioncall functionName="convertIndirectCallToLoad"/>
+    <functioncall functionName="convertJmpToTailCall"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createCmpJE"/>
+    <functioncall functionName="createDirectCall"/>
+    <functioncall functionName="createExpr"/>
+    <functioncall functionName="createGetter"/>
+    <functioncall functionName="createImm"/>
+    <functioncall functionName="createIncMemory"/>
+    <functioncall functionName="createIndirectBranch"/>
+    <functioncall functionName="createIndirectCallInst"/>
+    <functioncall functionName="createInstrumentedIndCallHandlerExitBB"/>
+    <functioncall functionName="createLoadImmediate"/>
+    <functioncall functionName="createMovz"/>
+    <functioncall functionName="createPopRegisters"/>
+    <functioncall functionName="createPushRegisters"/>
+    <functioncall functionName="createReg"/>
+    <functioncall functionName="createReturn"/>
+    <functioncall functionName="createShortJmp"/>
+    <functioncall functionName="createStackPointerDecrement"/>
+    <functioncall functionName="createStackPointerIncrement"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equals"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="evaluateAArch64MemoryOperand"/>
+    <functioncall functionName="evaluateADR"/>
+    <functioncall functionName="evaluateMemOperandTarget"/>
+    <functioncall functionName="extractFixupExpr"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fixup_aarch64_pcrel_branch26"/>
+    <functioncall functionName="fixup_aarch64_pcrel_call26"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getArithExtendType"/>
+    <functioncall functionName="getArithShiftValue"/>
+    <functioncall functionName="getConditionalTailCall"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getFixupKindInfo"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getIntArgRegister"/>
+    <functioncall functionName="getInvertedBranchOpcode"/>
+    <functioncall functionName="getInvertedCondCode"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getMemOperandDisp"/>
+    <functioncall functionName="getNoRegister"/>
+    <functioncall functionName="getNumOperands"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOrCreateSymbol"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getSymbolRefOperandNum"/>
+    <functioncall functionName="getSystemFlag"/>
+    <functioncall functionName="getTargetAddend"/>
+    <functioncall functionName="getTargetExprFor"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getWrittenRegs"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isADD"/>
+    <functioncall functionName="isADR"/>
+    <functioncall functionName="isADRP"/>
+    <functioncall functionName="isAddXri"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isCB"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isConditionalBranch"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isImm"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isLDRB"/>
+    <functioncall functionName="isLDRH"/>
+    <functioncall functionName="isLDRW"/>
+    <functioncall functionName="isLDRX"/>
+    <functioncall functionName="isLoadFromStack"/>
+    <functioncall functionName="isMOVW"/>
+    <functioncall functionName="isNoop"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isRegToRegMove"/>
+    <functioncall functionName="isTB"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isTerminator"/>
+    <functioncall functionName="isUnconditionalBranch"/>
+    <functioncall functionName="kTailCall"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="loadReg"/>
+    <functioncall functionName="materializeAddress"/>
+    <functioncall functionName="mayLoad"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="moveAnnotations"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="operands"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="primeOperands"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="replaceBranchTarget"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="setImm"/>
+    <functioncall functionName="setOpcode"/>
+    <functioncall functionName="setOperandToSymbolRef"/>
+    <functioncall functionName="setSystemFlag"/>
+    <functioncall functionName="setTailCall"/>
+    <functioncall functionName="set_bits"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="storeReg"/>
+    <functioncall functionName="stripAnnotations"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unsetConditionalTailCall"/>
+    <functioncall functionName="useOperands"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

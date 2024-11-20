@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="826612515745032149">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ShrinkWrapping.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ShrinkWrapping.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/MCF.h&quot; not found." verbose="Include file: &quot;bolt/Passes/MCF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Elem&apos; can be declared as reference to const" verbose="Variable &apos;Elem&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="212" column="40" info="Variable &apos;Elem&apos; can be declared as reference to const"/>
+            <symbol>Elem</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Elem&apos; can be declared as reference to const" verbose="Variable &apos;Elem&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="405" column="39" info="Variable &apos;Elem&apos; can be declared as reference to const"/>
+            <symbol>Elem</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;WI&apos; can be declared as reference to const" verbose="Variable &apos;WI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="629" column="26" info="Variable &apos;WI&apos; can be declared as reference to const"/>
+            <symbol>WI</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;I&apos; can be declared as reference to const" verbose="Variable &apos;I&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="1369" column="48" info="Variable &apos;I&apos; can be declared as reference to const"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Item&apos; can be declared as reference to const" verbose="Parameter &apos;Item&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="1786" column="65" info="Parameter &apos;Item&apos; can be declared as reference to const"/>
+            <symbol>Item</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Item&apos; can be declared as reference to const" verbose="Variable &apos;Item&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="1803" column="24" info="Variable &apos;Item&apos; can be declared as reference to const"/>
+            <symbol>Item</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ShrinkWrapping.cpp" line="202" column="3"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:1383:6" my-argnr="2" my-argname="A" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="1385" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:1383:6" my-argnr="3" my-argname="B" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="1385" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:2048:14" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="2050" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:2075:1" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="2077" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:2098:6" my-argnr="1" my-argname="A" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="2100" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:2098:6" my-argnr="2" my-argname="B" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="2100" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:2110:6" my-argnr="1" my-argname="A" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="2112" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp:2110:6" my-argnr="2" my-argname="B" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" line="2112" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" functionName="isIdenticalSplitEdgeBB" lineNumber="1383"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" functionName="compNextAux" lineNumber="1454"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" functionName="computeNext" lineNumber="1481"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" functionName="getAnnotationName" lineNumber="1504"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ShrinkWrapping.cpp" functionName="run" lineNumber="1517"/>
+    <functioncall functionName="AdjustCFI"/>
+    <functioncall functionName="AdjustLoadStoreOffset"/>
+    <functioncall functionName="AllocatorId"/>
+    <functioncall functionName="BC"/>
+    <functioncall functionName="BF"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="BlacklistedRegions"/>
+    <functioncall functionName="CalleeSaved"/>
+    <functioncall functionName="ChangeToAdjustment"/>
+    <functioncall functionName="Count"/>
+    <functioncall functionName="Ctx"/>
+    <functioncall functionName="DominatorAnalysis"/>
+    <functioncall functionName="EqualizeBBCounts"/>
+    <functioncall functionName="Erase"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="HasFramePointer"/>
+    <functioncall functionName="Info"/>
+    <functioncall functionName="InsertLoadOrStore"/>
+    <functioncall functionName="InsertPushOrPop"/>
+    <functioncall functionName="InstrDynamicCount"/>
+    <functioncall functionName="IsInitialized"/>
+    <functioncall functionName="IsSimple"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCInst"/>
+    <functioncall functionName="MCPhysReg"/>
+    <functioncall functionName="MRI"/>
+    <functioncall functionName="MispredictedCount"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="ProgramPoint"/>
+    <functioncall functionName="ReachingDefOrUse"/>
+    <functioncall functionName="ReachingInsns"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StackOffset"/>
+    <functioncall functionName="StackPointerTrackingBase"/>
+    <functioncall functionName="StoreDynamicCount"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="Todo"/>
+    <functioncall functionName="WorklistItem"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="accumulate"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="addCFIInstruction"/>
+    <functioncall functionName="addCFIPseudo"/>
+    <functioncall functionName="addInstruction"/>
+    <functioncall functionName="addToImm"/>
+    <functioncall functionName="any"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="atomic"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blacklistAllInConflictWith"/>
+    <functioncall functionName="blacklistRegion"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="canCollapseRegion"/>
+    <functioncall functionName="canInsertRegion"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="cfiDefCfaOffset"/>
+    <functioncall functionName="changeToPushOrPop"/>
+    <functioncall functionName="checkForAmbiguousJumpTables"/>
+    <functioncall functionName="checkFramePointerInitialization"/>
+    <functioncall functionName="checkStackPointerRestore"/>
+    <functioncall functionName="classifyCFIs"/>
+    <functioncall functionName="classifyCSRUses"/>
+    <functioncall functionName="classifyStackAccesses"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="collapseRegion"/>
+    <functioncall functionName="compNextAux"/>
+    <functioncall functionName="compute"/>
+    <functioncall functionName="computeDomOrder"/>
+    <functioncall functionName="computeNext"/>
+    <functioncall functionName="computeSaveLocations"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createNoop"/>
+    <functioncall functionName="createOffset"/>
+    <functioncall functionName="createRestoreFromStack"/>
+    <functioncall functionName="createSameValue"/>
+    <functioncall functionName="createSaveToStack"/>
+    <functioncall functionName="createStackAccess"/>
+    <functioncall functionName="createStackPointerDecrement"/>
+    <functioncall functionName="createStackPointerIncrement"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="doForAllSuccs"/>
+    <functioncall functionName="doRestorePlacement"/>
+    <functioncall functionName="doesADominateB"/>
+    <functioncall functionName="doesInstUsesCSR"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equalizeBBCounts"/>
+    <functioncall functionName="equals"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="eraseInvalidBBs"/>
+    <functioncall functionName="evaluateStackOffsetExpr"/>
+    <functioncall functionName="expr_begin"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findInstruction"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="fixBranches"/>
+    <functioncall functionName="fixPopsPlacements"/>
+    <functioncall functionName="foldIdenticalSplitEdges"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getAnnotationAs"/>
+    <functioncall functionName="getAnnotationIndex"/>
+    <functioncall functionName="getAnnotationName"/>
+    <functioncall functionName="getBB"/>
+    <functioncall functionName="getCFIFor"/>
+    <functioncall functionName="getDominanceFrontierFor"/>
+    <functioncall functionName="getDominatorAnalysis"/>
+    <functioncall functionName="getDwarfRegNum"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFIEFor"/>
+    <functioncall functionName="getFlagsReg"/>
+    <functioncall functionName="getFramePointer"/>
+    <functioncall functionName="getHotThreshold"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getInsnToBBMap"/>
+    <functioncall functionName="getInst"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLLVMRegNum"/>
+    <functioncall functionName="getLastPointAt"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLivenessAnalysis"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOffsetCFIReg"/>
+    <functioncall functionName="getOffsetCFIRegTag"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOperation"/>
+    <functioncall functionName="getOrCreateAnnotationAs"/>
+    <functioncall functionName="getParentBB"/>
+    <functioncall functionName="getPopSize"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getPushSize"/>
+    <functioncall functionName="getReachingDefs"/>
+    <functioncall functionName="getReachingInsnsBackwards"/>
+    <functioncall functionName="getReachingUses"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getRegister"/>
+    <functioncall functionName="getRegsUsedAsParams"/>
+    <functioncall functionName="getRestoreTag"/>
+    <functioncall functionName="getRestoredReg"/>
+    <functioncall functionName="getRestoresByReg"/>
+    <functioncall functionName="getSaveTag"/>
+    <functioncall functionName="getSavedReg"/>
+    <functioncall functionName="getSavesByReg"/>
+    <functioncall functionName="getSlotTag"/>
+    <functioncall functionName="getStackAllocationAnalysis"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="getStackPointerTracking"/>
+    <functioncall functionName="getStackReachingUses"/>
+    <functioncall functionName="getStateAt"/>
+    <functioncall functionName="getStateBefore"/>
+    <functioncall functionName="getTerminatorBefore"/>
+    <functioncall functionName="getTodoTag"/>
+    <functioncall functionName="getTouchedRegs"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="hasDefOfPhysReg"/>
+    <functioncall functionName="hasFrameInfo"/>
+    <functioncall functionName="hasStackArithmetic"/>
+    <functioncall functionName="hasTerminatorAfter"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="initialize"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertCFIsForPushOrPop"/>
+    <functioncall functionName="insertInstruction"/>
+    <functioncall functionName="insertRegion"/>
+    <functioncall functionName="insertUpdatedCFI"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="invalidateAll"/>
+    <functioncall functionName="isAlive"/>
+    <functioncall functionName="isBB"/>
+    <functioncall functionName="isBestSavePosCold"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isCold"/>
+    <functioncall functionName="isIdenticalSplitEdgeBB"/>
+    <functioncall functionName="isInLoop"/>
+    <functioncall functionName="isInst"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isLoadedInDifferentReg"/>
+    <functioncall functionName="isPop"/>
+    <functioncall functionName="isPrefix"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isPush"/>
+    <functioncall functionName="isReachedBy"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isRegionBlacklisted"/>
+    <functioncall functionName="isSplit"/>
+    <functioncall functionName="isStackAccess"/>
+    <functioncall functionName="isStoreUsed"/>
+    <functioncall functionName="isTerminator"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_tuple"/>
+    <functioncall functionName="markValid"/>
+    <functioncall functionName="mayStore"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="moveSaveRestores"/>
+    <functioncall functionName="mutateCFIOffsetFor"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="performChanges"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pred_begin"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="printInstruction"/>
+    <functioncall functionName="processDeletions"/>
+    <functioncall functionName="processInsertion"/>
+    <functioncall functionName="processInsertions"/>
+    <functioncall functionName="processInsertionsList"/>
+    <functioncall functionName="pruneUnwantedCSRs"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="rebuildCFI"/>
+    <functioncall functionName="rebuildCFIForSP"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="replaceJumpTableEntryIn"/>
+    <functioncall functionName="replaceSuccessor"/>
+    <functioncall functionName="requiresAlignment"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="scheduleChange"/>
+    <functioncall functionName="scheduleOldSaveRestoresRemoval"/>
+    <functioncall functionName="scheduleSaveRestoreInsertions"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="set_bits"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="splitEdge"/>
+    <functioncall functionName="splitFrontierCritEdges"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="stack"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="succ_begin"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="takeVector"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tryGetAnnotationAs"/>
+    <functioncall functionName="tuple"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="updateCFIInstOffset"/>
+    <functioncall functionName="useOperands"/>
+    <functioncall functionName="validatePushPopsMode"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

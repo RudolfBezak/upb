@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11906403249844265503">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/CMOVConversion.h&quot; not found." verbose="Include file: &quot;bolt/Passes/CMOVConversion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/PostOrderIterator.h&quot; not found." verbose="Include file: &quot;llvm/ADT/PostOrderIterator.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\CMOVConversion.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp:64:6" my-argnr="1" my-argname="LHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" line="66" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp:81:6" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" line="84" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp:100:6" my-argnr="2" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" line="102" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp:129:6" my-argnr="2" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" line="130" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp:148:1" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" line="151" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp:163:5" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" line="165" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" functionName="isIfThenSubgraph" lineNumber="64"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" functionName="matchCFGSubgraph" lineNumber="81"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" functionName="canConvertInstructions" lineNumber="100"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" functionName="convertMoves" lineNumber="129"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" functionName="calculateMispredictionRate" lineNumber="148"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/CMOVConversion.cpp" functionName="calculateConditionBias" lineNumber="163"/>
+    <functioncall functionName="ConvertBasePtrStackMemOperand"/>
+    <functioncall functionName="ConvertStackMemOperand"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="Verbosity"/>
+    <functioncall functionName="addInstructions"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="branch_info"/>
+    <functioncall functionName="calculateConditionBias"/>
+    <functioncall functionName="calculateMispredictionRate"/>
+    <functioncall functionName="canConvertInstructions"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="convertMoveToConditionalMove"/>
+    <functioncall functionName="convertMoves"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dumpTo"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="eraseInvalidBBs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="formatv"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getBranchStats"/>
+    <functioncall functionName="getCondCode"/>
+    <functioncall functionName="getConditionalSuccessor"/>
+    <functioncall functionName="getDynamicRatio"/>
+    <functioncall functionName="getInvertedCondCode"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLastNonPseudo"/>
+    <functioncall functionName="getLastNonPseudoInstr"/>
+    <functioncall functionName="getMPRatio"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getStaticRatio"/>
+    <functioncall functionName="hasJumpTable"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isConditionalBranch"/>
+    <functioncall functionName="isIfThenSubgraph"/>
+    <functioncall functionName="isPredecessor"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isUnconditionalBranch"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="markValid"/>
+    <functioncall functionName="matchCFGSubgraph"/>
+    <functioncall functionName="moveAllSuccessorsTo"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="post_order"/>
+    <functioncall functionName="pred_begin"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="printInstruction"/>
+    <functioncall functionName="removeAllSuccessors"/>
+    <functioncall functionName="rend"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="shouldOptimize"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

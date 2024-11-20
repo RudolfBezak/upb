@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4962182617045151177">
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;c&apos; can be declared as pointer to const" verbose="Parameter &apos;c&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt-tailcall.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\Inputs\plt-tailcall.c" line="3" column="15" info="Parameter &apos;c&apos; can be declared as pointer to const"/>
+            <symbol>c</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.h:8:5" call-funcname="puts" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt-tailcall.c" line="5" col="36" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt-tailcall.c:3:5" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt-tailcall.c:3:5" my-argnr="1" my-argname="c" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt-tailcall.c" line="5" col="41" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt-tailcall.c" functionName="foo" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/plt-tailcall.c" functionName="main" lineNumber="8"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="puts"/>
+  </FileInfo>
+</analyzerinfo>

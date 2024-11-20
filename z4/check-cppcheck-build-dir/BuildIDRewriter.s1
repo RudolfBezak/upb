@@ -1,0 +1,4 @@
+getPrintableBuildID call:[OS,format,str] noreturn:[format,str]
+BuildIDRewriter
+sectionInitializer call:[Cursor,DataExtractor,alignTo,c_str,createStringError,eof,getCodePointerSize,getContents,getPrintableBuildID,getU32,isLittleEndian,isNote,sections,seek,setFileBuildID,slice,substr,success,takeError,tell,toString] noreturn:[createStringError,success]
+postEmitFinalizer call:[addPatch,outs,size,success] noreturn:[success]

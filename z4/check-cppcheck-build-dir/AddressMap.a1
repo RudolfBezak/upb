@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1971262717945530413">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/AddressMap.h&quot; not found." verbose="Include file: &quot;bolt/Core/AddressMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\AddressMap.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\AddressMap.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\AddressMap.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinarySection.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinarySection.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\AddressMap.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\AddressMap.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/DataExtractor.h&quot; not found." verbose="Include file: &quot;llvm/Support/DataExtractor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\AddressMap.cpp" line="14" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/AddressMap.cpp:22:13" my-argnr="1" my-argname="Streamer" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/AddressMap.cpp" line="24" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/AddressMap.cpp:28:13" my-argnr="1" my-argname="Streamer" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/AddressMap.cpp" line="29" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/AddressMap.cpp" functionName="emitAddress" lineNumber="22"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/AddressMap.cpp" functionName="emitLabel" lineNumber="28"/>
+    <functioncall functionName="AddressMap"/>
+    <functioncall functionName="AddressSectionName"/>
+    <functioncall functionName="LabelSectionName"/>
+    <functioncall functionName="SHT_PROGBITS"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="deregisterSection"/>
+    <functioncall functionName="emitAddress"/>
+    <functioncall functionName="emitIntValue"/>
+    <functioncall functionName="emitLabel"/>
+    <functioncall functionName="emitSymbolValue"/>
+    <functioncall functionName="eof"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getDataSection"/>
+    <functioncall functionName="getFlags"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLocSyms"/>
+    <functioncall functionName="getOutputContents"/>
+    <functioncall functionName="getOutputSize"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="hasLocSyms"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isDefined"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="registerOrUpdateSection"/>
+    <functioncall functionName="requiresAddressMap"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="setLinkOnly"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="switchSection"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+  </FileInfo>
+</analyzerinfo>

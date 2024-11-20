@@ -1,0 +1,636 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3722894688997531676">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found." verbose="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Module.h&quot; not found." verbose="Include file: &quot;clang/Basic/Module.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AttrList.inc&quot; not found." verbose="Include file: &quot;clang/Basic/AttrList.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="271" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AttrList.inc&quot; not found." verbose="Include file: &quot;clang/Basic/AttrList.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="302" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;!isFirst&apos; is always true" verbose="Condition &apos;!isFirst&apos; is always true" cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="215" column="11" info="Condition &apos;!isFirst&apos; is always true"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="209" column="9" info="Assuming that condition &apos;isFirst&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;!Policy.TerseOutput&apos; is always false" verbose="Condition &apos;!Policy.TerseOutput&apos; is always false" cwe="570" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="857" column="11" info="Condition &apos;!Policy.TerseOutput&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;first&apos; is always true" verbose="Condition &apos;first&apos; is always true" cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1606" column="15" info="Condition &apos;first&apos; is always true"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1603" column="18" info="Assignment &apos;first=true&apos;, assigned value is 1"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;I&apos; shadows outer variable" verbose="Local variable &apos;I&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1442" column="22" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1429" column="15" info="Shadowed declaration"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;I&apos; shadows outer variable" verbose="Local variable &apos;I&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1491" column="47" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1460" column="15" info="Shadowed declaration"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;I&apos; shadows outer variable" verbose="Local variable &apos;I&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1501" column="22" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1460" column="15" info="Shadowed declaration"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Attrs&apos; can be declared as reference to const" verbose="Variable &apos;Attrs&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="297" column="14" info="Variable &apos;Attrs&apos; can be declared as reference to const"/>
+            <symbol>Attrs</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Policy&apos; can be declared as reference to const" verbose="Parameter &apos;Policy&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="635" column="68" info="Parameter &apos;Policy&apos; can be declared as reference to const"/>
+            <symbol>Policy</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;FD&apos; can be declared as pointer to const" verbose="Variable &apos;FD&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="357" column="18" info="Variable &apos;FD&apos; can be declared as pointer to const"/>
+            <symbol>FD</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;ConversionDecl&apos; can be declared as pointer to const" verbose="Variable &apos;ConversionDecl&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="661" column="22" info="Variable &apos;ConversionDecl&apos; can be declared as pointer to const"/>
+            <symbol>ConversionDecl</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;SID&apos; can be declared as pointer to const" verbose="Variable &apos;SID&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1430" column="22" info="Variable &apos;SID&apos; can be declared as pointer to const"/>
+            <symbol>SID</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;SID&apos; can be declared as pointer to const" verbose="Variable &apos;SID&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1461" column="22" info="Variable &apos;SID&apos; can be declared as pointer to const"/>
+            <symbol>SID</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclPrinter.cpp" line="1722" column="59"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:60:10" call-funcname="VisitDeclContext" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="547" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:60:10" call-funcname="VisitDeclContext" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1453" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:60:10" call-funcname="VisitDeclContext" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1514" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:60:10" call-funcname="VisitDeclContext" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1536" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:60:10" call-funcname="VisitDeclContext" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1548" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:60:10" call-funcname="VisitDeclContext" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1573" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:60:10" call-funcname="VisitDeclContext" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="547" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:62:10" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:125:10" call-funcname="prettyPrintPragmas" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="923" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:72:10" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:72:10" call-funcname="VisitVarDecl" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1005" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:74:10" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:123:5" call-funcname="prettyPrintAttributes" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1067" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:68:10" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:82:10" call-funcname="VisitCXXRecordDecl" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1316" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:87:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:241:38" my-argnr="1" my-argname="A" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="243" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:241:38" my-argnr="2" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="244" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:123:5" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="260" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:41:10" my-argnr="1" my-argname="CDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="342" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:64:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="563" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:65:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="572" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:66:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="597" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:67:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="612" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:69:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="646" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:70:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="864" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:71:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="898" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:73:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="919" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:75:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1010" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:76:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1016" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:77:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1021" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:78:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1027" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:79:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1040" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:80:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1054" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:81:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1060" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:82:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1075" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:83:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1141" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:84:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1236" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:85:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1266" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:89:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1321" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:51:10" my-argnr="1" my-argname="Params" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1357" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:91:10" my-argnr="1" my-argname="OMD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1387" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:92:10" my-argnr="1" my-argname="OID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1429" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:93:10" my-argnr="1" my-argname="OID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1460" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:94:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1522" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:95:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1542" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:96:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1555" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:97:10" my-argnr="1" my-argname="AID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1580" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:98:10" my-argnr="1" my-argname="PDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1594" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:99:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1702" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:102:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1712" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:103:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1732" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:100:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1738" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:101:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1743" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:105:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1755" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:113:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1768" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:106:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1784" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:107:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1805" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:108:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1813" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:109:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1850" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:110:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1869" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:111:10" my-argnr="1" my-argname="TTP" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1873" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:112:10" my-argnr="1" my-argname="NTTP" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1902" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:241:38" my-argnr="1" my-argname="A" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="243" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:241:38" my-argnr="2" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="244" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:123:5" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="260" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:38:10" my-argnr="1" my-argname="Decls" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="326" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:41:10" my-argnr="1" my-argname="CDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="342" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:64:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="563" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:65:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="572" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:66:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="597" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:67:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="612" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:620:13" my-argnr="2" my-argname="Out" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="632" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:635:13" my-argnr="3" my-argname="Out" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="642" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:69:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="646" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:70:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="864" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:71:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="898" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:73:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="919" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:75:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1010" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:76:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1016" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:77:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1021" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:78:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1027" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:79:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1040" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:80:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1054" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:81:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1060" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:82:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1075" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:83:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1141" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:84:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1236" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:85:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1266" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:89:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1321" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:48:10" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1350" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:51:10" my-argnr="1" my-argname="Params" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1357" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:91:10" my-argnr="1" my-argname="OMD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1387" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:92:10" my-argnr="1" my-argname="OID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1429" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:93:10" my-argnr="1" my-argname="OID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1460" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:94:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1522" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:95:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1542" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:96:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1555" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:97:10" my-argnr="1" my-argname="AID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1580" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:98:10" my-argnr="1" my-argname="PDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1594" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:99:10" my-argnr="1" my-argname="PID" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1702" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:102:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1712" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:103:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1732" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:100:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1738" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:101:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1743" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:105:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1755" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:113:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1768" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:106:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1784" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:107:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1805" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:108:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1813" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:109:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1850" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:110:10" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1869" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:111:10" my-argnr="1" my-argname="TTP" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1873" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp:112:10" my-argnr="1" my-argname="NTTP" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" line="1902" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="Indent" lineNumber="36"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="GetBaseType" lineNumber="154"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="getDeclType" lineNumber="184"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="Indent" lineNumber="235"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="getPosAsWritten" lineNumber="241"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="prettyPrintAttributes" lineNumber="256"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="prettyPrintPragmas" lineNumber="292"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="printDeclType" lineNumber="313"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="ProcessDeclGroup" lineNumber="324"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="Print" lineNumber="332"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="PrintConstructorInitializers" lineNumber="339"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitDeclContext" lineNumber="420"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitTranslationUnitDecl" lineNumber="546"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitTypedefDecl" lineNumber="550"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitTypeAliasDecl" lineNumber="562"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitEnumDecl" lineNumber="568"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitRecordDecl" lineNumber="594"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitEnumConstantDecl" lineNumber="611"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="printExplicitSpecifier" lineNumber="620"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="MaybePrintTagKeywordIfSupressingScopes" lineNumber="635"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitFunctionDecl" lineNumber="645"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitFriendDecl" lineNumber="863"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitFieldDecl" lineNumber="891"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitLabelDecl" lineNumber="918"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitVarDecl" lineNumber="922"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitParmVarDecl" lineNumber="1004"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitFileScopeAsmDecl" lineNumber="1008"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitTopLevelStmtDecl" lineNumber="1015"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitImportDecl" lineNumber="1020"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitStaticAssertDecl" lineNumber="1025"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitNamespaceDecl" lineNumber="1039"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitUsingDirectiveDecl" lineNumber="1052"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitNamespaceAliasDecl" lineNumber="1059"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitEmptyDecl" lineNumber="1066"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitCXXRecordDecl" lineNumber="1070"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitLinkageSpecDecl" lineNumber="1139"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="printTemplateParameters" lineNumber="1158"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitTemplateDecl" lineNumber="1235"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitFunctionTemplateDecl" lineNumber="1265"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitClassTemplateDecl" lineNumber="1298"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitClassTemplateSpecializationDecl" lineNumber="1313"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitClassTemplatePartialSpecializationDecl" lineNumber="1319"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="PrintObjCMethodType" lineNumber="1329"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="PrintObjCTypeParams" lineNumber="1354"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCMethodDecl" lineNumber="1386"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCImplementationDecl" lineNumber="1428"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCInterfaceDecl" lineNumber="1459"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCProtocolDecl" lineNumber="1521"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCCategoryImplDecl" lineNumber="1540"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCCategoryDecl" lineNumber="1553"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCCompatibleAliasDecl" lineNumber="1579"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCPropertyDecl" lineNumber="1593"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitObjCPropertyImplDecl" lineNumber="1701"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitUsingDecl" lineNumber="1711"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitUsingEnumDecl" lineNumber="1731"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitUnresolvedUsingTypenameDecl" lineNumber="1736"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitUnresolvedUsingValueDecl" lineNumber="1742"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitUsingShadowDecl" lineNumber="1749"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitOMPThreadPrivateDecl" lineNumber="1753"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitHLSLBufferDecl" lineNumber="1767"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitOMPAllocateDecl" lineNumber="1782"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitOMPRequiresDecl" lineNumber="1803"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitOMPDeclareReductionDecl" lineNumber="1812"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitOMPDeclareMapperDecl" lineNumber="1849"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitOMPCapturedExprDecl" lineNumber="1868"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitTemplateTypeParmDecl" lineNumber="1872"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclPrinter.cpp" functionName="VisitNonTypeTemplateParmDecl" lineNumber="1899"/>
+    <functioncall functionName="AccessSpecDecl"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ArrayType"/>
+    <functioncall functionName="AutoType"/>
+    <functioncall functionName="BlockPointerType"/>
+    <functioncall functionName="CPlusPlus"/>
+    <functioncall functionName="CXXConstructExpr"/>
+    <functioncall functionName="CXXConstructorDecl"/>
+    <functioncall functionName="CXXConversionDecl"/>
+    <functioncall functionName="CXXDeductionGuideDecl"/>
+    <functioncall functionName="CXXDefaultArgExpr"/>
+    <functioncall functionName="CXXDestructorDecl"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="ConceptDecl"/>
+    <functioncall functionName="ConstructorUsingShadowDecl"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclContext"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="ElaboratedType"/>
+    <functioncall functionName="EnumConstantDecl"/>
+    <functioncall functionName="ExprWithCleanups"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="FunctionType"/>
+    <functioncall functionName="GetBaseType"/>
+    <functioncall functionName="HLSLBufferDecl"/>
+    <functioncall functionName="IgnoreImplicit"/>
+    <functioncall functionName="IgnoreParens"/>
+    <functioncall functionName="Indent"/>
+    <functioncall functionName="InitListExpr"/>
+    <functioncall functionName="LinkageSpecDecl"/>
+    <functioncall functionName="MaybePrintTagKeywordIfSupressingScopes"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="NonTypeTemplateParmDecl"/>
+    <functioncall functionName="OMPAllocateDecl"/>
+    <functioncall functionName="OMPDeclareMapperDecl"/>
+    <functioncall functionName="OMPDeclareReductionDecl"/>
+    <functioncall functionName="OMPDeclareTargetDeclAttr"/>
+    <functioncall functionName="OMPRequiresDecl"/>
+    <functioncall functionName="OMPThreadPrivateDecl"/>
+    <functioncall functionName="ObjCCategoryDecl"/>
+    <functioncall functionName="ObjCCategoryImplDecl"/>
+    <functioncall functionName="ObjCImplementationDecl"/>
+    <functioncall functionName="ObjCInterfaceDecl"/>
+    <functioncall functionName="ObjCIvarDecl"/>
+    <functioncall functionName="ObjCList"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="ObjCObjectPointerType"/>
+    <functioncall functionName="ObjCProtocolDecl"/>
+    <functioncall functionName="PackExpansionType"/>
+    <functioncall functionName="ParenListExpr"/>
+    <functioncall functionName="ParenType"/>
+    <functioncall functionName="ParmVarDecl"/>
+    <functioncall functionName="PointerType"/>
+    <functioncall functionName="Print"/>
+    <functioncall functionName="PrintConstructorInitializers"/>
+    <functioncall functionName="PrintObjCMethodType"/>
+    <functioncall functionName="PrintObjCTypeParams"/>
+    <functioncall functionName="ProcessDeclGroup"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="ReferenceType"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TagDecl"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TemplateArgumentLoc"/>
+    <functioncall functionName="TemplateTemplateParmDecl"/>
+    <functioncall functionName="TemplateTypeParmDecl"/>
+    <functioncall functionName="TranslationUnitDecl"/>
+    <functioncall functionName="TypedefNameDecl"/>
+    <functioncall functionName="ValueDecl"/>
+    <functioncall functionName="VectorType"/>
+    <functioncall functionName="Visit"/>
+    <functioncall functionName="VisitCXXRecordDecl"/>
+    <functioncall functionName="VisitDeclContext"/>
+    <functioncall functionName="VisitFunctionDecl"/>
+    <functioncall functionName="VisitFunctionTemplateDecl"/>
+    <functioncall functionName="VisitNonTypeTemplateParmDecl"/>
+    <functioncall functionName="VisitParmVarDecl"/>
+    <functioncall functionName="VisitRedeclarableTemplateDecl"/>
+    <functioncall functionName="VisitTemplateDecl"/>
+    <functioncall functionName="VisitTemplateTypeParmDecl"/>
+    <functioncall functionName="VisitVarDecl"/>
+    <functioncall functionName="arguments"/>
+    <functioncall functionName="asArray"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bases_begin"/>
+    <functioncall functionName="bases_end"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="clauselist_begin"/>
+    <functioncall functionName="clauselist_empty"/>
+    <functioncall functionName="clauselist_end"/>
+    <functioncall functionName="clauselists"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="decls_begin"/>
+    <functioncall functionName="decls_end"/>
+    <functioncall functionName="desugar"/>
+    <functioncall functionName="deuglifiedName"/>
+    <functioncall functionName="doesThisDeclarationHaveABody"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="ends_with"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAccess"/>
+    <functioncall functionName="getAccessSpecifierAsWritten"/>
+    <functioncall functionName="getAccessSpelling"/>
+    <functioncall functionName="getAliasedNamespace"/>
+    <functioncall functionName="getAnyMember"/>
+    <functioncall functionName="getArg"/>
+    <functioncall functionName="getArgs"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsString"/>
+    <functioncall functionName="getAsmString"/>
+    <functioncall functionName="getAssertExpr"/>
+    <functioncall functionName="getAttrs"/>
+    <functioncall functionName="getBaseClass"/>
+    <functioncall functionName="getBitWidth"/>
+    <functioncall functionName="getBody"/>
+    <functioncall functionName="getCXXOverloadedOperator"/>
+    <functioncall functionName="getClassInterface"/>
+    <functioncall functionName="getCombiner"/>
+    <functioncall functionName="getConstraintExpr"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDeclType"/>
+    <functioncall functionName="getDeducedTemplate"/>
+    <functioncall functionName="getDeducedType"/>
+    <functioncall functionName="getDefaultArgument"/>
+    <functioncall functionName="getDeletedMessage"/>
+    <functioncall functionName="getDescribedFunctionTemplate"/>
+    <functioncall functionName="getElementType"/>
+    <functioncall functionName="getEnumDecl"/>
+    <functioncall functionName="getExceptionSpecType"/>
+    <functioncall functionName="getExceptionType"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getExprs"/>
+    <functioncall functionName="getFriendDecl"/>
+    <functioncall functionName="getFriendType"/>
+    <functioncall functionName="getFriendTypeNumTemplateParameterLists"/>
+    <functioncall functionName="getFriendTypeTemplateParameterList"/>
+    <functioncall functionName="getFromDecl"/>
+    <functioncall functionName="getFullModuleName"/>
+    <functioncall functionName="getGetterName"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getImportedModule"/>
+    <functioncall functionName="getInClassInitStyle"/>
+    <functioncall functionName="getInClassInitializer"/>
+    <functioncall functionName="getInit"/>
+    <functioncall functionName="getInitExpr"/>
+    <functioncall functionName="getInitStyle"/>
+    <functioncall functionName="getInitializer"/>
+    <functioncall functionName="getInitializerKind"/>
+    <functioncall functionName="getInnerType"/>
+    <functioncall functionName="getIntegerType"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getKindName"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLanguage"/>
+    <functioncall functionName="getLoc"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMessage"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameAsString"/>
+    <functioncall functionName="getNameInfo"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNoexceptExpr"/>
+    <functioncall functionName="getNominatedBaseClass"/>
+    <functioncall functionName="getNominatedNamespaceAsWritten"/>
+    <functioncall functionName="getNullabilitySpelling"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumBases"/>
+    <functioncall functionName="getNumExceptions"/>
+    <functioncall functionName="getNumExprs"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getNumTemplateParameterLists"/>
+    <functioncall functionName="getObjCDeclQualifier"/>
+    <functioncall functionName="getOperatorSpelling"/>
+    <functioncall functionName="getOwnedTagDecl"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getParamDecl"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPattern"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPosAsWritten"/>
+    <functioncall functionName="getPrintingPolicy"/>
+    <functioncall functionName="getPropertyAttributes"/>
+    <functioncall functionName="getPropertyDecl"/>
+    <functioncall functionName="getPropertyImplementation"/>
+    <functioncall functionName="getPropertyIvarDecl"/>
+    <functioncall functionName="getQualifiedNameAsString"/>
+    <functioncall functionName="getQualifier"/>
+    <functioncall functionName="getRefQualifier"/>
+    <functioncall functionName="getReferencedProtocols"/>
+    <functioncall functionName="getRequiresClause"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSetterName"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getSpecializationKind"/>
+    <functioncall functionName="getSpecializedTemplate"/>
+    <functioncall functionName="getStmt"/>
+    <functioncall functionName="getStorageClass"/>
+    <functioncall functionName="getStorageClassSpecifierString"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSuperClass"/>
+    <functioncall functionName="getSuperClassType"/>
+    <functioncall functionName="getTSCSpec"/>
+    <functioncall functionName="getTemplateArgs"/>
+    <functioncall functionName="getTemplateArgsAsWritten"/>
+    <functioncall functionName="getTemplateParameterList"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplateSpecializationArgs"/>
+    <functioncall functionName="getTemplateSpecializationArgsAsWritten"/>
+    <functioncall functionName="getTemplateSpecializationKind"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getTrailingRequiresClause"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeConstraint"/>
+    <functioncall functionName="getTypeParamList"/>
+    <functioncall functionName="getTypeParamListAsWritten"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getUnderlyingType"/>
+    <functioncall functionName="getUnqualifiedObjCPointerType"/>
+    <functioncall functionName="getVarName"/>
+    <functioncall functionName="getVariance"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasAttrs"/>
+    <functioncall functionName="hasBody"/>
+    <functioncall functionName="hasBraces"/>
+    <functioncall functionName="hasDefaultArgument"/>
+    <functioncall functionName="hasDynamicExceptionSpec"/>
+    <functioncall functionName="hasExplicitBound"/>
+    <functioncall functionName="hasPrototype"/>
+    <functioncall functionName="hasTrailingReturn"/>
+    <functioncall functionName="hasTypename"/>
+    <functioncall functionName="hasWrittenPrototype"/>
+    <functioncall functionName="inits"/>
+    <functioncall functionName="isAccessDeclaration"/>
+    <functioncall functionName="isAnyMemberInitializer"/>
+    <functioncall functionName="isBeforeInTranslationUnit"/>
+    <functioncall functionName="isBitField"/>
+    <functioncall functionName="isCBuffer"/>
+    <functioncall functionName="isCXXForRangeDecl"/>
+    <functioncall functionName="isClassType"/>
+    <functioncall functionName="isCompleteDefinition"/>
+    <functioncall functionName="isComputedNoexcept"/>
+    <functioncall functionName="isConst"/>
+    <functioncall functionName="isConsteval"/>
+    <functioncall functionName="isConstexpr"/>
+    <functioncall functionName="isConstexprSpecified"/>
+    <functioncall functionName="isDefaultArgument"/>
+    <functioncall functionName="isDefaulted"/>
+    <functioncall functionName="isDefined"/>
+    <functioncall functionName="isDelegatingInitializer"/>
+    <functioncall functionName="isDeletedAsWritten"/>
+    <functioncall functionName="isExplicitObjectParameter"/>
+    <functioncall functionName="isExplicitlyDefaulted"/>
+    <functioncall functionName="isFixed"/>
+    <functioncall functionName="isFreeStanding"/>
+    <functioncall functionName="isFunctionTemplateSpecialization"/>
+    <functioncall functionName="isIdentifier"/>
+    <functioncall functionName="isImmediateFunction"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isInClassMemberInitializer"/>
+    <functioncall functionName="isInherited"/>
+    <functioncall functionName="isInline"/>
+    <functioncall functionName="isInlineSpecified"/>
+    <functioncall functionName="isInstanceMethod"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isInvalidDecl"/>
+    <functioncall functionName="isKeywordAttribute"/>
+    <functioncall functionName="isListInitialization"/>
+    <functioncall functionName="isModulePrivate"/>
+    <functioncall functionName="isMutable"/>
+    <functioncall functionName="isNoexceptExceptionSpec"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isPackExpansion"/>
+    <functioncall functionName="isParameterPack"/>
+    <functioncall functionName="isPureVirtual"/>
+    <functioncall functionName="isRestrict"/>
+    <functioncall functionName="isScoped"/>
+    <functioncall functionName="isScopedUsingClassTag"/>
+    <functioncall functionName="isSpecified"/>
+    <functioncall functionName="isSpecifierType"/>
+    <functioncall functionName="isStructureType"/>
+    <functioncall functionName="isThisDeclarationADefinition"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isUnionType"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isVirtualAsWritten"/>
+    <functioncall functionName="isVolatile"/>
+    <functioncall functionName="isWritten"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="ivar_size"/>
+    <functioncall functionName="ivars"/>
+    <functioncall functionName="kind_assign"/>
+    <functioncall functionName="kind_atomic"/>
+    <functioncall functionName="kind_class"/>
+    <functioncall functionName="kind_copy"/>
+    <functioncall functionName="kind_direct"/>
+    <functioncall functionName="kind_getter"/>
+    <functioncall functionName="kind_nonatomic"/>
+    <functioncall functionName="kind_null_resettable"/>
+    <functioncall functionName="kind_nullability"/>
+    <functioncall functionName="kind_readonly"/>
+    <functioncall functionName="kind_readwrite"/>
+    <functioncall functionName="kind_retain"/>
+    <functioncall functionName="kind_setter"/>
+    <functioncall functionName="kind_strong"/>
+    <functioncall functionName="kind_unsafe_unretained"/>
+    <functioncall functionName="kind_weak"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="outputString"/>
+    <functioncall functionName="param_begin"/>
+    <functioncall functionName="param_end"/>
+    <functioncall functionName="parameters"/>
+    <functioncall functionName="prettyPrintAttributes"/>
+    <functioncall functionName="prettyPrintPragmas"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printDeclType"/>
+    <functioncall functionName="printExplicitSpecifier"/>
+    <functioncall functionName="printGroup"/>
+    <functioncall functionName="printName"/>
+    <functioncall functionName="printPretty"/>
+    <functioncall functionName="printPrettyControlled"/>
+    <functioncall functionName="printQualifiedName"/>
+    <functioncall functionName="printTemplateArguments"/>
+    <functioncall functionName="printTemplateParameters"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="removeLocalConst"/>
+    <functioncall functionName="shadows"/>
+    <functioncall functionName="shouldIncludeTypeForArgument"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="specializations"/>
+    <functioncall functionName="stream"/>
+    <functioncall functionName="stripOuterNullability"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="varlist_begin"/>
+    <functioncall functionName="varlist_empty"/>
+    <functioncall functionName="varlist_end"/>
+    <functioncall functionName="wasDeclaredWithTypename"/>
+  </FileInfo>
+</analyzerinfo>

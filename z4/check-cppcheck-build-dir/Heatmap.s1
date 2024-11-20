@@ -1,0 +1,4 @@
+report_error global:[ToolName] call:[assert,errs,exit,message] noreturn:[exit]
+report_error global:[ToolName] call:[assert,errs,exit,move,toString] noreturn:[exit]
+GetExecutablePath call:[ExecutablePath,exists,findProgramByName,string] noreturn:[string]
+main global:[ToolName] call:[ArrayRef,GetExecutablePath,HideUnrelatedOptions,InitializeAllAsmParsers,InitializeAllAsmPrinters,InitializeAllDisassemblers,InitializeAllTargetInfos,InitializeAllTargetMCs,InitializeAllTargets,ParseCommandLineOptions,create,createBinary,empty,errs,exists,exit,get,getBinary,move,report_error,run,setProfile,takeError] noreturn:[exit,report_error]

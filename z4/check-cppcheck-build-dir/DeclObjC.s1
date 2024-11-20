@@ -1,0 +1,6 @@
+isIntroducingInitializers call:[getImplementation,getMethodFamily,instance_methods,isOverriding,visible_extensions]
+CollectOverriddenMethodsRecurse call:[CollectOverriddenMethodsRecurse,getMethod,getSelector,getSuperClass,isInstanceMethod,known_categories,protocols,push_back] noreturn:[CollectOverriddenMethodsRecurse]
+CollectOverriddenMethods call:[CollectOverriddenMethodsRecurse] noreturn:[CollectOverriddenMethodsRecurse]
+collectOverriddenMethodsSlow call:[CollectOverriddenMethods,assert,getClassInterface,getDeclContext,getMethod,getSelector,isInstanceMethod,isOverriding] noreturn:[CollectOverriddenMethods]
+SynthesizeIvarChunk
+operator<

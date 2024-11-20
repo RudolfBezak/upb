@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8125731192723453285">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdio&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdio&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\instrumentation-eh_frame_hdr.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\instrumentation-eh_frame_hdr.cpp" line="23" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/instrumentation-eh_frame_hdr.cpp" functionName="foo" lineNumber="25"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/instrumentation-eh_frame_hdr.cpp" functionName="bar" lineNumber="27"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/instrumentation-eh_frame_hdr.cpp" functionName="main" lineNumber="29"/>
+    <functioncall functionName="bar"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="main"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,5 @@
+shouldIncludeVariable call:[Data,LocExpr,StringRef,constructVect,data,doesFormBelongToClass,findAttribute,getAddressByteSize,getCode,getContext,getDIEBlock,getDIEInteger,getDIELoc,getForm,getFormParams,getValue,getVersion,isLittleEndian,push_back,size,values] noreturn:[constructVect,push_back]
+canProcess call:[findAttribute,getTag,shouldIncludeVariable]
+getNameOffset call:[data,errs,getDwarfOffsetByteSize,getOffset,getStringOffsetSection,getStringOffsetsTableContribution,read32le,utohexstr] noreturn:[read32le]
+getEntryID
+getDebugNamesHeaderSize call:[sizeof]

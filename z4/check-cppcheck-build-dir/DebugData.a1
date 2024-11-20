@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7714373048309628148">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DebugData.h&quot; not found." verbose="Include file: &quot;bolt/Core/DebugData.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DIEBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/DIEBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/CodeGen/DIE.h&quot; not found." verbose="Include file: &quot;llvm/CodeGen/DIE.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFCompileUnit.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFCompileUnit.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDebugAbbrev.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDebugAbbrev.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDebugAddr.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDebugAddr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCAssembler.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCAssembler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCContext.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCObjectStreamer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCObjectStreamer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/EndianStream.h&quot; not found." verbose="Include file: &quot;llvm/Support/EndianStream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SHA1.h&quot; not found." verbose="Include file: &quot;llvm/Support/SHA1.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="36" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="0" column="0"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;Val&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;Val&apos;. The initialized value is overwritten before it is read." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="871" column="9" info="Val is overwritten"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="869" column="31" info="Val is initialized"/>
+            <symbol>Val</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;AddrWriter&apos; can be declared as reference to const" verbose="Parameter &apos;AddrWriter&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="416" column="70" info="Parameter &apos;AddrWriter&apos; can be declared as reference to const"/>
+            <symbol>AddrWriter</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;AttrInfo&apos; can be declared as reference to const" verbose="Parameter &apos;AttrInfo&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DebugData.cpp" line="661" column="69" info="Parameter &apos;AttrInfo&apos; can be declared as reference to const"/>
+            <symbol>AttrInfo</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:60:1" my-argnr="2" my-argname="AbbrevDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="65" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:1064:20" my-argnr="1" my-argname="MCOS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="1074" col="30" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:60:1" my-argnr="2" my-argname="AbbrevDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="65" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:107:13" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="108" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:203:1" my-argnr="1" my-argname="Header" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="214" col="41" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:416:13" my-argnr="1" my-argname="DIEBlder" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="418" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:627:13" my-argnr="2" my-argname="LocList" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="633" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:661:13" my-argnr="1" my-argname="NumberOfEntries" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="670" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:661:13" my-argnr="2" my-argname="AttrInfo" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="669" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:661:13" my-argnr="3" my-argname="LocList" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="674" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:661:13" my-argnr="7" my-argname="LocBodyBuffer" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="672" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:661:13" my-argnr="8" my-argname="RelativeLocListOffsets" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="672" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:942:13" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="947" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:956:20" my-argnr="4" my-argname="InputSequences" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="960" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:1064:20" my-argnr="1" my-argname="MCOS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="1074" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:1176:13" my-argnr="1" my-argname="LineStrSection" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="1179" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:1176:13" my-argnr="3" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="1180" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:233:13" my-argnr="2" my-argname="Entries" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="238" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp:233:13" my-argnr="2" my-argname="Entries" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" line="238" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="replaceLocValbyForm" lineNumber="49"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="findAttributeInfo" lineNumber="60"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="findAttributeInfo" lineNumber="90"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="printLE64" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="writeAddressRanges" lineNumber="121"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="getDWARF5Header" lineNumber="203"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="updateAddressBase" lineNumber="416"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="writeEmptyListDwarf5" lineNumber="613"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="writeLegacyLocList" lineNumber="627"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="writeDWARF5LocList" lineNumber="661"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="encodeLE" lineNumber="780"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="emitDwarfSetLineAddrAbs" lineNumber="942"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="emitBinaryDwarfLineTable" lineNumber="956"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="emitDwarfLineTable" lineNumber="1064"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="parseAndPopulateDebugLineStr" lineNumber="1176"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="emitWithBase &lt; DebugAddressRangesVector , dwarf :: RnglistEntries , DebugAddressRange &gt;" lineNumber="233"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DebugData.cpp" functionName="emitWithBase &lt; DebugLocationsVector , dwarf :: LoclistEntries , DebugLocationEntry &gt;" lineNumber="233"/>
+    <functioncall functionName="AddrOffsetSectionBase"/>
+    <functioncall functionName="AddrWriter"/>
+    <functioncall functionName="Address"/>
+    <functioncall functionName="AddressByteSize"/>
+    <functioncall functionName="AddressSectionBuffer"/>
+    <functioncall functionName="AttrInfo"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="CU"/>
+    <functioncall functionName="CUAddressRanges"/>
+    <functioncall functionName="CUAddressRangesMutex"/>
+    <functioncall functionName="CurrentOffset"/>
+    <functioncall functionName="DIEInteger"/>
+    <functioncall functionName="DIELocList"/>
+    <functioncall functionName="DWARF2_FLAG_BASIC_BLOCK"/>
+    <functioncall functionName="DWARF2_FLAG_END_SEQUENCE"/>
+    <functioncall functionName="DWARF2_FLAG_EPILOGUE_BEGIN"/>
+    <functioncall functionName="DWARF2_FLAG_IS_STMT"/>
+    <functioncall functionName="DWARF2_FLAG_PROLOGUE_END"/>
+    <functioncall functionName="DWARFFormValue"/>
+    <functioncall functionName="DW_AT_GNU_addr_base"/>
+    <functioncall functionName="DW_AT_addr_base"/>
+    <functioncall functionName="DW_AT_loclists_base"/>
+    <functioncall functionName="DW_AT_str_offsets_base"/>
+    <functioncall functionName="DW_FORM_loclistx"/>
+    <functioncall functionName="DW_FORM_sec_offset"/>
+    <functioncall functionName="DW_LLE_base_addressx"/>
+    <functioncall functionName="DW_LLE_end_of_list"/>
+    <functioncall functionName="DW_LLE_offset_pair"/>
+    <functioncall functionName="DW_LLE_start_end"/>
+    <functioncall functionName="DW_LLE_startx_length"/>
+    <functioncall functionName="DW_LNE_set_address"/>
+    <functioncall functionName="DW_LNE_set_discriminator"/>
+    <functioncall functionName="DW_LNS_extended_op"/>
+    <functioncall functionName="DW_LNS_negate_stmt"/>
+    <functioncall functionName="DW_LNS_set_basic_block"/>
+    <functioncall functionName="DW_LNS_set_column"/>
+    <functioncall functionName="DW_LNS_set_epilogue_begin"/>
+    <functioncall functionName="DW_LNS_set_file"/>
+    <functioncall functionName="DW_LNS_set_isa"/>
+    <functioncall functionName="DW_LNS_set_prologue_end"/>
+    <functioncall functionName="DW_RLE_base_addressx"/>
+    <functioncall functionName="DW_RLE_end_of_list"/>
+    <functioncall functionName="DW_RLE_offset_pair"/>
+    <functioncall functionName="DW_RLE_startx_length"/>
+    <functioncall functionName="DebugAddrWriter"/>
+    <functioncall functionName="DebugAddressRangesVector"/>
+    <functioncall functionName="DebugBufferVector"/>
+    <functioncall functionName="DebugRangesSectionWriter"/>
+    <functioncall functionName="DebugRangesWriter"/>
+    <functioncall functionName="DebugStrBufferVector"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DwarfVersion"/>
+    <functioncall functionName="Emit"/>
+    <functioncall functionName="EmptyListOffset"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="HeaderSize"/>
+    <functioncall functionName="IndexAddressPair"/>
+    <functioncall functionName="IndexToAddressMap"/>
+    <functioncall functionName="InputSequences"/>
+    <functioncall functionName="InputTable"/>
+    <functioncall functionName="IsDWO"/>
+    <functioncall functionName="LocBuffer"/>
+    <functioncall functionName="LocSectionOffset"/>
+    <functioncall functionName="LowPC"/>
+    <functioncall functionName="MCDwarfLineStr"/>
+    <functioncall functionName="MCObjectStreamer"/>
+    <functioncall functionName="NumberOfEntries"/>
+    <functioncall functionName="Patches"/>
+    <functioncall functionName="RangeEntries"/>
+    <functioncall functionName="RawData"/>
+    <functioncall functionName="RecoverableErrorHandler"/>
+    <functioncall functionName="RelativeLocListOffsets"/>
+    <functioncall functionName="RowSequence"/>
+    <functioncall functionName="StrOffsets"/>
+    <functioncall functionName="StrOffsetsContributionDescriptor"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="UnitLengthType"/>
+    <functioncall functionName="WriterMutex"/>
+    <functioncall functionName="addLEPatch"/>
+    <functioncall functionName="addRanges"/>
+    <functioncall functionName="addString"/>
+    <functioncall functionName="addValue"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="attributes"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="big"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clearList"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="emitBinaryDwarfLineTable"/>
+    <functioncall functionName="emitBytes"/>
+    <functioncall functionName="emitCU"/>
+    <functioncall functionName="emitDwarfAdvanceLineAddr"/>
+    <functioncall functionName="emitDwarfLineTable"/>
+    <functioncall functionName="emitDwarfSetLineAddrAbs"/>
+    <functioncall functionName="emitInt8"/>
+    <functioncall functionName="emitIntValue"/>
+    <functioncall functionName="emitLabel"/>
+    <functioncall functionName="emitSection"/>
+    <functioncall functionName="emitULEB128IntValue"/>
+    <functioncall functionName="emitWithBase"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="encodeLE"/>
+    <functioncall functionName="encodeULEB128"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="extract"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="finalizeDWARF5"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findAttribute"/>
+    <functioncall functionName="findAttributeIndex"/>
+    <functioncall functionName="findAttributeInfo"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAbbreviationDeclarationPtr"/>
+    <functioncall functionName="getAddrSection"/>
+    <functioncall functionName="getAddressEntries"/>
+    <functioncall functionName="getAsSectionOffset"/>
+    <functioncall functionName="getAsmInfo"/>
+    <functioncall functionName="getAssembler"/>
+    <functioncall functionName="getAttribute"/>
+    <functioncall functionName="getAttributeOffsetFromIndex"/>
+    <functioncall functionName="getAttributeValueFromOffset"/>
+    <functioncall functionName="getByteSize"/>
+    <functioncall functionName="getCStr"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getColumn"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getContext"/>
+    <functioncall functionName="getDWARF5Header"/>
+    <functioncall functionName="getDWARF5RngListLocListHeaderSize"/>
+    <functioncall functionName="getDWARFLinetableParams"/>
+    <functioncall functionName="getDWARFObj"/>
+    <functioncall functionName="getDebugInfoExtractor"/>
+    <functioncall functionName="getDiscriminator"/>
+    <functioncall functionName="getDwarfLineSection"/>
+    <functioncall functionName="getDwarfLineTables"/>
+    <functioncall functionName="getDwarfOffsetByteSize"/>
+    <functioncall functionName="getDwarfUnit"/>
+    <functioncall functionName="getDwarfVersion"/>
+    <functioncall functionName="getEmptyRangesOffset"/>
+    <functioncall functionName="getFileNum"/>
+    <functioncall functionName="getFlags"/>
+    <functioncall functionName="getForm"/>
+    <functioncall functionName="getFormParams"/>
+    <functioncall functionName="getIndexFromAddress"/>
+    <functioncall functionName="getIsa"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLine"/>
+    <functioncall functionName="getMCLineEntries"/>
+    <functioncall functionName="getNextIndex"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getStrDWOSection"/>
+    <functioncall functionName="getStrSection"/>
+    <functioncall functionName="getStringOffsetSection"/>
+    <functioncall functionName="getStringOffsetsTableContribution"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getULEB128Size"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="getUnitDIE"/>
+    <functioncall functionName="getUnitDIEbyUnit"/>
+    <functioncall functionName="getVersion"/>
+    <functioncall functionName="indexToAdddessEnd"/>
+    <functioncall functionName="indexToAddressBegin"/>
+    <functioncall functionName="initialize"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="isDWOUnit"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isSplitDwarf"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isValidOffset"/>
+    <functioncall functionName="less_first"/>
+    <functioncall functionName="little"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lock_guard"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="parseAndPopulateDebugLineStr"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="raw_svector_ostream"/>
+    <functioncall functionName="read32le"/>
+    <functioncall functionName="replaceLocValbyForm"/>
+    <functioncall functionName="replaceValue"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="setDwarfVersion"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="skipValue"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="switchSection"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="updateAddressBase"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="writeAddressRanges"/>
+    <functioncall functionName="writeDWARF5LocList"/>
+    <functioncall functionName="writeEmptyListDwarf5"/>
+    <functioncall functionName="writeLegacyLocList"/>
+    <functioncall functionName="write_zeros"/>
+  </FileInfo>
+</analyzerinfo>

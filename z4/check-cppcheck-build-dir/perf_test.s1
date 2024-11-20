@@ -1,0 +1,5 @@
+add
+minus
+multiple
+divide
+main call:[add,divide,minus,multiple] noreturn:[divide]

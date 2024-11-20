@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12610624731061455536">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\user-func-reorder.c" line="6" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/user-func-reorder.c:12:5" call-funcname="fib" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/user-func-reorder.c" line="15" col="26" call-argexpr="x-2" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\user-func-reorder.c" line="13" col="9" info="Assuming that condition &apos;x&lt;2&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/user-func-reorder.c" functionName="foo" lineNumber="8"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/user-func-reorder.c" functionName="fib" lineNumber="12"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/user-func-reorder.c" functionName="bar" lineNumber="18"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/user-func-reorder.c" functionName="main" lineNumber="22"/>
+    <functioncall functionName="fib"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

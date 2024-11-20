@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13558989282856950740">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/inlined.cpp" functionName="answer" lineNumber="5"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/inlined.cpp" functionName="main" lineNumber="7"/>
+    <functioncall functionName="answer"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="question"/>
+  </FileInfo>
+</analyzerinfo>

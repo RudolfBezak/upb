@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3942152912754507713">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;dlfcn.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;dlfcn.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\instrumentation-shlib.c" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\instrumentation-shlib.c" line="5" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-shlib.c" functionName="main" lineNumber="20"/>
+    <functioncall functionName="RTLD_LAZY"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-shlib.c:10:5" call-funcname="fib" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-shlib.c" line="13" col="26" call-argexpr="x-2" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\instrumentation-shlib.c" line="11" col="9" info="Assuming that condition &apos;x&lt;2&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-shlib.c" functionName="foo" lineNumber="8"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-shlib.c" functionName="fib" lineNumber="10"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-shlib.c" functionName="bar" lineNumber="16"/>
+  </FileInfo>
+</analyzerinfo>

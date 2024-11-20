@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2720629583505310757">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StokeInfo.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StokeInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StokeInfo.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StokeInfo.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StokeInfo.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StokeInfo.cpp" line="16" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StokeInfo.cpp:36:6" my-argnr="2" my-argname="RegV" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StokeInfo.cpp" line="38" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StokeInfo.cpp" functionName="getRegNameFromBitVec" lineNumber="36"/>
+    <functioncall functionName="DefaultDefInMask"/>
+    <functioncall functionName="DefaultLiveOutMask"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="NumRegs"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="StokeOutputDataFilename"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="buildCallGraph"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="checkFunction"/>
+    <functioncall functionName="checkInstr"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="estimateHotSize"/>
+    <functioncall functionName="estimateSize"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getDefaultDefIn"/>
+    <functioncall functionName="getDefaultLiveOut"/>
+    <functioncall functionName="getFileOffset"/>
+    <functioncall functionName="getFirstNonPseudoInstr"/>
+    <functioncall functionName="getFunctionClobberList"/>
+    <functioncall functionName="getFunctionScore"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLivenessAnalysis"/>
+    <functioncall functionName="getLoopInfo"/>
+    <functioncall functionName="getMaxSize"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumNonPseudos"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getRegNameFromBitVec"/>
+    <functioncall functionName="getStateAt"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasPCRelOperand"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isLoopFree"/>
+    <functioncall functionName="isMultiEntry"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isPush"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="lp_size"/>
+    <functioncall functionName="mayStore"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="printCsvHeader"/>
+    <functioncall functionName="printData"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="set_bits"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="throw_size"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

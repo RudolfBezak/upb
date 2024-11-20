@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17361125451488921309">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Instrumentation.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Instrumentation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h&quot; not found." verbose="Include file: &quot;bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/RWMutex.h&quot; not found." verbose="Include file: &quot;llvm/Support/RWMutex.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="22" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;VisitedSet&apos; can be reduced." verbose="The scope of the variable &apos;VisitedSet&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="401" column="48"/>
+            <symbol>VisitedSet</symbol>
+        </error>
+        <error id="redundantPointerOp" severity="style" msg="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." verbose="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="521" column="49"/>
+            <symbol>Succ</symbol>
+        </error>
+        <error id="redundantPointerOp" severity="style" msg="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." verbose="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="525" column="42"/>
+            <symbol>Succ</symbol>
+        </error>
+        <error id="redundantPointerOp" severity="style" msg="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." verbose="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="530" column="15"/>
+            <symbol>Succ</symbol>
+        </error>
+        <error id="redundantPointerOp" severity="style" msg="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." verbose="Redundant pointer operation on &apos;Succ&apos; - it&apos;s already a pointer." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Instrumentation.cpp" line="531" column="45"/>
+            <symbol>Succ</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp:91:13" my-argnr="1" my-argname="Function" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp" line="98" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp" functionName="hasAArch64ExclusiveMemop" lineNumber="91"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Instrumentation.cpp" functionName="insertInstructions" lineNumber="272"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="CFG_Finalized"/>
+    <functioncall functionName="ConservativeInstrumentation"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="FDMutex"/>
+    <functioncall functionName="IndCallCounterFuncPtr"/>
+    <functioncall functionName="IndCallDescription"/>
+    <functioncall functionName="IndCallTargetDescription"/>
+    <functioncall functionName="IndTailCallCounterFuncPtr"/>
+    <functioncall functionName="InstrumentCalls"/>
+    <functioncall functionName="InstrumentationRuntimeLibrary"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="RWMutex"/>
+    <functioncall functionName="SHT_NOTE"/>
+    <functioncall functionName="SHT_PROGBITS"/>
+    <functioncall functionName="SP_INST_QUADRATIC"/>
+    <functioncall functionName="Summary"/>
+    <functioncall functionName="VK_None"/>
+    <functioncall functionName="addInstructions"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="block_rbegin"/>
+    <functioncall functionName="block_rend"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createAuxiliaryFunctions"/>
+    <functioncall functionName="createBasicBlock"/>
+    <functioncall functionName="createCall"/>
+    <functioncall functionName="createCallDescription"/>
+    <functioncall functionName="createEdgeDescription"/>
+    <functioncall functionName="createFatalBOLTError"/>
+    <functioncall functionName="createIndCallDescription"/>
+    <functioncall functionName="createIndCallTargetDescription"/>
+    <functioncall functionName="createInjectedBinaryFunction"/>
+    <functioncall functionName="createInstrIncMemory"/>
+    <functioncall functionName="createInstrLocationsGetter"/>
+    <functioncall functionName="createInstrNumFuncsGetter"/>
+    <functioncall functionName="createInstrTablesGetter"/>
+    <functioncall functionName="createInstrumentationSnippet"/>
+    <functioncall functionName="createInstrumentedIndCallHandlerEntryBB"/>
+    <functioncall functionName="createInstrumentedIndCallHandlerExitBB"/>
+    <functioncall functionName="createInstrumentedIndTailCallHandlerExitBB"/>
+    <functioncall functionName="createInstrumentedIndirectCall"/>
+    <functioncall functionName="createLeafNodeDescription"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createNumCountersGetter"/>
+    <functioncall functionName="createReturnInstructionList"/>
+    <functioncall functionName="createSymbolTrampoline"/>
+    <functioncall functionName="deleteConservativeEdges"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="disambiguateJumpTables"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getBinaryFunctionAtAddress"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getEscapedName"/>
+    <functioncall functionName="getFDSize"/>
+    <functioncall functionName="getFallthrough"/>
+    <functioncall functionName="getFlags"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getFunctionNameIndex"/>
+    <functioncall functionName="getInputOffset"/>
+    <functioncall functionName="getJumpTable"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOneName"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOrCreateSymbol"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getRuntimeLibrary"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="hasAArch64ExclusiveMemop"/>
+    <functioncall functionName="hasName"/>
+    <functioncall functionName="hasUnknownControlFlow"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertBasicBlocks"/>
+    <functioncall functionName="insertInstruction"/>
+    <functioncall functionName="insertInstructions"/>
+    <functioncall functionName="instrumentFunction"/>
+    <functioncall functionName="instrumentIndirectTarget"/>
+    <functioncall functionName="instrumentLeafNode"/>
+    <functioncall functionName="instrumentOneTarget"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isAArch64ExclusiveClear"/>
+    <functioncall functionName="isAArch64ExclusiveLoad"/>
+    <functioncall functionName="isAArch64ExclusiveStore"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isConditionalBranch"/>
+    <functioncall functionName="isELF"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isIgnored"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isLEA64r"/>
+    <functioncall functionName="isLandingPad"/>
+    <functioncall functionName="isMachO"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isUnconditionalBranch"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="queue"/>
+    <functioncall functionName="registerNameAtAddress"/>
+    <functioncall functionName="registerOrUpdateNoteSection"/>
+    <functioncall functionName="registerOrUpdateSection"/>
+    <functioncall functionName="rend"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="runOnEachFunctionWithUniqueAllocId"/>
+    <functioncall functionName="scopeLock"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setCFIState"/>
+    <functioncall functionName="setExpr"/>
+    <functioncall functionName="setSummary"/>
+    <functioncall functionName="setupRuntimeLibrary"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="splitEdge"/>
+    <functioncall functionName="stack"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="unique_lock"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="unordered_set"/>
+    <functioncall functionName="updateState"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

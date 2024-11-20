@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2460616454980335190">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/CallGraphWalker.h&quot; not found." verbose="Include file: &quot;bolt/Core/CallGraphWalker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\CallGraphWalker.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\CallGraphWalker.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\CallGraphWalker.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\CallGraphWalker.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\CallGraphWalker.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\CallGraphWalker.cpp" line="18" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="TimeOpts"/>
+    <functioncall functionName="TopologicalCGOrder"/>
+    <functioncall functionName="Visitors"/>
+    <functioncall functionName="buildTraversalOrder"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="getNodeId"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="nodeIdToFunc"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="predecessors"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="queue"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="traverseCG"/>
+  </FileInfo>
+</analyzerinfo>

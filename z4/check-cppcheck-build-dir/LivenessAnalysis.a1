@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7580617641319532926">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/LivenessAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/LivenessAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LivenessAnalysis.cpp" line="9" column="0"/>
+        </error>
+</analyzerinfo>

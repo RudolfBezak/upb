@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10301771685971716071">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentParser.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentParser.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentParser.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentParser.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentParser.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentSema.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentSema.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentParser.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/CharInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/CharInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentParser.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentParser.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentParser.cpp" line="15" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp:155:8" my-argnr="1" my-argname="Result" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" line="160" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="isWhitespace" lineNumber="19"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="isEnd" lineNumber="52"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="setupBuffer" lineNumber="57"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="getSourceLocation" lineNumber="67"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="peek" lineNumber="72"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="consumeChar" lineNumber="78"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="lexTemplate" lineNumber="93"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="addToken" lineNumber="120"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="consumeWhitespace" lineNumber="146"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="formTokenWithChars" lineNumber="155"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="lexType" lineNumber="178"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="startsWithParCommand" lineNumber="226"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="lexParHeading" lineNumber="242"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="lexWord" lineNumber="283"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="lexDelimitedSeq" lineNumber="316"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentParser.cpp" functionName="putBackLeftoverTokens" lineNumber="363"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="Allocator"/>
+    <functioncall functionName="Argument"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="Attribute"/>
+    <functioncall functionName="BlockContentComment"/>
+    <functioncall functionName="CMK_At"/>
+    <functioncall functionName="CMK_Backslash"/>
+    <functioncall functionName="Diag"/>
+    <functioncall functionName="InlineContentComment"/>
+    <functioncall functionName="ParagraphComment"/>
+    <functioncall functionName="Parser"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="Tok"/>
+    <functioncall functionName="Token"/>
+    <functioncall functionName="VerbatimBlockLineComment"/>
+    <functioncall functionName="actOnBlockCommandArgs"/>
+    <functioncall functionName="actOnBlockCommandFinish"/>
+    <functioncall functionName="actOnBlockCommandStart"/>
+    <functioncall functionName="actOnFullComment"/>
+    <functioncall functionName="actOnHTMLEndTag"/>
+    <functioncall functionName="actOnHTMLStartTagFinish"/>
+    <functioncall functionName="actOnHTMLStartTagStart"/>
+    <functioncall functionName="actOnInlineCommand"/>
+    <functioncall functionName="actOnParagraphComment"/>
+    <functioncall functionName="actOnParamCommandDirectionArg"/>
+    <functioncall functionName="actOnParamCommandFinish"/>
+    <functioncall functionName="actOnParamCommandParamNameArg"/>
+    <functioncall functionName="actOnParamCommandStart"/>
+    <functioncall functionName="actOnTParamCommandFinish"/>
+    <functioncall functionName="actOnTParamCommandParamNameArg"/>
+    <functioncall functionName="actOnTParamCommandStart"/>
+    <functioncall functionName="actOnText"/>
+    <functioncall functionName="actOnUnknownCommand"/>
+    <functioncall functionName="actOnVerbatimBlockFinish"/>
+    <functioncall functionName="actOnVerbatimBlockLine"/>
+    <functioncall functionName="actOnVerbatimBlockStart"/>
+    <functioncall functionName="actOnVerbatimLine"/>
+    <functioncall functionName="addToken"/>
+    <functioncall functionName="addTrailingNewline"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="at_command"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="backslash_command"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="consumeChar"/>
+    <functioncall functionName="consumeToken"/>
+    <functioncall functionName="consumeWhitespace"/>
+    <functioncall functionName="copyArray"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eof"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="formTokenWithChars"/>
+    <functioncall functionName="getCommandID"/>
+    <functioncall functionName="getCommandInfo"/>
+    <functioncall functionName="getEndLocation"/>
+    <functioncall functionName="getHTMLIdent"/>
+    <functioncall functionName="getHTMLQuotedString"/>
+    <functioncall functionName="getHTMLTagEndName"/>
+    <functioncall functionName="getHTMLTagStartName"/>
+    <functioncall functionName="getID"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLocWithOffset"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getPresumedLineNumber"/>
+    <functioncall functionName="getSourceLocation"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getText"/>
+    <functioncall functionName="getUnknownCommandName"/>
+    <functioncall functionName="getVerbatimBlockID"/>
+    <functioncall functionName="getVerbatimBlockText"/>
+    <functioncall functionName="getVerbatimLineID"/>
+    <functioncall functionName="getVerbatimLineText"/>
+    <functioncall functionName="html_end_tag"/>
+    <functioncall functionName="html_equals"/>
+    <functioncall functionName="html_greater"/>
+    <functioncall functionName="html_ident"/>
+    <functioncall functionName="html_quoted_string"/>
+    <functioncall functionName="html_slash_greater"/>
+    <functioncall functionName="html_start_tag"/>
+    <functioncall functionName="is"/>
+    <functioncall functionName="isEnd"/>
+    <functioncall functionName="isNot"/>
+    <functioncall functionName="isTokBlockCommand"/>
+    <functioncall functionName="isWhitespace"/>
+    <functioncall functionName="lexDelimitedSeq"/>
+    <functioncall functionName="lexParHeading"/>
+    <functioncall functionName="lexTemplate"/>
+    <functioncall functionName="lexType"/>
+    <functioncall functionName="lexWord"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="newline"/>
+    <functioncall functionName="note_doc_html_tag_started_here"/>
+    <functioncall functionName="parseBlockCommand"/>
+    <functioncall functionName="parseBlockContent"/>
+    <functioncall functionName="parseCommandArgs"/>
+    <functioncall functionName="parseHTMLEndTag"/>
+    <functioncall functionName="parseHTMLStartTag"/>
+    <functioncall functionName="parseInlineCommand"/>
+    <functioncall functionName="parseParCommandArgs"/>
+    <functioncall functionName="parseParagraphOrBlockCommand"/>
+    <functioncall functionName="parseParamCommandArgs"/>
+    <functioncall functionName="parseTParamCommandArgs"/>
+    <functioncall functionName="parseThrowCommandArgs"/>
+    <functioncall functionName="parseVerbatimBlock"/>
+    <functioncall functionName="parseVerbatimLine"/>
+    <functioncall functionName="peek"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="putBack"/>
+    <functioncall functionName="putBackLeftoverTokens"/>
+    <functioncall functionName="setKind"/>
+    <functioncall functionName="setLength"/>
+    <functioncall functionName="setLocation"/>
+    <functioncall functionName="setText"/>
+    <functioncall functionName="setupBuffer"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="startsWithParCommand"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="verbatim_block_begin"/>
+    <functioncall functionName="verbatim_block_end"/>
+    <functioncall functionName="verbatim_block_line"/>
+    <functioncall functionName="verbatim_line_name"/>
+    <functioncall functionName="verbatim_line_text"/>
+    <functioncall functionName="warn_doc_html_start_tag_expected_ident_or_greater"/>
+    <functioncall functionName="warn_doc_html_start_tag_expected_quoted_string"/>
+    <functioncall functionName="warn_doc_inline_command_not_enough_arguments"/>
+    <functioncall functionName="warn_verbatim_block_end_without_start"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,1415 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8598842885906101548">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTLambda.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTLambda.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTMutationListener.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTMutationListener.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTUnresolvedSet.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTUnresolvedSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found." verbose="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclBase.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclarationName.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclarationName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/LambdaCapture.h&quot; not found." verbose="Include file: &quot;clang/AST/LambdaCapture.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found." verbose="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ODRHash.h&quot; not found." verbose="Include file: &quot;clang/AST/ODRHash.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/UnresolvedSet.h&quot; not found." verbose="Include file: &quot;clang/AST/UnresolvedSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found." verbose="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OperatorKinds.h&quot; not found." verbose="Include file: &quot;clang/Basic/OperatorKinds.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/PartialDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/PartialDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Specifiers.h&quot; not found." verbose="Include file: &quot;clang/Basic/Specifiers.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="38" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="39" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="40" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="41" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/iterator_range.h&quot; not found." verbose="Include file: &quot;llvm/ADT/iterator_range.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="42" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="43" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="44" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Format.h&quot; not found." verbose="Include file: &quot;llvm/Support/Format.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="46" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="47" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="48" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="49" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="50" column="0"/>
+        </error>
+        <error id="checkLevelNormal" severity="information" msg="Limiting ValueFlow analysis in function &apos;addedMember&apos; since it is too complex. Please specify --check-level=exhaustive to perform full analysis." verbose="Limiting ValueFlow analysis in function &apos;addedMember&apos; since it is too complex. Please specify --check-level=exhaustive to perform full analysis." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="752" column="42"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="0" column="0"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="1582" column="21"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;M&apos; can be declared as pointer to const" verbose="Variable &apos;M&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="1669" column="11" info="Variable &apos;M&apos; can be declared as pointer to const"/>
+            <symbol>M</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::all_of or std::none_of algorithm instead of a raw loop." verbose="Consider using std::all_of or std::none_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="2109" column="3"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="2157" column="3"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclCXX.cpp" line="2288" column="3"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1797:20" my-argnr="2" my-argname="Conv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1799" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1816:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1830" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1879:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1896" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2085:13" my-argnr="1" my-argname="DC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2086" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2286:13" my-argnr="1" my-argname="DerivedMD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2288" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2630:17" my-argnr="2" my-argname="FPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2633" col="38" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:176:13" my-argnr="1" my-argname="StartRD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="178" col="52" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1638:19" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1639" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1703:1" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1704" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1797:20" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1801" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1797:20" my-argnr="2" my-argname="Conv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1799" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1816:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1830" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1879:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1896" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1879:13" my-argnr="3" my-argname="Output" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1898" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2085:13" my-argnr="1" my-argname="DC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2086" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2286:13" my-argnr="1" my-argname="DerivedMD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2288" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2630:17" my-argnr="1" my-argname="C" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2632" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2630:17" my-argnr="2" my-argname="FPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2633" col="38" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="hasRepeatedBaseClass" lineNumber="176"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="allLookupResultsAreTheSame" lineNumber="1631"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getLambdaCallOperatorHelper" lineNumber="1638"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getLambdaStaticInvokers" lineNumber="1703"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getInvokerAsMethod" lineNumber="1710"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="GetConversionType" lineNumber="1797"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="CollectVisibleConversions" lineNumber="1816"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="CollectVisibleConversions" lineNumber="1879"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="isDeclContextInNamespace" lineNumber="2085"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="hasPureVirtualFinalOverrider" lineNumber="2149"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="recursivelyOverrides" lineNumber="2286"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getThisObjectType" lineNumber="2630"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="isValidStructGUID" lineNumber="3512"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getAccessName" lineNumber="3614"/>
+    <functioncall functionName="APInt"/>
+    <functioncall functionName="APSInt"/>
+    <functioncall functionName="APVal"/>
+    <functioncall functionName="APValue"/>
+    <functioncall functionName="Abstract"/>
+    <functioncall functionName="AccessSpecDecl"/>
+    <functioncall functionName="AddCXXRecordDecl"/>
+    <functioncall functionName="AddCaptureList"/>
+    <functioncall functionName="AddStmt"/>
+    <functioncall functionName="AddedCXXImplicitMember"/>
+    <functioncall functionName="Aggregate"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BaseUsingDecl"/>
+    <functioncall functionName="BinaryOperator"/>
+    <functioncall functionName="BindingDecl"/>
+    <functioncall functionName="C"/>
+    <functioncall functionName="CPlusPlus14"/>
+    <functioncall functionName="CPlusPlus17"/>
+    <functioncall functionName="CPlusPlus20"/>
+    <functioncall functionName="CPlusPlus23"/>
+    <functioncall functionName="CXXConstructExpr"/>
+    <functioncall functionName="CXXConstructor"/>
+    <functioncall functionName="CXXConstructorDecl"/>
+    <functioncall functionName="CXXConversionDecl"/>
+    <functioncall functionName="CXXCtorInitializer"/>
+    <functioncall functionName="CXXDeductionGuideDecl"/>
+    <functioncall functionName="CXXDestructorDecl"/>
+    <functioncall functionName="CXXMethod"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXRecord"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="CalculateHash"/>
+    <functioncall functionName="CanNeverPassInRegs"/>
+    <functioncall functionName="CanQualType"/>
+    <functioncall functionName="Captures"/>
+    <functioncall functionName="Class"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="ClassTemplatePartialSpecializationDecl"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="CollectVisibleConversions"/>
+    <functioncall functionName="ComputedVisibleConversions"/>
+    <functioncall functionName="ConstantArrayType"/>
+    <functioncall functionName="ConstructorUsingShadowDecl"/>
+    <functioncall functionName="Deallocate"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclContext"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="DeclarationName"/>
+    <functioncall functionName="DeclarationNameInfo"/>
+    <functioncall functionName="DeclaredNonTrivialSpecialMembers"/>
+    <functioncall functionName="DeclaredNonTrivialSpecialMembersForCall"/>
+    <functioncall functionName="DeclaredSpecialMembers"/>
+    <functioncall functionName="DecompositionDecl"/>
+    <functioncall functionName="DefaultedCopyAssignmentIsDeleted"/>
+    <functioncall functionName="DefaultedCopyConstructorIsDeleted"/>
+    <functioncall functionName="DefaultedDefaultConstructorIsConstexpr"/>
+    <functioncall functionName="DefaultedDestructorIsConstexpr"/>
+    <functioncall functionName="DefaultedDestructorIsDeleted"/>
+    <functioncall functionName="DefaultedMoveAssignmentIsDeleted"/>
+    <functioncall functionName="DefaultedMoveConstructorIsDeleted"/>
+    <functioncall functionName="Definition"/>
+    <functioncall functionName="DefinitionData"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Empty"/>
+    <functioncall functionName="EmptyShell"/>
+    <functioncall functionName="EnumDecl"/>
+    <functioncall functionName="ExplicitSpecifier"/>
+    <functioncall functionName="FieldDecl"/>
+    <functioncall functionName="FinalAttr"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="FunctionType"/>
+    <functioncall functionName="GetConversionType"/>
+    <functioncall functionName="GetExternalDecl"/>
+    <functioncall functionName="GlobalDeclID"/>
+    <functioncall functionName="HLSL"/>
+    <functioncall functionName="HasBasesWithFields"/>
+    <functioncall functionName="HasBasesWithNonStaticDataMembers"/>
+    <functioncall functionName="HasConstexprDefaultConstructor"/>
+    <functioncall functionName="HasConstexprNonCopyMoveConstructor"/>
+    <functioncall functionName="HasDeclaredCopyAssignmentWithConstParam"/>
+    <functioncall functionName="HasDeclaredCopyConstructorWithConstParam"/>
+    <functioncall functionName="HasDefaultedDefaultConstructor"/>
+    <functioncall functionName="HasInClassInitializer"/>
+    <functioncall functionName="HasInheritedAssignment"/>
+    <functioncall functionName="HasInheritedConstructor"/>
+    <functioncall functionName="HasInheritedDefaultConstructor"/>
+    <functioncall functionName="HasInitMethod"/>
+    <functioncall functionName="HasIrrelevantDestructor"/>
+    <functioncall functionName="HasMutableFields"/>
+    <functioncall functionName="HasNonLiteralTypeFieldsOrBases"/>
+    <functioncall functionName="HasODRHash"/>
+    <functioncall functionName="HasOnlyCMembers"/>
+    <functioncall functionName="HasPrivateFields"/>
+    <functioncall functionName="HasProtectedFields"/>
+    <functioncall functionName="HasPublicFields"/>
+    <functioncall functionName="HasTrivialSpecialMembers"/>
+    <functioncall functionName="HasTrivialSpecialMembersForCall"/>
+    <functioncall functionName="HasUninitializedFields"/>
+    <functioncall functionName="HasUninitializedReferenceMember"/>
+    <functioncall functionName="HasVariantMembers"/>
+    <functioncall functionName="IgnoreImplicit"/>
+    <functioncall functionName="ImplicitCopyAssignmentHasConstParam"/>
+    <functioncall functionName="ImplicitCopyConstructorCanHaveConstParamForNonVBase"/>
+    <functioncall functionName="ImplicitCopyConstructorCanHaveConstParamForVBase"/>
+    <functioncall functionName="IndirectFieldDecl"/>
+    <functioncall functionName="InheritedConstructor"/>
+    <functioncall functionName="Initializee"/>
+    <functioncall functionName="IsAnyDestructorNoReturn"/>
+    <functioncall functionName="IsCXX11StandardLayout"/>
+    <functioncall functionName="IsDelegating"/>
+    <functioncall functionName="IsGenericLambda"/>
+    <functioncall functionName="IsHLSLIntangible"/>
+    <functioncall functionName="IsLambda"/>
+    <functioncall functionName="IsParsingBaseSpecifiers"/>
+    <functioncall functionName="IsStandardLayout"/>
+    <functioncall functionName="IsVirtual"/>
+    <functioncall functionName="IsWritten"/>
+    <functioncall functionName="LParenLoc"/>
+    <functioncall functionName="LValueReferenceType"/>
+    <functioncall functionName="LambdaCapture"/>
+    <functioncall functionName="LambdaDefinitionData"/>
+    <functioncall functionName="LinkageSpec"/>
+    <functioncall functionName="LinkageSpecDecl"/>
+    <functioncall functionName="LocStart"/>
+    <functioncall functionName="MSGuid"/>
+    <functioncall functionName="MSGuidDecl"/>
+    <functioncall functionName="MSPropertyDecl"/>
+    <functioncall functionName="MemberExpr"/>
+    <functioncall functionName="MemberOrEllipsisLocation"/>
+    <functioncall functionName="MemberPointerType"/>
+    <functioncall functionName="MemberSpecializationInfo"/>
+    <functioncall functionName="MergeAccess"/>
+    <functioncall functionName="Modules"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="Namespace"/>
+    <functioncall functionName="NamespaceAliasDecl"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="NeedOverloadResolutionForCopyAssignment"/>
+    <functioncall functionName="NeedOverloadResolutionForCopyConstructor"/>
+    <functioncall functionName="NeedOverloadResolutionForDestructor"/>
+    <functioncall functionName="NeedOverloadResolutionForMoveAssignment"/>
+    <functioncall functionName="NeedOverloadResolutionForMoveConstructor"/>
+    <functioncall functionName="NestedNameSpecifierLoc"/>
+    <functioncall functionName="NominatedNamespace"/>
+    <functioncall functionName="Normal"/>
+    <functioncall functionName="NumBases"/>
+    <functioncall functionName="ODRHash"/>
+    <functioncall functionName="OO_Call"/>
+    <functioncall functionName="ObjCAutoRefCount"/>
+    <functioncall functionName="Part1"/>
+    <functioncall functionName="Part2"/>
+    <functioncall functionName="Part3"/>
+    <functioncall functionName="Part4And5"/>
+    <functioncall functionName="PartVal"/>
+    <functioncall functionName="Parts"/>
+    <functioncall functionName="PlainOldData"/>
+    <functioncall functionName="Polymorphic"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="RBraceLoc"/>
+    <functioncall functionName="RParenLoc"/>
+    <functioncall functionName="RecordDecl"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="ReferenceType"/>
+    <functioncall functionName="RequiresExprBodyDecl"/>
+    <functioncall functionName="ResolvedOperatorDelete"/>
+    <functioncall functionName="SC_None"/>
+    <functioncall functionName="SD_Automatic"/>
+    <functioncall functionName="SD_FullExpression"/>
+    <functioncall functionName="SD_Static"/>
+    <functioncall functionName="SMF_All"/>
+    <functioncall functionName="SMF_CopyConstructor"/>
+    <functioncall functionName="SMF_Destructor"/>
+    <functioncall functionName="SMF_MoveConstructor"/>
+    <functioncall functionName="SmallPtrSet"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceOrder"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StaticAssertDecl"/>
+    <functioncall functionName="StorageClass"/>
+    <functioncall functionName="Struct"/>
+    <functioncall functionName="StructuralIfLiteral"/>
+    <functioncall functionName="TSK_Undeclared"/>
+    <functioncall functionName="TagDecl"/>
+    <functioncall functionName="TypeSourceInfo"/>
+    <functioncall functionName="UninitArray"/>
+    <functioncall functionName="UninitStruct"/>
+    <functioncall functionName="UnnamedGlobalConstant"/>
+    <functioncall functionName="UnnamedGlobalConstantDecl"/>
+    <functioncall functionName="UnresolvedSet"/>
+    <functioncall functionName="UnresolvedUsingIfExists"/>
+    <functioncall functionName="UnresolvedUsingIfExistsDecl"/>
+    <functioncall functionName="UnresolvedUsingTypenameDecl"/>
+    <functioncall functionName="UnresolvedUsingValueDecl"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="UserDeclaredConstructor"/>
+    <functioncall functionName="UserDeclaredSpecialMembers"/>
+    <functioncall functionName="UserProvidedDefaultConstructor"/>
+    <functioncall functionName="UsingDecl"/>
+    <functioncall functionName="UsingDirectiveDecl"/>
+    <functioncall functionName="UsingEnumDecl"/>
+    <functioncall functionName="UsingLocation"/>
+    <functioncall functionName="UsingOrNextShadow"/>
+    <functioncall functionName="UsingPackDecl"/>
+    <functioncall functionName="UsingShadow"/>
+    <functioncall functionName="UsingShadowDecl"/>
+    <functioncall functionName="UuidAttr"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="ValueDecl"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="Volatile"/>
+    <functioncall functionName="addDecl"/>
+    <functioncall functionName="addDestruction"/>
+    <functioncall functionName="addOverriddenMethod"/>
+    <functioncall functionName="addRestrict"/>
+    <functioncall functionName="addedClassSubobject"/>
+    <functioncall functionName="addedEligibleSpecialMemberFunction"/>
+    <functioncall functionName="additionalSizeToAlloc"/>
+    <functioncall functionName="allLookupResultsAreTheSame"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="allowConstDefaultInit"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="areDefaultedSMFStillPOD"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bases"/>
+    <functioncall functionName="bases_begin"/>
+    <functioncall functionName="bases_end"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bindings"/>
+    <functioncall functionName="capturesThis"/>
+    <functioncall functionName="capturesVariable"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="completeDefinition"/>
+    <functioncall functionName="conversion_begin"/>
+    <functioncall functionName="conversion_end"/>
+    <functioncall functionName="conversion_iterator"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="declaresSameEntity"/>
+    <functioncall functionName="defaultedDestructorIsConstexpr"/>
+    <functioncall functionName="doesThisDeclarationHaveABody"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="erase_if"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="field_begin"/>
+    <functioncall functionName="field_empty"/>
+    <functioncall functionName="field_end"/>
+    <functioncall functionName="fields"/>
+    <functioncall functionName="forallBases"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getASTMutationListener"/>
+    <functioncall functionName="getAccess"/>
+    <functioncall functionName="getAccessName"/>
+    <functioncall functionName="getAccessSpecifier"/>
+    <functioncall functionName="getAccessUnsafe"/>
+    <functioncall functionName="getAllocator"/>
+    <functioncall functionName="getAnyMember"/>
+    <functioncall functionName="getArgPassingRestrictions"/>
+    <functioncall functionName="getArrayElementTypeNoTypeQual"/>
+    <functioncall functionName="getArrayInitializedElt"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsConstantArrayType"/>
+    <functioncall functionName="getAsFunction"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getAsTagDecl"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getBaseElementType"/>
+    <functioncall functionName="getBases"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getBestDynamicClassType"/>
+    <functioncall functionName="getBestDynamicClassTypeExpr"/>
+    <functioncall functionName="getBinding"/>
+    <functioncall functionName="getCVRQualifiers"/>
+    <functioncall functionName="getCXXDestructorName"/>
+    <functioncall functionName="getCXXOperatorName"/>
+    <functioncall functionName="getCXXOverloadedOperator"/>
+    <functioncall functionName="getCallConv"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getCapturedVar"/>
+    <functioncall functionName="getClangABICompat"/>
+    <functioncall functionName="getConstructor"/>
+    <functioncall functionName="getConversionType"/>
+    <functioncall functionName="getCorrespondingMethodDeclaredInClass"/>
+    <functioncall functionName="getCorrespondingMethodInClass"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclID"/>
+    <functioncall functionName="getDeclKind"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDecomposedDecl"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getDescribedFunctionTemplate"/>
+    <functioncall functionName="getDestructor"/>
+    <functioncall functionName="getElementType"/>
+    <functioncall functionName="getEndLoc"/>
+    <functioncall functionName="getExplicitSpecifier"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getExtendingDecl"/>
+    <functioncall functionName="getExternalSource"/>
+    <functioncall functionName="getFinalOverriders"/>
+    <functioncall functionName="getFirstDecl"/>
+    <functioncall functionName="getFriendObjectKind"/>
+    <functioncall functionName="getGenericLambdaTemplateParameterList"/>
+    <functioncall functionName="getGuid"/>
+    <functioncall functionName="getInClassInitializer"/>
+    <functioncall functionName="getInit"/>
+    <functioncall functionName="getInstantiatedFrom"/>
+    <functioncall functionName="getInstantiatedFromMember"/>
+    <functioncall functionName="getInstantiatedFromMemberClass"/>
+    <functioncall functionName="getInstantiatedFromMemberTemplate"/>
+    <functioncall functionName="getIntWidth"/>
+    <functioncall functionName="getIntroducer"/>
+    <functioncall functionName="getInvokerAsMethod"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLValueReferenceType"/>
+    <functioncall functionName="getLambdaCallOperator"/>
+    <functioncall functionName="getLambdaCallOperatorHelper"/>
+    <functioncall functionName="getLambdaData"/>
+    <functioncall functionName="getLambdaStaticInvoker"/>
+    <functioncall functionName="getLambdaStaticInvokerName"/>
+    <functioncall functionName="getLambdaStaticInvokers"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMemberDecl"/>
+    <functioncall functionName="getMemberLocation"/>
+    <functioncall functionName="getMemberSpecializationInfo"/>
+    <functioncall functionName="getMethodQuals"/>
+    <functioncall functionName="getMinRequiredArguments"/>
+    <functioncall functionName="getMostRecentDecl"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameInfo"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNamespace"/>
+    <functioncall functionName="getNextRedeclaration"/>
+    <functioncall functionName="getNonObjectParameter"/>
+    <functioncall functionName="getNumBases"/>
+    <functioncall functionName="getNumExplicitParams"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getNumVBases"/>
+    <functioncall functionName="getObjCLifetime"/>
+    <functioncall functionName="getOverloadedOperator"/>
+    <functioncall functionName="getOwningModule"/>
+    <functioncall functionName="getParamDecl"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getParentASTContext"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getPointerType"/>
+    <functioncall functionName="getPreviousDecl"/>
+    <functioncall functionName="getPrimaryTemplate"/>
+    <functioncall functionName="getQualifiedType"/>
+    <functioncall functionName="getQualifier"/>
+    <functioncall functionName="getQualifierLoc"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getRParenLoc"/>
+    <functioncall functionName="getRValueReferenceType"/>
+    <functioncall functionName="getRefQualifier"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSizeType"/>
+    <functioncall functionName="getSourceLocation"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSpecializationKind"/>
+    <functioncall functionName="getStorageClass"/>
+    <functioncall functionName="getStorageDuration"/>
+    <functioncall functionName="getStructField"/>
+    <functioncall functionName="getTagDeclType"/>
+    <functioncall functionName="getTagKind"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getTemplateInstantiationPattern"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplateSpecializationKind"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getThisObjectType"/>
+    <functioncall functionName="getThisType"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeDeclType"/>
+    <functioncall functionName="getTypeForDecl"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="getUnderlyingDecl"/>
+    <functioncall functionName="getUnqualifiedDesugaredType"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="getVBases"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasCXXExplicitFunctionObjectParameter"/>
+    <functioncall functionName="hasConstexprDefaultConstructor"/>
+    <functioncall functionName="hasConstexprDestructor"/>
+    <functioncall functionName="hasConstexprNonCopyMoveConstructor"/>
+    <functioncall functionName="hasCopyAssignmentWithConstParam"/>
+    <functioncall functionName="hasCopyConstructorWithConstParam"/>
+    <functioncall functionName="hasDefinition"/>
+    <functioncall functionName="hasDirectFields"/>
+    <functioncall functionName="hasFriends"/>
+    <functioncall functionName="hasInClassInitializer"/>
+    <functioncall functionName="hasIrrelevantDestructor"/>
+    <functioncall functionName="hasMutableFields"/>
+    <functioncall functionName="hasNonLiteralTypeFieldsOrBases"/>
+    <functioncall functionName="hasNonTrivialCopyAssignment"/>
+    <functioncall functionName="hasNonTrivialCopyConstructor"/>
+    <functioncall functionName="hasNonTrivialDestructor"/>
+    <functioncall functionName="hasNonTrivialMoveAssignment"/>
+    <functioncall functionName="hasNonTrivialMoveConstructor"/>
+    <functioncall functionName="hasNonTrivialObjCLifetime"/>
+    <functioncall functionName="hasObjectMember"/>
+    <functioncall functionName="hasOneParamOrDefaultArgs"/>
+    <functioncall functionName="hasPureVirtualFinalOverrider"/>
+    <functioncall functionName="hasRepeatedBaseClass"/>
+    <functioncall functionName="hasRestrict"/>
+    <functioncall functionName="hasSameUnqualifiedType"/>
+    <functioncall functionName="hasSimpleCopyAssignment"/>
+    <functioncall functionName="hasSimpleCopyConstructor"/>
+    <functioncall functionName="hasSimpleDestructor"/>
+    <functioncall functionName="hasSimpleMoveAssignment"/>
+    <functioncall functionName="hasSimpleMoveConstructor"/>
+    <functioncall functionName="hasSubobjectAtOffsetZeroOfEmptyBaseType"/>
+    <functioncall functionName="hasTrivialCopyAssignment"/>
+    <functioncall functionName="hasTrivialCopyConstructor"/>
+    <functioncall functionName="hasTrivialCopyConstructorForCall"/>
+    <functioncall functionName="hasTrivialDefaultConstructor"/>
+    <functioncall functionName="hasTrivialDestructor"/>
+    <functioncall functionName="hasTrivialDestructorForCall"/>
+    <functioncall functionName="hasTrivialMoveAssignment"/>
+    <functioncall functionName="hasTrivialMoveConstructor"/>
+    <functioncall functionName="hasTrivialMoveConstructorForCall"/>
+    <functioncall functionName="hasUninitializedReferenceMember"/>
+    <functioncall functionName="hasUserDeclaredConstructor"/>
+    <functioncall functionName="hasUserDeclaredDestructor"/>
+    <functioncall functionName="hasVariantMembers"/>
+    <functioncall functionName="hasVolatileMember"/>
+    <functioncall functionName="identifyKnownAlignedObject"/>
+    <functioncall functionName="init_begin"/>
+    <functioncall functionName="initializer_list"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isAbsent"/>
+    <functioncall functionName="isAbstract"/>
+    <functioncall functionName="isAccessDeclaration"/>
+    <functioncall functionName="isAggregate"/>
+    <functioncall functionName="isAlignValT"/>
+    <functioncall functionName="isAnonymousStructOrUnion"/>
+    <functioncall functionName="isAnyDestructorNoReturn"/>
+    <functioncall functionName="isAnyMemberInitializer"/>
+    <functioncall functionName="isBaseInitializer"/>
+    <functioncall functionName="isBeingDefined"/>
+    <functioncall functionName="isBitField"/>
+    <functioncall functionName="isBlockPointerType"/>
+    <functioncall functionName="isCXX11StandardLayout"/>
+    <functioncall functionName="isCXX98PODType"/>
+    <functioncall functionName="isCanonicalDecl"/>
+    <functioncall functionName="isCapturelessLambda"/>
+    <functioncall functionName="isConstQualified"/>
+    <functioncall functionName="isConstexpr"/>
+    <functioncall functionName="isCopyAssignmentOperator"/>
+    <functioncall functionName="isCopyConstructor"/>
+    <functioncall functionName="isCopyOrMoveConstructor"/>
+    <functioncall functionName="isDeclContextInNamespace"/>
+    <functioncall functionName="isDefaultConstructor"/>
+    <functioncall functionName="isDefaulted"/>
+    <functioncall functionName="isDefined"/>
+    <functioncall functionName="isDelegatingConstructor"/>
+    <functioncall functionName="isDeleted"/>
+    <functioncall functionName="isDependentContext"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isDestroyingOperatorDelete"/>
+    <functioncall functionName="isEffectivelyFinal"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isExplicit"/>
+    <functioncall functionName="isExplicitObjectMemberFunction"/>
+    <functioncall functionName="isExternCContext"/>
+    <functioncall functionName="isFunctionOrMethod"/>
+    <functioncall functionName="isGenericLambda"/>
+    <functioncall functionName="isHLSLAttributedResourceType"/>
+    <functioncall functionName="isHLSLBuiltinIntangibleType"/>
+    <functioncall functionName="isHLSLIntangible"/>
+    <functioncall functionName="isIdentifier"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isInClassMemberInitializer"/>
+    <functioncall functionName="isIneligibleOrNotSelected"/>
+    <functioncall functionName="isInheritingConstructor"/>
+    <functioncall functionName="isInstance"/>
+    <functioncall functionName="isInterface"/>
+    <functioncall functionName="isInterfaceLike"/>
+    <functioncall functionName="isInvalidDecl"/>
+    <functioncall functionName="isLValueReferenceType"/>
+    <functioncall functionName="isLambda"/>
+    <functioncall functionName="isLazy"/>
+    <functioncall functionName="isLiteralType"/>
+    <functioncall functionName="isMemberSpecialization"/>
+    <functioncall functionName="isMoveAssignmentOperator"/>
+    <functioncall functionName="isMoveConstructor"/>
+    <functioncall functionName="isMutable"/>
+    <functioncall functionName="isNamespace"/>
+    <functioncall functionName="isNoReturn"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjCGCStrong"/>
+    <functioncall functionName="isObjCRetainableType"/>
+    <functioncall functionName="isOffset"/>
+    <functioncall functionName="isOutOfLine"/>
+    <functioncall functionName="isPOD"/>
+    <functioncall functionName="isPRValue"/>
+    <functioncall functionName="isPolymorphic"/>
+    <functioncall functionName="isPtrMemOp"/>
+    <functioncall functionName="isPureVirtual"/>
+    <functioncall functionName="isRValueReferenceType"/>
+    <functioncall functionName="isRecordType"/>
+    <functioncall functionName="isReferenceType"/>
+    <functioncall functionName="isStandardLayout"/>
+    <functioncall functionName="isStatic"/>
+    <functioncall functionName="isStaticOverloadedOperator"/>
+    <functioncall functionName="isStruct"/>
+    <functioncall functionName="isStructuralType"/>
+    <functioncall functionName="isTemplateInstantiation"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isTrivial"/>
+    <functioncall functionName="isTrivialForCall"/>
+    <functioncall functionName="isUnion"/>
+    <functioncall functionName="isUnnamedBitField"/>
+    <functioncall functionName="isUnsignedIntegerOrEnumerationType"/>
+    <functioncall functionName="isUserProvided"/>
+    <functioncall functionName="isValidStructGUID"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isVolatileQualified"/>
+    <functioncall functionName="isZeroLengthBitField"/>
+    <functioncall functionName="isZeroSize"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="is_partitioned"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="iterator_range"/>
+    <functioncall functionName="lambdaIsDefaultConstructibleAndAssignable"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="make_range"/>
+    <functioncall functionName="markAbstract"/>
+    <functioncall functionName="mayBeAbstract"/>
+    <functioncall functionName="methods"/>
+    <functioncall functionName="needsCleanup"/>
+    <functioncall functionName="overridden_method_range"/>
+    <functioncall functionName="overridden_methods"/>
+    <functioncall functionName="overridden_methods_begin"/>
+    <functioncall functionName="overridden_methods_end"/>
+    <functioncall functionName="overridden_methods_size"/>
+    <functioncall functionName="parameters"/>
+    <functioncall functionName="partition_point"/>
+    <functioncall functionName="pop_back_val"/>
+    <functioncall functionName="printName"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="recursivelyOverrides"/>
+    <functioncall functionName="redeclarable_base"/>
+    <functioncall functionName="redecls"/>
+    <functioncall functionName="removeLocalRestrict"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setAccess"/>
+    <functioncall functionName="setArgPassingRestrictions"/>
+    <functioncall functionName="setBeingDefined"/>
+    <functioncall functionName="setDecl"/>
+    <functioncall functionName="setExplicitSpecifier"/>
+    <functioncall functionName="setHasObjectMember"/>
+    <functioncall functionName="setHasVolatileMember"/>
+    <functioncall functionName="setImplicit"/>
+    <functioncall functionName="setIneligibleOrNotSelected"/>
+    <functioncall functionName="setInheritingConstructor"/>
+    <functioncall functionName="setInline"/>
+    <functioncall functionName="setLanguage"/>
+    <functioncall functionName="setLazy"/>
+    <functioncall functionName="setMayHaveOutOfDateDef"/>
+    <functioncall functionName="setNested"/>
+    <functioncall functionName="setNumCtorInitializers"/>
+    <functioncall functionName="setPointer"/>
+    <functioncall functionName="setPreviousDecl"/>
+    <functioncall functionName="setSpecializationKind"/>
+    <functioncall functionName="setTargetDecl"/>
+    <functioncall functionName="setTemplateSpecializationKind"/>
+    <functioncall functionName="shadows"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="vbases"/>
+    <functioncall functionName="willHaveBody"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1797:20" my-argnr="2" my-argname="Conv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1799" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1816:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1830" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1879:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1896" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2085:13" my-argnr="1" my-argname="DC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2086" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2286:13" my-argnr="1" my-argname="DerivedMD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2288" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2630:17" my-argnr="2" my-argname="FPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2633" col="38" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:176:13" my-argnr="1" my-argname="StartRD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="178" col="52" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1638:19" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1639" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1703:1" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1704" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1797:20" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1801" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1797:20" my-argnr="2" my-argname="Conv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1799" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1816:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1830" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1879:13" my-argnr="2" my-argname="Record" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1896" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:1879:13" my-argnr="3" my-argname="Output" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="1898" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2085:13" my-argnr="1" my-argname="DC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2086" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2286:13" my-argnr="1" my-argname="DerivedMD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2288" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2630:17" my-argnr="1" my-argname="C" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2632" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp:2630:17" my-argnr="2" my-argname="FPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" line="2633" col="38" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="hasRepeatedBaseClass" lineNumber="176"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="allLookupResultsAreTheSame" lineNumber="1631"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getLambdaCallOperatorHelper" lineNumber="1638"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getLambdaStaticInvokers" lineNumber="1703"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getInvokerAsMethod" lineNumber="1710"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="GetConversionType" lineNumber="1797"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="CollectVisibleConversions" lineNumber="1816"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="CollectVisibleConversions" lineNumber="1879"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="isDeclContextInNamespace" lineNumber="2085"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="hasPureVirtualFinalOverrider" lineNumber="2149"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="recursivelyOverrides" lineNumber="2286"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getThisObjectType" lineNumber="2630"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="isValidStructGUID" lineNumber="3512"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclCXX.cpp" functionName="getAccessName" lineNumber="3614"/>
+    <functioncall functionName="APInt"/>
+    <functioncall functionName="APSInt"/>
+    <functioncall functionName="APVal"/>
+    <functioncall functionName="APValue"/>
+    <functioncall functionName="Abstract"/>
+    <functioncall functionName="AccessSpecDecl"/>
+    <functioncall functionName="AddCXXRecordDecl"/>
+    <functioncall functionName="AddCaptureList"/>
+    <functioncall functionName="AddStmt"/>
+    <functioncall functionName="AddedCXXImplicitMember"/>
+    <functioncall functionName="Aggregate"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BaseUsingDecl"/>
+    <functioncall functionName="BinaryOperator"/>
+    <functioncall functionName="BindingDecl"/>
+    <functioncall functionName="C"/>
+    <functioncall functionName="CPlusPlus14"/>
+    <functioncall functionName="CPlusPlus17"/>
+    <functioncall functionName="CPlusPlus20"/>
+    <functioncall functionName="CPlusPlus23"/>
+    <functioncall functionName="CXXConstructExpr"/>
+    <functioncall functionName="CXXConstructor"/>
+    <functioncall functionName="CXXConstructorDecl"/>
+    <functioncall functionName="CXXConversionDecl"/>
+    <functioncall functionName="CXXCtorInitializer"/>
+    <functioncall functionName="CXXDeductionGuideDecl"/>
+    <functioncall functionName="CXXDestructorDecl"/>
+    <functioncall functionName="CXXMethod"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXRecord"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="CalculateHash"/>
+    <functioncall functionName="CanNeverPassInRegs"/>
+    <functioncall functionName="CanQualType"/>
+    <functioncall functionName="Captures"/>
+    <functioncall functionName="Class"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="ClassTemplatePartialSpecializationDecl"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="CollectVisibleConversions"/>
+    <functioncall functionName="ComputedVisibleConversions"/>
+    <functioncall functionName="ConstantArrayType"/>
+    <functioncall functionName="ConstructorUsingShadowDecl"/>
+    <functioncall functionName="Deallocate"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclContext"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="DeclarationName"/>
+    <functioncall functionName="DeclarationNameInfo"/>
+    <functioncall functionName="DeclaredNonTrivialSpecialMembers"/>
+    <functioncall functionName="DeclaredNonTrivialSpecialMembersForCall"/>
+    <functioncall functionName="DeclaredSpecialMembers"/>
+    <functioncall functionName="DecompositionDecl"/>
+    <functioncall functionName="DefaultedCopyAssignmentIsDeleted"/>
+    <functioncall functionName="DefaultedCopyConstructorIsDeleted"/>
+    <functioncall functionName="DefaultedDefaultConstructorIsConstexpr"/>
+    <functioncall functionName="DefaultedDestructorIsConstexpr"/>
+    <functioncall functionName="DefaultedDestructorIsDeleted"/>
+    <functioncall functionName="DefaultedMoveAssignmentIsDeleted"/>
+    <functioncall functionName="DefaultedMoveConstructorIsDeleted"/>
+    <functioncall functionName="Definition"/>
+    <functioncall functionName="DefinitionData"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Empty"/>
+    <functioncall functionName="EmptyShell"/>
+    <functioncall functionName="EnumDecl"/>
+    <functioncall functionName="ExplicitSpecifier"/>
+    <functioncall functionName="FieldDecl"/>
+    <functioncall functionName="FinalAttr"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="FunctionType"/>
+    <functioncall functionName="GetConversionType"/>
+    <functioncall functionName="GetExternalDecl"/>
+    <functioncall functionName="GlobalDeclID"/>
+    <functioncall functionName="HLSL"/>
+    <functioncall functionName="HasBasesWithFields"/>
+    <functioncall functionName="HasBasesWithNonStaticDataMembers"/>
+    <functioncall functionName="HasConstexprDefaultConstructor"/>
+    <functioncall functionName="HasConstexprNonCopyMoveConstructor"/>
+    <functioncall functionName="HasDeclaredCopyAssignmentWithConstParam"/>
+    <functioncall functionName="HasDeclaredCopyConstructorWithConstParam"/>
+    <functioncall functionName="HasDefaultedDefaultConstructor"/>
+    <functioncall functionName="HasInClassInitializer"/>
+    <functioncall functionName="HasInheritedAssignment"/>
+    <functioncall functionName="HasInheritedConstructor"/>
+    <functioncall functionName="HasInheritedDefaultConstructor"/>
+    <functioncall functionName="HasInitMethod"/>
+    <functioncall functionName="HasIrrelevantDestructor"/>
+    <functioncall functionName="HasMutableFields"/>
+    <functioncall functionName="HasNonLiteralTypeFieldsOrBases"/>
+    <functioncall functionName="HasODRHash"/>
+    <functioncall functionName="HasOnlyCMembers"/>
+    <functioncall functionName="HasPrivateFields"/>
+    <functioncall functionName="HasProtectedFields"/>
+    <functioncall functionName="HasPublicFields"/>
+    <functioncall functionName="HasTrivialSpecialMembers"/>
+    <functioncall functionName="HasTrivialSpecialMembersForCall"/>
+    <functioncall functionName="HasUninitializedFields"/>
+    <functioncall functionName="HasUninitializedReferenceMember"/>
+    <functioncall functionName="HasVariantMembers"/>
+    <functioncall functionName="IgnoreImplicit"/>
+    <functioncall functionName="ImplicitCopyAssignmentHasConstParam"/>
+    <functioncall functionName="ImplicitCopyConstructorCanHaveConstParamForNonVBase"/>
+    <functioncall functionName="ImplicitCopyConstructorCanHaveConstParamForVBase"/>
+    <functioncall functionName="IndirectFieldDecl"/>
+    <functioncall functionName="InheritedConstructor"/>
+    <functioncall functionName="Initializee"/>
+    <functioncall functionName="IsAnyDestructorNoReturn"/>
+    <functioncall functionName="IsCXX11StandardLayout"/>
+    <functioncall functionName="IsDelegating"/>
+    <functioncall functionName="IsGenericLambda"/>
+    <functioncall functionName="IsHLSLIntangible"/>
+    <functioncall functionName="IsLambda"/>
+    <functioncall functionName="IsParsingBaseSpecifiers"/>
+    <functioncall functionName="IsStandardLayout"/>
+    <functioncall functionName="IsVirtual"/>
+    <functioncall functionName="IsWritten"/>
+    <functioncall functionName="LParenLoc"/>
+    <functioncall functionName="LValueReferenceType"/>
+    <functioncall functionName="LambdaCapture"/>
+    <functioncall functionName="LambdaDefinitionData"/>
+    <functioncall functionName="LinkageSpec"/>
+    <functioncall functionName="LinkageSpecDecl"/>
+    <functioncall functionName="LocStart"/>
+    <functioncall functionName="MSGuid"/>
+    <functioncall functionName="MSGuidDecl"/>
+    <functioncall functionName="MSPropertyDecl"/>
+    <functioncall functionName="MemberExpr"/>
+    <functioncall functionName="MemberOrEllipsisLocation"/>
+    <functioncall functionName="MemberPointerType"/>
+    <functioncall functionName="MemberSpecializationInfo"/>
+    <functioncall functionName="MergeAccess"/>
+    <functioncall functionName="Modules"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="Namespace"/>
+    <functioncall functionName="NamespaceAliasDecl"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="NeedOverloadResolutionForCopyAssignment"/>
+    <functioncall functionName="NeedOverloadResolutionForCopyConstructor"/>
+    <functioncall functionName="NeedOverloadResolutionForDestructor"/>
+    <functioncall functionName="NeedOverloadResolutionForMoveAssignment"/>
+    <functioncall functionName="NeedOverloadResolutionForMoveConstructor"/>
+    <functioncall functionName="NestedNameSpecifierLoc"/>
+    <functioncall functionName="NominatedNamespace"/>
+    <functioncall functionName="Normal"/>
+    <functioncall functionName="NumBases"/>
+    <functioncall functionName="ODRHash"/>
+    <functioncall functionName="OO_Call"/>
+    <functioncall functionName="ObjCAutoRefCount"/>
+    <functioncall functionName="Part1"/>
+    <functioncall functionName="Part2"/>
+    <functioncall functionName="Part3"/>
+    <functioncall functionName="Part4And5"/>
+    <functioncall functionName="PartVal"/>
+    <functioncall functionName="Parts"/>
+    <functioncall functionName="PlainOldData"/>
+    <functioncall functionName="Polymorphic"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="RBraceLoc"/>
+    <functioncall functionName="RParenLoc"/>
+    <functioncall functionName="RecordDecl"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="ReferenceType"/>
+    <functioncall functionName="RequiresExprBodyDecl"/>
+    <functioncall functionName="ResolvedOperatorDelete"/>
+    <functioncall functionName="SC_None"/>
+    <functioncall functionName="SD_Automatic"/>
+    <functioncall functionName="SD_FullExpression"/>
+    <functioncall functionName="SD_Static"/>
+    <functioncall functionName="SMF_All"/>
+    <functioncall functionName="SMF_CopyConstructor"/>
+    <functioncall functionName="SMF_Destructor"/>
+    <functioncall functionName="SMF_MoveConstructor"/>
+    <functioncall functionName="SmallPtrSet"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceOrder"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StaticAssertDecl"/>
+    <functioncall functionName="StorageClass"/>
+    <functioncall functionName="Struct"/>
+    <functioncall functionName="StructuralIfLiteral"/>
+    <functioncall functionName="TSK_Undeclared"/>
+    <functioncall functionName="TagDecl"/>
+    <functioncall functionName="TypeSourceInfo"/>
+    <functioncall functionName="UninitArray"/>
+    <functioncall functionName="UninitStruct"/>
+    <functioncall functionName="UnnamedGlobalConstant"/>
+    <functioncall functionName="UnnamedGlobalConstantDecl"/>
+    <functioncall functionName="UnresolvedSet"/>
+    <functioncall functionName="UnresolvedUsingIfExists"/>
+    <functioncall functionName="UnresolvedUsingIfExistsDecl"/>
+    <functioncall functionName="UnresolvedUsingTypenameDecl"/>
+    <functioncall functionName="UnresolvedUsingValueDecl"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="UserDeclaredConstructor"/>
+    <functioncall functionName="UserDeclaredSpecialMembers"/>
+    <functioncall functionName="UserProvidedDefaultConstructor"/>
+    <functioncall functionName="UsingDecl"/>
+    <functioncall functionName="UsingDirectiveDecl"/>
+    <functioncall functionName="UsingEnumDecl"/>
+    <functioncall functionName="UsingLocation"/>
+    <functioncall functionName="UsingOrNextShadow"/>
+    <functioncall functionName="UsingPackDecl"/>
+    <functioncall functionName="UsingShadow"/>
+    <functioncall functionName="UsingShadowDecl"/>
+    <functioncall functionName="UuidAttr"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="ValueDecl"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="Volatile"/>
+    <functioncall functionName="addDecl"/>
+    <functioncall functionName="addDestruction"/>
+    <functioncall functionName="addOverriddenMethod"/>
+    <functioncall functionName="addRestrict"/>
+    <functioncall functionName="addedClassSubobject"/>
+    <functioncall functionName="addedEligibleSpecialMemberFunction"/>
+    <functioncall functionName="additionalSizeToAlloc"/>
+    <functioncall functionName="allLookupResultsAreTheSame"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="allowConstDefaultInit"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="areDefaultedSMFStillPOD"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bases"/>
+    <functioncall functionName="bases_begin"/>
+    <functioncall functionName="bases_end"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bindings"/>
+    <functioncall functionName="capturesThis"/>
+    <functioncall functionName="capturesVariable"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="completeDefinition"/>
+    <functioncall functionName="conversion_begin"/>
+    <functioncall functionName="conversion_end"/>
+    <functioncall functionName="conversion_iterator"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="declaresSameEntity"/>
+    <functioncall functionName="defaultedDestructorIsConstexpr"/>
+    <functioncall functionName="doesThisDeclarationHaveABody"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="erase_if"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="field_begin"/>
+    <functioncall functionName="field_empty"/>
+    <functioncall functionName="field_end"/>
+    <functioncall functionName="fields"/>
+    <functioncall functionName="forallBases"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getASTMutationListener"/>
+    <functioncall functionName="getAccess"/>
+    <functioncall functionName="getAccessName"/>
+    <functioncall functionName="getAccessSpecifier"/>
+    <functioncall functionName="getAccessUnsafe"/>
+    <functioncall functionName="getAllocator"/>
+    <functioncall functionName="getAnyMember"/>
+    <functioncall functionName="getArgPassingRestrictions"/>
+    <functioncall functionName="getArrayElementTypeNoTypeQual"/>
+    <functioncall functionName="getArrayInitializedElt"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsConstantArrayType"/>
+    <functioncall functionName="getAsFunction"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getAsTagDecl"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getBaseElementType"/>
+    <functioncall functionName="getBases"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getBestDynamicClassType"/>
+    <functioncall functionName="getBestDynamicClassTypeExpr"/>
+    <functioncall functionName="getBinding"/>
+    <functioncall functionName="getCVRQualifiers"/>
+    <functioncall functionName="getCXXDestructorName"/>
+    <functioncall functionName="getCXXOperatorName"/>
+    <functioncall functionName="getCXXOverloadedOperator"/>
+    <functioncall functionName="getCallConv"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getCapturedVar"/>
+    <functioncall functionName="getClangABICompat"/>
+    <functioncall functionName="getConstructor"/>
+    <functioncall functionName="getConversionType"/>
+    <functioncall functionName="getCorrespondingMethodDeclaredInClass"/>
+    <functioncall functionName="getCorrespondingMethodInClass"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclID"/>
+    <functioncall functionName="getDeclKind"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDecomposedDecl"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getDescribedFunctionTemplate"/>
+    <functioncall functionName="getDestructor"/>
+    <functioncall functionName="getElementType"/>
+    <functioncall functionName="getEndLoc"/>
+    <functioncall functionName="getExplicitSpecifier"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getExtendingDecl"/>
+    <functioncall functionName="getExternalSource"/>
+    <functioncall functionName="getFinalOverriders"/>
+    <functioncall functionName="getFirstDecl"/>
+    <functioncall functionName="getFriendObjectKind"/>
+    <functioncall functionName="getGenericLambdaTemplateParameterList"/>
+    <functioncall functionName="getGuid"/>
+    <functioncall functionName="getInClassInitializer"/>
+    <functioncall functionName="getInit"/>
+    <functioncall functionName="getInstantiatedFrom"/>
+    <functioncall functionName="getInstantiatedFromMember"/>
+    <functioncall functionName="getInstantiatedFromMemberClass"/>
+    <functioncall functionName="getInstantiatedFromMemberTemplate"/>
+    <functioncall functionName="getIntWidth"/>
+    <functioncall functionName="getIntroducer"/>
+    <functioncall functionName="getInvokerAsMethod"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLValueReferenceType"/>
+    <functioncall functionName="getLambdaCallOperator"/>
+    <functioncall functionName="getLambdaCallOperatorHelper"/>
+    <functioncall functionName="getLambdaData"/>
+    <functioncall functionName="getLambdaStaticInvoker"/>
+    <functioncall functionName="getLambdaStaticInvokerName"/>
+    <functioncall functionName="getLambdaStaticInvokers"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMemberDecl"/>
+    <functioncall functionName="getMemberLocation"/>
+    <functioncall functionName="getMemberSpecializationInfo"/>
+    <functioncall functionName="getMethodQuals"/>
+    <functioncall functionName="getMinRequiredArguments"/>
+    <functioncall functionName="getMostRecentDecl"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameInfo"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNamespace"/>
+    <functioncall functionName="getNextRedeclaration"/>
+    <functioncall functionName="getNonObjectParameter"/>
+    <functioncall functionName="getNumBases"/>
+    <functioncall functionName="getNumExplicitParams"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getNumVBases"/>
+    <functioncall functionName="getObjCLifetime"/>
+    <functioncall functionName="getOverloadedOperator"/>
+    <functioncall functionName="getOwningModule"/>
+    <functioncall functionName="getParamDecl"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getParentASTContext"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getPointerType"/>
+    <functioncall functionName="getPreviousDecl"/>
+    <functioncall functionName="getPrimaryTemplate"/>
+    <functioncall functionName="getQualifiedType"/>
+    <functioncall functionName="getQualifier"/>
+    <functioncall functionName="getQualifierLoc"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getRParenLoc"/>
+    <functioncall functionName="getRValueReferenceType"/>
+    <functioncall functionName="getRefQualifier"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSizeType"/>
+    <functioncall functionName="getSourceLocation"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSpecializationKind"/>
+    <functioncall functionName="getStorageClass"/>
+    <functioncall functionName="getStorageDuration"/>
+    <functioncall functionName="getStructField"/>
+    <functioncall functionName="getTagDeclType"/>
+    <functioncall functionName="getTagKind"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getTemplateInstantiationPattern"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplateSpecializationKind"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getThisObjectType"/>
+    <functioncall functionName="getThisType"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeDeclType"/>
+    <functioncall functionName="getTypeForDecl"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="getUnderlyingDecl"/>
+    <functioncall functionName="getUnqualifiedDesugaredType"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="getVBases"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasCXXExplicitFunctionObjectParameter"/>
+    <functioncall functionName="hasConstexprDefaultConstructor"/>
+    <functioncall functionName="hasConstexprDestructor"/>
+    <functioncall functionName="hasConstexprNonCopyMoveConstructor"/>
+    <functioncall functionName="hasCopyAssignmentWithConstParam"/>
+    <functioncall functionName="hasCopyConstructorWithConstParam"/>
+    <functioncall functionName="hasDefinition"/>
+    <functioncall functionName="hasDirectFields"/>
+    <functioncall functionName="hasFriends"/>
+    <functioncall functionName="hasInClassInitializer"/>
+    <functioncall functionName="hasIrrelevantDestructor"/>
+    <functioncall functionName="hasMutableFields"/>
+    <functioncall functionName="hasNonLiteralTypeFieldsOrBases"/>
+    <functioncall functionName="hasNonTrivialCopyAssignment"/>
+    <functioncall functionName="hasNonTrivialCopyConstructor"/>
+    <functioncall functionName="hasNonTrivialDestructor"/>
+    <functioncall functionName="hasNonTrivialMoveAssignment"/>
+    <functioncall functionName="hasNonTrivialMoveConstructor"/>
+    <functioncall functionName="hasNonTrivialObjCLifetime"/>
+    <functioncall functionName="hasObjectMember"/>
+    <functioncall functionName="hasOneParamOrDefaultArgs"/>
+    <functioncall functionName="hasPureVirtualFinalOverrider"/>
+    <functioncall functionName="hasRepeatedBaseClass"/>
+    <functioncall functionName="hasRestrict"/>
+    <functioncall functionName="hasSameUnqualifiedType"/>
+    <functioncall functionName="hasSimpleCopyAssignment"/>
+    <functioncall functionName="hasSimpleCopyConstructor"/>
+    <functioncall functionName="hasSimpleDestructor"/>
+    <functioncall functionName="hasSimpleMoveAssignment"/>
+    <functioncall functionName="hasSimpleMoveConstructor"/>
+    <functioncall functionName="hasSubobjectAtOffsetZeroOfEmptyBaseType"/>
+    <functioncall functionName="hasTrivialCopyAssignment"/>
+    <functioncall functionName="hasTrivialCopyConstructor"/>
+    <functioncall functionName="hasTrivialCopyConstructorForCall"/>
+    <functioncall functionName="hasTrivialDefaultConstructor"/>
+    <functioncall functionName="hasTrivialDestructor"/>
+    <functioncall functionName="hasTrivialDestructorForCall"/>
+    <functioncall functionName="hasTrivialMoveAssignment"/>
+    <functioncall functionName="hasTrivialMoveConstructor"/>
+    <functioncall functionName="hasTrivialMoveConstructorForCall"/>
+    <functioncall functionName="hasUninitializedReferenceMember"/>
+    <functioncall functionName="hasUserDeclaredConstructor"/>
+    <functioncall functionName="hasUserDeclaredDestructor"/>
+    <functioncall functionName="hasVariantMembers"/>
+    <functioncall functionName="hasVolatileMember"/>
+    <functioncall functionName="identifyKnownAlignedObject"/>
+    <functioncall functionName="init_begin"/>
+    <functioncall functionName="initializer_list"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isAbsent"/>
+    <functioncall functionName="isAbstract"/>
+    <functioncall functionName="isAccessDeclaration"/>
+    <functioncall functionName="isAggregate"/>
+    <functioncall functionName="isAlignValT"/>
+    <functioncall functionName="isAnonymousStructOrUnion"/>
+    <functioncall functionName="isAnyDestructorNoReturn"/>
+    <functioncall functionName="isAnyMemberInitializer"/>
+    <functioncall functionName="isBaseInitializer"/>
+    <functioncall functionName="isBeingDefined"/>
+    <functioncall functionName="isBitField"/>
+    <functioncall functionName="isBlockPointerType"/>
+    <functioncall functionName="isCXX11StandardLayout"/>
+    <functioncall functionName="isCXX98PODType"/>
+    <functioncall functionName="isCanonicalDecl"/>
+    <functioncall functionName="isCapturelessLambda"/>
+    <functioncall functionName="isConstQualified"/>
+    <functioncall functionName="isConstexpr"/>
+    <functioncall functionName="isCopyAssignmentOperator"/>
+    <functioncall functionName="isCopyConstructor"/>
+    <functioncall functionName="isCopyOrMoveConstructor"/>
+    <functioncall functionName="isDeclContextInNamespace"/>
+    <functioncall functionName="isDefaultConstructor"/>
+    <functioncall functionName="isDefaulted"/>
+    <functioncall functionName="isDefined"/>
+    <functioncall functionName="isDelegatingConstructor"/>
+    <functioncall functionName="isDeleted"/>
+    <functioncall functionName="isDependentContext"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isDestroyingOperatorDelete"/>
+    <functioncall functionName="isEffectivelyFinal"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isExplicit"/>
+    <functioncall functionName="isExplicitObjectMemberFunction"/>
+    <functioncall functionName="isExternCContext"/>
+    <functioncall functionName="isFunctionOrMethod"/>
+    <functioncall functionName="isGenericLambda"/>
+    <functioncall functionName="isHLSLAttributedResourceType"/>
+    <functioncall functionName="isHLSLBuiltinIntangibleType"/>
+    <functioncall functionName="isHLSLIntangible"/>
+    <functioncall functionName="isIdentifier"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isInClassMemberInitializer"/>
+    <functioncall functionName="isIneligibleOrNotSelected"/>
+    <functioncall functionName="isInheritingConstructor"/>
+    <functioncall functionName="isInstance"/>
+    <functioncall functionName="isInterface"/>
+    <functioncall functionName="isInterfaceLike"/>
+    <functioncall functionName="isInvalidDecl"/>
+    <functioncall functionName="isLValueReferenceType"/>
+    <functioncall functionName="isLambda"/>
+    <functioncall functionName="isLazy"/>
+    <functioncall functionName="isLiteralType"/>
+    <functioncall functionName="isMemberSpecialization"/>
+    <functioncall functionName="isMoveAssignmentOperator"/>
+    <functioncall functionName="isMoveConstructor"/>
+    <functioncall functionName="isMutable"/>
+    <functioncall functionName="isNamespace"/>
+    <functioncall functionName="isNoReturn"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjCGCStrong"/>
+    <functioncall functionName="isObjCRetainableType"/>
+    <functioncall functionName="isOffset"/>
+    <functioncall functionName="isOutOfLine"/>
+    <functioncall functionName="isPOD"/>
+    <functioncall functionName="isPRValue"/>
+    <functioncall functionName="isPolymorphic"/>
+    <functioncall functionName="isPtrMemOp"/>
+    <functioncall functionName="isPureVirtual"/>
+    <functioncall functionName="isRValueReferenceType"/>
+    <functioncall functionName="isRecordType"/>
+    <functioncall functionName="isReferenceType"/>
+    <functioncall functionName="isStandardLayout"/>
+    <functioncall functionName="isStatic"/>
+    <functioncall functionName="isStaticOverloadedOperator"/>
+    <functioncall functionName="isStruct"/>
+    <functioncall functionName="isStructuralType"/>
+    <functioncall functionName="isTemplateInstantiation"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isTrivial"/>
+    <functioncall functionName="isTrivialForCall"/>
+    <functioncall functionName="isUnion"/>
+    <functioncall functionName="isUnnamedBitField"/>
+    <functioncall functionName="isUnsignedIntegerOrEnumerationType"/>
+    <functioncall functionName="isUserProvided"/>
+    <functioncall functionName="isValidStructGUID"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isVolatileQualified"/>
+    <functioncall functionName="isZeroLengthBitField"/>
+    <functioncall functionName="isZeroSize"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="is_partitioned"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="iterator_range"/>
+    <functioncall functionName="lambdaIsDefaultConstructibleAndAssignable"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="make_range"/>
+    <functioncall functionName="markAbstract"/>
+    <functioncall functionName="mayBeAbstract"/>
+    <functioncall functionName="methods"/>
+    <functioncall functionName="needsCleanup"/>
+    <functioncall functionName="overridden_method_range"/>
+    <functioncall functionName="overridden_methods"/>
+    <functioncall functionName="overridden_methods_begin"/>
+    <functioncall functionName="overridden_methods_end"/>
+    <functioncall functionName="overridden_methods_size"/>
+    <functioncall functionName="parameters"/>
+    <functioncall functionName="partition_point"/>
+    <functioncall functionName="pop_back_val"/>
+    <functioncall functionName="printName"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="recursivelyOverrides"/>
+    <functioncall functionName="redeclarable_base"/>
+    <functioncall functionName="redecls"/>
+    <functioncall functionName="removeLocalRestrict"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setAccess"/>
+    <functioncall functionName="setArgPassingRestrictions"/>
+    <functioncall functionName="setBeingDefined"/>
+    <functioncall functionName="setDecl"/>
+    <functioncall functionName="setExplicitSpecifier"/>
+    <functioncall functionName="setHasObjectMember"/>
+    <functioncall functionName="setHasVolatileMember"/>
+    <functioncall functionName="setImplicit"/>
+    <functioncall functionName="setIneligibleOrNotSelected"/>
+    <functioncall functionName="setInheritingConstructor"/>
+    <functioncall functionName="setInline"/>
+    <functioncall functionName="setLanguage"/>
+    <functioncall functionName="setLazy"/>
+    <functioncall functionName="setMayHaveOutOfDateDef"/>
+    <functioncall functionName="setNested"/>
+    <functioncall functionName="setNumCtorInitializers"/>
+    <functioncall functionName="setPointer"/>
+    <functioncall functionName="setPreviousDecl"/>
+    <functioncall functionName="setSpecializationKind"/>
+    <functioncall functionName="setTargetDecl"/>
+    <functioncall functionName="setTemplateSpecializationKind"/>
+    <functioncall functionName="shadows"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="vbases"/>
+    <functioncall functionName="willHaveBody"/>
+  </FileInfo>
+</analyzerinfo>

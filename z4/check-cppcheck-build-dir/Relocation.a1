@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14559574448922567871">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/Relocation.h&quot; not found." verbose="Include file: &quot;bolt/Core/Relocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCContext.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCExpr.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCExpr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCSymbol.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCSymbol.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/ELF.h&quot; not found." verbose="Include file: &quot;llvm/Object/ELF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELFRelocs/AArch64.def&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELFRelocs/AArch64.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="1076" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELFRelocs/RISCV.def&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELFRelocs/RISCV.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="1093" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELFRelocs/x86_64.def&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELFRelocs/x86_64.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="1101" column="0"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Type&apos; can be declared as reference to const" verbose="Parameter &apos;Type&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="255" column="48" info="Parameter &apos;Type&apos; can be declared as reference to const"/>
+            <symbol>Type</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Type&apos; can be declared as reference to const" verbose="Parameter &apos;Type&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\Relocation.cpp" line="346" column="50" info="Parameter &apos;Type&apos; can be declared as reference to const"/>
+            <symbol>Type</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isSupportedX86" lineNumber="32"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isSupportedAArch64" lineNumber="55"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isSupportedRISCV" lineNumber="100"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="getSizeForTypeX86" lineNumber="132"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="getSizeForTypeAArch64" lineNumber="159"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="getSizeForTypeRISCV" lineNumber="207"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="skipRelocationTypeX86" lineNumber="237"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="skipRelocationTypeAArch64" lineNumber="241"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="skipRelocationTypeRISCV" lineNumber="245"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="skipRelocationProcessX86" lineNumber="255"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="skipRelocationProcessAArch64" lineNumber="259"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="skipRelocationProcessRISCV" lineNumber="346"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="encodeValueX86" lineNumber="350"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="encodeValueAArch64" lineNumber="364"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="encodeValueRISCV" lineNumber="396"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractValueX86" lineNumber="406"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractValueAArch64" lineNumber="414"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractUImmRISCV" lineNumber="522"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractIImmRISCV" lineNumber="526"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractSImmRISCV" lineNumber="530"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractJImmRISCV" lineNumber="534"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractBImmRISCV" lineNumber="540"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="extractValueRISCV" lineNumber="546"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isGOTX86" lineNumber="587"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isGOTAArch64" lineNumber="607"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isGOTRISCV" lineNumber="624"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isTLSX86" lineNumber="634"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isTLSAArch64" lineNumber="645"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isTLSRISCV" lineNumber="662"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isPCRelativeX86" lineNumber="677"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isPCRelativeAArch64" lineNumber="703"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/Relocation.cpp" functionName="isPCRelativeRISCV" lineNumber="749"/>
+    <functioncall functionName="Add"/>
+    <functioncall functionName="Addend"/>
+    <functioncall functionName="Arch"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="EM_AARCH64"/>
+    <functioncall functionName="EM_RISCV"/>
+    <functioncall functionName="EM_X86_64"/>
+    <functioncall functionName="Offset"/>
+    <functioncall functionName="R_AARCH64_ABS64"/>
+    <functioncall functionName="R_AARCH64_ADD_ABS_LO12_NC"/>
+    <functioncall functionName="R_AARCH64_NONE"/>
+    <functioncall functionName="R_AARCH64_PREL32"/>
+    <functioncall functionName="R_AARCH64_PREL64"/>
+    <functioncall functionName="R_AARCH64_RELATIVE"/>
+    <functioncall functionName="R_RISCV_32_PCREL"/>
+    <functioncall functionName="R_RISCV_64"/>
+    <functioncall functionName="R_RISCV_NONE"/>
+    <functioncall functionName="R_X86_64_64"/>
+    <functioncall functionName="R_X86_64_NONE"/>
+    <functioncall functionName="R_X86_64_PC32"/>
+    <functioncall functionName="R_X86_64_PC64"/>
+    <functioncall functionName="R_X86_64_RELATIVE"/>
+    <functioncall functionName="SignExtend64"/>
+    <functioncall functionName="Sub"/>
+    <functioncall functionName="Symbol"/>
+    <functioncall functionName="Type"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createAdd"/>
+    <functioncall functionName="createExpr"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createSub"/>
+    <functioncall functionName="emitLabel"/>
+    <functioncall functionName="emitValue"/>
+    <functioncall functionName="encodeValueAArch64"/>
+    <functioncall functionName="encodeValueRISCV"/>
+    <functioncall functionName="encodeValueX86"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="extractBImmRISCV"/>
+    <functioncall functionName="extractIImmRISCV"/>
+    <functioncall functionName="extractJImmRISCV"/>
+    <functioncall functionName="extractSImmRISCV"/>
+    <functioncall functionName="extractUImmRISCV"/>
+    <functioncall functionName="extractValueAArch64"/>
+    <functioncall functionName="extractValueRISCV"/>
+    <functioncall functionName="extractValueX86"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getComposeOpcodeFor"/>
+    <functioncall functionName="getContext"/>
+    <functioncall functionName="getELFRelocationTypeName"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNone"/>
+    <functioncall functionName="getSizeForType"/>
+    <functioncall functionName="getSizeForTypeAArch64"/>
+    <functioncall functionName="getSizeForTypeRISCV"/>
+    <functioncall functionName="getSizeForTypeX86"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="isGOTAArch64"/>
+    <functioncall functionName="isGOTRISCV"/>
+    <functioncall functionName="isGOTX86"/>
+    <functioncall functionName="isInt"/>
+    <functioncall functionName="isPCRelative"/>
+    <functioncall functionName="isPCRelativeAArch64"/>
+    <functioncall functionName="isPCRelativeRISCV"/>
+    <functioncall functionName="isPCRelativeX86"/>
+    <functioncall functionName="isSupportedAArch64"/>
+    <functioncall functionName="isSupportedRISCV"/>
+    <functioncall functionName="isSupportedX86"/>
+    <functioncall functionName="isTLSAArch64"/>
+    <functioncall functionName="isTLSRISCV"/>
+    <functioncall functionName="isTLSX86"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="skipRelocationProcessAArch64"/>
+    <functioncall functionName="skipRelocationProcessRISCV"/>
+    <functioncall functionName="skipRelocationProcessX86"/>
+    <functioncall functionName="skipRelocationTypeAArch64"/>
+    <functioncall functionName="skipRelocationTypeRISCV"/>
+    <functioncall functionName="skipRelocationTypeX86"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="utohexstr"/>
+  </FileInfo>
+</analyzerinfo>

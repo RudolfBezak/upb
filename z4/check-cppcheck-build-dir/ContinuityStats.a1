@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14213934312738045240">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ContinuityStats.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ContinuityStats.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="20" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Functions&apos; shadows outer variable" verbose="Local variable &apos;Functions&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="209" column="41" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="190" column="37" info="Shadowed declaration"/>
+            <symbol>Functions</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;Text&apos; should be passed by const reference." verbose="Parameter &apos;Text&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ContinuityStats.cpp" line="50" column="36" info="Function parameter &apos;Text&apos; should be passed by const reference."/>
+            <symbol>Text</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp:41:6" my-argnr="2" my-argname="values" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp" line="43" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp:70:6" my-argnr="2" my-argname="Functions" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp" line="79" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp" functionName="printDistribution" lineNumber="41"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp" functionName="printCFGContinuityStats" lineNumber="70"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ContinuityStats.cpp" functionName="printAll" lineNumber="179"/>
+    <functioncall functionName="BoltOptCategory"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="iterator_range"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="printAll"/>
+    <functioncall functionName="printCFGContinuityStats"/>
+    <functioncall functionName="printDistribution"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="queue"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="shouldOptimize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="unordered_set"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

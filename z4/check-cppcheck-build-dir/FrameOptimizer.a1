@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17561433311553273756">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FrameOptimizer.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FrameOptimizer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ShrinkWrapping.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ShrinkWrapping.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StackAvailableExpressions.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StackAvailableExpressions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StackReachingUses.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StackReachingUses.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="22" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/FrameOptimizer.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\FrameOptimizer.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinaryFunctionCallGraph"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="FOP_ALL"/>
+    <functioncall functionName="FOP_HOT"/>
+    <functioncall functionName="FOP_NONE"/>
+    <functioncall functionName="FrameAnalysis"/>
+    <functioncall functionName="FrameOptimizationType"/>
+    <functioncall functionName="FuncsChangedMutex"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="RegAnalysis"/>
+    <functioncall functionName="RemoveStores"/>
+    <functioncall functionName="SP_INST_QUADRATIC"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TimeOpts"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="buildCallGraph"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="deque"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="expr_begin"/>
+    <functioncall functionName="expr_end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="findInstruction"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getFIEFor"/>
+    <functioncall functionName="getFunctionScore"/>
+    <functioncall functionName="getHotThreshold"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOffsetCFIRegTagName"/>
+    <functioncall functionName="getOrCreateAnnotationIndex"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getRestoreTagName"/>
+    <functioncall functionName="getSaveTagName"/>
+    <functioncall functionName="getSlotTagName"/>
+    <functioncall functionName="getTodoTagName"/>
+    <functioncall functionName="hasFrameInfo"/>
+    <functioncall functionName="hasStackArithmetic"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isPop"/>
+    <functioncall functionName="isPush"/>
+    <functioncall functionName="isRedundantMove"/>
+    <functioncall functionName="isStoreUsed"/>
+    <functioncall functionName="joinErrors"/>
+    <functioncall functionName="lock_guard"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="perform"/>
+    <functioncall functionName="performShrinkWrapping"/>
+    <functioncall functionName="printStats"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="ref"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="removeUnnecessaryLoads"/>
+    <functioncall functionName="removeUnusedStores"/>
+    <functioncall functionName="replaceMemOperandWithImm"/>
+    <functioncall functionName="replaceMemOperandWithReg"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="runOnEachFunctionWithUniqueAllocId"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

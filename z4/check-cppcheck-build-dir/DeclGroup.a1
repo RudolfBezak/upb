@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9558643402008821696">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclGroup.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclGroup.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclGroup.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclGroup.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclGroup.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclGroup.cpp" line="16" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclGroup"/>
+    <functioncall functionName="NumDecls"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="totalSizeToAlloc"/>
+    <functioncall functionName="uninitialized_copy"/>
+  </FileInfo>
+</analyzerinfo>

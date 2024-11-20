@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4634448059758357917">
+        <error id="subtractPointers" severity="error" msg="Subtracting pointers that point to different objects" verbose="Subtracting pointers that point to different objects" cwe="570" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/array_end.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\AArch64\array_end.c" line="18" column="42"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\AArch64\array_end.c" line="18" column="44" info="Array decayed to pointer here."/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\AArch64\array_end.c" line="16" column="17" info="Variable declared here."/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\AArch64\array_end.c" line="18" column="25" info="Array decayed to pointer here."/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\AArch64\array_end.c" line="17" column="17" info="Variable declared here."/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/array_end.c" functionName="callFini" lineNumber="15"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/array_end.c" functionName="_start" lineNumber="23"/>
+    <functioncall functionName="callFini"/>
+  </FileInfo>
+</analyzerinfo>

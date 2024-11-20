@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2587854831233017758">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExternalASTMerger.h&quot; not found." verbose="Include file: &quot;clang/AST/ExternalASTMerger.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="19" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Source &lt; const DeclContext * &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Source &lt; const DeclContext * &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="27" column="3"/>
+            <symbol>Source &lt; const DeclContext * &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Source &lt; TranslationUnitDecl * &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Source &lt; TranslationUnitDecl * &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="27" column="3"/>
+            <symbol>Source &lt; TranslationUnitDecl * &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Source &lt; DeclarationName &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Source &lt; DeclarationName &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="27" column="3"/>
+            <symbol>Source &lt; DeclarationName &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Source &lt; DeclContext * &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Source &lt; DeclContext * &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="27" column="3"/>
+            <symbol>Source &lt; DeclContext * &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Source &lt; NamedDecl * &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Source &lt; NamedDecl * &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="27" column="3"/>
+            <symbol>Source &lt; NamedDecl * &gt;</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="201" column="45"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="202" column="49"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="203" column="40"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="204" column="45"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="205" column="40"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="212" column="47"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="214" column="21"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="216" column="21"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="221" column="47"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="222" column="65"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="223" column="42"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="297" column="43"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="298" column="53"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="299" column="38"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="376" column="41"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="378" column="55"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="379" column="38"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="422" column="43"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="423" column="53"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Reverse&apos; can be declared as reference to const" verbose="Parameter &apos;Reverse&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="307" column="65" info="Parameter &apos;Reverse&apos; can be declared as reference to const"/>
+            <symbol>Reverse</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Reverse&apos; can be declared as reference to const" verbose="Parameter &apos;Reverse&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="325" column="57" info="Parameter &apos;Reverse&apos; can be declared as reference to const"/>
+            <symbol>Reverse</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Forward&apos; can be declared as reference to const" verbose="Parameter &apos;Forward&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="346" column="38" info="Parameter &apos;Forward&apos; can be declared as reference to const"/>
+            <symbol>Forward</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Reverse&apos; can be declared as reference to const" verbose="Parameter &apos;Reverse&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="346" column="60" info="Parameter &apos;Reverse&apos; can be declared as reference to const"/>
+            <symbol>Reverse</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Reverse&apos; can be declared as reference to const" verbose="Parameter &apos;Reverse&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="526" column="64" info="Parameter &apos;Reverse&apos; can be declared as reference to const"/>
+            <symbol>Reverse</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="256" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="270" column="3"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTMerger.cpp" line="437" column="52"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp:450:13" call-funcname="importSpecializations" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="466" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp:462:13" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Source &lt; const DeclContext * &gt;" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="25" col="23" hash="6739333658432912235"/>
+<class name="Source &lt; TranslationUnitDecl * &gt;" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="25" col="23" hash="11620204102165159149"/>
+<class name="Source &lt; DeclarationName &gt;" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="25" col="23" hash="17848279107328956215"/>
+<class name="Source &lt; DeclContext * &gt;" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="25" col="23" hash="7051234570924283849"/>
+<class name="Source &lt; NamedDecl * &gt;" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="25" col="23" hash="18035940186562264949"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp:450:13" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="451" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp:195:8" my-argnr="2" my-argname="To" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="196" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp:244:6" my-argnr="2" my-argname="C" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="245" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp:262:18" my-argnr="1" my-argname="Merger" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="265" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp:450:13" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" line="451" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="CanonicalizeDC" lineNumber="38"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="LookupSameContext" lineNumber="45"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="logs" lineNumber="111"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="GetReverse" lineNumber="241"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="HasDeclOfSameType" lineNumber="244"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="LazyImporterForOrigin" lineNumber="262"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="IsSameDC" lineNumber="355"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="importSpecializations" lineNumber="450"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="importSpecializationsIfNeeded" lineNumber="462"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="30"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="30"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="30"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="30"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExternalASTMerger.cpp" functionName="get" lineNumber="30"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="ASTImporter"/>
+    <functioncall functionName="ASTImporterSharedState"/>
+    <functioncall functionName="AddSources"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="CanComplete"/>
+    <functioncall functionName="Candidate"/>
+    <functioncall functionName="CanonicalizeDC"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="CompleteType"/>
+    <functioncall functionName="DCOrigin"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclContext"/>
+    <functioncall functionName="DeclarationName"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="ExternalASTMerger"/>
+    <functioncall functionName="FM"/>
+    <functioncall functionName="FindOriginalDecl"/>
+    <functioncall functionName="ForEachMatchingDC"/>
+    <functioncall functionName="ForceRecordOrigin"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="GetOriginalDecl"/>
+    <functioncall functionName="GetReverse"/>
+    <functioncall functionName="HasDeclOfSameType"/>
+    <functioncall functionName="HasImporterForOrigin"/>
+    <functioncall functionName="Import"/>
+    <functioncall functionName="ImportDefinition"/>
+    <functioncall functionName="ImportImpl"/>
+    <functioncall functionName="ImporterForOrigin"/>
+    <functioncall functionName="ImporterSource"/>
+    <functioncall functionName="Importers"/>
+    <functioncall functionName="IsSameDC"/>
+    <functioncall functionName="Kind"/>
+    <functioncall functionName="LazyImporterForOrigin"/>
+    <functioncall functionName="LinkageSpecDecl"/>
+    <functioncall functionName="LogStream"/>
+    <functioncall functionName="LoggingEnabled"/>
+    <functioncall functionName="LookupSameContext"/>
+    <functioncall functionName="MapImported"/>
+    <functioncall functionName="MaybeRecordOrigin"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="ObjCContainerDecl"/>
+    <functioncall functionName="ObjCInterfaceDecl"/>
+    <functioncall functionName="RecordOriginImpl"/>
+    <functioncall functionName="SetExternalVisibleDeclsForName"/>
+    <functioncall functionName="SharedState"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="Source"/>
+    <functioncall functionName="TagDecl"/>
+    <functioncall functionName="TemplateDecl"/>
+    <functioncall functionName="U"/>
+    <functioncall functionName="VarTemplateDecl"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="consumeError"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="decls"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="erase_if"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclKind"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getExternalSource"/>
+    <functioncall functionName="getFileManager"/>
+    <functioncall functionName="getFirstDecl"/>
+    <functioncall functionName="getFromContext"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getMerger"/>
+    <functioncall functionName="getOriginMap"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPrimaryContext"/>
+    <functioncall functionName="getRedeclContext"/>
+    <functioncall functionName="getToContext"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="hasExternalLexicalStorage"/>
+    <functioncall functionName="hasExternalVisibleStorage"/>
+    <functioncall functionName="importSpecializations"/>
+    <functioncall functionName="importSpecializationsIfNeeded"/>
+    <functioncall functionName="isCompleteDefinition"/>
+    <functioncall functionName="isSingleResult"/>
+    <functioncall functionName="isTemporary"/>
+    <functioncall functionName="isTranslationUnit"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="logs"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nulls"/>
+    <functioncall functionName="operatorT"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="setCompleteDefinition"/>
+    <functioncall functionName="setHasExternalLexicalStorage"/>
+    <functioncall functionName="setHasExternalVisibleStorage"/>
+    <functioncall functionName="setMustBuildLookupTable"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="specializations"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

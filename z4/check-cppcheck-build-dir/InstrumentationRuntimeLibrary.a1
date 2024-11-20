@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1433329044060608603">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h&quot; not found." verbose="Include file: &quot;bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/JumpTable.h&quot; not found." verbose="Include file: &quot;bolt/Core/JumpTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/Linker.h&quot; not found." verbose="Include file: &quot;bolt/Core/Linker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Alignment.h&quot; not found." verbose="Include file: &quot;llvm/Support/Alignment.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\InstrumentationRuntimeLibrary.cpp" line="20" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Align"/>
+    <functioncall functionName="BoltOptCategory"/>
+    <functioncall functionName="Counters"/>
+    <functioncall functionName="FunctionDescriptions"/>
+    <functioncall functionName="IndCallCounterFuncPtr"/>
+    <functioncall functionName="IndCallDescription"/>
+    <functioncall functionName="IndCallDescriptions"/>
+    <functioncall functionName="IndCallTargetDescription"/>
+    <functioncall functionName="IndCallTargetDescriptions"/>
+    <functioncall functionName="IndTailCallCounterFuncPtr"/>
+    <functioncall functionName="JTS_MOVE"/>
+    <functioncall functionName="JumpTableSupportLevel"/>
+    <functioncall functionName="MCSA_Global"/>
+    <functioncall functionName="MCSection"/>
+    <functioncall functionName="NT_BOLT_INSTRUMENTATION_TABLES"/>
+    <functioncall functionName="RuntimeFiniAddress"/>
+    <functioncall functionName="RuntimeStartAddress"/>
+    <functioncall functionName="SHT_NOTE"/>
+    <functioncall functionName="SHT_PROGBITS"/>
+    <functioncall functionName="S_REGULAR"/>
+    <functioncall functionName="StringTable"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="buildTables"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="copyByteArray"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="emitBytes"/>
+    <functioncall functionName="emitFill"/>
+    <functioncall functionName="emitIntValue"/>
+    <functioncall functionName="emitLabel"/>
+    <functioncall functionName="emitSymbolAttribute"/>
+    <functioncall functionName="emitTablesAsELFNote"/>
+    <functioncall functionName="emitValue"/>
+    <functioncall functionName="encodeELFNote"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getData"/>
+    <functioncall functionName="getELFSection"/>
+    <functioncall functionName="getFDSize"/>
+    <functioncall functionName="getFlags"/>
+    <functioncall functionName="getLibPath"/>
+    <functioncall functionName="getMachOSection"/>
+    <functioncall functionName="getOrCreateSymbol"/>
+    <functioncall functionName="getOutputAddress"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isELF"/>
+    <functioncall functionName="isMachO"/>
+    <functioncall functionName="loadLibrary"/>
+    <functioncall functionName="lookupSymbol"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="registerOrUpdateNoteSection"/>
+    <functioncall functionName="setAlignment"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="switchSection"/>
+    <functioncall functionName="translateInputToOutputAddress"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="value_or"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+</analyzerinfo>

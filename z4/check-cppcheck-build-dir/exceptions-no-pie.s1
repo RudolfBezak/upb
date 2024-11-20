@@ -1,0 +1,2 @@
+dummy call:[ValIsZero,out_of_range] noreturn:[ValIsZero,out_of_range]
+main call:[dummy,invalid_argument,strtol,what] noreturn:[dummy,invalid_argument]

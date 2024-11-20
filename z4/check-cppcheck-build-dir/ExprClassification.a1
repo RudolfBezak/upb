@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4933827743120335001">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprClassification.cpp" line="117" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:26:18" my-argnr="2" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="112" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:29:18" my-argnr="2" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="541" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:30:18" my-argnr="2" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="607" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:31:18" my-argnr="2" my-argname="True" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="645" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:26:18" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="110" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:26:18" my-argnr="2" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="112" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:28:18" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="525" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:29:18" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="541" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:29:18" my-argnr="2" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="541" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:30:18" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="603" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:30:18" my-argnr="2" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="607" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:31:18" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="639" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp:31:18" my-argnr="2" my-argname="True" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" line="645" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyTemporary" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyExprValueKind" lineNumber="94"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyInternal" lineNumber="108"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyDecl" lineNumber="489"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyUnnamed" lineNumber="523"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyMemberExpr" lineNumber="540"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyBinaryOp" lineNumber="602"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="ClassifyConditional" lineNumber="637"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprClassification.cpp" functionName="IsModifiable" lineNumber="669"/>
+    <functioncall functionName="ArraySubscriptExpr"/>
+    <functioncall functionName="ArrayType"/>
+    <functioncall functionName="BinaryConditionalOperator"/>
+    <functioncall functionName="BinaryOperator"/>
+    <functioncall functionName="BindingDecl"/>
+    <functioncall functionName="BoundMember"/>
+    <functioncall functionName="CL_AddressableVoid"/>
+    <functioncall functionName="CL_ArrayTemporary"/>
+    <functioncall functionName="CL_ClassTemporary"/>
+    <functioncall functionName="CL_DuplicateVectorComponents"/>
+    <functioncall functionName="CL_Function"/>
+    <functioncall functionName="CL_LValue"/>
+    <functioncall functionName="CL_MemberFunction"/>
+    <functioncall functionName="CL_ObjCMessageRValue"/>
+    <functioncall functionName="CL_PRValue"/>
+    <functioncall functionName="CL_SubObjCPropertySetting"/>
+    <functioncall functionName="CL_Void"/>
+    <functioncall functionName="CL_XValue"/>
+    <functioncall functionName="CM_ArrayType"/>
+    <functioncall functionName="CM_ConstAddrSpace"/>
+    <functioncall functionName="CM_ConstQualified"/>
+    <functioncall functionName="CM_ConstQualifiedField"/>
+    <functioncall functionName="CM_Function"/>
+    <functioncall functionName="CM_IncompleteType"/>
+    <functioncall functionName="CM_LValueCast"/>
+    <functioncall functionName="CM_Modifiable"/>
+    <functioncall functionName="CM_NoSetterProperty"/>
+    <functioncall functionName="CM_RValue"/>
+    <functioncall functionName="CM_Untested"/>
+    <functioncall functionName="CPlusPlus"/>
+    <functioncall functionName="CXXBindTemporaryExpr"/>
+    <functioncall functionName="CXXDefaultArgExpr"/>
+    <functioncall functionName="CXXDefaultInitExpr"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXRewrittenBinaryOperator"/>
+    <functioncall functionName="CXXThrowExpr"/>
+    <functioncall functionName="CXXUnresolvedConstructExpr"/>
+    <functioncall functionName="CallExpr"/>
+    <functioncall functionName="ChooseExpr"/>
+    <functioncall functionName="Classification"/>
+    <functioncall functionName="Classify"/>
+    <functioncall functionName="ClassifyBinaryOp"/>
+    <functioncall functionName="ClassifyConditional"/>
+    <functioncall functionName="ClassifyDecl"/>
+    <functioncall functionName="ClassifyExprValueKind"/>
+    <functioncall functionName="ClassifyInternal"/>
+    <functioncall functionName="ClassifyMemberExpr"/>
+    <functioncall functionName="ClassifyModifiable"/>
+    <functioncall functionName="ClassifyTemporary"/>
+    <functioncall functionName="ClassifyUnnamed"/>
+    <functioncall functionName="ConditionalOperator"/>
+    <functioncall functionName="ConstantExpr"/>
+    <functioncall functionName="CoroutineSuspendExpr"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="DesignatedInitExpr"/>
+    <functioncall functionName="ExplicitCastExpr"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="ExprWithCleanups"/>
+    <functioncall functionName="ExtVectorElementExpr"/>
+    <functioncall functionName="FieldDecl"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="GenericSelectionExpr"/>
+    <functioncall functionName="IgnoreImpCasts"/>
+    <functioncall functionName="IgnoreParenImpCasts"/>
+    <functioncall functionName="IgnoreParens"/>
+    <functioncall functionName="IndirectFieldDecl"/>
+    <functioncall functionName="InitListExpr"/>
+    <functioncall functionName="IsModifiable"/>
+    <functioncall functionName="LV_ArrayTemporary"/>
+    <functioncall functionName="LV_ClassTemporary"/>
+    <functioncall functionName="LV_DuplicateVectorComponents"/>
+    <functioncall functionName="LV_IncompleteVoidType"/>
+    <functioncall functionName="LV_InvalidExpression"/>
+    <functioncall functionName="LV_InvalidMessageExpression"/>
+    <functioncall functionName="LV_MemberFunction"/>
+    <functioncall functionName="LV_NotObjectType"/>
+    <functioncall functionName="LV_SubObjCPropertySetting"/>
+    <functioncall functionName="LV_Valid"/>
+    <functioncall functionName="MLV_ArrayTemporary"/>
+    <functioncall functionName="MLV_ArrayType"/>
+    <functioncall functionName="MLV_ClassTemporary"/>
+    <functioncall functionName="MLV_ConstAddrSpace"/>
+    <functioncall functionName="MLV_ConstQualified"/>
+    <functioncall functionName="MLV_ConstQualifiedField"/>
+    <functioncall functionName="MLV_DuplicateVectorComponents"/>
+    <functioncall functionName="MLV_IncompleteType"/>
+    <functioncall functionName="MLV_IncompleteVoidType"/>
+    <functioncall functionName="MLV_InvalidExpression"/>
+    <functioncall functionName="MLV_InvalidMessageExpression"/>
+    <functioncall functionName="MLV_LValueCast"/>
+    <functioncall functionName="MLV_MemberFunction"/>
+    <functioncall functionName="MLV_NoSetterProperty"/>
+    <functioncall functionName="MLV_NotObjectType"/>
+    <functioncall functionName="MLV_SubObjCPropertySetting"/>
+    <functioncall functionName="MLV_Valid"/>
+    <functioncall functionName="MSGuidDecl"/>
+    <functioncall functionName="MSPropertyDecl"/>
+    <functioncall functionName="MaterializeTemporaryExpr"/>
+    <functioncall functionName="MatrixSubscriptExpr"/>
+    <functioncall functionName="MemberExpr"/>
+    <functioncall functionName="NonTypeTemplateParmDecl"/>
+    <functioncall functionName="ObjCMessageExpr"/>
+    <functioncall functionName="ObjCPropertyRefExpr"/>
+    <functioncall functionName="PackExpansionExpr"/>
+    <functioncall functionName="PackIndexingExpr"/>
+    <functioncall functionName="ParenExpr"/>
+    <functioncall functionName="PredefinedExpr"/>
+    <functioncall functionName="PseudoObjectExpr"/>
+    <functioncall functionName="RValueReferenceType"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="StmtExpr"/>
+    <functioncall functionName="SubstNonTypeTemplateParmExpr"/>
+    <functioncall functionName="TemplateParamObjectDecl"/>
+    <functioncall functionName="UnaryOperator"/>
+    <functioncall functionName="UnnamedGlobalConstantDecl"/>
+    <functioncall functionName="ValueDecl"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="body_back"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="containsDuplicateElements"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="getAddressSpace"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getBase"/>
+    <functioncall functionName="getCallReturnType"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getChosenSubExpr"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getExprLoc"/>
+    <functioncall functionName="getFalseExpr"/>
+    <functioncall functionName="getFunctionName"/>
+    <functioncall functionName="getImplicitPropertySetter"/>
+    <functioncall functionName="getInit"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getMemberDecl"/>
+    <functioncall functionName="getMethodDecl"/>
+    <functioncall functionName="getModifiable"/>
+    <functioncall functionName="getNumInits"/>
+    <functioncall functionName="getObjectKind"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getPattern"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getReplacement"/>
+    <functioncall functionName="getResultExpr"/>
+    <functioncall functionName="getResumeExpr"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getSelectedExpr"/>
+    <functioncall functionName="getSemanticForm"/>
+    <functioncall functionName="getStmtClass"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSubStmt"/>
+    <functioncall functionName="getTrueExpr"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeAsWritten"/>
+    <functioncall functionName="getValueKind"/>
+    <functioncall functionName="hasConstFields"/>
+    <functioncall functionName="hasPlaceholderType"/>
+    <functioncall functionName="hasQualifiers"/>
+    <functioncall functionName="isArrayType"/>
+    <functioncall functionName="isArrow"/>
+    <functioncall functionName="isAssignmentOp"/>
+    <functioncall functionName="isBoundToLvalueReference"/>
+    <functioncall functionName="isConstQualified"/>
+    <functioncall functionName="isConstantArrayType"/>
+    <functioncall functionName="isFunctionType"/>
+    <functioncall functionName="isImplicitObjectMemberFunction"/>
+    <functioncall functionName="isImplicitProperty"/>
+    <functioncall functionName="isIncompleteType"/>
+    <functioncall functionName="isInstantiationDependent"/>
+    <functioncall functionName="isLValue"/>
+    <functioncall functionName="isLValueReferenceType"/>
+    <functioncall functionName="isPRValue"/>
+    <functioncall functionName="isRecord"/>
+    <functioncall functionName="isRecordType"/>
+    <functioncall functionName="isReferenceType"/>
+    <functioncall functionName="isResultDependent"/>
+    <functioncall functionName="isStatic"/>
+    <functioncall functionName="isTransparent"/>
+    <functioncall functionName="isVectorType"/>
+    <functioncall functionName="isVoidType"/>
+    <functioncall functionName="isXValue"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="llvm_unreachable"/>
+  </FileInfo>
+</analyzerinfo>

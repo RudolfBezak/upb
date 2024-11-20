@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12326546959270851085">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlus.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlus.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCContext.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInst.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInst.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstrAnalysis.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstrAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstrDesc.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstrDesc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstrInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstrInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\MCPlusBuilder.cpp" line="24" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="BoltCategory"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCBinaryExpr"/>
+    <functioncall functionName="MCConstantExpr"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="MCSymbol"/>
+    <functioncall functionName="MCSymbolRefExpr"/>
+    <functioncall functionName="MCTargetExpr"/>
+    <functioncall functionName="MCUnaryExpr"/>
+    <functioncall functionName="RegInfo"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createAdd"/>
+    <functioncall functionName="createExpr"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="defOperands"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="equals"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="extractAnnotationIndex"/>
+    <functioncall functionName="extractAnnotationValue"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_first"/>
+    <functioncall functionName="find_next"/>
+    <functioncall functionName="flip"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getAnnotationAs"/>
+    <functioncall functionName="getAnnotationOpValue"/>
+    <functioncall functionName="getCalleeSavedRegs"/>
+    <functioncall functionName="getConditionalTailCall"/>
+    <functioncall functionName="getDFPImm"/>
+    <functioncall functionName="getDefaultLiveOut"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getFirstAnnotationOpIndex"/>
+    <functioncall functionName="getGnuArgsSize"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getInstLabel"/>
+    <functioncall functionName="getJumpTable"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getNumOperands"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOrCreateAnnotationAs"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getRepRegs"/>
+    <functioncall functionName="getSFPImm"/>
+    <functioncall functionName="getSizeInBits"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getTargetExprFor"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="hasDefOfPhysReg"/>
+    <functioncall functionName="implicit_defs"/>
+    <functioncall functionName="implicit_uses"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isConditionalBranch"/>
+    <functioncall functionName="isDFPImm"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isImm"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isPrefix"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isRep"/>
+    <functioncall functionName="isReturn"/>
+    <functioncall functionName="isSFPImm"/>
+    <functioncall functionName="isSubRegister"/>
+    <functioncall functionName="isSubRegisterEq"/>
+    <functioncall functionName="isTerminator"/>
+    <functioncall functionName="isTrap"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="kConditionalTailCall"/>
+    <functioncall functionName="kDynamicBranch"/>
+    <functioncall functionName="kEHAction"/>
+    <functioncall functionName="kEHLandingPad"/>
+    <functioncall functionName="kGeneric"/>
+    <functioncall functionName="kGnuArgsSize"/>
+    <functioncall functionName="kJumpTable"/>
+    <functioncall functionName="kLabel"/>
+    <functioncall functionName="kOffset"/>
+    <functioncall functionName="kSize"/>
+    <functioncall functionName="kTailCall"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="regclasses"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="removeAnnotations"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setAnnotationOpValue"/>
+    <functioncall functionName="setTailCall"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="useOperands"/>
+  </FileInfo>
+</analyzerinfo>

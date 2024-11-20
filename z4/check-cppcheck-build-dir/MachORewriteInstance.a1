@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12659288135685319689">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MachORewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MachORewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryEmitter.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryEmitter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/JumpTable.h&quot; not found." verbose="Include file: &quot;bolt/Core/JumpTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Instrumentation.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Instrumentation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/PatchEntries.h&quot; not found." verbose="Include file: &quot;bolt/Passes/PatchEntries.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/DataReader.h&quot; not found." verbose="Include file: &quot;bolt/Profile/DataReader.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/BinaryPassManager.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/BinaryPassManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/ExecutableFileMemoryManager.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/ExecutableFileMemoryManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/JITLinkLinker.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/JITLinkLinker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h&quot; not found." verbose="Include file: &quot;bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCObjectStreamer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCObjectStreamer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ToolOutputFile.h&quot; not found." verbose="Include file: &quot;llvm/Support/ToolOutputFile.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MachORewriteInstance.cpp" line="29" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/MachORewriteInstance.cpp:163:31" my-argnr="1" my-argname="O" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/MachORewriteInstance.cpp" line="165" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/MachORewriteInstance.cpp:178:25" my-argnr="1" my-argname="O" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/MachORewriteInstance.cpp" line="181" col="61" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/MachORewriteInstance.cpp" functionName="readDataInCode" lineNumber="163"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/MachORewriteInstance.cpp" functionName="readStartAddress" lineNumber="178"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="DataReader"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="ExecutableFileMemoryManager"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="FinalizeFunctions"/>
+    <functioncall functionName="FixupBranches"/>
+    <functioncall functionName="Instrument"/>
+    <functioncall functionName="Instrumentation"/>
+    <functioncall functionName="InstrumentationRuntimeLibrary"/>
+    <functioncall functionName="JITLinkLinker"/>
+    <functioncall functionName="JTS_MOVE"/>
+    <functioncall functionName="JumpTableSupportLevel"/>
+    <functioncall functionName="KeepTmp"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCPlusBuilder"/>
+    <functioncall functionName="MachORewriteInstance"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="NeverPrint"/>
+    <functioncall functionName="NormalizeCFG"/>
+    <functioncall functionName="OF_None"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="OutputFilename"/>
+    <functioncall functionName="PageAlign"/>
+    <functioncall functionName="PatchEntries"/>
+    <functioncall functionName="PrintAfterBranchFixup"/>
+    <functioncall functionName="PrintCFG"/>
+    <functioncall functionName="PrintDisasm"/>
+    <functioncall functionName="PrintFinalized"/>
+    <functioncall functionName="PrintNormalized"/>
+    <functioncall functionName="PrintReordered"/>
+    <functioncall functionName="PrintSections"/>
+    <functioncall functionName="ProfileReader"/>
+    <functioncall functionName="RemoveNops"/>
+    <functioncall functionName="ReorderBasicBlocks"/>
+    <functioncall functionName="SF_Global"/>
+    <functioncall functionName="ShortenInstructions"/>
+    <functioncall functionName="StringError"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="SymbolRef"/>
+    <functioncall functionName="ToolOutputFile"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="addAlternativeName"/>
+    <functioncall functionName="adjustCommandLineOptions"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="begin_dices"/>
+    <functioncall functionName="buffer_ostream"/>
+    <functioncall functionName="buildCFG"/>
+    <functioncall functionName="buildFunctionsCFG"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="cbegin"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="check_error"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinaryContext"/>
+    <functioncall functionName="createBinaryFunction"/>
+    <functioncall functionName="createMCPlusBuilder"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="createStreamer"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="data_in_code_entry"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="disassemble"/>
+    <functioncall functionName="disassembleFunctions"/>
+    <functioncall functionName="discoverFileObjects"/>
+    <functioncall functionName="emitAndLink"/>
+    <functioncall functionName="emitBinaryContext"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="end_dices"/>
+    <functioncall functionName="errorCodeToError"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="finish"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAllBinaryFunctions"/>
+    <functioncall functionName="getAllocAddress"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCodeSection"/>
+    <functioncall functionName="getData"/>
+    <functioncall functionName="getDataInCodeLoadCommand"/>
+    <functioncall functionName="getEntryPointCommand"/>
+    <functioncall functionName="getError"/>
+    <functioncall functionName="getFileName"/>
+    <functioncall functionName="getFileOffset"/>
+    <functioncall functionName="getFilename"/>
+    <functioncall functionName="getFlags"/>
+    <functioncall functionName="getImageAddress"/>
+    <functioncall functionName="getImageSize"/>
+    <functioncall functionName="getInjectedBinaryFunctions"/>
+    <functioncall functionName="getInputFileOffset"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLength"/>
+    <functioncall functionName="getMaxSize"/>
+    <functioncall functionName="getMemBuffer"/>
+    <functioncall functionName="getMemBufferRef"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNewSecPrefix"/>
+    <functioncall functionName="getNumOccurrences"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOneName"/>
+    <functioncall functionName="getOrgSecPrefix"/>
+    <functioncall functionName="getOutputAddress"/>
+    <functioncall functionName="getOutputSize"/>
+    <functioncall functionName="getSection"/>
+    <functioncall functionName="getSectionForAddress"/>
+    <functioncall functionName="getSegment64LoadCommand"/>
+    <functioncall functionName="getSegmentLoadCommand"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getUmask"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="hasValidSectionID"/>
+    <functioncall functionName="inconvertibleErrorCode"/>
+    <functioncall functionName="initializeTarget"/>
+    <functioncall functionName="isEmitted"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="keep"/>
+    <functioncall functionName="loadObject"/>
+    <functioncall functionName="load_commands"/>
+    <functioncall functionName="logBOLTErrorsAndQuitOnFatal"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="makeTriple"/>
+    <functioncall functionName="make_error"/>
+    <functioncall functionName="make_error_code"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="mapCodeSections"/>
+    <functioncall functionName="mapInstrumentationSection"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="no_such_file_or_directory"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="os"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="perms"/>
+    <functioncall functionName="postProcessCFG"/>
+    <functioncall functionName="postProcessFunctions"/>
+    <functioncall functionName="preprocessProfile"/>
+    <functioncall functionName="preprocessProfileData"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printSections"/>
+    <functioncall functionName="processProfileData"/>
+    <functioncall functionName="processProfileDataPreCFG"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="pwrite"/>
+    <functioncall functionName="readDataInCode"/>
+    <functioncall functionName="readProfile"/>
+    <functioncall functionName="readProfilePreCFG"/>
+    <functioncall functionName="readSpecialSections"/>
+    <functioncall functionName="readStartAddress"/>
+    <functioncall functionName="registerNameAtAddress"/>
+    <functioncall functionName="registerPass"/>
+    <functioncall functionName="registerSection"/>
+    <functioncall functionName="report_error"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="rewriteFile"/>
+    <functioncall functionName="runOptimizationPasses"/>
+    <functioncall functionName="runPasses"/>
+    <functioncall functionName="sections"/>
+    <functioncall functionName="setFileOffset"/>
+    <functioncall functionName="setImageAddress"/>
+    <functioncall functionName="setImageSize"/>
+    <functioncall functionName="setMaxSize"/>
+    <functioncall functionName="setNewSecPrefix"/>
+    <functioncall functionName="setOrgSecPrefix"/>
+    <functioncall functionName="setOutputAddress"/>
+    <functioncall functionName="setPermissions"/>
+    <functioncall functionName="setRuntimeLibrary"/>
+    <functioncall functionName="setSimple"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strnlen"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="symbols"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="uniquify"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="writeInstrumentationSection"/>
+  </FileInfo>
+</analyzerinfo>

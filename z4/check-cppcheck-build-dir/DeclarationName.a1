@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2424425639246379565">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclarationName.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclarationName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclBase.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/OpenMPClause.h&quot; not found." verbose="Include file: &quot;clang/AST/OpenMPClause.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found." verbose="Include file: &quot;clang/AST/PrettyPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeOrdering.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeOrdering.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found." verbose="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OperatorKinds.h&quot; not found." verbose="Include file: &quot;clang/Basic/OperatorKinds.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Compiler.h&quot; not found." verbose="Include file: &quot;llvm/Support/Compiler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclarationName.cpp" line="38" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclarationName.cpp" functionName="compareInt" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclarationName.cpp" functionName="printCXXConstructorDestructorName" lineNumber="113"/>
+    <functioncall functionName="AddPointer"/>
+    <functioncall functionName="CXXDeductionGuideNameExtra"/>
+    <functioncall functionName="CXXLiteralOperatorIdName"/>
+    <functioncall functionName="CXXSpecialNameExtra"/>
+    <functioncall functionName="Ctx"/>
+    <functioncall functionName="DeclarationName"/>
+    <functioncall functionName="DeclarationNameLoc"/>
+    <functioncall functionName="DeclarationNameTable"/>
+    <functioncall functionName="FETokenInfo"/>
+    <functioncall functionName="FindNodeOrInsertPos"/>
+    <functioncall functionName="InjectedClassNameType"/>
+    <functioncall functionName="InsertNode"/>
+    <functioncall functionName="LangOptions"/>
+    <functioncall functionName="NameLoc"/>
+    <functioncall functionName="OMPTraitInfo"/>
+    <functioncall functionName="OverloadedOperatorKind"/>
+    <functioncall functionName="PrintingPolicy"/>
+    <functioncall functionName="QualTypeOrdering"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StoredCXXConstructorName"/>
+    <functioncall functionName="StoredCXXConversionFunctionName"/>
+    <functioncall functionName="StoredCXXDestructorName"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TemplateDecl"/>
+    <functioncall functionName="adjustForCPlusPlus"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAsCXXDeductionGuideNameExtra"/>
+    <functioncall functionName="castAsCXXLiteralOperatorIdName"/>
+    <functioncall functionName="castAsCXXOperatorIdName"/>
+    <functioncall functionName="castAsCXXSpecialNameExtra"/>
+    <functioncall functionName="castAsIdentifierInfo"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="compareInt"/>
+    <functioncall functionName="containsUnexpandedParameterPack"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getAsOpaquePtr"/>
+    <functioncall functionName="getAsString"/>
+    <functioncall functionName="getCXXConstructorName"/>
+    <functioncall functionName="getCXXConversionFunctionName"/>
+    <functioncall functionName="getCXXDeductionGuideTemplate"/>
+    <functioncall functionName="getCXXDestructorName"/>
+    <functioncall functionName="getCXXLiteralIdentifier"/>
+    <functioncall functionName="getCXXLiteralOperatorNameLoc"/>
+    <functioncall functionName="getCXXNameType"/>
+    <functioncall functionName="getCXXOperatorNameEndLoc"/>
+    <functioncall functionName="getCXXOverloadedOperator"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getEndLoc"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameForSlot"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNamedTypeInfo"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getObjCSelector"/>
+    <functioncall functionName="getOpenMPVariantManglingSeparatorStr"/>
+    <functioncall functionName="getOperatorSpelling"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="isDependentContext"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isInstantiationDependentType"/>
+    <functioncall functionName="isMangledOpenMPVariantName"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printCXXConstructorDestructorName"/>
+    <functioncall functionName="printName"/>
+    <functioncall functionName="setCXXLiteralOperatorNameLoc"/>
+    <functioncall functionName="setCXXOperatorNameRange"/>
+    <functioncall functionName="setNamedTypeLoc"/>
+    <functioncall functionName="split"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

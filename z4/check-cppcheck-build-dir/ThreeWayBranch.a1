@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12316510395207806400">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ThreeWayBranch.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ThreeWayBranch.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ThreeWayBranch.cpp" line="13" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ThreeWayBranch.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ThreeWayBranch.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="addSuccessor"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCondCode"/>
+    <functioncall functionName="getCondCodesLogicalOr"/>
+    <functioncall functionName="getConditionalSuccessor"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getInvertedCondCode"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLastNonPseudoInstr"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="hasJumpTable"/>
+    <functioncall functionName="isPacked"/>
+    <functioncall functionName="isValidCondCode"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="removeAllSuccessors"/>
+    <functioncall functionName="replaceBranchCondition"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="shouldRunOnFunction"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11342530679613208589">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\rethrow.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\rethrow.cpp" line="2" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;E&apos; can be declared as reference to const" verbose="Variable &apos;E&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\rethrow.cpp" line="59" column="34" info="Variable &apos;E&apos; can be declared as reference to const"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;E&apos; can be declared as reference to const" verbose="Variable &apos;E&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\rethrow.cpp" line="77" column="32" info="Variable &apos;E&apos; can be declared as reference to const"/>
+            <symbol>E</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="EventGen" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" line="27" col="1" hash="16723782118313000188"/>
+<class name="TerminateException" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" line="40" col="1" hash="14625131103008764107"/>
+<class name="CleanUp" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" line="68" col="1" hash="539969857435274645"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="erringFunc" lineNumber="4"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="libCallA" lineNumber="6"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="libCallB" lineNumber="8"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="handleEventA" lineNumber="10"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="handleEventB" lineNumber="19"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="generateEvent" lineNumber="31"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="runEventLoop" lineNumber="45"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/rethrow.cpp" functionName="main" lineNumber="72"/>
+    <functioncall functionName="TerminateException"/>
+    <functioncall functionName="erringFunc"/>
+    <functioncall functionName="generateEvent"/>
+    <functioncall functionName="handleEventA"/>
+    <functioncall functionName="handleEventB"/>
+    <functioncall functionName="libCallA"/>
+    <functioncall functionName="libCallB"/>
+    <functioncall functionName="runEventLoop"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

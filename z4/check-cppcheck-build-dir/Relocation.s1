@@ -1,0 +1,32 @@
+isSupportedX86
+isSupportedAArch64
+isSupportedRISCV
+getSizeForTypeX86 call:[errs,getELFRelocationTypeName,llvm_unreachable]
+getSizeForTypeAArch64 call:[errs,getELFRelocationTypeName,llvm_unreachable]
+getSizeForTypeRISCV call:[errs,getELFRelocationTypeName,llvm_unreachable]
+skipRelocationTypeX86
+skipRelocationTypeAArch64
+skipRelocationTypeRISCV
+skipRelocationProcessX86
+skipRelocationProcessAArch64 call:[IsAddImm,IsAdr,IsB,IsMov,IsNop,return]
+skipRelocationProcessRISCV
+encodeValueX86 call:[llvm_unreachable]
+encodeValueAArch64 call:[assert,llvm_unreachable]
+encodeValueRISCV call:[llvm_unreachable]
+extractValueX86 call:[SignExtend64,getSizeForType,isPCRelative] noreturn:[SignExtend64]
+extractValueAArch64 call:[errs,getELFRelocationTypeName,llvm_unreachable]
+extractUImmRISCV
+extractIImmRISCV
+extractSImmRISCV
+extractJImmRISCV
+extractBImmRISCV
+extractValueRISCV call:[errs,extractBImmRISCV,extractIImmRISCV,extractJImmRISCV,extractSImmRISCV,extractUImmRISCV,getELFRelocationTypeName,llvm_unreachable]
+isGOTX86
+isGOTAArch64
+isGOTRISCV
+isTLSX86
+isTLSAArch64
+isTLSRISCV
+isPCRelativeX86 call:[llvm_unreachable]
+isPCRelativeAArch64 call:[llvm_unreachable]
+isPCRelativeRISCV call:[llvm_unreachable]

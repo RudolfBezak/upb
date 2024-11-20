@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12561525238844284957">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DataCollection.h&quot; not found." verbose="Include file: &quot;clang/AST/DataCollection.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DataCollection.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DataCollection.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/Lexer.h&quot; not found." verbose="Include file: &quot;clang/Lex/Lexer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DataCollection.cpp" line="11" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp:18:13" my-argnr="1" my-argname="MacroStack" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp" line="20" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp:18:13" my-argnr="2" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp" line="20" col="51" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp:33:13" my-argnr="2" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp" line="36" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp" functionName="printMacroName" lineNumber="18"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DataCollection.cpp" functionName="getMacroStack" lineNumber="33"/>
+    <functioncall functionName="getImmediateMacroCallerLoc"/>
+    <functioncall functionName="getImmediateMacroName"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="isMacroID"/>
+    <functioncall functionName="printMacroName"/>
+  </FileInfo>
+</analyzerinfo>

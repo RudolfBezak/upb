@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12763280252497006655">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/APINotesWriter.h&quot; not found." verbose="Include file: &quot;clang/APINotes/APINotesWriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/Types.h&quot; not found." verbose="Include file: &quot;clang/APINotes/Types.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesFormat.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/PointerEmbeddedInt.h&quot; not found." verbose="Include file: &quot;llvm/ADT/PointerEmbeddedInt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesFormat.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Bitcode/BitcodeConvenience.h&quot; not found." verbose="Include file: &quot;llvm/Bitcode/BitcodeConvenience.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesFormat.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/Types.h&quot; not found." verbose="Include file: &quot;clang/APINotes/Types.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/FileManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/FileManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseMap.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringMap.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Bitstream/BitstreamWriter.h&quot; not found." verbose="Include file: &quot;llvm/Bitstream/BitstreamWriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/DJB.h&quot; not found." verbose="Include file: &quot;llvm/Support/DJB.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/OnDiskHashTable.h&quot; not found." verbose="Include file: &quot;llvm/Support/OnDiskHashTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/VersionTuple.h&quot; not found." verbose="Include file: &quot;llvm/Support/VersionTuple.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="18" column="0"/>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;TagTableInfo&apos; defines member function with name &apos;getUnversionedInfoSize&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;&apos;." verbose="The class &apos;TagTableInfo&apos; defines member function with name &apos;getUnversionedInfoSize&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;&apos;." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1268" column="12" info="Derived function &apos;TagTableInfo::getUnversionedInfoSize&apos;"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1256" column="12" info="Parent function &apos;CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;::getUnversionedInfoSize&apos;"/>
+            <symbol>TagTableInfo</symbol>
+            <symbol>getUnversionedInfoSize</symbol>
+            <symbol>CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;TagTableInfo&apos; defines member function with name &apos;emitUnversionedInfo&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;&apos;." verbose="The class &apos;TagTableInfo&apos; defines member function with name &apos;emitUnversionedInfo&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;&apos;." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1276" column="8" info="Derived function &apos;TagTableInfo::emitUnversionedInfo&apos;"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1260" column="8" info="Parent function &apos;CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;::emitUnversionedInfo&apos;"/>
+            <symbol>TagTableInfo</symbol>
+            <symbol>emitUnversionedInfo</symbol>
+            <symbol>CommonTypeTableInfo &lt; TagTableInfo , TagInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;TypedefTableInfo&apos; defines member function with name &apos;getUnversionedInfoSize&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;&apos;." verbose="The class &apos;TypedefTableInfo&apos; defines member function with name &apos;getUnversionedInfoSize&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;&apos;." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1358" column="12" info="Derived function &apos;TypedefTableInfo::getUnversionedInfoSize&apos;"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1256" column="12" info="Parent function &apos;CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;::getUnversionedInfoSize&apos;"/>
+            <symbol>TypedefTableInfo</symbol>
+            <symbol>getUnversionedInfoSize</symbol>
+            <symbol>CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;TypedefTableInfo&apos; defines member function with name &apos;emitUnversionedInfo&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;&apos;." verbose="The class &apos;TypedefTableInfo&apos; defines member function with name &apos;emitUnversionedInfo&apos; also defined in its parent class &apos;CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;&apos;." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1362" column="8" info="Derived function &apos;TypedefTableInfo::emitUnversionedInfo&apos;"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1260" column="8" info="Parent function &apos;CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;::emitUnversionedInfo&apos;"/>
+            <symbol>TypedefTableInfo</symbol>
+            <symbol>emitUnversionedInfo</symbol>
+            <symbol>CommonTypeTableInfo &lt; TypedefTableInfo , TypedefInfo &gt;</symbol>
+        </error>
+        <error id="badBitmaskCheck" severity="style" msg="Operator &apos;|&apos; with one operand equal to zero is redundant." verbose="Operator &apos;|&apos; with one operand equal to zero is redundant." cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="774" column="26"/>
+        </error>
+        <error id="badBitmaskCheck" severity="style" msg="Operator &apos;|&apos; with one operand equal to zero is redundant." verbose="Operator &apos;|&apos; with one operand equal to zero is redundant." cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="815" column="26"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1094" column="10"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1440" column="42"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesWriter.cpp" line="1484" column="44"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:326:13" my-argnr="1" my-argname="lhs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="327" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:326:13" my-argnr="2" my-argname="rhs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="327" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:352:13" my-argnr="1" my-argname="lhs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="354" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:352:13" my-argnr="2" my-argname="rhs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="354" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:385:15" my-argnr="1" my-argname="LHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="387" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:385:15" my-argnr="2" my-argname="RHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="387" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:403:19" my-argnr="1" my-argname="value" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="404" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h:425:3" my-argnr="1" my-argname="value" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" line="426" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:206:6" my-argnr="1" my-argname="Stream" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="208" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:223:6" my-argnr="1" my-argname="Stream" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="232" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:312:8" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="312" col="63" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:391:10" my-argnr="1" my-argname="VT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="393" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:417:6" my-argnr="2" my-argname="VT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="422" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:444:6" my-argnr="2" my-argname="VI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="449" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:506:6" my-argnr="2" my-argname="CEI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="510" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:531:10" my-argnr="1" my-argname="CEI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="532" col="14" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:537:10" my-argnr="1" my-argname="CTI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="538" col="15" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:544:6" my-argnr="2" my-argname="CTI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="545" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:577:12" my-argnr="1" my-argname="OCI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="578" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:581:8" my-argnr="2" my-argname="OCI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="582" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:649:10" my-argnr="1" my-argname="VI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="650" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:655:6" my-argnr="2" my-argname="VI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="656" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:694:12" my-argnr="1" my-argname="OPI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="695" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:698:8" my-argnr="2" my-argname="OPI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="699" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:771:8" my-argnr="2" my-argname="OMI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="774" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:812:8" my-argnr="2" my-argname="MI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="815" col="46" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:898:12" my-argnr="1" my-argname="FI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="899" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:902:8" my-argnr="2" my-argname="FI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="903" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:951:3" my-argnr="2" my-argname="Key" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="953" col="47" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1023:12" my-argnr="1" my-argname="GVI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1024" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1027:8" my-argnr="2" my-argname="GVI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1028" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1061:10" my-argnr="1" my-argname="PI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1062" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1065:6" my-argnr="2" my-argname="PI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1066" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1090:10" my-argnr="1" my-argname="FI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1091" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1100:6" my-argnr="2" my-argname="FI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1101" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1142:12" my-argnr="1" my-argname="GFI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1143" col="32" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1146:8" my-argnr="2" my-argname="GFI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1147" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1196:12" my-argnr="1" my-argname="ECI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1197" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1200:8" my-argnr="2" my-argname="ECI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1201" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1268:12" my-argnr="1" my-argname="TI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1269" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1276:8" my-argnr="2" my-argname="TI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1280" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1358:12" my-argnr="1" my-argname="TI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1359" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp:1362:8" my-argnr="2" my-argname="TI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" line="1366" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="hashValue" lineNumber="320"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="hashValue" lineNumber="347"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getEmptyKey" lineNumber="364"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getTombstoneKey" lineNumber="369"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getHashValue" lineNumber="375"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="isEqual" lineNumber="385"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getEmptyKey" lineNumber="392"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getTombstoneKey" lineNumber="396"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getHashValue" lineNumber="403"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="isEqual" lineNumber="407"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getEmptyKey" lineNumber="414"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getTombstoneKey" lineNumber="418"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="getHashValue" lineNumber="425"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesFormat.h" functionName="isEqual" lineNumber="429"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getIdentifier" lineNumber="128"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getSelector" lineNumber="138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitBlockID" lineNumber="206"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitRecordID" lineNumber="223"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="299"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="302"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="312"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="314"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="357"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="361"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="372"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="379"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getVersionTupleSize" lineNumber="391"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getVersionedInfoSize" lineNumber="404"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitVersionTuple" lineNumber="417"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitVersionedInfo" lineNumber="444"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitCommonEntityInfo" lineNumber="506"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getCommonEntityInfoSize" lineNumber="531"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getCommonTypeInfoSize" lineNumber="537"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitCommonTypeInfo" lineNumber="544"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="566"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="568"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="573"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="577"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="581"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getVariableInfoSize" lineNumber="649"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitVariableInfo" lineNumber="655"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="679"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="683"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="690"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="694"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="698"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="749"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="753"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="760"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="764"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="771"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="791"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="795"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="801"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="805"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="812"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="884"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="888"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="894"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="898"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="902"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="946"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="951"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="962"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="969"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="1009"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="1013"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="1019"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="1023"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="1027"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getParamInfoSize" lineNumber="1061"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitParamInfo" lineNumber="1065"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getFunctionInfoSize" lineNumber="1090"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitFunctionInfo" lineNumber="1100"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="1128"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="1132"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="1138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="1142"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="1146"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="1185"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="1187"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="1192"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="1196"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="1200"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="1268"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="1276"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="1358"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="1362"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="1242"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="1246"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="1252"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="1256"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="1260"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getKeyLength" lineNumber="1242"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKey" lineNumber="1246"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="ComputeHash" lineNumber="1252"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="getUnversionedInfoSize" lineNumber="1256"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="emitUnversionedInfo" lineNumber="1260"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="468"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="asDerived" lineNumber="470"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitKeyDataLength" lineNumber="484"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesWriter.cpp" functionName="EmitData" lineNumber="497"/>
+    <functioncall functionName="APINotesWriter"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BCBlob"/>
+    <functioncall functionName="BCFixed"/>
+    <functioncall functionName="BCRecordLayout"/>
+    <functioncall functionName="BCVBR"/>
+    <functioncall functionName="BLOCKINFO_BLOCK_ID"/>
+    <functioncall functionName="BLOCKINFO_CODE_BLOCKNAME"/>
+    <functioncall functionName="BLOCKINFO_CODE_SETBID"/>
+    <functioncall functionName="BLOCKINFO_CODE_SETRECORDNAME"/>
+    <functioncall functionName="CXXMethodInfo"/>
+    <functioncall functionName="CXXMethodTableInfo"/>
+    <functioncall functionName="Context"/>
+    <functioncall functionName="ContextID"/>
+    <functioncall functionName="ContextInfo"/>
+    <functioncall functionName="ContextInfoTableInfo"/>
+    <functioncall functionName="ContextTableKey"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DenseMapInfo"/>
+    <functioncall functionName="Emit"/>
+    <functioncall functionName="EmitRecord"/>
+    <functioncall functionName="EnumConstantInfo"/>
+    <functioncall functionName="EnumConstantTableInfo"/>
+    <functioncall functionName="FieldInfo"/>
+    <functioncall functionName="FieldTableInfo"/>
+    <functioncall functionName="GlobalFunctionInfo"/>
+    <functioncall functionName="GlobalFunctionTableInfo"/>
+    <functioncall functionName="GlobalVariableInfo"/>
+    <functioncall functionName="GlobalVariableTableInfo"/>
+    <functioncall functionName="IDENTIFIER_DATA"/>
+    <functioncall functionName="IdentifierID"/>
+    <functioncall functionName="Implementation"/>
+    <functioncall functionName="METADATA"/>
+    <functioncall functionName="MODULE_NAME"/>
+    <functioncall functionName="ObjCClass"/>
+    <functioncall functionName="ObjCMethodInfo"/>
+    <functioncall functionName="ObjCMethodTableInfo"/>
+    <functioncall functionName="ObjCPropertyInfo"/>
+    <functioncall functionName="ObjCPropertyTableInfo"/>
+    <functioncall functionName="OnDiskChainedHashTableGenerator"/>
+    <functioncall functionName="PointerEmbeddedInt"/>
+    <functioncall functionName="SelectorID"/>
+    <functioncall functionName="SingleDeclTableKey"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="StringMap"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="TagInfo"/>
+    <functioncall functionName="TagTableInfo"/>
+    <functioncall functionName="TypedefInfo"/>
+    <functioncall functionName="TypedefTableInfo"/>
+    <functioncall functionName="VersionTuple"/>
+    <functioncall functionName="asDerived"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="djbHash"/>
+    <functioncall functionName="emit"/>
+    <functioncall functionName="emitBlockID"/>
+    <functioncall functionName="emitCommonEntityInfo"/>
+    <functioncall functionName="emitCommonTypeInfo"/>
+    <functioncall functionName="emitFunctionInfo"/>
+    <functioncall functionName="emitParamInfo"/>
+    <functioncall functionName="emitRecordID"/>
+    <functioncall functionName="emitUnversionedInfo"/>
+    <functioncall functionName="emitVariableInfo"/>
+    <functioncall functionName="emitVersionTuple"/>
+    <functioncall functionName="emitVersionedInfo"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flush"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBuild"/>
+    <functioncall functionName="getCommonEntityInfoSize"/>
+    <functioncall functionName="getCommonTypeInfoSize"/>
+    <functioncall functionName="getDefaultNullability"/>
+    <functioncall functionName="getEmptyKey"/>
+    <functioncall functionName="getFunctionInfoSize"/>
+    <functioncall functionName="getHashValue"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getKeyLength"/>
+    <functioncall functionName="getMajor"/>
+    <functioncall functionName="getMinor"/>
+    <functioncall functionName="getModificationTime"/>
+    <functioncall functionName="getNSErrorDomain"/>
+    <functioncall functionName="getNullability"/>
+    <functioncall functionName="getParamInfoSize"/>
+    <functioncall functionName="getRetainCountConvention"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSubminor"/>
+    <functioncall functionName="getSwiftBridge"/>
+    <functioncall functionName="getSwiftImportAsAccessors"/>
+    <functioncall functionName="getSwiftImportAsNonGeneric"/>
+    <functioncall functionName="getSwiftObjCMembers"/>
+    <functioncall functionName="getTombstoneKey"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getUnversionedInfoSize"/>
+    <functioncall functionName="getVariableInfoSize"/>
+    <functioncall functionName="getVersionTupleSize"/>
+    <functioncall functionName="getVersionedInfoSize"/>
+    <functioncall functionName="hasDesignatedInits"/>
+    <functioncall functionName="hashValue"/>
+    <functioncall functionName="hash_combine"/>
+    <functioncall functionName="hash_value"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isFlagEnum"/>
+    <functioncall functionName="isLifetimebound"/>
+    <functioncall functionName="isNoEscape"/>
+    <functioncall functionName="isSwiftCopyable"/>
+    <functioncall functionName="isSwiftPrivate"/>
+    <functioncall functionName="kSwiftCopyable"/>
+    <functioncall functionName="kSwiftNonCopyable"/>
+    <functioncall functionName="key_type_ref"/>
+    <functioncall functionName="little"/>
+    <functioncall functionName="make_optional"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_tuple"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setHasDesignatedInits"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="try_emplace"/>
+    <functioncall functionName="tuple"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="writeBlockInfoBlock"/>
+    <functioncall functionName="writeCXXMethodBlock"/>
+    <functioncall functionName="writeContextBlock"/>
+    <functioncall functionName="writeControlBlock"/>
+    <functioncall functionName="writeEnumConstantBlock"/>
+    <functioncall functionName="writeFieldBlock"/>
+    <functioncall functionName="writeGlobalFunctionBlock"/>
+    <functioncall functionName="writeGlobalVariableBlock"/>
+    <functioncall functionName="writeIdentifierBlock"/>
+    <functioncall functionName="writeObjCMethodBlock"/>
+    <functioncall functionName="writeObjCPropertyBlock"/>
+    <functioncall functionName="writeObjCSelectorBlock"/>
+    <functioncall functionName="writeTagBlock"/>
+    <functioncall functionName="writeToStream"/>
+    <functioncall functionName="writeTypedefBlock"/>
+  </FileInfo>
+</analyzerinfo>

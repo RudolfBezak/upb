@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17857854833633535034">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found." verbose="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/AST.h&quot; not found." verbose="Include file: &quot;clang/AST/AST.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found." verbose="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/Sema.h&quot; not found." verbose="Include file: &quot;clang/Sema/Sema.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="20" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Visitor&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Visitor&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="57" column="7"/>
+            <symbol>Visitor</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;ParsedTemplates&apos; should be passed by const reference." verbose="Parameter &apos;ParsedTemplates&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PrintFunctionNames\PrintFunctionNames.cpp" line="31" column="48" info="Function parameter &apos;ParsedTemplates&apos; should be passed by const reference."/>
+            <symbol>ParsedTemplates</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp:59:12" my-argnr="1" my-argname="FD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp" line="60" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp:59:12" my-argnr="1" my-argname="FD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp" line="60" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp:87:8" my-argnr="2" my-argname="args" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp" line="89" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp:114:8" my-argnr="1" my-argname="ros" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp" line="115" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp" functionName="VisitFunctionDecl" lineNumber="59"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp" functionName="PrintHelp" lineNumber="114"/>
+    <functioncall functionName="ASTConsumer"/>
+    <functioncall functionName="DelayedTemplateParsing"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="LateTemplateParser"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="PrintHelp"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TraverseDecl"/>
+    <functioncall functionName="Visitor"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getNameAsString"/>
+    <functioncall functionName="getSema"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isLateTemplateParsed"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

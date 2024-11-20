@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9314374199615771850">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInst.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInst.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="18" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryBasicBlock.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="0" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryBasicBlock.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="160" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryBasicBlock.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryBasicBlock.cpp" line="182" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryBasicBlock.cpp:27:6" my-argnr="1" my-argname="LHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryBasicBlock.cpp" line="28" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryBasicBlock.cpp:27:6" my-argnr="2" my-argname="RHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryBasicBlock.cpp" line="28" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinaryBranchInfo"/>
+    <functioncall functionName="BranchInfo"/>
+    <functioncall functionName="COUNT_NO_PROFILE"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Function"/>
+    <functioncall functionName="Instructions"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="MIB"/>
+    <functioncall functionName="NumPseudos"/>
+    <functioncall functionName="RWMutex"/>
+    <functioncall functionName="SmallPtrSet"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="Successors"/>
+    <functioncall functionName="addBasicBlock"/>
+    <functioncall functionName="addInstructions"/>
+    <functioncall functionName="addPredecessor"/>
+    <functioncall functionName="addSuccessor"/>
+    <functioncall functionName="adjustNumPseudos"/>
+    <functioncall functionName="analyzeBranch"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="branch_info"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="computeCodeSize"/>
+    <functioncall functionName="createTailCall"/>
+    <functioncall functionName="createUncondBranch"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findInstruction"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getCFIState"/>
+    <functioncall functionName="getCFIStateAtInstr"/>
+    <functioncall functionName="getConditionalSuccessor"/>
+    <functioncall functionName="getEntriesForAddress"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFDEProgram"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getFunctionEndLabel"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getInputOffset"/>
+    <functioncall functionName="getJumpTable"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLastNonPseudoInstr"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOperation"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getState"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasCFG"/>
+    <functioncall functionName="hasInstructions"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isSuccessor"/>
+    <functioncall functionName="isTerminator"/>
+    <functioncall functionName="landing_pads"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_error_code"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="moveAllSuccessorsTo"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pred_begin"/>
+    <functioncall functionName="pred_end"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printInstructions"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="removeAllSuccessors"/>
+    <functioncall functionName="removePredecessor"/>
+    <functioncall functionName="rend"/>
+    <functioncall functionName="result_out_of_range"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setCFIState"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="succ_begin"/>
+    <functioncall functionName="succ_end"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique"/>
+    <functioncall functionName="unique_lock"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="zip"/>
+  </FileInfo>
+</analyzerinfo>

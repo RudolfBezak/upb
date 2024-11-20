@@ -1,0 +1,4 @@
+inliningEnabled call:[empty]
+mustConsider call:[hasName]
+syncOptions
+getInliningInfo call:[Info,assert,back,computeInstructionSize,estimateSize,getBinaryContext,getLastNonPseudoInstr,getStackPointer,hasDefOfPhysReg,hasEHRanges,hasJumpTables,hasSDTMarker,hasUseOfPhysReg,isCFI,isCall,isMultiEntry,isPop,isPush,isReturn,isTailCall,mustConsider,size] noreturn:[hasUseOfPhysReg]

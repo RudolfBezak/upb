@@ -1,0 +1,61 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+ReleaseCollector
+VisitObjCMessageExpr call:[IgnoreParenCasts,getDecl,getInstanceReceiver,getMethodFamily,isInstanceMessage,push_back] noreturn:[push_back]
+AutoreleasePoolRewriter call:[get,getNullarySelector] noreturn:[getNullarySelector]
+transformBody call:[TraverseStmt] noreturn:[TraverseStmt]
+AutoreleasePoolRewriter call:[SourceRange,Trans,assert,begin,clearRefsIn,clearUnavailableDiags,empty,end,findLocationAfterSemi,getBegin,getBeginLoc,getEndLoc,getIndentedRange,increaseIndentation,insertAfterToken,isValid,push_back,removeStmt,replaceStmt,size] noreturn:[clearRefsIn,increaseIndentation,push_back,removeStmt]
+VisitCompoundStmt call:[PoolScope,back,body_begin,body_end,collectRefs,empty,getDecl,getEssential,getInit,getLHS,getRHS,getSingleDecl,getType,handlePoolScope,isNSAutoreleasePool,isPoolCreation,isPoolDrain,isSingleDecl,pop_back,push_back] noreturn:[pop_back]
+clearUnavailableDiags call:[clearDiagnostic,getSourceRange] noreturn:[clearDiagnostic]
+PoolScope
+getIndentedRange call:[SourceRange,getBeginLoc,getEndLoc] noreturn:[SourceRange]
+NameReferenceChecker call:[SourceRange,getBeginLoc] noreturn:[SourceRange]
+VisitDeclRefExpr call:[checkRef,getDecl,getLocation] noreturn:[checkRef]
+VisitTypedefTypeLoc call:[checkRef,getBeginLoc,getLocation,getTypedefNameDecl] noreturn:[checkRef]
+VisitTagTypeLoc call:[checkRef,getBeginLoc,getDecl,getLocation] noreturn:[checkRef]
+checkRef call:[isInScope]
+isInScope call:[getBegin,getEnd,getSourceManager,isBeforeInTranslationUnit,isInvalid] noreturn:[isBeforeInTranslationUnit]
+handlePoolScope call:[IgnoreParenCasts,NameReferenceChecker,TraverseStmt,body_end,findLocationAfterSemi,getBeginLoc,getEndLoc,getRetValue,isValid,push_back,releaseColl,reportError,reportNote] noreturn:[TraverseStmt,push_back]
+isPoolCreation call:[getEssential,getInstanceReceiver,getMethodFamily,getReceiverInterface,getReceiverKind,isNSAutoreleasePool]
+isPoolDrain call:[getDecl,getEssential,getInstanceReceiver,getMethodFamily,getReceiverKind,getSelector]
+isNSAutoreleasePool call:[getIdentifier]
+isNSAutoreleasePool call:[getDecl,getPointeeType,isNSAutoreleasePool,isNull] noreturn:[isNSAutoreleasePool]
+getEssential call:[getEssential]
+getEssential call:[IgnoreParenCasts,getSubExpr] noreturn:[IgnoreParenCasts,getSubExpr]
+rewriteAutoreleasePool call:[TraverseDecl,getTranslationUnitDecl,trans] noreturn:[TraverseDecl]

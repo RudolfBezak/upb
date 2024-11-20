@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="477598673218682224">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTMutationListener.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTMutationListener.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclarationName.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclarationName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExternalASTSource.h&quot; not found." verbose="Include file: &quot;clang/AST/ExternalASTSource.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateBase.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateName.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Builtins.h&quot; not found." verbose="Include file: &quot;clang/Basic/Builtins.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found." verbose="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="39" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;Params&apos; can be declared as pointer to const" verbose="Parameter &apos;Params&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclTemplate.cpp" line="211" column="63" info="Parameter &apos;Params&apos; can be declared as pointer to const"/>
+            <symbol>Params</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp:1532:1" call-funcname="createMakeIntegerSeqParameterList" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" line="1660" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp:1656:31" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp:211:13" my-argnr="1" my-argname="Params" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" line="214" col="24" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp:49:1" my-argnr="1" my-argname="P" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" line="50" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp:211:13" my-argnr="1" my-argname="Params" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" line="214" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp:1581:1" my-argnr="1" my-argname="C" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" line="1583" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" functionName="DefaultTemplateArgumentContainsUnexpandedPack" lineNumber="49"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" functionName="AdoptTemplateParameterList" lineNumber="211"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" functionName="allocateDefaultArgStorageChain" lineNumber="273"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" functionName="createMakeIntegerSeqParameterList" lineNumber="1532"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" functionName="createTypePackElementParameterList" lineNumber="1581"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" functionName="createBuiltinCommonTypeList" lineNumber="1602"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclTemplate.cpp" functionName="createBuiltinTemplateParameterList" lineNumber="1656"/>
+    <functioncall functionName="APValue"/>
+    <functioncall functionName="AddBoolean"/>
+    <functioncall functionName="AddInteger"/>
+    <functioncall functionName="AddedCXXTemplateSpecialization"/>
+    <functioncall functionName="AdoptTemplateParameterList"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BuiltinTemplate"/>
+    <functioncall functionName="BuiltinTemplateDecl"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="ClassTemplateDecl"/>
+    <functioncall functionName="ClassTemplatePartialSpecialization"/>
+    <functioncall functionName="ClassTemplatePartialSpecializationDecl"/>
+    <functioncall functionName="ClassTemplateSpecialization"/>
+    <functioncall functionName="ClassTemplateSpecializationDecl"/>
+    <functioncall functionName="Common"/>
+    <functioncall functionName="ConceptDecl"/>
+    <functioncall functionName="ContainsUnexpandedParameterPack"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="CreateCopy"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclContext"/>
+    <functioncall functionName="DeclarationName"/>
+    <functioncall functionName="DeclaratorDecl"/>
+    <functioncall functionName="DefaultTemplateArgumentContainsUnexpandedPack"/>
+    <functioncall functionName="Derived"/>
+    <functioncall functionName="EmptyShell"/>
+    <functioncall functionName="EntryType"/>
+    <functioncall functionName="ExpandedParameterPack"/>
+    <functioncall functionName="ExplicitInstantiationInfo"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="FindNodeOrInsertPos"/>
+    <functioncall functionName="FoldingSetVector"/>
+    <functioncall functionName="FriendTemplateDecl"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionTemplateDecl"/>
+    <functioncall functionName="FunctionTemplateSpecializationInfo"/>
+    <functioncall functionName="GetExternalDecl"/>
+    <functioncall functionName="GetOrInsertNode"/>
+    <functioncall functionName="HasConstrainedParameters"/>
+    <functioncall functionName="HasRequiresClause"/>
+    <functioncall functionName="ImplicitConceptSpecialization"/>
+    <functioncall functionName="ImplicitConceptSpecializationDecl"/>
+    <functioncall functionName="InjectedArgs"/>
+    <functioncall functionName="InsertNode"/>
+    <functioncall functionName="InstantiatedFromMember"/>
+    <functioncall functionName="IsCompleteDefinition"/>
+    <functioncall functionName="LoadLazySpecializations"/>
+    <functioncall functionName="MemberSpecializationInfo"/>
+    <functioncall functionName="MutableArrayRef"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="NonTypeTemplateParm"/>
+    <functioncall functionName="NonTypeTemplateParmDecl"/>
+    <functioncall functionName="NumArguments"/>
+    <functioncall functionName="NumExpandedParams"/>
+    <functioncall functionName="NumExpandedTypes"/>
+    <functioncall functionName="NumParams"/>
+    <functioncall functionName="NumTemplateArgs"/>
+    <functioncall functionName="ParameterPack"/>
+    <functioncall functionName="PartialSpecializations"/>
+    <functioncall functionName="PointerUnion"/>
+    <functioncall functionName="Profile"/>
+    <functioncall functionName="ProfileArguments"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="SC_None"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="SpecEntryTraits"/>
+    <functioncall functionName="SpecializationKind"/>
+    <functioncall functionName="Specializations"/>
+    <functioncall functionName="SpecializedPartialSpecialization"/>
+    <functioncall functionName="Struct"/>
+    <functioncall functionName="TSK_ExplicitSpecialization"/>
+    <functioncall functionName="TSK_Undeclared"/>
+    <functioncall functionName="TemplateArgs"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TemplateArgumentList"/>
+    <functioncall functionName="TemplateArgumentLoc"/>
+    <functioncall functionName="TemplateDecl"/>
+    <functioncall functionName="TemplateName"/>
+    <functioncall functionName="TemplateParamObjectDecl"/>
+    <functioncall functionName="TemplateParameterList"/>
+    <functioncall functionName="TemplateParams"/>
+    <functioncall functionName="TemplateParmPosition"/>
+    <functioncall functionName="TemplateTemplateParm"/>
+    <functioncall functionName="TemplateTemplateParmDecl"/>
+    <functioncall functionName="TemplateTypeParmDecl"/>
+    <functioncall functionName="TemplateTypeParmType"/>
+    <functioncall functionName="TemplatedDecl"/>
+    <functioncall functionName="TypeAliasTemplateDecl"/>
+    <functioncall functionName="TypeConstraint"/>
+    <functioncall functionName="TypeSourceInfo"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="VarTemplateDecl"/>
+    <functioncall functionName="VarTemplatePartialSpecialization"/>
+    <functioncall functionName="VarTemplatePartialSpecializationDecl"/>
+    <functioncall functionName="VarTemplateSpecialization"/>
+    <functioncall functionName="VarTemplateSpecializationDecl"/>
+    <functioncall functionName="addDestruction"/>
+    <functioncall functionName="addSpecializationImpl"/>
+    <functioncall functionName="additionalSizeToAlloc"/>
+    <functioncall functionName="arguments"/>
+    <functioncall functionName="asArray"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="containsUnexpandedParameterPack"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="createBuiltinCommonTypeList"/>
+    <functioncall functionName="createBuiltinTemplateParameterList"/>
+    <functioncall functionName="createMakeIntegerSeqParameterList"/>
+    <functioncall functionName="createTypePackElementParameterList"/>
+    <functioncall functionName="defaultArgumentWasInherited"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="findSpecializationImpl"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getASTMutationListener"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getAssociatedConstraints"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getCommonPtr"/>
+    <functioncall functionName="getContainedAutoType"/>
+    <functioncall functionName="getContainedDeducedType"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDefaultArgument"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getDepth"/>
+    <functioncall functionName="getDescribedTemplate"/>
+    <functioncall functionName="getEnd"/>
+    <functioncall functionName="getExpandedPackSize"/>
+    <functioncall functionName="getExternKeywordLoc"/>
+    <functioncall functionName="getExternalSource"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getImmediatelyDeclaredConstraint"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getInjectedClassNameType"/>
+    <functioncall functionName="getInjectedSpecializationType"/>
+    <functioncall functionName="getInjectedTemplateArg"/>
+    <functioncall functionName="getInjectedTemplateArgs"/>
+    <functioncall functionName="getInstantiatedFromMember"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMostRecentDecl"/>
+    <functioncall functionName="getNameForDiagnostic"/>
+    <functioncall functionName="getNumTemplateParameterLists"/>
+    <functioncall functionName="getOuterLocStart"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getPartialSpecializations"/>
+    <functioncall functionName="getPlaceholderTypeConstraint"/>
+    <functioncall functionName="getPreviousDecl"/>
+    <functioncall functionName="getPrintingPolicy"/>
+    <functioncall functionName="getQualifiedTemplateName"/>
+    <functioncall functionName="getRAngleLoc"/>
+    <functioncall functionName="getRawValue"/>
+    <functioncall functionName="getRequiresClause"/>
+    <functioncall functionName="getSizeType"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSpecializationKind"/>
+    <functioncall functionName="getSpecializations"/>
+    <functioncall functionName="getSpecializedTemplate"/>
+    <functioncall functionName="getSpecializedTemplateOrPartial"/>
+    <functioncall functionName="getTemplate"/>
+    <functioncall functionName="getTemplateArgs"/>
+    <functioncall functionName="getTemplateArgsAsWritten"/>
+    <functioncall functionName="getTemplateKeywordLoc"/>
+    <functioncall functionName="getTemplateLoc"/>
+    <functioncall functionName="getTemplateParameters"/>
+    <functioncall functionName="getTemplateSpecializationInfo"/>
+    <functioncall functionName="getTemplateSpecializationType"/>
+    <functioncall functionName="getTemplateTypeParmType"/>
+    <functioncall functionName="getTemplatedDecl"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="getTrailingRequiresClause"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="getTrivialTypeSourceInfo"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeConstraint"/>
+    <functioncall functionName="getTypeDeclType"/>
+    <functioncall functionName="getTypeForDecl"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="hasAssociatedConstraints"/>
+    <functioncall functionName="hasDefaultArgument"/>
+    <functioncall functionName="hasExternalLexicalStorage"/>
+    <functioncall functionName="hasInit"/>
+    <functioncall functionName="hasPlaceholderTypeConstraint"/>
+    <functioncall functionName="hasSameType"/>
+    <functioncall functionName="hasTypeConstraint"/>
+    <functioncall functionName="isCanonicalDecl"/>
+    <functioncall functionName="isCompleteDefinition"/>
+    <functioncall functionName="isConstrained"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isInvalidDecl"/>
+    <functioncall functionName="isMemberSpecialization"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isParameterPack"/>
+    <functioncall functionName="isTemplateParameterPack"/>
+    <functioncall functionName="isThisDeclarationADefinition"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="loadLazySpecializationsImpl"/>
+    <functioncall functionName="newCommon"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printAsExpr"/>
+    <functioncall functionName="printAsInit"/>
+    <functioncall functionName="printPretty"/>
+    <functioncall functionName="printTemplateArgumentList"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setBegin"/>
+    <functioncall functionName="setDeclContext"/>
+    <functioncall functionName="setEnd"/>
+    <functioncall functionName="setHasExternalLexicalStorage"/>
+    <functioncall functionName="setImplicit"/>
+    <functioncall functionName="setInvalidDecl"/>
+    <functioncall functionName="setMayHaveOutOfDateDef"/>
+    <functioncall functionName="setSpecializationKind"/>
+    <functioncall functionName="setTemplateArguments"/>
+    <functioncall functionName="setTypeForDecl"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="totalSizeToAlloc"/>
+    <functioncall functionName="transform"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uninitialized_copy"/>
+  </FileInfo>
+</analyzerinfo>

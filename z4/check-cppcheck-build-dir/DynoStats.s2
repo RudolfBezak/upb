@@ -1,0 +1,1 @@
+TEST call:[ASSERT_EQ,getDynoStats] noreturn:[ASSERT_EQ]

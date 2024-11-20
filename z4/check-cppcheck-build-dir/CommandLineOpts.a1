@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11968015117336279693">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Utils\CommandLineOpts.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;VCSVersion.inc&quot; not found." verbose="Include file: &quot;VCSVersion.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Utils\CommandLineOpts.cpp" line="14" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/CommandLineOpts.cpp" functionName="processAllFunctions" lineNumber="214"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="PF_Fdata"/>
+    <functioncall functionName="PF_YAML"/>
+    <functioncall functionName="ProfileFormatKind"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="aliasopt"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAll"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="sub"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="values"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Utils/CommandLineOpts.cpp" functionName="processAllFunctions" lineNumber="214"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="PF_Fdata"/>
+    <functioncall functionName="PF_YAML"/>
+    <functioncall functionName="ProfileFormatKind"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="aliasopt"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAll"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="sub"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="values"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9587689562601797943">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/ARCMigrate/FileRemapper.h&quot; not found." verbose="Include file: &quot;clang/ARCMigrate/FileRemapper.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/FileManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/FileManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/PreprocessorOptions.h&quot; not found." verbose="Include file: &quot;clang/Lex/PreprocessorOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MemoryBuffer.h&quot; not found." verbose="Include file: &quot;llvm/Support/MemoryBuffer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Path.h&quot; not found." verbose="Include file: &quot;llvm/Support/Path.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="17" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/FileRemapper.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\FileRemapper.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="FileEntryRef"/>
+    <functioncall functionName="FileManager"/>
+    <functioncall functionName="FileRemapper"/>
+    <functioncall functionName="FileSystemOptions"/>
+    <functioncall functionName="FromToMappings"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="OF_None"/>
+    <functioncall functionName="OF_Text"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="addRemappedFile"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="createTemporaryFile"/>
+    <functioncall functionName="create_directory"/>
+    <functioncall functionName="drop_front"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flushToFile"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAsInteger"/>
+    <functioncall functionName="getBuffer"/>
+    <functioncall functionName="getBufferSize"/>
+    <functioncall functionName="getBufferStart"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getFile"/>
+    <functioncall functionName="getMemBufferRef"/>
+    <functioncall functionName="getModificationTime"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOptionalFileRef"/>
+    <functioncall functionName="getOriginalFile"/>
+    <functioncall functionName="getRemapInfoFile"/>
+    <functioncall functionName="get_if"/>
+    <functioncall functionName="holds_alternative"/>
+    <functioncall functionName="initFromFile"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="make_absolute"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="remap"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="report"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="resetTarget"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="split"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+</analyzerinfo>

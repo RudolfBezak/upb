@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="465113411194910970">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\instrumentation-indirect-2.c" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\instrumentation-indirect-2.c" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\instrumentation-indirect-2.c" line="7" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcA" lineNumber="9"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcB" lineNumber="10"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcC" lineNumber="11"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcD" lineNumber="12"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcE" lineNumber="13"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcF" lineNumber="14"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcG" lineNumber="15"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcH" lineNumber="16"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcI" lineNumber="17"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcJ" lineNumber="18"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcK" lineNumber="19"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcL" lineNumber="20"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcM" lineNumber="21"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcN" lineNumber="22"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcO" lineNumber="23"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="funcP" lineNumber="24"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/instrumentation-indirect-2.c" functionName="main" lineNumber="26"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="fork"/>
+    <functioncall functionName="funcA"/>
+    <functioncall functionName="funcB"/>
+    <functioncall functionName="funcC"/>
+    <functioncall functionName="funcD"/>
+    <functioncall functionName="funcE"/>
+    <functioncall functionName="funcF"/>
+    <functioncall functionName="funcG"/>
+    <functioncall functionName="funcH"/>
+    <functioncall functionName="funcI"/>
+    <functioncall functionName="funcJ"/>
+    <functioncall functionName="funcK"/>
+    <functioncall functionName="funcL"/>
+    <functioncall functionName="funcM"/>
+    <functioncall functionName="funcN"/>
+    <functioncall functionName="funcO"/>
+    <functioncall functionName="funcP"/>
+    <functioncall functionName="getpid"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>
