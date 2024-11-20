@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12392137374546405530">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTMutationListener.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTMutationListener.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclBase.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ODRHash.h&quot; not found." verbose="Include file: &quot;clang/AST/ODRHash.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Stmt.h&quot; not found." verbose="Include file: &quot;clang/AST/Stmt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found." verbose="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallString.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallString.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="37" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="0" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="497" column="3"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="501" column="3"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="502" column="5"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="508" column="5"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="1461" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1252:13" call-funcname="CollectOverriddenMethodsRecurse" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1278" col="38" call-argexpr="MovedToSuper" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="1265" col="9" info="Assuming that condition &apos;MovedToSuper&apos; is not redundant"/>
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\DeclObjC.cpp" line="1277" col="45" info="Assuming container is not empty"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1252:13" call-funcname="CollectOverriddenMethodsRecurse" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1315" col="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1252:13" call-funcname="CollectOverriddenMethodsRecurse" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1315" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1312:20" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1252:13" call-funcname="CollectOverriddenMethodsRecurse" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1315" col="3" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1312:20" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:496:13" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="497" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1319:13" my-argnr="1" my-argname="Method" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1321" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:496:13" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="497" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1319:13" my-argnr="1" my-argname="Method" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1321" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1656:6" my-argnr="1" my-argname="LHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1658" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp:1656:6" my-argnr="2" my-argname="RHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" line="1658" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" functionName="isIntroducingInitializers" lineNumber="496"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" functionName="CollectOverriddenMethodsRecurse" lineNumber="1252"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" functionName="CollectOverriddenMethods" lineNumber="1312"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/DeclObjC.cpp" functionName="collectOverriddenMethodsSlow" lineNumber="1319"/>
+    <functioncall functionName="AddObjCInterfaceDecl"/>
+    <functioncall functionName="AddObjCProtocolDecl"/>
+    <functioncall functionName="AddedObjCCategoryToInterface"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="ArcWeakrefUnavailableAttr"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="AtLoc"/>
+    <functioncall functionName="Brackets"/>
+    <functioncall functionName="CalculateHash"/>
+    <functioncall functionName="ClassImplementsProtocol"/>
+    <functioncall functionName="ClassInterface"/>
+    <functioncall functionName="CollectOverriddenMethods"/>
+    <functioncall functionName="CollectOverriddenMethodsRecurse"/>
+    <functioncall functionName="CompleteType"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="CreateImplicit"/>
+    <functioncall functionName="Data"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclContext"/>
+    <functioncall functionName="DeclEndLoc"/>
+    <functioncall functionName="DefinitionData"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="Dynamic"/>
+    <functioncall functionName="ExternallyCompleted"/>
+    <functioncall functionName="Family"/>
+    <functioncall functionName="FindCategoryDeclaration"/>
+    <functioncall functionName="FindPropertyDeclaration"/>
+    <functioncall functionName="HasDesignatedInitializers"/>
+    <functioncall functionName="HasODRHash"/>
+    <functioncall functionName="HasUserDeclaredSetterMethod"/>
+    <functioncall functionName="IDI_Inherited"/>
+    <functioncall functionName="IDI_NotInherited"/>
+    <functioncall functionName="InheritedDesignatedInitializers"/>
+    <functioncall functionName="InvalidObjCMethodFamily"/>
+    <functioncall functionName="Invariant"/>
+    <functioncall functionName="IsClassExtension"/>
+    <functioncall functionName="Ivar"/>
+    <functioncall functionName="IvarList"/>
+    <functioncall functionName="IvarListMissingImplementation"/>
+    <functioncall functionName="IvarLoc"/>
+    <functioncall functionName="List"/>
+    <functioncall functionName="LoadExternalDefinition"/>
+    <functioncall functionName="Locations"/>
+    <functioncall functionName="MethodDeclType"/>
+    <functioncall functionName="Modules"/>
+    <functioncall functionName="NSConsumesSelfAttr"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NumIvarInitializers"/>
+    <functioncall functionName="NumParams"/>
+    <functioncall functionName="OBJC_TQ_None"/>
+    <functioncall functionName="OCL_Strong"/>
+    <functioncall functionName="ODRHash"/>
+    <functioncall functionName="OMF_None"/>
+    <functioncall functionName="OMF_alloc"/>
+    <functioncall functionName="OMF_copy"/>
+    <functioncall functionName="OMF_init"/>
+    <functioncall functionName="OMF_mutableCopy"/>
+    <functioncall functionName="OMF_new"/>
+    <functioncall functionName="ObjCAtDefsFieldDecl"/>
+    <functioncall functionName="ObjCAutoRefCount"/>
+    <functioncall functionName="ObjCCategory"/>
+    <functioncall functionName="ObjCCategoryDecl"/>
+    <functioncall functionName="ObjCCategoryImplDecl"/>
+    <functioncall functionName="ObjCCmd"/>
+    <functioncall functionName="ObjCCompatibleAliasDecl"/>
+    <functioncall functionName="ObjCContainerDecl"/>
+    <functioncall functionName="ObjCDesignatedInitializerAttr"/>
+    <functioncall functionName="ObjCDirectAttr"/>
+    <functioncall functionName="ObjCDisableDirectMethodsForTesting"/>
+    <functioncall functionName="ObjCImplDecl"/>
+    <functioncall functionName="ObjCImplementationDecl"/>
+    <functioncall functionName="ObjCInterface"/>
+    <functioncall functionName="ObjCInterfaceDecl"/>
+    <functioncall functionName="ObjCIvarDecl"/>
+    <functioncall functionName="ObjCMethod"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="ObjCMethodFamily"/>
+    <functioncall functionName="ObjCMethodFamilyAttr"/>
+    <functioncall functionName="ObjCNonRuntimeProtocolAttr"/>
+    <functioncall functionName="ObjCPropertyDecl"/>
+    <functioncall functionName="ObjCPropertyImplDecl"/>
+    <functioncall functionName="ObjCProtocol"/>
+    <functioncall functionName="ObjCProtocolDecl"/>
+    <functioncall functionName="ObjCRequiresPropertyDefsAttr"/>
+    <functioncall functionName="ObjCRuntimeNameAttr"/>
+    <functioncall functionName="ObjCSelf"/>
+    <functioncall functionName="ObjCTypeParamDecl"/>
+    <functioncall functionName="ObjCTypeParamList"/>
+    <functioncall functionName="ParmVarDecl"/>
+    <functioncall functionName="Property"/>
+    <functioncall functionName="ProtocolCompatibleWithProtocol"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="Result"/>
+    <functioncall functionName="SelLoc_StandardNoSpace"/>
+    <functioncall functionName="Selector"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="SynthesizeIvarChunk"/>
+    <functioncall functionName="VarianceLoc"/>
+    <functioncall functionName="addAttr"/>
+    <functioncall functionName="addDecl"/>
+    <functioncall functionName="all_referenced_protocol_begin"/>
+    <functioncall functionName="all_referenced_protocol_end"/>
+    <functioncall functionName="all_referenced_protocols"/>
+    <functioncall functionName="allocateDefinitionData"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="class_properties"/>
+    <functioncall functionName="collectInheritedProtocolProperties"/>
+    <functioncall functionName="collectOverriddenMethodsSlow"/>
+    <functioncall functionName="collectPropertiesToImplement"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="declaresOrInheritsDesignatedInitializers"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="findInterfaceWithDesignatedInitializers"/>
+    <functioncall functionName="findPropertyDecl"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getASTMutationListener"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getBody"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCategoryDecl"/>
+    <functioncall functionName="getCategoryListRaw"/>
+    <functioncall functionName="getCategoryMethod"/>
+    <functioncall functionName="getClassInterface"/>
+    <functioncall functionName="getClassMethod"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getEndLoc"/>
+    <functioncall functionName="getExternalSource"/>
+    <functioncall functionName="getFamily"/>
+    <functioncall functionName="getGetterName"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getImplementation"/>
+    <functioncall functionName="getInstanceMethod"/>
+    <functioncall functionName="getInterface"/>
+    <functioncall functionName="getIvarDecl"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMetadataName"/>
+    <functioncall functionName="getMethod"/>
+    <functioncall functionName="getMethodFamily"/>
+    <functioncall functionName="getMostRecentDecl"/>
+    <functioncall functionName="getNSObjectName"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNonLValueExprType"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumSelectorLocs"/>
+    <functioncall functionName="getObjCClassType"/>
+    <functioncall functionName="getObjCIdType"/>
+    <functioncall functionName="getObjCImplementation"/>
+    <functioncall functionName="getObjCInterfaceType"/>
+    <functioncall functionName="getObjCMethodRedeclaration"/>
+    <functioncall functionName="getObjCObjectPointerType"/>
+    <functioncall functionName="getObjCRuntimeNameAsString"/>
+    <functioncall functionName="getObjCSelType"/>
+    <functioncall functionName="getObjCTypeParamType"/>
+    <functioncall functionName="getOverriddenMethods"/>
+    <functioncall functionName="getParams"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getPreviousDecl"/>
+    <functioncall functionName="getPropertyAttributes"/>
+    <functioncall functionName="getPropertyDecl"/>
+    <functioncall functionName="getPropertyIvarDecl"/>
+    <functioncall functionName="getQualifiedType"/>
+    <functioncall functionName="getReferencedProtocols"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getReturnTypeSourceInfo"/>
+    <functioncall functionName="getSelLocsKind"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSelectorLoc"/>
+    <functioncall functionName="getSelfType"/>
+    <functioncall functionName="getSetterName"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getStoredSelLocs"/>
+    <functioncall functionName="getSuperClass"/>
+    <functioncall functionName="getSuperClassTInfo"/>
+    <functioncall functionName="getSuperClassType"/>
+    <functioncall functionName="getSynthesize"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypeParamListAsWritten"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="getTypeSize"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getUnderlyingType"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasDefinition"/>
+    <functioncall functionName="hasDesignatedInitializers"/>
+    <functioncall functionName="hasExplicitBound"/>
+    <functioncall functionName="hasODRHash"/>
+    <functioncall functionName="hasRedeclaration"/>
+    <functioncall functionName="hasStandardSelectorLocs"/>
+    <functioncall functionName="inheritsDesignatedInitializers"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="instance_methods"/>
+    <functioncall functionName="instance_properties"/>
+    <functioncall functionName="isClassMethod"/>
+    <functioncall functionName="isClassProperty"/>
+    <functioncall functionName="isDesignatedInitializer"/>
+    <functioncall functionName="isDestroyedInCallee"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isInstanceMethod"/>
+    <functioncall functionName="isInstanceProperty"/>
+    <functioncall functionName="isIntroducingInitializers"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isInvalidDecl"/>
+    <functioncall functionName="isObjCIdType"/>
+    <functioncall functionName="isObjCObjectPointerType"/>
+    <functioncall functionName="isObjCSelType"/>
+    <functioncall functionName="isOverriding"/>
+    <functioncall functionName="isPropertyAccessor"/>
+    <functioncall functionName="isRedeclaration"/>
+    <functioncall functionName="isSynthesizedAccessorStub"/>
+    <functioncall functionName="isThisDeclarationADefinition"/>
+    <functioncall functionName="isThisDeclarationADesignatedInitializer"/>
+    <functioncall functionName="isUnconditionallyVisible"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isVoidType"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="ivar_begin"/>
+    <functioncall functionName="ivar_empty"/>
+    <functioncall functionName="ivar_end"/>
+    <functioncall functionName="ivars"/>
+    <functioncall functionName="kind_readwrite"/>
+    <functioncall functionName="known_categories"/>
+    <functioncall functionName="known_extensions"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="lookupInstanceMethod"/>
+    <functioncall functionName="lookupMethod"/>
+    <functioncall functionName="lookupNestedProtocol"/>
+    <functioncall functionName="lookupPrivateMethod"/>
+    <functioncall functionName="lookupProtocolNamed"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="param_size"/>
+    <functioncall functionName="param_type_begin"/>
+    <functioncall functionName="parameters"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="properties"/>
+    <functioncall functionName="property_impls"/>
+    <functioncall functionName="protocols"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="queue"/>
+    <functioncall functionName="redeclarable_base"/>
+    <functioncall functionName="redecls"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setARCPseudoStrong"/>
+    <functioncall functionName="setAtStartLoc"/>
+    <functioncall functionName="setCategoryListRaw"/>
+    <functioncall functionName="setCmdDecl"/>
+    <functioncall functionName="setDeclContext"/>
+    <functioncall functionName="setDeclImplementation"/>
+    <functioncall functionName="setDefined"/>
+    <functioncall functionName="setHasODRHash"/>
+    <functioncall functionName="setHasRedeclaration"/>
+    <functioncall functionName="setHasSkippedBody"/>
+    <functioncall functionName="setImplicit"/>
+    <functioncall functionName="setInstanceMethod"/>
+    <functioncall functionName="setInt"/>
+    <functioncall functionName="setIsRedeclaration"/>
+    <functioncall functionName="setIvarList"/>
+    <functioncall functionName="setLexicalDeclContext"/>
+    <functioncall functionName="setNextIvar"/>
+    <functioncall functionName="setObjCDeclQualifier"/>
+    <functioncall functionName="setObjCImplementation"/>
+    <functioncall functionName="setObjCLifetime"/>
+    <functioncall functionName="setObjCMethodRedeclaration"/>
+    <functioncall functionName="setOverriding"/>
+    <functioncall functionName="setParamsAndSelLocs"/>
+    <functioncall functionName="setPointer"/>
+    <functioncall functionName="setPreviousDecl"/>
+    <functioncall functionName="setPropertyAccessor"/>
+    <functioncall functionName="setRelatedResultType"/>
+    <functioncall functionName="setSelLocsKind"/>
+    <functioncall functionName="setSelfDecl"/>
+    <functioncall functionName="setSynthesizedAccessorStub"/>
+    <functioncall functionName="setTypeForDecl"/>
+    <functioncall functionName="setTypeParamList"/>
+    <functioncall functionName="setVariadic"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="substObjCMemberType"/>
+    <functioncall functionName="substObjCTypeArgs"/>
+    <functioncall functionName="totalSizeToAlloc"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uninitialized_copy"/>
+    <functioncall functionName="visible_categories"/>
+    <functioncall functionName="visible_extensions"/>
+    <functioncall functionName="withConst"/>
+  </FileInfo>
+</analyzerinfo>

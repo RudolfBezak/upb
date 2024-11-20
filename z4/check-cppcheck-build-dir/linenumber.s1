@@ -1,0 +1,3 @@
+f call:[asm]
+g call:[f]
+main call:[f,g]

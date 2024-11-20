@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13614014993059493045">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/bolt_icf.cpp" functionName="fiz" lineNumber="1"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/bolt_icf.cpp" functionName="faz" lineNumber="5"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/bolt_icf.cpp" functionName="zip" lineNumber="9"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/bolt_icf.cpp" functionName="zap" lineNumber="13"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/bolt_icf.cpp" functionName="foo" lineNumber="17"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/bolt_icf.cpp" functionName="bar" lineNumber="21"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/bolt_icf.cpp" functionName="main" lineNumber="25"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="zap"/>
+    <functioncall functionName="zip"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,3 @@
+inc global:[total]
+inc_dup global:[total]
+main call:[inc,inc_dup,rand] noreturn:[inc_dup]

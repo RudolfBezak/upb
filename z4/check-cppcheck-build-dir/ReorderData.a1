@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5634925967589573825">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ReorderData.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ReorderData.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ReorderData.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/MapVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/MapVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ReorderData.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ReorderData.cpp" line="20" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ReorderData.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;BFI&apos; can be declared as reference to const" verbose="Variable &apos;BFI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ReorderData.cpp" line="180" column="14" info="Variable &apos;BFI&apos; can be declared as reference to const"/>
+            <symbol>BFI</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ReorderData.cpp" line="122" column="30"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp:105:6" my-argnr="1" my-argname="BD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp" line="106" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp:103:6" my-argnr="1" my-argname="BS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp" line="103" col="52" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp:105:6" my-argnr="1" my-argname="BD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp" line="106" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp" functionName="isSupported" lineNumber="103"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ReorderData.cpp" functionName="filterSymbol" lineNumber="105"/>
+    <functioncall functionName="BinaryData"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="CommaSeparated"/>
+    <functioncall functionName="DataOrder"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="JumpTableSupportLevel"/>
+    <functioncall functionName="JumpTables"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MapVector"/>
+    <functioncall functionName="MemoryAccessProfile"/>
+    <functioncall functionName="PrintReorderedData"/>
+    <functioncall functionName="ReorderData"/>
+    <functioncall functionName="ReorderInplace"/>
+    <functioncall functionName="ReorderSymbols"/>
+    <functioncall functionName="SkipSymbols"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assignMemData"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="baseOrder"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="containsAddress"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createFatalBOLTError"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="filterSymbol"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAlignment"/>
+    <functioncall functionName="getAtomicRoot"/>
+    <functioncall functionName="getBinaryDataForSection"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getEndAddress"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getPrivateGlobalPrefix"/>
+    <functioncall functionName="getSectionName"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSubBinaryData"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="hasMemoryProfile"/>
+    <functioncall functionName="hasName"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isAtomic"/>
+    <functioncall functionName="isCold"/>
+    <functioncall functionName="isData"/>
+    <functioncall functionName="isJumpTable"/>
+    <functioncall functionName="isMoveable"/>
+    <functioncall functionName="isMoved"/>
+    <functioncall functionName="isSupported"/>
+    <functioncall functionName="isTLS"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="markUnmoveableSymbols"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="numeric_limits"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="printOrder"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerSection"/>
+    <functioncall functionName="reorderContents"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setIsMoveable"/>
+    <functioncall functionName="setOutputLocation"/>
+    <functioncall functionName="setOutputName"/>
+    <functioncall functionName="setOutputSection"/>
+    <functioncall functionName="setSection"/>
+    <functioncall functionName="setSectionOrder"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="sortedByCount"/>
+    <functioncall functionName="sortedByFunc"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tryGetAnnotationAs"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="value_desc"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

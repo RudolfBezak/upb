@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7204755530265679028">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExternalASTSource.h&quot; not found." verbose="Include file: &quot;clang/AST/ExternalASTSource.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclarationName.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclarationName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/ASTSourceDescriptor.h&quot; not found." verbose="Include file: &quot;clang/Basic/ASTSourceDescriptor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/FileManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/FileManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found." verbose="Include file: &quot;clang/Basic/IdentifierTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExternalASTSource.cpp" line="25" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ASTSourceDescriptor"/>
+    <functioncall functionName="CharUnits"/>
+    <functioncall functionName="CurrentGeneration"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="EK_ReplyHazy"/>
+    <functioncall functionName="Kind"/>
+    <functioncall functionName="Selector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="function_ref"/>
+    <functioncall functionName="getExternalSource"/>
+    <functioncall functionName="incrementGeneration"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="report_fatal_error"/>
+  </FileInfo>
+</analyzerinfo>

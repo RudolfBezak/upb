@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12482425362524133319">
+        <error id="syntaxError" severity="error" msg="Code &apos;classC{&apos; is invalid C code." verbose="Code &apos;classC{&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/callandmessage_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\callandmessage_example.c" line="9" column="2"/>
+        </error>
+</analyzerinfo>

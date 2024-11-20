@@ -1,0 +1,2 @@
+foo call:[printf] noreturn:[printf]
+main call:[foo]

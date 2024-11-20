@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8843344850882629035">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/IdenticalCodeFolding.h&quot; not found." verbose="Include file: &quot;bolt/Passes/IdenticalCodeFolding.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ThreadPool.h&quot; not found." verbose="Include file: &quot;llvm/Support/ThreadPool.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;atomic&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;atomic&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="24" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\IdenticalCodeFolding.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:151:13" call-funcname="isIdenticalWith" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="329" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="KeyHash" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="306" col="1" hash="9484259970357148127"/>
+<class name="KeyCongruent" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="317" col="1" hash="10958066631428815061"/>
+<class name="KeyEqual" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="325" col="1" hash="17807203506553381007"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:307:10" my-argnr="1" my-argname="F" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="307" col="61" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:49:13" my-argnr="1" my-argname="JumpTableA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="53" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:49:13" my-argnr="2" my-argname="JumpTableB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="53" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:94:13" my-argnr="1" my-argname="InstA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="98" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:94:13" my-argnr="3" my-argname="InstB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="98" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:151:13" my-argnr="1" my-argname="A" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="153" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:151:13" my-argnr="2" my-argname="B" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="160" col="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp:307:10" my-argnr="1" my-argname="F" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" line="307" col="61" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" functionName="equalJumpTables" lineNumber="49"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" functionName="isInstrEquivalentWith" lineNumber="94"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/IdenticalCodeFolding.cpp" functionName="isIdenticalWith" lineNumber="151"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="ICFUseDFS"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="NoThreads"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="SP_TRIVIAL"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="TimeICF"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="async"/>
+    <functioncall functionName="atomic"/>
+    <functioncall functionName="back_inserter"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block_size"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="computeHash"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dfs"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equalJumpTables"/>
+    <functioncall functionName="equals"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="foldFunction"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getFunctionEndLabel"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getFunctionNumber"/>
+    <functioncall functionName="getHash"/>
+    <functioncall functionName="getJumpTableContainingAddress"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLSDAActionTable"/>
+    <functioncall functionName="getLSDATypeIndexTable"/>
+    <functioncall functionName="getLSDATypeTable"/>
+    <functioncall functionName="getLandingPad"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLayoutIndex"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getThreadPool"/>
+    <functioncall functionName="hasCFG"/>
+    <functioncall functionName="hasFunctionsFoldedInto"/>
+    <functioncall functionName="hasIslandsInfo"/>
+    <functioncall functionName="hasJumpTables"/>
+    <functioncall functionName="hashInstOperand"/>
+    <functioncall functionName="isIdenticalWith"/>
+    <functioncall functionName="isInstrEquivalentWith"/>
+    <functioncall functionName="isMultiEntry"/>
+    <functioncall functionName="isTemporary"/>
+    <functioncall functionName="isUnconditionalBranch"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="ref"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="shouldOptimize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="startTimer"/>
+    <functioncall functionName="stopTimer"/>
+    <functioncall functionName="succ_begin"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="updateLayoutIndices"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="wait"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2145023503183952120">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/CallGraph.h&quot; not found." verbose="Include file: &quot;bolt/Core/CallGraph.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\CallGraph.cpp" line="13" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/CallGraph.cpp" functionName="hash_int64_fallback" lineNumber="25"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/CallGraph.cpp" functionName="hash_int64" lineNumber="38"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/CallGraph.cpp" functionName="hash_int64_pair" lineNumber="48"/>
+    <functioncall functionName="ArcIterator"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="dst"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="findArc"/>
+    <functioncall functionName="getNode"/>
+    <functioncall functionName="hash_int64"/>
+    <functioncall functionName="hash_int64_fallback"/>
+    <functioncall functionName="hash_int64_pair"/>
+    <functioncall functionName="numNodes"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="predecessors"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="samples"/>
+    <functioncall functionName="setSamples"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="weight"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/CallGraph.cpp" functionName="hash_int64_fallback" lineNumber="25"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/CallGraph.cpp" functionName="hash_int64" lineNumber="38"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/CallGraph.cpp" functionName="hash_int64_pair" lineNumber="48"/>
+    <functioncall functionName="ArcIterator"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="dst"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="findArc"/>
+    <functioncall functionName="getNode"/>
+    <functioncall functionName="hash"/>
+    <functioncall functionName="hashCombine"/>
+    <functioncall functionName="hash_int64"/>
+    <functioncall functionName="hash_int64_fallback"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="numNodes"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="predecessors"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="samples"/>
+    <functioncall functionName="setSamples"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="weight"/>
+  </FileInfo>
+</analyzerinfo>

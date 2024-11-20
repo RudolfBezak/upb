@@ -1,0 +1,3 @@
+foo call:[ExcC,ExcG] noreturn:[ExcC,ExcG]
+never_throws call:[printf] noreturn:[printf]
+main call:[ExcA,foo,int,never_throws,printf] noreturn:[ExcA,foo,int,never_throws,printf]

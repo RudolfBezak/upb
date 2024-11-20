@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15789006931164936812">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\instrumentation-xmm.c" line="1" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-xmm.c" functionName="foo" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/instrumentation-xmm.c" functionName="main" lineNumber="10"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

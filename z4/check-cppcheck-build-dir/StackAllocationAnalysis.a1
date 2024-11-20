@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3942468931691868380">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StackAllocationAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StackAllocationAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAllocationAnalysis.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StackPointerTracking.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StackPointerTracking.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAllocationAnalysis.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAllocationAnalysis.cpp" line="15" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StackAllocationAnalysis.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAllocationAnalysis.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="EMPTY"/>
+    <functioncall functionName="Func"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCPhysReg"/>
+    <functioncall functionName="MIB"/>
+    <functioncall functionName="MRI"/>
+    <functioncall functionName="NumInstrs"/>
+    <functioncall functionName="SUPERPOSITION"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="doKill"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="evaluateStackOffsetExpr"/>
+    <functioncall functionName="expr_begin"/>
+    <functioncall functionName="expr_end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBitVectorIndex"/>
+    <functioncall functionName="getFramePointer"/>
+    <functioncall functionName="getGnuArgsSize"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getPopSize"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="getStateAt"/>
+    <functioncall functionName="getStateBefore"/>
+    <functioncall functionName="hasDefOfPhysReg"/>
+    <functioncall functionName="isLeave"/>
+    <functioncall functionName="isPush"/>
+    <functioncall functionName="isRegToRegMove"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="tie"/>
+  </FileInfo>
+</analyzerinfo>

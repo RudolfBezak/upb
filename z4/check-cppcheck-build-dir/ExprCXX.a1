@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7051014472578648574">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found." verbose="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclAccessPair.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclAccessPair.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclBase.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclarationName.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclarationName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found." verbose="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/LambdaCapture.h&quot; not found." verbose="Include file: &quot;clang/AST/LambdaCapture.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found." verbose="Include file: &quot;clang/AST/NestedNameSpecifier.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TemplateBase.h&quot; not found." verbose="Include file: &quot;clang/AST/TemplateBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LLVM.h&quot; not found." verbose="Include file: &quot;clang/Basic/LLVM.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OperatorKinds.h&quot; not found." verbose="Include file: &quot;clang/Basic/OperatorKinds.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Specifiers.h&quot; not found." verbose="Include file: &quot;clang/Basic/Specifiers.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="41" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprCXX.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprCXX.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprCXX.cpp:169:13" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprCXX.cpp" line="170" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprCXX.cpp" functionName="isGLValueFromPointerDeref" lineNumber="169"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprCXX.cpp" functionName="hasOnlyNonStaticMemberFunctions" lineNumber="1579"/>
+    <functioncall functionName="ASTTemplateKWAndArgsInfo"/>
+    <functioncall functionName="AbstractConditionalOperator"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="Arguments"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ArraySubscriptExpr"/>
+    <functioncall functionName="BO_Cmp"/>
+    <functioncall functionName="BO_EQ"/>
+    <functioncall functionName="BO_GE"/>
+    <functioncall functionName="BO_GT"/>
+    <functioncall functionName="BO_LE"/>
+    <functioncall functionName="BO_LT"/>
+    <functioncall functionName="BO_NE"/>
+    <functioncall functionName="Base"/>
+    <functioncall functionName="BinaryOperator"/>
+    <functioncall functionName="CUDAKernelCallExpr"/>
+    <functioncall functionName="CUDAKernelCallExprClass"/>
+    <functioncall functionName="CXXAddrspaceCastExpr"/>
+    <functioncall functionName="CXXBaseSpecifier"/>
+    <functioncall functionName="CXXBindTemporaryExpr"/>
+    <functioncall functionName="CXXConstCastExpr"/>
+    <functioncall functionName="CXXConstructExpr"/>
+    <functioncall functionName="CXXConstructExprClass"/>
+    <functioncall functionName="CXXDefaultArgExpr"/>
+    <functioncall functionName="CXXDefaultArgExprClass"/>
+    <functioncall functionName="CXXDefaultInitExpr"/>
+    <functioncall functionName="CXXDefaultInitExprClass"/>
+    <functioncall functionName="CXXDependentScopeMemberExpr"/>
+    <functioncall functionName="CXXDependentScopeMemberExprClass"/>
+    <functioncall functionName="CXXDynamicCastExpr"/>
+    <functioncall functionName="CXXFoldExpr"/>
+    <functioncall functionName="CXXFoldExprClass"/>
+    <functioncall functionName="CXXFunctionalCastExpr"/>
+    <functioncall functionName="CXXMemberCallExpr"/>
+    <functioncall functionName="CXXMemberCallExprClass"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXNewExpr"/>
+    <functioncall functionName="CXXNewExprClass"/>
+    <functioncall functionName="CXXOperatorCallExpr"/>
+    <functioncall functionName="CXXOperatorCallExprClass"/>
+    <functioncall functionName="CXXParenListInitExpr"/>
+    <functioncall functionName="CXXPseudoDestructorExpr"/>
+    <functioncall functionName="CXXPseudoDestructorExprClass"/>
+    <functioncall functionName="CXXReinterpretCastExpr"/>
+    <functioncall functionName="CXXStaticCastExpr"/>
+    <functioncall functionName="CXXTemporary"/>
+    <functioncall functionName="CXXTemporaryObjectExpr"/>
+    <functioncall functionName="CXXTemporaryObjectExprClass"/>
+    <functioncall functionName="CXXThisExpr"/>
+    <functioncall functionName="CXXUnresolvedConstructExpr"/>
+    <functioncall functionName="CXXUnresolvedConstructExprClass"/>
+    <functioncall functionName="CallExpr"/>
+    <functioncall functionName="Callee"/>
+    <functioncall functionName="Capture_ByCopy"/>
+    <functioncall functionName="CastExpr"/>
+    <functioncall functionName="CheckNew"/>
+    <functioncall functionName="CleanupObject"/>
+    <functioncall functionName="Complete"/>
+    <functioncall functionName="CompoundStmt"/>
+    <functioncall functionName="ConstantExpr"/>
+    <functioncall functionName="Constructor"/>
+    <functioncall functionName="CoroutineBodyStmt"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="DeclAccessPair"/>
+    <functioncall functionName="DeclAndBits"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="DeclarationNameInfo"/>
+    <functioncall functionName="DependentScopeDeclRefExpr"/>
+    <functioncall functionName="DependentScopeDeclRefExprClass"/>
+    <functioncall functionName="END_PREARG"/>
+    <functioncall functionName="EmptyShell"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="ExprWithCleanups"/>
+    <functioncall functionName="ExprWithCleanupsClass"/>
+    <functioncall functionName="FPOptionsOverride"/>
+    <functioncall functionName="FullExpr"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionParmPackExpr"/>
+    <functioncall functionName="FunctionParmPackExprClass"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="HasRewrittenInit"/>
+    <functioncall functionName="IgnoreImplicit"/>
+    <functioncall functionName="IgnoreParenNoopCasts"/>
+    <functioncall functionName="IgnoreParens"/>
+    <functioncall functionName="IgnoreUnlessSpelledInSource"/>
+    <functioncall functionName="ImplicitCastExpr"/>
+    <functioncall functionName="Index"/>
+    <functioncall functionName="IsArrow"/>
+    <functioncall functionName="LCK_ByCopy"/>
+    <functioncall functionName="LCK_ByRef"/>
+    <functioncall functionName="LCK_StarThis"/>
+    <functioncall functionName="LCK_This"/>
+    <functioncall functionName="LCK_VLAType"/>
+    <functioncall functionName="LHS"/>
+    <functioncall functionName="LOK_Character"/>
+    <functioncall functionName="LOK_Floating"/>
+    <functioncall functionName="LOK_Integer"/>
+    <functioncall functionName="LOK_Raw"/>
+    <functioncall functionName="LOK_String"/>
+    <functioncall functionName="LOK_Template"/>
+    <functioncall functionName="LambdaCapture"/>
+    <functioncall functionName="LambdaExpr"/>
+    <functioncall functionName="LambdaExprClass"/>
+    <functioncall functionName="LifetimeExtendedTemporaryDecl"/>
+    <functioncall functionName="MaterializeTemporaryExpr"/>
+    <functioncall functionName="MaterializeTemporaryExprClass"/>
+    <functioncall functionName="MemberExpr"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="NestedNameSpecifierLoc"/>
+    <functioncall functionName="NonTypeTemplateParmDecl"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotADL"/>
+    <functioncall functionName="NumArgs"/>
+    <functioncall functionName="NumArguments"/>
+    <functioncall functionName="NumExplicitCaptures"/>
+    <functioncall functionName="NumParameters"/>
+    <functioncall functionName="OK_Ordinary"/>
+    <functioncall functionName="OpaqueValueExpr"/>
+    <functioncall functionName="OverloadExpr"/>
+    <functioncall functionName="PackIndexingExpr"/>
+    <functioncall functionName="PointerType"/>
+    <functioncall functionName="PseudoDestructorTypeStorage"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="RHS"/>
+    <functioncall functionName="RParenLoc"/>
+    <functioncall functionName="ReturnsNonNullAttr"/>
+    <functioncall functionName="SizeOfPackExpr"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="Stmt"/>
+    <functioncall functionName="SubstNonTypeTemplateParmPackExpr"/>
+    <functioncall functionName="SubstNonTypeTemplateParmPackExprClass"/>
+    <functioncall functionName="TemplateArgument"/>
+    <functioncall functionName="TemplateArgumentLoc"/>
+    <functioncall functionName="Type"/>
+    <functioncall functionName="TypeAndInitForm"/>
+    <functioncall functionName="TypeSourceInfo"/>
+    <functioncall functionName="TypeTraitExpr"/>
+    <functioncall functionName="TypeTraitExprClass"/>
+    <functioncall functionName="UDSuffixLoc"/>
+    <functioncall functionName="UnaryOperator"/>
+    <functioncall functionName="UnexpandedPack"/>
+    <functioncall functionName="UnresolvedLookupExpr"/>
+    <functioncall functionName="UnresolvedLookupExprClass"/>
+    <functioncall functionName="UnresolvedMemberExpr"/>
+    <functioncall functionName="UnresolvedMemberExprClass"/>
+    <functioncall functionName="UnresolvedUsingValueDecl"/>
+    <functioncall functionName="UserDefinedLiteral"/>
+    <functioncall functionName="UserDefinedLiteralClass"/>
+    <functioncall functionName="VK_LValue"/>
+    <functioncall functionName="VK_PRValue"/>
+    <functioncall functionName="VK_XValue"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="arraySizeOffset"/>
+    <functioncall functionName="asArray"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="capture_begin"/>
+    <functioncall functionName="capture_end"/>
+    <functioncall functionName="capture_range"/>
+    <functioncall functionName="capture_size"/>
+    <functioncall functionName="capturesThis"/>
+    <functioncall functionName="capturesVLAType"/>
+    <functioncall functionName="capturesVariable"/>
+    <functioncall functionName="captures_begin"/>
+    <functioncall functionName="captures_end"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="child_range"/>
+    <functioncall functionName="computeDependence"/>
+    <functioncall functionName="const_child_range"/>
+    <functioncall functionName="containsUnexpandedParameterPack"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_if_present"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="explicit_capture_begin"/>
+    <functioncall functionName="explicit_capture_end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAdjustedRewrittenExpr"/>
+    <functioncall functionName="getArg"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsFunction"/>
+    <functioncall functionName="getAsType"/>
+    <functioncall functionName="getAssociatedDecl"/>
+    <functioncall functionName="getBase"/>
+    <functioncall functionName="getBaseType"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getBody"/>
+    <functioncall functionName="getCallOperator"/>
+    <functioncall functionName="getCallee"/>
+    <functioncall functionName="getCalleeDecl"/>
+    <functioncall functionName="getCaptureDefault"/>
+    <functioncall functionName="getCapturedVar"/>
+    <functioncall functionName="getCastKind"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDefaultArg"/>
+    <functioncall functionName="getDependentLambdaCallOperator"/>
+    <functioncall functionName="getEnd"/>
+    <functioncall functionName="getEndLoc"/>
+    <functioncall functionName="getExprOperand"/>
+    <functioncall functionName="getExtendingDecl"/>
+    <functioncall functionName="getFalseExpr"/>
+    <functioncall functionName="getGenericLambdaTemplateParameterList"/>
+    <functioncall functionName="getImplicitObjectArgument"/>
+    <functioncall functionName="getInClassInitializer"/>
+    <functioncall functionName="getInitializationStyle"/>
+    <functioncall functionName="getInitializer"/>
+    <functioncall functionName="getInt"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getLValueReferenceType"/>
+    <functioncall functionName="getLambdaCallOperator"/>
+    <functioncall functionName="getLambdaCaptureDefault"/>
+    <functioncall functionName="getLambdaClass"/>
+    <functioncall functionName="getLambdaData"/>
+    <functioncall functionName="getLambdaExplicitTemplateParameters"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLiteralIdentifier"/>
+    <functioncall functionName="getLiteralOperatorKind"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMemberDecl"/>
+    <functioncall functionName="getNonLValueExprType"/>
+    <functioncall functionName="getNonReferenceType"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperator"/>
+    <functioncall functionName="getOperatorDelete"/>
+    <functioncall functionName="getOperatorLoc"/>
+    <functioncall functionName="getOperatorNew"/>
+    <functioncall functionName="getPackIdExpression"/>
+    <functioncall functionName="getParam"/>
+    <functioncall functionName="getParamDecl"/>
+    <functioncall functionName="getParenOrBraceRange"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getQualifier"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getRParenLoc"/>
+    <functioncall functionName="getReplacedTemplateParameterList"/>
+    <functioncall functionName="getRewrittenExpr"/>
+    <functioncall functionName="getSemanticForm"/>
+    <functioncall functionName="getSizeType"/>
+    <functioncall functionName="getSourceExpr"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSourceRangeImpl"/>
+    <functioncall functionName="getStmtClass"/>
+    <functioncall functionName="getStoredStmts"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getTrailingASTTemplateKWAndArgsInfo"/>
+    <functioncall functionName="getTrailingArgs"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="getTrailingRequiresClause"/>
+    <functioncall functionName="getTrailingResults"/>
+    <functioncall functionName="getTrailingTemplateArgumentLoc"/>
+    <functioncall functionName="getTrueExpr"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeDeclType"/>
+    <functioncall functionName="getTypeInfoAsWritten"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getUnderlyingDecl"/>
+    <functioncall functionName="getUnqualifiedArrayType"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasFirstQualifierFoundInScope"/>
+    <functioncall functionName="hasInClassInitializer"/>
+    <functioncall functionName="hasOnlyNonStaticMemberFunctions"/>
+    <functioncall functionName="hasRewrittenInit"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="implicit_capture_begin"/>
+    <functioncall functionName="implicit_capture_end"/>
+    <functioncall functionName="initBodyIfNeeded"/>
+    <functioncall functionName="initExprOffset"/>
+    <functioncall functionName="initializeFrom"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="is"/>
+    <functioncall functionName="isAnyCharacterType"/>
+    <functioncall functionName="isAnyPointerType"/>
+    <functioncall functionName="isArrayType"/>
+    <functioncall functionName="isArrow"/>
+    <functioncall functionName="isConst"/>
+    <functioncall functionName="isConstant"/>
+    <functioncall functionName="isDefaultArgument"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isDerivedFrom"/>
+    <functioncall functionName="isDestroyingOperatorDelete"/>
+    <functioncall functionName="isEffectivelyFinal"/>
+    <functioncall functionName="isFloatingType"/>
+    <functioncall functionName="isGLValue"/>
+    <functioncall functionName="isGLValueFromPointerDeref"/>
+    <functioncall functionName="isImplicitCXXThis"/>
+    <functioncall functionName="isInfixBinaryOp"/>
+    <functioncall functionName="isInitCapture"/>
+    <functioncall functionName="isInstantiationDependent"/>
+    <functioncall functionName="isInstantiationDependentType"/>
+    <functioncall functionName="isIntegerType"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isLValueReferenceType"/>
+    <functioncall functionName="isLiteralType"/>
+    <functioncall functionName="isNothrow"/>
+    <functioncall functionName="isPointerOrReferenceType"/>
+    <functioncall functionName="isPointerType"/>
+    <functioncall functionName="isPolymorphic"/>
+    <functioncall functionName="isPotentiallyEvaluated"/>
+    <functioncall functionName="isRValueReferenceType"/>
+    <functioncall functionName="isRecordType"/>
+    <functioncall functionName="isReferenceParameter"/>
+    <functioncall functionName="isReservedGlobalPlacementOperator"/>
+    <functioncall functionName="isReversed"/>
+    <functioncall functionName="isStatic"/>
+    <functioncall functionName="isTypeDependent"/>
+    <functioncall functionName="isTypeOperand"/>
+    <functioncall functionName="isUsableInConstantExpressions"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isValueDependent"/>
+    <functioncall functionName="isVoidPointerType"/>
+    <functioncall functionName="isVolatileQualified"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pack_begin"/>
+    <functioncall functionName="pack_size"/>
+    <functioncall functionName="placementNewArgsOffset"/>
+    <functioncall functionName="requiresTrailingStorage"/>
+    <functioncall functionName="setDependence"/>
+    <functioncall functionName="setEnd"/>
+    <functioncall functionName="setInt"/>
+    <functioncall functionName="setType"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeOfTrailingObjects"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="to_underlying"/>
+    <functioncall functionName="totalSizeToAlloc"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uninitialized_copy"/>
+    <functioncall functionName="uninitialized_copy_n"/>
+  </FileInfo>
+</analyzerinfo>

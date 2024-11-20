@@ -1,0 +1,2 @@
+printMacroName call:[getImmediateMacroName,getLangOpts,getSourceManager]
+getMacroStack call:[MacroStackStream,getImmediateMacroCallerLoc,getSourceManager,isMacroID,printMacroName] noreturn:[getImmediateMacroCallerLoc]

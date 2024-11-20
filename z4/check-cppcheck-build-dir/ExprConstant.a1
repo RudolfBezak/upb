@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9124258982039246132">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/APValue.h&quot; not found." verbose="Include file: &quot;clang/AST/APValue.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\FixedPoint.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found." verbose="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\FixedPoint.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/APFixedPoint.h&quot; not found." verbose="Include file: &quot;llvm/ADT/APFixedPoint.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\FixedPoint.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\PrimType.h" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;climits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;climits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\PrimType.h" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\PrimType.h" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\PrimType.h" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Descriptor.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Descriptor.h" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclBase.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclBase.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Source.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Stmt.h&quot; not found." verbose="Include file: &quot;clang/AST/Stmt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Source.h" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found." verbose="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Source.h" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Endian.h&quot; not found." verbose="Include file: &quot;llvm/Support/Endian.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Source.h" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTLambda.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTLambda.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Function.h" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Function.h" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Function.h" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found." verbose="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Function.h" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Function.h" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found." verbose="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Primitives.h" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/APValue.h&quot; not found." verbose="Include file: &quot;clang/AST/APValue.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\IntegralAP.h" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found." verbose="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\IntegralAP.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/APSInt.h&quot; not found." verbose="Include file: &quot;llvm/ADT/APSInt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\IntegralAP.h" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MathExtras.h&quot; not found." verbose="Include file: &quot;llvm/Support/MathExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\IntegralAP.h" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\IntegralAP.h" line="20" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\IntegralAP.h" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\IntegralAP.h" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found." verbose="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpBlock.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpBlock.h" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpBlock.h" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpBlock.h" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found." verbose="Include file: &quot;llvm/ADT/PointerUnion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpBlock.h" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpBlock.h" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found." verbose="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Pointer.h" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Pointer.h" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Pointer.h" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Pointer.h" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Pointer.h" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\MemberPointer.h" line="13" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpStack.h" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\InterpStack.h" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceLocation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Frame.h" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Frame.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\State.h" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\State.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TypeTraits.h&quot; not found." verbose="Include file: &quot;clang/Basic/TypeTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstShared.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/APValue.h&quot; not found." verbose="Include file: &quot;clang/AST/APValue.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="39" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="40" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="41" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTLambda.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTLambda.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="42" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="43" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found." verbose="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="44" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CharUnits.h&quot; not found." verbose="Include file: &quot;clang/AST/CharUnits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CurrentSourceLocExprScope.h&quot; not found." verbose="Include file: &quot;clang/AST/CurrentSourceLocExprScope.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="47" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/OSLog.h&quot; not found." verbose="Include file: &quot;clang/AST/OSLog.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/OptionalDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/AST/OptionalDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="49" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecordLayout.h&quot; not found." verbose="Include file: &quot;clang/AST/RecordLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="50" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/StmtVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="51" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="52" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Builtins.h&quot; not found." verbose="Include file: &quot;clang/Basic/Builtins.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="53" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/DiagnosticSema.h&quot; not found." verbose="Include file: &quot;clang/Basic/DiagnosticSema.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="54" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetBuiltins.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetBuiltins.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="55" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="56" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/APFixedPoint.h&quot; not found." verbose="Include file: &quot;llvm/ADT/APFixedPoint.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="57" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/Sequence.h&quot; not found." verbose="Include file: &quot;llvm/ADT/Sequence.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="58" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallBitVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallBitVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="59" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="60" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="61" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="62" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found." verbose="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="63" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SipHash.h&quot; not found." verbose="Include file: &quot;llvm/Support/SipHash.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="64" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/TimeProfiler.h&quot; not found." verbose="Include file: &quot;llvm/Support/TimeProfiler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="65" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="66" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="67" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="68" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="69" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="7734" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/TypeNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12092" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/BuiltinTypes.def&quot; not found." verbose="Include file: &quot;clang/AST/BuiltinTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12106" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12147" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12150" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12158" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12161" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12163" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12165" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12167" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="12169" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found." verbose="Include file: &quot;clang/AST/StmtNodes.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprConstant.cpp" line="16898" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If LLVM_PREFERRED_TYPE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If LLVM_PREFERRED_TYPE is a macro then please configure it." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ExprConstant.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ByteCode\Descriptor.h" line="76" column="3"/>
+        </error>
+</analyzerinfo>

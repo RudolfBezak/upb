@@ -1,0 +1,4 @@
+getStackAdjustmentSize call:[evaluateStackOffsetExpr,getStackPointer,make_pair] noreturn:[evaluateStackOffsetExpr]
+isIndifferentToSP call:[get,getOpcode,getReg,getStackPointer,hasImplicitDefOfPhysReg,hasImplicitUseOfPhysReg,isCFI,isReg,isTerminator,primeOperands]
+shouldProcess call:[hasCFG,isIgnored,isSimple] noreturn:[isIgnored]
+runForAllWeCare call:[Task,shouldProcess] noreturn:[Task]

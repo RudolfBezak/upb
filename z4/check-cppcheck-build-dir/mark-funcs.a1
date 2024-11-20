@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12317810758516656985">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\mark-funcs.c" line="1" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;dummy()!=0&apos; is always false" verbose="Condition &apos;dummy()!=0&apos; is always false" cwe="570" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/mark-funcs.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\mark-funcs.c" line="9" column="15" info="Condition &apos;dummy()!=0&apos; is always false"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\mark-funcs.c" line="9" column="12" info="Calling function &apos;dummy&apos; returns 0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/mark-funcs.c" functionName="dummy" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/mark-funcs.c" functionName="main" lineNumber="8"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

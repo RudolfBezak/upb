@@ -1,0 +1,5 @@
+computeODRHash call:[AddQualType,CalculateHash] noreturn:[CalculateHash]
+computeODRHash call:[AddStmt,CalculateHash] noreturn:[CalculateHash]
+computeODRHash call:[AddSubDecl,CalculateHash,assert] noreturn:[CalculateHash]
+computeODRHash call:[AddTemplateArgument,CalculateHash] noreturn:[CalculateHash]
+diagnoseSubMismatchMethodParameters call:[DiagError,DiagNote,GetDiagMethodType,Report,computeODRHash,empty,getDeclName,getLocation,getOriginalType,getParamDecl,getSourceRange,getType,param_size] noreturn:[getOriginalType]

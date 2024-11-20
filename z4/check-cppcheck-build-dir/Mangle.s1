@@ -1,0 +1,13 @@
+mangleFunctionBlock call:[getBlockId]
+isExternC call:[isExternC] noreturn:[isExternC]
+getCallingConvMangling call:[getCXXABI,getCallConv,getLangOpts,getNumParams,getTargetInfo,getTriple,getType,isExternC,isMain,isOSWindows,isWasm,isX86]
+Implementation
+writeName call:[FrontendBufOS,getNameWithPrefix,isDependentContext,mangleObjCMethodName,str,writeFuncOrVarName,writeObjCClassName] noreturn:[writeObjCClassName]
+getName call:[OS,writeName] noreturn:[writeName]
+getClassSymbolPrefix call:[getLangOpts,isGNUFamily]
+getAllManglings call:[Mangle,empty,getASTContext,getClassSymbolPrefix,getNameWithPrefix,getObjCRuntimeNameAsString,string] noreturn:[getObjCRuntimeNameAsString,string]
+getAllManglings call:[M,createMangleContext,emplace_back,getASTContext,getAllManglings,getCXXABI,getCallConv,getDefaultCallingConvention,getMangledStructor,getMangledThunk,getName,getNumParams,getParent,getTargetInfo,getThunkInfo,getType,getVTableContext,hasDefaultCXXMethodCC,isAbstract,isDefaultConstructor,isItaniumFamily,isMicrosoft,isVirtual,useAbbreviatedThunkName] noreturn:[emplace_back,getAllManglings,getMangledThunk]
+writeFuncOrVarName call:[GlobalDecl,getIdentifier,getName,mangleName,shouldMangleDeclName] noreturn:[GlobalDecl]
+writeObjCClassName call:[getASTContext,getClassSymbolPrefix,getObjCRuntimeNameAsString] noreturn:[getObjCRuntimeNameAsString]
+getMangledStructor call:[BOS,FOS,GlobalDecl,getNameWithPrefix,mangleName] noreturn:[GlobalDecl]
+getMangledThunk call:[BOS,FOS,getNameWithPrefix,mangleThunk]

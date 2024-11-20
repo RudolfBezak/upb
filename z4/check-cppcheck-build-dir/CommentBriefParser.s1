@@ -1,0 +1,2 @@
+cleanupBrief call:[begin,end,isWhitespace,resize] noreturn:[resize]
+isWhitespace call:[all_of] noreturn:[all_of]

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3472208500692510086">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/jump_table_icp.cpp" functionName="inc" lineNumber="5"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/jump_table_icp.cpp" functionName="inc_dup" lineNumber="17"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/jump_table_icp.cpp" functionName="main" lineNumber="29"/>
+    <functioncall functionName="inc"/>
+    <functioncall functionName="inc_dup"/>
+    <functioncall functionName="rand"/>
+  </FileInfo>
+</analyzerinfo>

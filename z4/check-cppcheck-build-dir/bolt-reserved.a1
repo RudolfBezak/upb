@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15566727507079799172">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/bolt-reserved.cpp" functionName="main" lineNumber="40"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/bolt-reserved.cpp" functionName="main" lineNumber="40"/>
+  </FileInfo>
+</analyzerinfo>

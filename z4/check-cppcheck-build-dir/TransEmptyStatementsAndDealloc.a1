@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17953403572972100359">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ParentMap.h&quot; not found." verbose="Include file: &quot;clang/AST/ParentMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found." verbose="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found." verbose="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransEmptyStatementsAndDealloc.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/StmtVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/StmtVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransEmptyStatementsAndDealloc.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransEmptyStatementsAndDealloc.cpp" line="25" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;BodyTransform&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;BodyTransform&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="191" column="3"/>
+            <symbol>BodyTransform</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="129" column="3"/>
+            <symbol>Transaction</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;EmptyStatementsRemover&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;EmptyStatementsRemover&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransEmptyStatementsAndDealloc.cpp" line="151" column="3"/>
+            <symbol>EmptyStatementsRemover</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="81" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="86" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="12"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:31:13" call-funcname="isEmptyARCMTMacroStatement" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="85" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:84:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:31:13" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="34" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:87:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="88" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:95:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="96" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:107:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="108" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:119:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="120" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:129:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="130" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:139:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="140" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:153:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="154" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:164:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="165" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:184:13" my-argnr="1" my-argname="body" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="186" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:129:3" my-argnr="1" my-argname="TA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="130" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:31:13" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="34" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:87:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="88" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:95:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="96" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:107:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="108" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:119:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="120" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:129:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="130" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:139:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="140" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:153:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="154" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:164:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="165" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp:184:13" my-argnr="1" my-argname="body" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" line="186" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getMigrationContext" lineNumber="54"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getParentMap" lineNumber="55"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getTopStmt" lineNumber="56"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getMigrationContext" lineNumber="68"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getImplementationDecl" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="traversers_begin" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="traversers_end" lineNumber="108"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="addTraverser" lineNumber="110"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="removePropertyAttribute" lineNumber="115"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="TraverseStmt" lineNumber="193"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="TraverseObjCMethodDecl" lineNumber="199"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="clearRefsIn" lineNumber="209"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="push_back" lineNumber="31"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="begin" lineNumber="41"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="end" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearAllDiagnostics" lineNumber="76"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="89"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="93"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasReportedErrors" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="abort" lineNumber="138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isAborted" lineNumber="143"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getDiags" lineNumber="163"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isGCMigration" lineNumber="165"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="noFinalizeRemoval" lineNumber="166"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="setNoFinalizeRemoval" lineNumber="167"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getARCMTMacroName" lineNumber="172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="isEmptyARCMTMacroStatement" lineNumber="31"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitNullStmt" lineNumber="84"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitCompoundStmt" lineNumber="87"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitIfStmt" lineNumber="95"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitWhileStmt" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitDoStmt" lineNumber="119"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitObjCForCollectionStmt" lineNumber="129"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitObjCAutoreleasePoolStmt" lineNumber="139"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="TraverseStmtExpr" lineNumber="153"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="VisitCompoundStmt" lineNumber="164"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="getContext" lineNumber="170"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="check" lineNumber="173"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="isBodyEmpty" lineNumber="184"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="cleanupDeallocOrFinalize" lineNumber="193"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransEmptyStatementsAndDealloc.cpp" functionName="removeEmptyStatementsAndDeallocFinalize" lineNumber="240"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BODY_TRANS"/>
+    <functioncall functionName="BeforeThanCompare"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="EmptyChecker"/>
+    <functioncall functionName="EmptyStatementsRemover"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="MigrationPass"/>
+    <functioncall functionName="ObjCImplementationDecl"/>
+    <functioncall functionName="RecursiveASTVisitor"/>
+    <functioncall functionName="SaveAndRestore"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StoredDiagnostic"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TraverseDecl"/>
+    <functioncall functionName="TraverseObjCMethodDecl"/>
+    <functioncall functionName="TraverseStmt"/>
+    <functioncall functionName="Visit"/>
+    <functioncall functionName="abortTransaction"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="body"/>
+    <functioncall functionName="body_begin"/>
+    <functioncall functionName="body_empty"/>
+    <functioncall functionName="body_end"/>
+    <functioncall functionName="check"/>
+    <functioncall functionName="cleanupDeallocOrFinalize"/>
+    <functioncall functionName="clearDiagnostic"/>
+    <functioncall functionName="clearRefsIn"/>
+    <functioncall functionName="commitTransaction"/>
+    <functioncall functionName="decls_begin"/>
+    <functioncall functionName="decls_end"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="findSemiAfterLocation"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getARCMTMacroName"/>
+    <functioncall functionName="getBody"/>
+    <functioncall functionName="getCollection"/>
+    <functioncall functionName="getCompoundBody"/>
+    <functioncall functionName="getCond"/>
+    <functioncall functionName="getConditionVariable"/>
+    <functioncall functionName="getElse"/>
+    <functioncall functionName="getLocWithOffset"/>
+    <functioncall functionName="getMethodFamily"/>
+    <functioncall functionName="getNullarySelector"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSelectorStartLoc"/>
+    <functioncall functionName="getSemiLoc"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSubStmt"/>
+    <functioncall functionName="getThen"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="hasBody"/>
+    <functioncall functionName="hasDiagnostic"/>
+    <functioncall functionName="hasLeadingEmptyMacro"/>
+    <functioncall functionName="hasSideEffects"/>
+    <functioncall functionName="hasUnrecoverableErrorOccurred"/>
+    <functioncall functionName="instance_methods"/>
+    <functioncall functionName="isAborted"/>
+    <functioncall functionName="isBodyEmpty"/>
+    <functioncall functionName="isEmptyARCMTMacroStatement"/>
+    <functioncall functionName="isFileID"/>
+    <functioncall functionName="isInSameSLocAddrSpace"/>
+    <functioncall functionName="isInstanceMethod"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isMacroID"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="removeStmt"/>
+    <functioncall functionName="replaceText"/>
+    <functioncall functionName="rewritePropertyAttribute"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="specific_decl_iterator"/>
+    <functioncall functionName="startTransaction"/>
+    <functioncall functionName="transformBody"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="upper_bound"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

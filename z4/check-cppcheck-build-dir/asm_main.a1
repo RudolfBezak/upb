@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14067698327726853745">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/asm_main.c" functionName="main" lineNumber="3"/>
+    <functioncall functionName="foo"/>
+  </FileInfo>
+</analyzerinfo>

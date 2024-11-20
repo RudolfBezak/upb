@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5187403109172820327">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/YAMLProfileReader.h&quot; not found." verbose="Include file: &quot;bolt/Profile/YAMLProfileReader.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/MCF.h&quot; not found." verbose="Include file: &quot;bolt/Passes/MCF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/ProfileYAMLMapping.h&quot; not found." verbose="Include file: &quot;bolt/Profile/ProfileYAMLMapping.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found." verbose="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/edit_distance.h&quot; not found." verbose="Include file: &quot;llvm/ADT/edit_distance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Demangle/Demangle.h&quot; not found." verbose="Include file: &quot;llvm/Demangle/Demangle.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="0" column="0"/>
+        </error>
+        <error id="duplicateConditionalAssign" severity="style" msg="The statement &apos;if (Buffer!=BaseName) Buffer=BaseName&apos; is logically equivalent to &apos;Buffer=BaseName&apos;." verbose="The statement &apos;if (Buffer!=BaseName) Buffer=BaseName&apos; is logically equivalent to &apos;Buffer=BaseName&apos;." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="533" column="16" info="Condition &apos;Buffer!=BaseName&apos; is redundant"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="534" column="14" info="Assignment &apos;Buffer=BaseName&apos;"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;BF&apos; shadows outer variable" verbose="Local variable &apos;BF&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="97" column="26" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="91" column="24" info="Shadowed declaration"/>
+            <symbol>BF</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;AdjacentBFs&apos; can be declared as reference to const" verbose="Variable &apos;AdjacentBFs&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="95" column="11" info="Variable &apos;AdjacentBFs&apos; can be declared as reference to const"/>
+            <symbol>AdjacentBFs</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;FunctionName&apos; can be declared as reference to const" verbose="Parameter &apos;FunctionName&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="523" column="39" info="Parameter &apos;FunctionName&apos; can be declared as reference to const"/>
+            <symbol>FunctionName</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;DemangledName&apos; can be declared as reference to const" verbose="Parameter &apos;DemangledName&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="600" column="43" info="Parameter &apos;DemangledName&apos; can be declared as reference to const"/>
+            <symbol>DemangledName</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;YamlBF&apos; can be declared as reference to const" verbose="Variable &apos;YamlBF&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="734" column="43" info="Variable &apos;YamlBF&apos; can be declared as reference to const"/>
+            <symbol>YamlBF</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/YAMLProfileReader.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\YAMLProfileReader.cpp" line="180" column="26"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="BinaryFunctionProfile"/>
+    <functioncall functionName="COUNT_NO_PROFILE"/>
+    <functioncall functionName="CallGraphMatcher"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Filename"/>
+    <functioncall functionName="Flags"/>
+    <functioncall functionName="Functions"/>
+    <functioncall functionName="HashFunction"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="IdToYamLBF"/>
+    <functioncall functionName="IgnoreHash"/>
+    <functioncall functionName="IndirectCallSiteProfile"/>
+    <functioncall functionName="IsDFSOrder"/>
+    <functioncall functionName="LTOCommonNameMap"/>
+    <functioncall functionName="MatchProfileWithFunctionHash"/>
+    <functioncall functionName="MatchWithCallGraph"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="NormalizeByCalls"/>
+    <functioncall functionName="ProfileBFs"/>
+    <functioncall functionName="StringError"/>
+    <functioncall functionName="StringMap"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="YamlBP"/>
+    <functioncall functionName="addAnnotation"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back_inserter"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="buildNameMaps"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="computeBFNeighborHashes"/>
+    <functioncall functionName="computeHash"/>
+    <functioncall functionName="constructBFCG"/>
+    <functioncall functionName="constructYAMLFCG"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="demangle"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dfs"/>
+    <functioncall functionName="edit_distance"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorCodeToError"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAdjacentYamlBFs"/>
+    <functioncall functionName="getAllBinaryFunctions"/>
+    <functioncall functionName="getAllCallSites"/>
+    <functioncall functionName="getBFsWithNeighborHash"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getBuffer"/>
+    <functioncall functionName="getConditionalSuccessor"/>
+    <functioncall functionName="getConditionalTailCall"/>
+    <functioncall functionName="getDemangledName"/>
+    <functioncall functionName="getError"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFileOrSTDIN"/>
+    <functioncall functionName="getFunctionBaseName"/>
+    <functioncall functionName="getFunctionDeclContextName"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getHash"/>
+    <functioncall functionName="getInputOffset"/>
+    <functioncall functionName="getInstructionAtOffset"/>
+    <functioncall functionName="getLTOCommonName"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNames"/>
+    <functioncall functionName="getNumCalls"/>
+    <functioncall functionName="getNumNonPseudos"/>
+    <functioncall functionName="getOneName"/>
+    <functioncall functionName="getOrCreateAnnotationAs"/>
+    <functioncall functionName="getOriginalSize"/>
+    <functioncall functionName="getSuccessor"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getSymbolForEntryID"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="hasProfile"/>
+    <functioncall functionName="hash"/>
+    <functioncall functionName="inconvertibleErrorCode"/>
+    <functioncall functionName="inferStaleProfile"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="keys"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="make_error"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="markProfiled"/>
+    <functioncall functionName="matchProfileToFunction"/>
+    <functioncall functionName="matchWithCallGraph"/>
+    <functioncall functionName="matchWithExactName"/>
+    <functioncall functionName="matchWithHash"/>
+    <functioncall functionName="matchWithLTOCommonName"/>
+    <functioncall functionName="matchWithNameSimilarity"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="parseFunctionProfile"/>
+    <functioncall functionName="partialDemangle"/>
+    <functioncall functionName="profileMatches"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="report_error"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="restore"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setAllowUnknownKeys"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="setIgnored"/>
+    <functioncall functionName="setNumUnusedProfiledObjects"/>
+    <functioncall functionName="setRawBranchCount"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_set"/>
+    <functioncall functionName="usesEvent"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="zip_equal"/>
+  </FileInfo>
+</analyzerinfo>

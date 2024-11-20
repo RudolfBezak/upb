@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18173607035686794243">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrDocTable.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrDocTable.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;AttrDocTable.inc&quot; not found." verbose="Include file: &quot;AttrDocTable.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrDocTable.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AttrList.inc&quot; not found." verbose="Include file: &quot;clang/Basic/AttrList.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrDocTable.cpp" line="20" column="0"/>
+        </error>
+        <error id="negativeIndex" severity="warning" msg="Either the condition &apos;K&lt;(int)std::size(AttrDoc)&apos; is redundant or the array &apos;AttrDoc[1]&apos; is accessed at index -1, which is out of bounds." verbose="Either the condition &apos;K&lt;(int)std::size(AttrDoc)&apos; is redundant or the array &apos;AttrDoc[1]&apos; is accessed at index -1, which is out of bounds." cwe="786" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/AttrDocTable.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrDocTable.cpp" line="25" column="19" info="Negative array index"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrDocTable.cpp" line="24" column="9" info="Assuming that condition &apos;K&lt;(int)std::size(AttrDoc)&apos; is not redundant"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="size"/>
+  </FileInfo>
+</analyzerinfo>

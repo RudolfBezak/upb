@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8532451665548159797">
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;x&amp;0x32&apos; is always true" verbose="Condition &apos;x&amp;0x32&apos; is always true" cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/linenumber.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="10" column="9" info="Condition &apos;x&amp;0x32&apos; is always true"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="9" column="11" info="Assignment &apos;x=0xBEEF&apos;, assigned value is 48879"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;g()*f()&apos;." verbose="Signed integer overflow for expression &apos;g()*f()&apos;." cwe="190" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/linenumber.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="23" column="15" info="Integer overflow"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="23" column="12" info="Calling function &apos;g&apos; returns 48881"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="19" column="11" info="Calling function &apos;f&apos; returns 48880"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="11" column="5" info="x is incremented&apos;, new value is 48880"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="9" column="11" info="Assignment &apos;x=0xBEEF&apos;, assigned value is 48879"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/linenumber.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\linenumber.cpp" line="23" column="9"/>
+            <symbol>q</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/linenumber.cpp" functionName="f" lineNumber="1"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/linenumber.cpp" functionName="g" lineNumber="18"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/linenumber.cpp" functionName="main" lineNumber="22"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="g"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11232799853467122403">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/LongJmp.h&quot; not found." verbose="Include file: &quot;bolt/Passes/LongJmp.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LongJmp.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LongJmp.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MathExtras.h&quot; not found." verbose="Include file: &quot;llvm/Support/MathExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LongJmp.cpp" line="15" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\LongJmp.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp:44:13" my-argnr="1" my-argname="StubBB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" line="45" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp:52:13" my-argnr="1" my-argname="StubBB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" line="53" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp:60:26" my-argnr="1" my-argname="Func" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" line="61" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp:75:13" my-argnr="1" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" line="76" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" functionName="relaxStubToShortJmp" lineNumber="44"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" functionName="relaxStubToLongJmp" lineNumber="52"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" functionName="getBBAtHotColdSplitPoint" lineNumber="60"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/LongJmp.cpp" functionName="mayNeedStub" lineNumber="75"/>
+    <functioncall functionName="Align"/>
+    <functioncall functionName="AlignFunctions"/>
+    <functioncall functionName="AlignText"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="ColdLocalStubs"/>
+    <functioncall functionName="ColdStubGroups"/>
+    <functioncall functionName="CompactCodeModel"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="HotFunctionsAtEnd"/>
+    <functioncall functionName="HotLocalStubs"/>
+    <functioncall functionName="HotStubGroups"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="SP_INST_LINEAR"/>
+    <functioncall functionName="StubGroupsTy"/>
+    <functioncall functionName="UseOldText"/>
+    <functioncall functionName="addEntryPoint"/>
+    <functioncall functionName="addInstruction"/>
+    <functioncall functionName="addInstructions"/>
+    <functioncall functionName="addSuccessor"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="computeCodeSize"/>
+    <functioncall functionName="convertJmpToTailCall"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createBasicBlock"/>
+    <functioncall functionName="createFatalBOLTError"/>
+    <functioncall functionName="createLongJmp"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createNewStub"/>
+    <functioncall functionName="createShortJmp"/>
+    <functioncall functionName="createUncondBranch"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="estimateColdSize"/>
+    <functioncall functionName="estimateConstantIslandSize"/>
+    <functioncall functionName="estimateHotSize"/>
+    <functioncall functionName="estimateSize"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findInstruction"/>
+    <functioncall functionName="fixBranches"/>
+    <functioncall functionName="fragments"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAlignment"/>
+    <functioncall functionName="getBBAtHotColdSplitPoint"/>
+    <functioncall functionName="getBasicBlockAfter"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getConditionalSuccessor"/>
+    <functioncall functionName="getConstantIslandAlignment"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLastNonPseudoInstr"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getMaxAlignmentBytes"/>
+    <functioncall functionName="getMaxColdAlignmentBytes"/>
+    <functioncall functionName="getMinAlignment"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumNonPseudos"/>
+    <functioncall functionName="getOutputEndAddress"/>
+    <functioncall functionName="getOutputStartAddress"/>
+    <functioncall functionName="getPCRelEncodingSize"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getShortJmpEncodingSize"/>
+    <functioncall functionName="getSortedFunctions"/>
+    <functioncall functionName="getSuccessor"/>
+    <functioncall functionName="getSymbolAddress"/>
+    <functioncall functionName="getSymbolValue"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getUncondBranchEncodingSize"/>
+    <functioncall functionName="hasValidIndex"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertBasicBlocks"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isCold"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="isIntN"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isSplit"/>
+    <functioncall functionName="isUnconditionalBranch"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="less_first"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="lookupGlobalStub"/>
+    <functioncall functionName="lookupLocalStub"/>
+    <functioncall functionName="lookupStubFromGroup"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="mayNeedStub"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="needsStub"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="offsetToAlignment"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="relax"/>
+    <functioncall functionName="relaxLocalBranches"/>
+    <functioncall functionName="relaxStub"/>
+    <functioncall functionName="relaxStubToLongJmp"/>
+    <functioncall functionName="relaxStubToShortJmp"/>
+    <functioncall functionName="replaceBranchTarget"/>
+    <functioncall functionName="replaceSuccessor"/>
+    <functioncall functionName="replaceTargetWithStub"/>
+    <functioncall functionName="reverseBranchCondition"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="scopeLock"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="setFragmentNum"/>
+    <functioncall functionName="setIsCold"/>
+    <functioncall functionName="setOutputEndAddress"/>
+    <functioncall functionName="setOutputStartAddress"/>
+    <functioncall functionName="shouldEmit"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="swapConditionalSuccessors"/>
+    <functioncall functionName="tentativeBBLayout"/>
+    <functioncall functionName="tentativeLayout"/>
+    <functioncall functionName="tentativeLayoutRelocColdPart"/>
+    <functioncall functionName="tentativeLayoutRelocMode"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="updateStubGroups"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

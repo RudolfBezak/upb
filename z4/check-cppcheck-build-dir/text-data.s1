@@ -1,0 +1,2 @@
+exitOk call:[exit] noreturn:[exit]
+main global:[arr]

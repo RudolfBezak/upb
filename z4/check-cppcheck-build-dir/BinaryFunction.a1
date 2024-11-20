@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14074130461873921841">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DynoStats.h&quot; not found." verbose="Include file: &quot;bolt/Core/DynoStats.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/HashUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found." verbose="Include file: &quot;bolt/Utils/NameResolver.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/NameShortener.h&quot; not found." verbose="Include file: &quot;bolt/Utils/NameShortener.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Demangle/Demangle.h&quot; not found." verbose="Include file: &quot;llvm/Demangle/Demangle.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCAsmInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCAsmInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCContext.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCDisassembler/MCDisassembler.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCDisassembler/MCDisassembler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCExpr.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCExpr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInst.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInst.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCSymbol.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCSymbol.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/ObjectFile.h&quot; not found." verbose="Include file: &quot;llvm/Object/ObjectFile.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/GenericDomTreeConstruction.h&quot; not found." verbose="Include file: &quot;llvm/Support/GenericDomTreeConstruction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="37" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/GenericLoopInfoImpl.h&quot; not found." verbose="Include file: &quot;llvm/Support/GenericLoopInfoImpl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="38" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/GraphWriter.h&quot; not found." verbose="Include file: &quot;llvm/Support/GraphWriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="39" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="40" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Regex.h&quot; not found." verbose="Include file: &quot;llvm/Support/Regex.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="41" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="42" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="43" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/xxhash.h&quot; not found." verbose="Include file: &quot;llvm/Support/xxhash.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="44" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;limits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;limits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="46" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="47" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="48" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="49" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If LLVM_DEBUG is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If LLVM_DEBUG is a macro then please configure it." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryFunction.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunction.cpp" line="2957" column="7"/>
+        </error>
+</analyzerinfo>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15998748420735406296">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunctionCallGraph.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunctionCallGraph.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunctionCallGraph.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunctionCallGraph.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunctionCallGraph.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stack&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunctionCallGraph.cpp" line="18" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If LLVM_DEBUG is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If LLVM_DEBUG is a macro then please configure it." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryFunctionCallGraph.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryFunctionCallGraph.cpp" line="152" column="9"/>
+        </error>
+</analyzerinfo>

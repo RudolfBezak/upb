@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10359076372173124430">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/Types.h&quot; not found." verbose="Include file: &quot;clang/APINotes/Types.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesTypes.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesTypes.cpp" line="10" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CommonTypeInfo"/>
+    <functioncall functionName="EnumExtensibility"/>
+    <functioncall functionName="FunctionInfo"/>
+    <functioncall functionName="HasDefaultNullability"/>
+    <functioncall functionName="HasDesignatedInits"/>
+    <functioncall functionName="HasFlagEnum"/>
+    <functioncall functionName="LifetimeboundSpecified"/>
+    <functioncall functionName="NSErrorDomain"/>
+    <functioncall functionName="NoEscapeSpecified"/>
+    <functioncall functionName="NullabilityAudited"/>
+    <functioncall functionName="Params"/>
+    <functioncall functionName="Self"/>
+    <functioncall functionName="SwiftBridge"/>
+    <functioncall functionName="SwiftImportAsAccessorsSpecified"/>
+    <functioncall functionName="SwiftImportAsNonGenericSpecified"/>
+    <functioncall functionName="SwiftObjCMembersSpecified"/>
+    <functioncall functionName="SwiftPrivateSpecified"/>
+    <functioncall functionName="SwiftWrapper"/>
+    <functioncall functionName="This"/>
+    <functioncall functionName="Unavailable"/>
+    <functioncall functionName="UnavailableInSwift"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="empty"/>
+  </FileInfo>
+</analyzerinfo>

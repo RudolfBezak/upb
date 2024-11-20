@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5778372597541526508">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DIEBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/DIEBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/Dwarf.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/CodeGen/DIE.h&quot; not found." verbose="Include file: &quot;llvm/CodeGen/DIE.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFAbbreviationDeclaration.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFAbbreviationDeclaration.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDie.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFDie.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFExpression.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFExpression.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFFormValue.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFFormValue.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFTypeUnit.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFTypeUnit.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFUnit.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFUnit.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFUnitIndex.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFUnitIndex.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="35" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CU&apos; is always true" verbose="Condition &apos;CU&apos; is always true" cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="435" column="10" info="Condition &apos;CU&apos; is always true"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="143" column="35"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="798" column="35"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;CUIter&apos; shadows outer variable" verbose="Local variable &apos;CUIter&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="440" column="12" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="418" column="10" info="Shadowed declaration"/>
+            <symbol>CUIter</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;DstUnitInfo&apos; can be declared as reference to const" verbose="Variable &apos;DstUnitInfo&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="130" column="20" info="Variable &apos;DstUnitInfo&apos; can be declared as reference to const"/>
+            <symbol>DstUnitInfo</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;DWARFUnitInfo&apos; can be declared as reference to const" verbose="Variable &apos;DWARFUnitInfo&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="377" column="20" info="Variable &apos;DWARFUnitInfo&apos; can be declared as reference to const"/>
+            <symbol>DWARFUnitInfo</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;DieInfo&apos; can be declared as reference to const" verbose="Variable &apos;DieInfo&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="378" column="14" info="Variable &apos;DieInfo&apos; can be declared as reference to const"/>
+            <symbol>DieInfo</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;CurUnitInfo&apos; can be declared as reference to const" verbose="Variable &apos;CurUnitInfo&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="562" column="20" info="Variable &apos;CurUnitInfo&apos; can be declared as reference to const"/>
+            <symbol>CurUnitInfo</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;RefDieInfo&apos; can be declared as reference to const" verbose="Variable &apos;RefDieInfo&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="744" column="20" info="Variable &apos;RefDieInfo&apos; can be declared as reference to const"/>
+            <symbol>RefDieInfo</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\DIEBuilder.cpp" line="427" column="19"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp:49:1" my-argnr="1" my-argname="CU" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" line="52" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp:72:13" my-argnr="2" my-argname="StrWriter" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" line="76" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp:72:13" my-argnr="5" my-argname="Unit" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" line="77" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp:1000:17" my-argnr="1" my-argname="DU" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" line="1003" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" functionName="getDWOName" lineNumber="49"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" functionName="addStringHelper" lineNumber="72"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" functionName="getCUNum" lineNumber="266"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" functionName="getUnitForOffset" lineNumber="414"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/DIEBuilder.cpp" functionName="getHash" lineNumber="1000"/>
+    <functioncall functionName="AddAttribute"/>
+    <functioncall functionName="AddrReferenceInfo"/>
+    <functioncall functionName="AddrReferences"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="AttrSpec"/>
+    <functioncall functionName="Attribute"/>
+    <functioncall functionName="BOLTDWARF5AccelTableData"/>
+    <functioncall functionName="CUs"/>
+    <functioncall functionName="DIE"/>
+    <functioncall functionName="DIEAbbrev"/>
+    <functioncall functionName="DIEAlloc"/>
+    <functioncall functionName="DIEBlock"/>
+    <functioncall functionName="DIEBuilder"/>
+    <functioncall functionName="DIEEntry"/>
+    <functioncall functionName="DIEInfo"/>
+    <functioncall functionName="DIEInlineString"/>
+    <functioncall functionName="DIEInteger"/>
+    <functioncall functionName="DIELoc"/>
+    <functioncall functionName="DIELocList"/>
+    <functioncall functionName="DIEValue"/>
+    <functioncall functionName="DIEValueList"/>
+    <functioncall functionName="DUList"/>
+    <functioncall functionName="DWARF4TUs"/>
+    <functioncall functionName="DWARF5TUVector"/>
+    <functioncall functionName="DWARF5TUs"/>
+    <functioncall functionName="DWARFDataExtractor"/>
+    <functioncall functionName="DWARFDie"/>
+    <functioncall functionName="DWARFDieAddressesParsed"/>
+    <functioncall functionName="DWARFTypeUnit"/>
+    <functioncall functionName="DWARFUnit"/>
+    <functioncall functionName="DW_AT_GNU_dwo_name"/>
+    <functioncall functionName="DW_AT_comp_dir"/>
+    <functioncall functionName="DW_AT_dwo_name"/>
+    <functioncall functionName="DW_CHILDREN_yes"/>
+    <functioncall functionName="DW_FORM_data1"/>
+    <functioncall functionName="DW_FORM_ref_addr"/>
+    <functioncall functionName="DW_FORM_ref_sig8"/>
+    <functioncall functionName="DW_FORM_string"/>
+    <functioncall functionName="DebugNamesUnitSize"/>
+    <functioncall functionName="DwarfContext"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="FC_Block"/>
+    <functioncall functionName="FC_Exprloc"/>
+    <functioncall functionName="FindNodeOrInsertPos"/>
+    <functioncall functionName="Form"/>
+    <functioncall functionName="FormEncodingString"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="INIT"/>
+    <functioncall functionName="InsertNode"/>
+    <functioncall functionName="LocWithReferencesToProcess"/>
+    <functioncall functionName="NameToIndexMap"/>
+    <functioncall functionName="PATCH"/>
+    <functioncall functionName="Profile"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="State"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="Tag"/>
+    <functioncall functionName="UnitSize"/>
+    <functioncall functionName="addAccelTableEntry"/>
+    <functioncall functionName="addChild"/>
+    <functioncall functionName="addCrossCUDie"/>
+    <functioncall functionName="addString"/>
+    <functioncall functionName="addStringHelper"/>
+    <functioncall functionName="addValue"/>
+    <functioncall functionName="allocDIE"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="assignAbbrev"/>
+    <functioncall functionName="attributes"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="buildTypeUnits"/>
+    <functioncall functionName="call_once"/>
+    <functioncall functionName="canGenerateEntryWithCrossCUReference"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="children"/>
+    <functioncall functionName="cloneAddressAttribute"/>
+    <functioncall functionName="cloneAttribute"/>
+    <functioncall functionName="cloneBlockAttribute"/>
+    <functioncall functionName="cloneDieOffsetReferenceAttribute"/>
+    <functioncall functionName="cloneExpression"/>
+    <functioncall functionName="cloneLoclistAttrubute"/>
+    <functioncall functionName="cloneRefsigAttribute"/>
+    <functioncall functionName="cloneScalarAttribute"/>
+    <functioncall functionName="cloneStringAttribute"/>
+    <functioncall functionName="compile_units"/>
+    <functioncall functionName="constructDIEFast"/>
+    <functioncall functionName="constructFromUnit"/>
+    <functioncall functionName="consumeError"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create_directory"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="doesFormBelongToClass"/>
+    <functioncall functionName="dwo_info_section_units"/>
+    <functioncall functionName="dwo_types_section_units"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="encodeULEB128"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="extractFast"/>
+    <functioncall functionName="extractValue"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="finalizeDIEs"/>
+    <functioncall functionName="finalizeSection"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findAttribute"/>
+    <functioncall functionName="generateAbbrev"/>
+    <functioncall functionName="generateUnitAbbrevs"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAbbrevNumber"/>
+    <functioncall functionName="getAbbreviationDeclarationPtr"/>
+    <functioncall functionName="getAddressByteSize"/>
+    <functioncall functionName="getAddressSize"/>
+    <functioncall functionName="getAllocDIEId"/>
+    <functioncall functionName="getAsBlock"/>
+    <functioncall functionName="getAsCString"/>
+    <functioncall functionName="getAsDebugInfoReference"/>
+    <functioncall functionName="getAsRelativeReference"/>
+    <functioncall functionName="getAsSectionOffset"/>
+    <functioncall functionName="getAsSignatureReference"/>
+    <functioncall functionName="getAsSignedConstant"/>
+    <functioncall functionName="getAsUnsignedConstant"/>
+    <functioncall functionName="getAttribute"/>
+    <functioncall functionName="getCUNum"/>
+    <functioncall functionName="getCode"/>
+    <functioncall functionName="getCurrentProcessingState"/>
+    <functioncall functionName="getDIEInfo"/>
+    <functioncall functionName="getDIEInfoByDwarfDie"/>
+    <functioncall functionName="getDIEInteger"/>
+    <functioncall functionName="getDWARF4TUVector"/>
+    <functioncall functionName="getDWARF5TUVector"/>
+    <functioncall functionName="getDWARFCUVector"/>
+    <functioncall functionName="getDWOId"/>
+    <functioncall functionName="getDWOName"/>
+    <functioncall functionName="getData"/>
+    <functioncall functionName="getDebugInfoExtractor"/>
+    <functioncall functionName="getDescription"/>
+    <functioncall functionName="getEndOffset"/>
+    <functioncall functionName="getForm"/>
+    <functioncall functionName="getFormParams"/>
+    <functioncall functionName="getHash"/>
+    <functioncall functionName="getHeaderSize"/>
+    <functioncall functionName="getNextUnitOffset"/>
+    <functioncall functionName="getNumCompileUnits"/>
+    <functioncall functionName="getNumDWOCompileUnits"/>
+    <functioncall functionName="getNumDWOTypeUnits"/>
+    <functioncall functionName="getNumTypeUnits"/>
+    <functioncall functionName="getNumber"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getRawOperand"/>
+    <functioncall functionName="getRawUValue"/>
+    <functioncall functionName="getRows"/>
+    <functioncall functionName="getSignature"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getState"/>
+    <functioncall functionName="getTUIndex"/>
+    <functioncall functionName="getTag"/>
+    <functioncall functionName="getTypeHash"/>
+    <functioncall functionName="getTypeOffset"/>
+    <functioncall functionName="getTypeUnitForHash"/>
+    <functioncall functionName="getULEB128Size"/>
+    <functioncall functionName="getUnit"/>
+    <functioncall functionName="getUnitDIE"/>
+    <functioncall functionName="getUnitDIEbyUnit"/>
+    <functioncall functionName="getUnitForOffset"/>
+    <functioncall functionName="getUnitId"/>
+    <functioncall functionName="getUnitInfo"/>
+    <functioncall functionName="getUnitInfoByDwarfUnit"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getVersion"/>
+    <functioncall functionName="hasChildren"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="hash_combine"/>
+    <functioncall functionName="hash_value"/>
+    <functioncall functionName="info_section_units"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isDWO"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isFormClass"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isNULL"/>
+    <functioncall functionName="isStrOffsetsSectionModified"/>
+    <functioncall functionName="isTypeUnit"/>
+    <functioncall functionName="isValidOffset"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="mayHaveLocationExpr"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="populateDebugNamesTable"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerUnit"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="replaceValue"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="resolveDIEReference"/>
+    <functioncall functionName="setAbbrevNumber"/>
+    <functioncall functionName="setChildrenFlag"/>
+    <functioncall functionName="setCurrentUnit"/>
+    <functioncall functionName="setNumber"/>
+    <functioncall functionName="setOffset"/>
+    <functioncall functionName="setSize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeOf"/>
+    <functioncall functionName="slice"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="types_section_units"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="updateAddressMap"/>
+    <functioncall functionName="updateDWONameCompDir"/>
+    <functioncall functionName="updateReferences"/>
+    <functioncall functionName="upper_bound"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="vec"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

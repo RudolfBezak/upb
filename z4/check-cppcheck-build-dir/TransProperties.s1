@@ -1,0 +1,59 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+PropData
+PropertiesRewriter
+collectProperties call:[end,find,getAtLoc,instance_properties,isInvalid,push_back] noreturn:[push_back]
+doTransform call:[Trans,begin,collectProperties,decls_begin,decls_end,end,find,getAtLoc,getClassInterface,getPropertyDecl,getPropertyImplementation,getPropertyIvarDecl,getPropertyType,hasIvarWithExplicitARCOwnership,isInvalidDecl,isObjCRetainableType,rewriteProperty,visible_extensions] noreturn:[collectProperties,rewriteProperty]
+doPropAction call:[begin,end,getIdentifier,maybeAddWeakOrUnsafeUnretainedAttr,removeAssignForDefaultStrong,rewriteAssign,rewritePropertyAttribute] noreturn:[maybeAddWeakOrUnsafeUnretainedAttr]
+rewriteProperty call:[doPropAction,getPropertyAttrs,hasGCWeak,hasIvarAssignedAPlusOneObject,isGCMigration] noreturn:[doPropAction]
+removeAssignForDefaultStrong call:[begin,clearDiagnostic,end,getLocation,removeAttribute] noreturn:[clearDiagnostic]
+rewriteAssign call:[begin,canApplyWeak,clearDiagnostic,end,getLocation,getObjCLifetime,getPropertyType,getType,hasGCWeak,insert,isGCMigration,isUserDeclared,rewriteAttribute] noreturn:[clearDiagnostic,insert]
+maybeAddWeakOrUnsafeUnretainedAttr call:[addAttribute,begin,canApplyWeak,clearDiagnostic,end,getLocation,getObjCLifetime,getPropertyType,getType,insert,isGCMigration,isUserDeclared] noreturn:[clearDiagnostic,insert]
+removeAttribute call:[removePropertyAttribute] noreturn:[removePropertyAttribute]
+rewriteAttribute call:[rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+addAttribute call:[addPropertyAttribute] noreturn:[addPropertyAttribute]
+PlusOneAssign
+VisitBinaryOperator call:[IgnoreParenImpCasts,getDecl,getLHS,getOpcode,isPlusOneAssign]
+hasIvarAssignedAPlusOneObject call:[TraverseDecl,begin,end,oneAssign]
+hasIvarWithExplicitARCOwnership call:[begin,end,getLocalQualifiers,getObjCLifetime,getType,isGCMigration,isUserDeclared]
+hasGCWeak call:[count,empty,isGCMigration] noreturn:[count]
+isUserDeclared call:[getSynthesize] noreturn:[getSynthesize]
+getPropertyType call:[assert,begin,empty,end,getType,getUnqualifiedType] noreturn:[assert]
+getPropertyAttrs call:[assert,begin,empty,end,getPropertyAttributesAsWritten] noreturn:[assert]
+traverseObjCImplementation call:[PropertiesRewriter,doTransform,getImplementationDecl,getMigrationContext] noreturn:[doTransform]

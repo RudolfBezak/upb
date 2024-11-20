@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10996158878448553891">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/MCF.h&quot; not found." verbose="Include file: &quot;bolt/Passes/MCF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseMap.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="22" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;BI&apos; can be declared as reference to const" verbose="Variable &apos;BI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="185" column="46" info="Variable &apos;BI&apos; can be declared as reference to const"/>
+            <symbol>BI</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Class&apos; can be declared as reference to const" verbose="Variable &apos;Class&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="428" column="41" info="Variable &apos;Class&apos; can be declared as reference to const"/>
+            <symbol>Class</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="176" column="25"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="186" column="25"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\MCF.cpp" line="431" column="11"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:233:6" call-funcname="guessPredEdgeCounts" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="315" col="30" call-argexpr="&amp;BB" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:268:6" call-funcname="guessSuccEdgeCounts" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="317" col="30" call-argexpr="&amp;BB" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:77:6" my-argnr="1" my-argname="EdgeWeights" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="81" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:85:6" my-argnr="1" my-argname="EdgeWeights" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="89" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:233:6" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="234" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:268:6" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="269" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:233:6" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="234" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:268:6" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="269" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:349:1" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="351" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp:361:6" my-argnr="2" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" line="362" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="updateEdgeWeight &lt; BinaryBasicBlock * &gt;" lineNumber="77"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="updateEdgeWeight &lt; Inverse &lt; BinaryBasicBlock * &gt; &gt;" lineNumber="85"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="computeEdgeWeights" lineNumber="93"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="recalculateBBCounts" lineNumber="172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="guessEdgeByRelHotness" lineNumber="200"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="guessPredEdgeCounts" lineNumber="233"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="guessSuccEdgeCounts" lineNumber="268"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="guessEdgeByIterativeApproach" lineNumber="308"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="createLoopNestLevelMap" lineNumber="349"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/MCF.cpp" functionName="equalizeBBCounts" lineNumber="361"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="DataflowInfoManager"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="DominatorAnalysis"/>
+    <functioncall functionName="EqualizeBBCounts"/>
+    <functioncall functionName="GraphTraits"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="Inverse"/>
+    <functioncall functionName="IterativeGuess"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="NodeT"/>
+    <functioncall functionName="SP_BB_QUADRATIC"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="branch_info"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="calculateLoopInfo"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="child_begin"/>
+    <functioncall functionName="child_end"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="computeEdgeWeights"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createLoopNestLevelMap"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="doForAllDominators"/>
+    <functioncall functionName="doesADominateB"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equalizeBBCounts"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getDominatorAnalysis"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getInsnToBBMap"/>
+    <functioncall functionName="getLoopInfo"/>
+    <functioncall functionName="getPostDominatorAnalysis"/>
+    <functioncall functionName="getProfileFlags"/>
+    <functioncall functionName="guessEdgeByIterativeApproach"/>
+    <functioncall functionName="guessEdgeByRelHotness"/>
+    <functioncall functionName="guessPredEdgeCounts"/>
+    <functioncall functionName="guessSuccEdgeCounts"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="none_of"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="predecessors"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="recalculateBBCounts"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="updateEdgeWeight"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

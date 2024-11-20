@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7714297963215201705">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/TargetRegistry.h&quot; not found." verbose="Include file: &quot;llvm/MC/TargetRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/Binary.h&quot; not found." verbose="Include file: &quot;llvm/Object/Binary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Error.h&quot; not found." verbose="Include file: &quot;llvm/Support/Error.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Program.h&quot; not found." verbose="Include file: &quot;llvm/Support/Program.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found." verbose="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\heatmap\heatmap.cpp" line="18" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/heatmap/heatmap.cpp" functionName="report_error" lineNumber="37"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/heatmap/heatmap.cpp" functionName="report_error" lineNumber="43"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/heatmap/heatmap.cpp" functionName="GetExecutablePath" lineNumber="50"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/heatmap/heatmap.cpp" functionName="main" lineNumber="60"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="Binary"/>
+    <functioncall functionName="BoltOutputCategory"/>
+    <functioncall functionName="ELFObjectFileBase"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="GetExecutablePath"/>
+    <functioncall functionName="HeatmapCategory"/>
+    <functioncall functionName="HideUnrelatedOptions"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="InputFilename"/>
+    <functioncall functionName="OwningBinary"/>
+    <functioncall functionName="ParseCommandLineOptions"/>
+    <functioncall functionName="PerfData"/>
+    <functioncall functionName="Positional"/>
+    <functioncall functionName="Required"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinary"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="findProgramByName"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinary"/>
+    <functioncall functionName="invalid_file_type"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="no_such_file_or_directory"/>
+    <functioncall functionName="report_error"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="setProfile"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

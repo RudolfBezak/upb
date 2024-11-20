@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3388882069839448454">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFContext.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found." verbose="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;gtest/gtest.h&quot; not found." verbose="Include file: &quot;gtest/gtest.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="23" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="initalizeLLVM" lineNumber="39"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="prepareElf" lineNumber="48"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="initializeBolt" lineNumber="58"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="testRegAliases" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="143"/>
+    <functioncall functionName="ASSERT_DEATH"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="ASSERT_FALSE"/>
+    <functioncall functionName="ASSERT_TRUE"/>
+    <functioncall functionName="Annotation"/>
+    <functioncall functionName="ArchType"/>
+    <functioncall functionName="BinaryContext"/>
+    <functioncall functionName="EI_CLASS"/>
+    <functioncall functionName="EI_DATA"/>
+    <functioncall functionName="ELFCLASS64"/>
+    <functioncall functionName="ELFDATA2LSB"/>
+    <functioncall functionName="EM_AARCH64"/>
+    <functioncall functionName="EM_X86_64"/>
+    <functioncall functionName="Ehdr"/>
+    <functioncall functionName="GTEST_SKIP"/>
+    <functioncall functionName="GetParam"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="MCPlusBuilder"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST_P"/>
+    <functioncall functionName="addEHInfo"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinaryContext"/>
+    <functioncall functionName="createMCPlusBuilder"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="createTailCall"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getFileName"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="initalizeLLVM"/>
+    <functioncall functionName="initializeBolt"/>
+    <functioncall functionName="initializeTarget"/>
+    <functioncall functionName="makeTriple"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="prepareElf"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="value"/>
+  </FileInfo>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;AArch64Subtarget.h&quot; not found." verbose="Include file: &quot;AArch64Subtarget.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="10" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="initalizeLLVM" lineNumber="39"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="prepareElf" lineNumber="48"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="initializeBolt" lineNumber="58"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="testRegAliases" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="92"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="99"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="143"/>
+    <functioncall functionName="AArch64"/>
+    <functioncall functionName="ASSERT_DEATH"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="ASSERT_FALSE"/>
+    <functioncall functionName="ASSERT_TRUE"/>
+    <functioncall functionName="AliasSmallerX0"/>
+    <functioncall functionName="AliasX0"/>
+    <functioncall functionName="Annotation"/>
+    <functioncall functionName="ArchType"/>
+    <functioncall functionName="BinaryContext"/>
+    <functioncall functionName="EI_CLASS"/>
+    <functioncall functionName="EI_DATA"/>
+    <functioncall functionName="ELFCLASS64"/>
+    <functioncall functionName="ELFDATA2LSB"/>
+    <functioncall functionName="EM_AARCH64"/>
+    <functioncall functionName="EM_X86_64"/>
+    <functioncall functionName="Ehdr"/>
+    <functioncall functionName="GTEST_SKIP"/>
+    <functioncall functionName="GetParam"/>
+    <functioncall functionName="INSTANTIATE_TEST_SUITE_P"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="MCPlusBuilder"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST_P"/>
+    <functioncall functionName="Values"/>
+    <functioncall functionName="W0"/>
+    <functioncall functionName="W0_W1"/>
+    <functioncall functionName="X0"/>
+    <functioncall functionName="X0_X1"/>
+    <functioncall functionName="X0_X1_X2_X3_X4_X5_X6_X7"/>
+    <functioncall functionName="aarch64"/>
+    <functioncall functionName="addEHInfo"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinaryContext"/>
+    <functioncall functionName="createMCPlusBuilder"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="createTailCall"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getFileName"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="initalizeLLVM"/>
+    <functioncall functionName="initializeBolt"/>
+    <functioncall functionName="initializeTarget"/>
+    <functioncall functionName="makeTriple"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="prepareElf"/>
+    <functioncall functionName="testRegAliases"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="value"/>
+  </FileInfo>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;X86Subtarget.h&quot; not found." verbose="Include file: &quot;X86Subtarget.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\MCPlusBuilder.cpp" line="14" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="initalizeLLVM" lineNumber="39"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="prepareElf" lineNumber="48"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="initializeBolt" lineNumber="58"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="testRegAliases" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="112"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="118"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="124"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/MCPlusBuilder.cpp" functionName="TEST_P" lineNumber="143"/>
+    <functioncall functionName="AH"/>
+    <functioncall functionName="AL"/>
+    <functioncall functionName="ASSERT_DEATH"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="ASSERT_FALSE"/>
+    <functioncall functionName="ASSERT_TRUE"/>
+    <functioncall functionName="AX"/>
+    <functioncall functionName="AliasAX"/>
+    <functioncall functionName="AliasSmallerAX"/>
+    <functioncall functionName="Annotation"/>
+    <functioncall functionName="ArchType"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinaryContext"/>
+    <functioncall functionName="CMP32ri8"/>
+    <functioncall functionName="CMP32rr"/>
+    <functioncall functionName="EAX"/>
+    <functioncall functionName="EBX"/>
+    <functioncall functionName="EI_CLASS"/>
+    <functioncall functionName="EI_DATA"/>
+    <functioncall functionName="ELFCLASS64"/>
+    <functioncall functionName="ELFDATA2LSB"/>
+    <functioncall functionName="EM_AARCH64"/>
+    <functioncall functionName="EM_X86_64"/>
+    <functioncall functionName="Ehdr"/>
+    <functioncall functionName="GTEST_SKIP"/>
+    <functioncall functionName="GetParam"/>
+    <functioncall functionName="INSTANTIATE_TEST_SUITE_P"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="MCPlusBuilder"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="RAX"/>
+    <functioncall functionName="ReplaceRegWithImm"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST_P"/>
+    <functioncall functionName="Values"/>
+    <functioncall functionName="X86"/>
+    <functioncall functionName="addEHInfo"/>
+    <functioncall functionName="addInstruction"/>
+    <functioncall functionName="addOperand"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBasicBlock"/>
+    <functioncall functionName="createBinaryContext"/>
+    <functioncall functionName="createInjectedBinaryFunction"/>
+    <functioncall functionName="createMCPlusBuilder"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="createReg"/>
+    <functioncall functionName="createTailCall"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getFileName"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="initalizeLLVM"/>
+    <functioncall functionName="initializeBolt"/>
+    <functioncall functionName="initializeTarget"/>
+    <functioncall functionName="makeTriple"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="prepareElf"/>
+    <functioncall functionName="replaceRegWithImm"/>
+    <functioncall functionName="setOpcode"/>
+    <functioncall functionName="testRegAliases"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="x86_64"/>
+  </FileInfo>
+</analyzerinfo>

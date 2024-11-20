@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16802908394541634774">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXABI.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Mangle.h&quot; not found." verbose="Include file: &quot;clang/AST/Mangle.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/MangleNumberingContext.h&quot; not found." verbose="Include file: &quot;clang/AST/MangleNumberingContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecordLayout.h&quot; not found." verbose="Include file: &quot;clang/AST/RecordLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/FoldingSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/iterator.h&quot; not found." verbose="Include file: &quot;llvm/ADT/iterator.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="29" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="68" column="5"/>
+            <symbol>Iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ItaniumNumberingContext&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ItaniumNumberingContext&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="141" column="3"/>
+            <symbol>ItaniumNumberingContext</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ItaniumSYCLNumberingContext&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ItaniumSYCLNumberingContext&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="194" column="3"/>
+            <symbol>ItaniumSYCLNumberingContext</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ItaniumCXXABI&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ItaniumCXXABI&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="222" column="3"/>
+            <symbol>ItaniumCXXABI</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;Identifier&apos; is assigned a value that is never used." verbose="Variable &apos;Identifier&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ItaniumCXXABI.cpp" line="175" column="18"/>
+            <symbol>Identifier</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:143:12" my-argnr="1" my-argname="CallOperator" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="144" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:180:12" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="181" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:226:3" my-argnr="1" my-argname="MPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="233" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:248:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="251" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:45:30" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="46" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:143:12" my-argnr="1" my-argname="CallOperator" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="144" col="35" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:180:12" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="181" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:226:3" my-argnr="1" my-argname="MPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="233" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp:248:8" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" line="251" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="findAnonymousUnionVarDeclName" lineNumber="45"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="begin" lineNumber="73"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="end" lineNumber="74"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="isDenseMapKeyEmpty" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="isDenseMapKeyTombstone" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="areDenseMapKeysEqualSpecialValues" lineNumber="89"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="getEmptyKey" lineNumber="106"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="getTombstoneKey" lineNumber="109"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="getHashValue" lineNumber="112"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="isEqual" lineNumber="116"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="getManglingNumber" lineNumber="197"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="CreateItaniumCXXABI" lineNumber="293"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ItaniumCXXABI.cpp" functionName="createItaniumNumberingContext" lineNumber="298"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="CC_X86ThisCall"/>
+    <functioncall functionName="DecompositionDecl"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DenseMapInfo"/>
+    <functioncall functionName="I"/>
+    <functioncall functionName="ItaniumCXXABI"/>
+    <functioncall functionName="ItaniumMangleContext"/>
+    <functioncall functionName="ItaniumNumberingContext"/>
+    <functioncall functionName="Iterator"/>
+    <functioncall functionName="MangleContext"/>
+    <functioncall functionName="MangleNumberingContext"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="StringMap"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="areDenseMapKeysEqualSpecialValues"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bindings"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="createMangleContext"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equal"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findAnonymousUnionVarDeclName"/>
+    <functioncall functionName="findFirstNamedDataMember"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTRecordLayout"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDefaultCallingConv"/>
+    <functioncall functionName="getEmptyKey"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getManglingNumber"/>
+    <functioncall functionName="getNonVirtualSize"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getPointerWidth"/>
+    <functioncall functionName="getPtrDiffType"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getTombstoneKey"/>
+    <functioncall functionName="getTriple"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeAlign"/>
+    <functioncall functionName="getTypeWidth"/>
+    <functioncall functionName="hash_combine_range"/>
+    <functioncall functionName="isDenseMapKeyEmpty"/>
+    <functioncall functionName="isDenseMapKeyTombstone"/>
+    <functioncall functionName="isDynamicClass"/>
+    <functioncall functionName="isEqual"/>
+    <functioncall functionName="isLambda"/>
+    <functioncall functionName="isMemberFunctionPointer"/>
+    <functioncall functionName="isSYCL"/>
+    <functioncall functionName="isUnion"/>
+    <functioncall functionName="isWindowsGNUEnvironment"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="iterator_adaptor_base"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="mangleLambdaSig"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="random_access_iterator_tag"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="toCharUnitsFromBits"/>
+    <functioncall functionName="try_emplace"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

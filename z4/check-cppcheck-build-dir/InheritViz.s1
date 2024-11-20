@@ -1,0 +1,4 @@
+InheritanceHierarchyWriter
+WriteGraph call:[EscapeString,WriteNode,getAsString]
+WriteNode call:[EscapeString,WriteNode,WriteNodeReference,bases,getAsString,getCanonicalType,getDecl,getType,insert,isVirtual]
+WriteNodeReference call:[getAsOpaquePtr,getCanonicalType]

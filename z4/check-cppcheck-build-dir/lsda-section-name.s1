@@ -1,0 +1,3 @@
+what
+divide call:[MyException] noreturn:[MyException]
+main call:[divide,what]

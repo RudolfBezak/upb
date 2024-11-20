@@ -1,0 +1,8 @@
+getRealizedPlatform call:[getLangOpts,getName,getPlatform,rfind,slice] noreturn:[slice]
+CheckAvailability call:[Out,VTD,VTI,VTO,clear,empty,getDeprecated,getEnvironment,getEnvironmentName,getEnvironmentTypeName,getIntroduced,getMessage,getName,getObsoleted,getPlatform,getPlatformMinVersion,getPlatformName,getPrettyPlatformName,getRealizedPlatform,getStrict,getTargetInfo,getTriple,getUnavailable] noreturn:[getMessage,getPlatformMinVersion]
+getKind call:[getKind] noreturn:[getKind]
+getKind call:[getDeclKind] noreturn:[getDeclKind]
+getNonClosureContext call:[getKind,getNonClosureContext,getOverloadedOperator,getParent,isLambda] noreturn:[getNonClosureContext]
+isLinkageSpecContext call:[getDeclKind,getLanguage,getLexicalParent] noreturn:[getLexicalParent]
+collectAllContextsImpl call:[begin,end,getMostRecentDecl,getPreviousDecl,push_back,reverse] noreturn:[push_back,reverse]
+shouldBeHidden call:[getCanonicalDecl,getDeclName,getFriendObjectKind,getIdentifierNamespace,isFunctionTemplateSpecialization,isInvalidDecl,isLocalExternDecl,isTemplateParameter]

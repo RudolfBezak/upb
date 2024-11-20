@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18084352907770958016">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/IR/Function.h&quot; not found." verbose="Include file: &quot;llvm/IR/Function.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCPseudoProbe.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCPseudoProbe.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="23" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PseudoProbeRewriter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PseudoProbeRewriter&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="82" column="3"/>
+            <symbol>PseudoProbeRewriter</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="351" column="15"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::count_if algorithm instead of a raw loop." verbose="Consider using std::count_if algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\PseudoProbeRewriter.cpp" line="376" column="9"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp:82:3" my-argnr="1" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp" line="85" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp" functionName="parsePseudoProbe" lineNumber="109"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp" functionName="updatePseudoProbes" lineNumber="194"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/PseudoProbeRewriter.cpp" functionName="encodePseudoProbes" lineNumber="280"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="BoltCategory"/>
+    <functioncall functionName="DdgPrintIndent"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="InlineSite"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCPseudoProbeDecoder"/>
+    <functioncall functionName="MetadataRewriter"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="addInjectedProbe"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="bad_address"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="big"/>
+    <functioncall functionName="buildAddress2ProbeMap"/>
+    <functioncall functionName="buildGUID2FuncDescMap"/>
+    <functioncall functionName="byte_swap"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="encodePseudoProbes"/>
+    <functioncall functionName="encodeSLEB128"/>
+    <functioncall functionName="encodeULEB128"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="format_hex"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAddress2ProbesMap"/>
+    <functioncall functionName="getAllBinaryFunctions"/>
+    <functioncall functionName="getAttributes"/>
+    <functioncall functionName="getBasicBlockContainingOffset"/>
+    <functioncall functionName="getBinaryFunctionContainingAddress"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getChildren"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getCommonName"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getDummyInlineRoot"/>
+    <functioncall functionName="getELFFlags"/>
+    <functioncall functionName="getELFType"/>
+    <functioncall functionName="getGUID"/>
+    <functioncall functionName="getGUID2FuncDescMap"/>
+    <functioncall functionName="getIOAddressMap"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getInjectedProbes"/>
+    <functioncall functionName="getInlineSite"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumInjectedProbes"/>
+    <functioncall functionName="getOneName"/>
+    <functioncall functionName="getOutputAddress"/>
+    <functioncall functionName="getOutputAddressRange"/>
+    <functioncall functionName="getOutputContents"/>
+    <functioncall functionName="getProbes"/>
+    <functioncall functionName="getSymbols"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="greater"/>
+    <functioncall functionName="hasProfileAvailable"/>
+    <functioncall functionName="indent"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isBlock"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isEmitted"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isRoot"/>
+    <functioncall functionName="isSentinelProbe"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="little"/>
+    <functioncall functionName="lookupAll"/>
+    <functioncall functionName="make_pointer_range"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="parsePseudoProbe"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printGUID2FuncDescMap"/>
+    <functioncall functionName="printProbesForAllAddresses"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerOrUpdateSection"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="restore"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setAddress"/>
+    <functioncall functionName="setGUID"/>
+    <functioncall functionName="setPseudoProbeDecoder"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="updatePseudoProbes"/>
+    <functioncall functionName="values"/>
+  </FileInfo>
+</analyzerinfo>

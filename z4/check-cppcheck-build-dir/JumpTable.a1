@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12675963755323831494">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/JumpTable.h&quot; not found." verbose="Include file: &quot;bolt/Core/JumpTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\JumpTable.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\JumpTable.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinarySection.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinarySection.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\JumpTable.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\JumpTable.cpp" line="16" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/JumpTable.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\JumpTable.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="BinaryData"/>
+    <functioncall functionName="Count"/>
+    <functioncall functionName="Entries"/>
+    <functioncall functionName="EntriesAsAddress"/>
+    <functioncall functionName="EntrySize"/>
+    <functioncall functionName="JumpTable"/>
+    <functioncall functionName="JumpTableSupportLevel"/>
+    <functioncall functionName="OutputEntrySize"/>
+    <functioncall functionName="Parents"/>
+    <functioncall functionName="R_X86_64_64"/>
+    <functioncall functionName="R_X86_64_PC32"/>
+    <functioncall functionName="addRelocation"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getEntriesForAddress"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOutputSection"/>
+    <functioncall functionName="getSection"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="removeRelocationAt"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="utohexstr"/>
+  </FileInfo>
+</analyzerinfo>

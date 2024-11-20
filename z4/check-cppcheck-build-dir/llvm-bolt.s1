@@ -1,0 +1,8 @@
+report_error global:[ToolName] call:[assert,errs,exit,message] noreturn:[exit]
+report_error global:[ToolName] call:[assert,errs,exit,move,toString] noreturn:[exit]
+printBoltRevision
+perf2boltMode global:[ToolName] call:[AddExtraVersionPrinter,ArrayRef,HideUnrelatedOptions,ParseCommandLineOptions,checkPerfDataMagic,empty,errs,exists,exit,report_error] noreturn:[exit,report_error]
+boltDiffMode global:[ToolName] call:[AddExtraVersionPrinter,ArrayRef,HideUnrelatedOptions,ParseCommandLineOptions,empty,errs,exit] noreturn:[exit]
+boltMode global:[ToolName] call:[AddExtraVersionPrinter,ArrayRef,HideUnrelatedOptions,ParseCommandLineOptions,empty,errs,exit] noreturn:[exit]
+GetExecutablePath call:[ExecutablePath,exists,findProgramByName,string] noreturn:[string]
+main global:[ToolName] call:[GetExecutablePath,InitializeAllAsmParsers,InitializeAllAsmPrinters,InitializeAllDisassemblers,InitializeAllTargetInfos,InitializeAllTargetMCs,InitializeAllTargets,PrintStackTraceOnErrorSignal,X,boltDiffMode,boltMode,compare,create,createBinary,empty,errs,exists,exit,filename,get,getBinary,message,move,outs,perf2boltMode,report_error,run,setProfile,starts_with,takeError] noreturn:[boltDiffMode,boltMode,compare,exit,get,perf2boltMode,report_error,run]

@@ -1,0 +1,4 @@
+foo call:[printf] noreturn:[printf]
+resolver_foo
+resolver_memcpy
+main call:[ifoo,imemcpy,sizeof] noreturn:[ifoo]

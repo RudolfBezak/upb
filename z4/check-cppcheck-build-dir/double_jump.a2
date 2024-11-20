@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7471823971847459128">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/double_jump.cpp" functionName="foo" lineNumber="7"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/double_jump.cpp" functionName="main" lineNumber="33"/>
+    <functioncall functionName="foo"/>
+  </FileInfo>
+</analyzerinfo>

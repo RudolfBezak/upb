@@ -1,0 +1,54 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+GCAttrsCollector
+shouldWalkTypesOfTypeLocs
+VisitAttributedTypeLoc call:[handleAttr]
+TraverseDecl call:[Save,TraverseDecl,getTypeSourceInfo,isImplicit,isMigratable,lookForAttribute,push_back] noreturn:[TraverseDecl,lookForAttribute,push_back]
+lookForAttribute call:[getElementLoc,getInnerLoc,getModifiedLoc,getPointeeLoc,getTypeLoc,getUnqualifiedLoc,handleAttr] noreturn:[getElementLoc,getInnerLoc,getModifiedLoc,getPointeeLoc,getUnqualifiedLoc]
+handleAttr call:[GCAttrOccurrence,back,count,getBegin,getImmediateExpansionRange,getKind,getLocation,getModifiedLoc,getName,getSourceManager,getType,insert,isMacroID,push_back] noreturn:[getBegin]
+isMigratable call:[getDeclContext,hasBody,hasObjCImpl,isInMainFile,isMigratable,isOutOfLine,methods] noreturn:[hasBody,hasObjCImpl,isMigratable]
+hasObjCImpl call:[getImplementation]
+isInMainFile call:[getLocation,isInMainFile,redecls]
+isInMainFile call:[getExpansionLoc,getMainFileID,getSourceManager,isInFileID,isInvalid] noreturn:[isInFileID]
+errorForGCAttrsOnNonObjC call:[isNull,isObjCRetainableType,reportError,size] noreturn:[reportError]
+checkWeakGCAttrs call:[Trans,canApplyWeak,clearDiagnostic,count,isNull,isObjCRetainableType,replaceText,size] noreturn:[clearDiagnostic,replaceText]
+checkAllAtProps call:[Trans,addPropertyAttribute,begin,canApplyWeak,clearDiagnostic,empty,end,front,getAttr,getBegin,getDeclContext,getImmediateExpansionRange,getLocation,getObjCLifetime,getPropertyAttributesAsWritten,getSourceManager,getType,getTypeLoc,getTypeSourceInfo,hasObjCImpl,insert,isMacroID,isNull,isObjCRetainableType,make_pair,push_back,remove,rewritePropertyAttribute,size] noreturn:[addPropertyAttribute,getBegin,insert,rewritePropertyAttribute]
+checkAllProps call:[begin,checkAllAtProps,end,getAtLoc,getPropertyAttributesAsWritten,isInvalid,push_back,size] noreturn:[checkAllAtProps,push_back]
+traverseTU call:[GCAttrsCollector,TraverseDecl,checkAllProps,checkWeakGCAttrs,errorForGCAttrsOnNonObjC,getTranslationUnitDecl] noreturn:[checkWeakGCAttrs]
+dumpGCAttrs call:[dump,errs,getSourceManager,print,size] noreturn:[dump]

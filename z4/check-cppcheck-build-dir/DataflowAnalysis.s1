@@ -1,0 +1,3 @@
+operator<< call:[LLVM_DEBUG,count,flip,set_bits,size]
+doForAllPreds call:[ProgramPoint,Task,get,getBinaryContext,getEHInfo,getFunction,getLabel,getLastPointAt,isInvoke,isLandingPad,isValid,predecessors,throwers] noreturn:[Task]
+doForAllSuccs call:[Task,getFirstPointAt,isValid,successors] noreturn:[Task]

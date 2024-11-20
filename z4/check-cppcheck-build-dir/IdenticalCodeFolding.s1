@@ -1,0 +1,6 @@
+equalJumpTables call:[assert,getBasicBlockForLabel,getFunctionEndLabel,getLayoutIndex,getSize,size]
+isInstrEquivalentWith call:[assert,equals,getBinaryContext,getEHInfo,getFunction,getLandingPad,getLayoutIndex,getOpcode] noreturn:[equals]
+isIdenticalWith call:[assert,back_inserter,begin,block_size,blocks,copy,dfs,end,equalJumpTables,getAddress,getBinaryContext,getBinaryDataByName,getFunctionForSymbol,getHash,getJumpTableContainingAddress,getLSDAActionTable,getLSDATypeIndexTable,getLSDATypeTable,getLayout,getLayoutIndex,getName,hasCFG,hasIslandsInfo,isInstrEquivalentWith,isMultiEntry,isTemporary,isUnconditionalBranch,succ_begin,succ_size,successors] noreturn:[copy,equalJumpTables,getHash]
+operator() call:[getHash] noreturn:[getHash]
+operator() call:[isIdenticalWith] noreturn:[isIdenticalWith]
+operator() call:[isIdenticalWith] noreturn:[isIdenticalWith]

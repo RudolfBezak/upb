@@ -1,0 +1,745 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13425267920257149185">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ParentMap.h&quot; not found." verbose="Include file: &quot;clang/AST/ParentMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found." verbose="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Analysis/RetainSummaryManager.h&quot; not found." verbose="Include file: &quot;clang/Analysis/RetainSummaryManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/ARCMigrate/ARCMT.h&quot; not found." verbose="Include file: &quot;clang/ARCMigrate/ARCMT.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/ARCMigrate/ARCMTActions.h&quot; not found." verbose="Include file: &quot;clang/ARCMigrate/ARCMTActions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NSAPI.h&quot; not found." verbose="Include file: &quot;clang/AST/NSAPI.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ParentMap.h&quot; not found." verbose="Include file: &quot;clang/AST/ParentMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Analysis/DomainSpecific/CocoaConventions.h&quot; not found." verbose="Include file: &quot;clang/Analysis/DomainSpecific/CocoaConventions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/FileManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/FileManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Edit/Commit.h&quot; not found." verbose="Include file: &quot;clang/Edit/Commit.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Edit/EditedSource.h&quot; not found." verbose="Include file: &quot;clang/Edit/EditedSource.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Edit/EditsReceiver.h&quot; not found." verbose="Include file: &quot;clang/Edit/EditsReceiver.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Edit/Rewriters.h&quot; not found." verbose="Include file: &quot;clang/Edit/Rewriters.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found." verbose="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/MultiplexConsumer.h&quot; not found." verbose="Include file: &quot;clang/Frontend/MultiplexConsumer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/PPConditionalDirectiveRecord.h&quot; not found." verbose="Include file: &quot;clang/Lex/PPConditionalDirectiveRecord.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found." verbose="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Rewrite/Core/Rewriter.h&quot; not found." verbose="Include file: &quot;clang/Rewrite/Core/Rewriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallString.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallString.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Path.h&quot; not found." verbose="Include file: &quot;llvm/Support/Path.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SourceMgr.h&quot; not found." verbose="Include file: &quot;llvm/Support/SourceMgr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/YAMLParser.h&quot; not found." verbose="Include file: &quot;llvm/Support/YAMLParser.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="34" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;BodyTransform&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;BodyTransform&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="191" column="3"/>
+            <symbol>BodyTransform</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;BodyMigrator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;BodyMigrator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="362" column="3"/>
+            <symbol>BodyMigrator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;RewritesReceiver&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;RewritesReceiver&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1748" column="3"/>
+            <symbol>RewritesReceiver</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;RemapFileParser&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;RemapFileParser&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="2067" column="3"/>
+            <symbol>RemapFileParser</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;IsOutputFile&apos; is always false" verbose="Condition &apos;IsOutputFile&apos; is always false" cwe="570" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1973" column="7" info="Condition &apos;IsOutputFile&apos; is always false"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1937" column="6" info="Assuming that condition &apos;IsOutputFile&apos; is not redundant"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Ctx&apos; can be declared as reference to const" verbose="Parameter &apos;Ctx&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="788" column="61" info="Parameter &apos;Ctx&apos; can be declared as reference to const"/>
+            <symbol>Ctx</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Ctx&apos; can be declared as reference to const" verbose="Parameter &apos;Ctx&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1247" column="71" info="Parameter &apos;Ctx&apos; can be declared as reference to const"/>
+            <symbol>Ctx</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Ctx&apos; can be declared as reference to const" verbose="Parameter &apos;Ctx&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1264" column="79" info="Parameter &apos;Ctx&apos; can be declared as reference to const"/>
+            <symbol>Ctx</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Ctx&apos; can be declared as reference to const" verbose="Parameter &apos;Ctx&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1382" column="67" info="Parameter &apos;Ctx&apos; can be declared as reference to const"/>
+            <symbol>Ctx</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Ctx&apos; can be declared as reference to const" verbose="Parameter &apos;Ctx&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1451" column="59" info="Parameter &apos;Ctx&apos; can be declared as reference to const"/>
+            <symbol>Ctx</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Ctx&apos; can be declared as reference to const" verbose="Parameter &apos;Ctx&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1564" column="59" info="Parameter &apos;Ctx&apos; can be declared as reference to const"/>
+            <symbol>Ctx</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;Ctx&apos; can be declared as reference to const" verbose="Parameter &apos;Ctx&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1695" column="17" info="Parameter &apos;Ctx&apos; can be declared as reference to const"/>
+            <symbol>Ctx</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:232:8" call-funcname="rewriteToPropertyDotSyntax" call-argnr="5" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="338" col="33" call-argexpr="&amp;PMap" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:453:13" call-funcname="rewriteToObjCProperty" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1234" col="26" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:453:13" call-funcname="rewriteToObjCProperty" call-argnr="8" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1234" col="26" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:68:8" call-funcname="AddCFAnnotations" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1654" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:55:8" call-funcname="migrateNSEnumDecl" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1875" col="32" call-argexpr="TD" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ObjCMT.cpp" line="1875" col="49" info="Assuming that condition &apos;TD&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:55:8" call-funcname="migrateNSEnumDecl" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1879" col="28" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:63:8" call-funcname="migrateFactoryMethod" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1007" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:58:8" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1142:13" my-argnr="2" my-argname="Name" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1144" col="31" value="0"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:217:8" my-argnr="1" my-argname="FullExpr" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="218" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:346:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="349" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:453:13" my-argnr="1" my-argname="Getter" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="470" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:51:8" my-argnr="2" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="573" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:599:1" my-argnr="4" my-argname="Protocol" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="607" col="39" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:660:13" my-argnr="1" my-argname="IDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="663" col="49" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:703:13" my-argnr="1" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="721" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:703:13" my-argnr="2" my-argname="TypedefDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="719" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:757:13" my-argnr="2" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="762" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:757:13" my-argnr="3" my-argname="TypedefDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="772" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:788:13" my-argnr="3" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="793" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:52:8" my-argnr="2" my-argname="ImpDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="831" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:54:8" my-argnr="1" my-argname="TypedefDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="889" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:55:8" my-argnr="2" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="899" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:953:13" my-argnr="3" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="956" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:976:13" my-argnr="2" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="978" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:58:8" my-argnr="3" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1002" col="39" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1127:13" my-argnr="1" my-argname="Decl1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1129" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1142:13" my-argnr="2" my-argname="Name" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1144" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:60:8" my-argnr="3" my-argname="Method" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1155" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:61:8" my-argnr="2" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1249" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:62:8" my-argnr="2" my-argname="P" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1266" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:57:8" my-argnr="2" my-argname="CDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:63:8" my-argnr="3" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1293" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:67:8" my-argnr="2" my-argname="Decl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1417" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:68:8" my-argnr="3" my-argname="FuncDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1478" col="48" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:77:20" my-argnr="2" my-argname="FuncDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1502" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:71:8" my-argnr="3" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1603" col="50" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:82:8" my-argnr="2" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1621" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1680:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1681" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1690:13" my-argnr="1" my-argname="MD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1691" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:85:8" my-argnr="2" my-argname="ImplD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1698" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:2102:8" my-argnr="1" my-argname="Node" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="2109" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:217:8" my-argnr="1" my-argname="FullExpr" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="218" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:346:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="349" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:384:13" my-argnr="2" my-argname="attr" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="392" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:396:6" my-argnr="2" my-argname="TypeString" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="399" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:453:13" my-argnr="1" my-argname="Getter" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="470" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:453:13" my-argnr="3" my-argname="NS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="459" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:51:8" my-argnr="2" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="573" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:599:1" my-argnr="4" my-argname="Protocol" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="607" col="39" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:660:13" my-argnr="1" my-argname="IDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="663" col="49" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:660:13" my-argnr="4" my-argname="commit" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="688" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:703:13" my-argnr="1" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="721" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:703:13" my-argnr="2" my-argname="TypedefDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="719" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:703:13" my-argnr="3" my-argname="NS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="725" col="50" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:703:13" my-argnr="4" my-argname="commit" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="722" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:757:13" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="766" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:757:13" my-argnr="2" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="762" col="33" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:757:13" my-argnr="3" my-argname="TypedefDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="772" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:788:13" my-argnr="3" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="793" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:52:8" my-argnr="2" my-argname="ImpDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="831" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:54:8" my-argnr="1" my-argname="TypedefDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="889" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:55:8" my-argnr="2" my-argname="EnumDcl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="899" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:953:13" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="956" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:953:13" my-argnr="3" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="956" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:976:13" my-argnr="2" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="978" col="30" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:58:8" my-argnr="3" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1002" col="39" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1098:13" my-argnr="1" my-argname="Attrs1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1101" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1127:13" my-argnr="1" my-argname="Decl1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1129" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:60:8" my-argnr="3" my-argname="Method" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1155" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:61:8" my-argnr="2" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1249" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:62:8" my-argnr="2" my-argname="P" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1266" col="16" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:57:8" my-argnr="2" my-argname="CDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:63:8" my-argnr="3" my-argname="OM" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1293" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:67:8" my-argnr="2" my-argname="Decl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1417" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:68:8" my-argnr="3" my-argname="FuncDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1478" col="48" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:77:20" my-argnr="2" my-argname="FuncDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1502" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:71:8" my-argnr="3" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1603" col="50" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:82:8" my-argnr="2" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1621" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1680:8" my-argnr="1" my-argname="E" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1681" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1690:13" my-argnr="1" my-argname="MD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1691" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:85:8" my-argnr="2" my-argname="ImplD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1698" col="36" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1763:3" my-argnr="2" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1765" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:1774:5" my-argnr="2" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1776" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:150:8" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="1838" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:2053:15" my-argnr="1" my-argname="LHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="2054" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:2053:15" my-argnr="2" my-argname="RHS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="2054" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:2102:8" my-argnr="1" my-argname="Node" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="2109" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:2144:13" my-argnr="1" my-argname="Err" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="2146" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp:2144:13" my-argnr="2" my-argname="Diag" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" line="2145" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getMigrationContext" lineNumber="54"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getParentMap" lineNumber="55"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getTopStmt" lineNumber="56"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getMigrationContext" lineNumber="68"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getImplementationDecl" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="traversers_begin" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="traversers_end" lineNumber="108"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="addTraverser" lineNumber="110"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="removePropertyAttribute" lineNumber="115"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="TraverseStmt" lineNumber="193"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="TraverseObjCMethodDecl" lineNumber="199"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="clearRefsIn" lineNumber="209"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="getSummaryManager" lineNumber="110"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="canModifyFile" lineNumber="152"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="canModifyFile" lineNumber="157"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="canModifyFile" lineNumber="162"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="canModify" lineNumber="168"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="subscriptOperatorNeedsParens" lineNumber="217"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="rewriteToPropertyDotSyntax" lineNumber="232"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="shouldVisitTemplateInstantiations" lineNumber="320"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="shouldWalkTypesOfTypeLocs" lineNumber="321"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="VisitObjCMessageExpr" lineNumber="323"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="TraverseObjCMessageExpr" lineNumber="346"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="shouldVisitTemplateInstantiations" lineNumber="364"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="shouldWalkTypesOfTypeLocs" lineNumber="365"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="TraverseStmt" lineNumber="367"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateDecl" lineNumber="375"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="append_attr" lineNumber="384"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="MigrateBlockOrFunctionPointerTypeVariable" lineNumber="396"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="PropertyMemoryAttribute" lineNumber="427"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="rewriteToObjCProperty" lineNumber="453"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="IsCategoryNameWithDeprecatedSuffix" lineNumber="563"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateObjCContainerDecl" lineNumber="571"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="ClassImplementsAllMethodsAndProperties" lineNumber="599"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="rewriteToObjCInterfaceDecl" lineNumber="660"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="GetUnsignedName" lineNumber="692"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="rewriteToNSEnumDecl" lineNumber="703"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="rewriteToNSMacroDecl" lineNumber="757"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="UseNSOptionsMacro" lineNumber="788"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateProtocolConformance" lineNumber="829"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="CacheObjCNSIntegerTypedefed" lineNumber="886"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateNSEnumDecl" lineNumber="896"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="ReplaceWithInstancetype" lineNumber="953"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="ReplaceWithClasstype" lineNumber="976"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateMethodInstanceType" lineNumber="998"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="TypeIsInnerPointer" lineNumber="1044"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="versionsMatch" lineNumber="1069"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="AvailabilityAttrsMatch" lineNumber="1078"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="MatchTwoAttributeLists" lineNumber="1098"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="AttributesMatch" lineNumber="1127"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="IsValidIdentifier" lineNumber="1142"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateProperty" lineNumber="1152"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateNsReturnsInnerPointer" lineNumber="1247"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migratePropertyNsReturnsInnerPointer" lineNumber="1264"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateAllMethodInstaceType" lineNumber="1276"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateFactoryMethod" lineNumber="1289"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="IsVoidStarType" lineNumber="1354"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="AuditedType" lineNumber="1368"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="AnnotateImplicitBridging" lineNumber="1382"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateCFAnnotation" lineNumber="1416"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="AddCFAnnotations" lineNumber="1451"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateAddFunctionAnnotation" lineNumber="1499"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateARCSafeAnnotation" lineNumber="1554"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="AddCFAnnotations" lineNumber="1564"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="migrateAddMethodAnnotation" lineNumber="1618"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="shouldVisitTemplateInstantiations" lineNumber="1677"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="shouldWalkTypesOfTypeLocs" lineNumber="1678"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="VisitObjCMessageExpr" lineNumber="1680"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="hasSuperInitCall" lineNumber="1690"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="inferDesignatedInitializers" lineNumber="1694"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="InsertFoundation" lineNumber="1721"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="writeLoc" lineNumber="1782"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="writeRemove" lineNumber="1795"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="writeText" lineNumber="1808"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="getAllowListFilenames" lineNumber="1985"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="getEmptyKey" lineNumber="2039"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="getTombstoneKey" lineNumber="2044"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="getHashValue" lineNumber="2049"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="isEqual" lineNumber="2053"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="parse" lineNumber="2069"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="parseEdit" lineNumber="2102"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="reportDiag" lineNumber="2144"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ObjCMT.cpp" functionName="applyEditsToTemp" lineNumber="2150"/>
+    <functioncall functionName="ASTConsumer"/>
+    <functioncall functionName="AddCFAnnotations"/>
+    <functioncall functionName="AnnotateImplicitBridging"/>
+    <functioncall functionName="AnyCall"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ArraySubscriptExpr"/>
+    <functioncall functionName="AttributesMatch"/>
+    <functioncall functionName="AuditedType"/>
+    <functioncall functionName="AvailabilityAttr"/>
+    <functioncall functionName="AvailabilityAttrsMatch"/>
+    <functioncall functionName="BODY_TRANS"/>
+    <functioncall functionName="BinaryOperator"/>
+    <functioncall functionName="BodyMigrator"/>
+    <functioncall functionName="CFAuditedTransferAttr"/>
+    <functioncall functionName="CFConsumedAttr"/>
+    <functioncall functionName="CFReturnsNotRetainedAttr"/>
+    <functioncall functionName="CFReturnsRetainedAttr"/>
+    <functioncall functionName="CXXConstructExpr"/>
+    <functioncall functionName="CXXNamedCastExpr"/>
+    <functioncall functionName="CXXThisExpr"/>
+    <functioncall functionName="CXXTypeidExpr"/>
+    <functioncall functionName="CXXUnresolvedConstructExpr"/>
+    <functioncall functionName="C_User"/>
+    <functioncall functionName="CacheObjCNSIntegerTypedefed"/>
+    <functioncall functionName="CallExpr"/>
+    <functioncall functionName="Case"/>
+    <functioncall functionName="ClassImplementsAllMethodsAndProperties"/>
+    <functioncall functionName="CollectInheritedProtocols"/>
+    <functioncall functionName="CompInst"/>
+    <functioncall functionName="CreateASTConsumer"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="DiagnosticIDs"/>
+    <functioncall functionName="DiagnosticsEngine"/>
+    <functioncall functionName="EditedSource"/>
+    <functioncall functionName="EntryWriter"/>
+    <functioncall functionName="EnumDecl"/>
+    <functioncall functionName="EnumType"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="FileEntryRef"/>
+    <functioncall functionName="FileID"/>
+    <functioncall functionName="FindPropertyImplDecl"/>
+    <functioncall functionName="FixupRelativePath"/>
+    <functioncall functionName="FrontendAction"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="GetNSIntegralKind"/>
+    <functioncall functionName="GetUnsignedName"/>
+    <functioncall functionName="HandleTopLevelDecl"/>
+    <functioncall functionName="IgnoreImpCasts"/>
+    <functioncall functionName="IgnoreParenCasts"/>
+    <functioncall functionName="InsertFoundation"/>
+    <functioncall functionName="InsertText"/>
+    <functioncall functionName="IntrusiveRefCntPtr"/>
+    <functioncall functionName="IsCategoryNameWithDeprecatedSuffix"/>
+    <functioncall functionName="IsValidIdentifier"/>
+    <functioncall functionName="IsVoidStarType"/>
+    <functioncall functionName="MappingNode"/>
+    <functioncall functionName="MatchTwoAttributeLists"/>
+    <functioncall functionName="MemberExpr"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="MigrateBlockOrFunctionPointerTypeVariable"/>
+    <functioncall functionName="MigrateDir"/>
+    <functioncall functionName="Modules"/>
+    <functioncall functionName="MultiplexConsumer"/>
+    <functioncall functionName="NSAPI"/>
+    <functioncall functionName="NSConsumedAttr"/>
+    <functioncall functionName="NSConsumesSelfAttr"/>
+    <functioncall functionName="NSReturnsAutoreleasedAttr"/>
+    <functioncall functionName="NSReturnsNotRetainedAttr"/>
+    <functioncall functionName="NSReturnsRetainedAttr"/>
+    <functioncall functionName="OF_None"/>
+    <functioncall functionName="OIT_None"/>
+    <functioncall functionName="OIT_ReturnsSelf"/>
+    <functioncall functionName="OIT_Singleton"/>
+    <functioncall functionName="ObjCCategoryDecl"/>
+    <functioncall functionName="ObjCCategoryImplDecl"/>
+    <functioncall functionName="ObjCContainerDecl"/>
+    <functioncall functionName="ObjCImplDecl"/>
+    <functioncall functionName="ObjCImplementationDecl"/>
+    <functioncall functionName="ObjCInterfaceDecl"/>
+    <functioncall functionName="ObjCIvarRefExpr"/>
+    <functioncall functionName="ObjCMTAction"/>
+    <functioncall functionName="ObjCMTAllowListPath"/>
+    <functioncall functionName="ObjCMT_NsAtomicIOSOnlyProperty"/>
+    <functioncall functionName="ObjCMT_Subscripting"/>
+    <functioncall functionName="ObjCMessageExpr"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="ObjCMethodsAreEqual"/>
+    <functioncall functionName="ObjCMigAction"/>
+    <functioncall functionName="ObjCMigrateASTConsumer"/>
+    <functioncall functionName="ObjCMigrateAction"/>
+    <functioncall functionName="ObjCMigrator"/>
+    <functioncall functionName="ObjCObjectPointerType"/>
+    <functioncall functionName="ObjCPropertyDecl"/>
+    <functioncall functionName="ObjCPropertyRefExpr"/>
+    <functioncall functionName="ObjCProtocolDecl"/>
+    <functioncall functionName="ObjCProtocolExpr"/>
+    <functioncall functionName="ObjCReturnsInnerPointerAttr"/>
+    <functioncall functionName="OutputFile"/>
+    <functioncall functionName="PPCallbacks"/>
+    <functioncall functionName="PPConditionalDirectiveRecord"/>
+    <functioncall functionName="ParenExpr"/>
+    <functioncall functionName="ParenListExpr"/>
+    <functioncall functionName="ParentMap"/>
+    <functioncall functionName="PointerType"/>
+    <functioncall functionName="PropertyMemoryAttribute"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="RecursiveASTVisitor"/>
+    <functioncall functionName="Remapper"/>
+    <functioncall functionName="ReplaceText"/>
+    <functioncall functionName="ReplaceWithClasstype"/>
+    <functioncall functionName="ReplaceWithInstancetype"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="RetainSummaryManager"/>
+    <functioncall functionName="SaveAndRestore"/>
+    <functioncall functionName="ScalarNode"/>
+    <functioncall functionName="SequenceNode"/>
+    <functioncall functionName="SizeOfPackExpr"/>
+    <functioncall functionName="SmallPtrSet"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="StringSet"/>
+    <functioncall functionName="StringSwitch"/>
+    <functioncall functionName="TraverseDecl"/>
+    <functioncall functionName="TraverseObjCMethodDecl"/>
+    <functioncall functionName="TraverseStmt"/>
+    <functioncall functionName="TypeIsInnerPointer"/>
+    <functioncall functionName="TypedefDecl"/>
+    <functioncall functionName="TypedefType"/>
+    <functioncall functionName="UseNSOptionsMacro"/>
+    <functioncall functionName="WalkUpFromObjCMessageExpr"/>
+    <functioncall functionName="WrapperFrontendAction"/>
+    <functioncall functionName="addPPCallbacks"/>
+    <functioncall functionName="append_attr"/>
+    <functioncall functionName="applyEditsToTemp"/>
+    <functioncall functionName="applyRewrites"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="buffer_begin"/>
+    <functioncall functionName="buffer_end"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="canModify"/>
+    <functioncall functionName="canModifyFile"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="children"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clearRefsIn"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="commit"/>
+    <functioncall functionName="constructSetterSelector"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createFileID"/>
+    <functioncall functionName="createTemporaryFile"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="decls_begin"/>
+    <functioncall functionName="decls_end"/>
+    <functioncall functionName="directory_iterator"/>
+    <functioncall functionName="drop_front"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="ends_with"/>
+    <functioncall functionName="enumerators"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="findLocationAfterSemi"/>
+    <functioncall functionName="findPropertyDecl"/>
+    <functioncall functionName="findSemiAfterLocation"/>
+    <functioncall functionName="find_first"/>
+    <functioncall functionName="flushToDisk"/>
+    <functioncall functionName="flushToFile"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAllowListFilenames"/>
+    <functioncall functionName="getArg"/>
+    <functioncall functionName="getArgs"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getAsInteger"/>
+    <functioncall functionName="getAsString"/>
+    <functioncall functionName="getAttrs"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getBody"/>
+    <functioncall functionName="getBraceRange"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getCategoryDecl"/>
+    <functioncall functionName="getCharRange"/>
+    <functioncall functionName="getCharacterData"/>
+    <functioncall functionName="getClassInterface"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDeclaratorEndLoc"/>
+    <functioncall functionName="getDecomposedLoc"/>
+    <functioncall functionName="getDefinition"/>
+    <functioncall functionName="getDeprecated"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getEnd"/>
+    <functioncall functionName="getEndLoc"/>
+    <functioncall functionName="getFile"/>
+    <functioncall functionName="getFileEntryRefForID"/>
+    <functioncall functionName="getFileID"/>
+    <functioncall functionName="getFileManager"/>
+    <functioncall functionName="getFrontendOpts"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getIdentifierInfoForSlot"/>
+    <functioncall functionName="getIdentifierTable"/>
+    <functioncall functionName="getImplementationControl"/>
+    <functioncall functionName="getInitExpr"/>
+    <functioncall functionName="getInitVal"/>
+    <functioncall functionName="getInstTypeMethodFamily"/>
+    <functioncall functionName="getInstanceMethod"/>
+    <functioncall functionName="getInstanceReceiver"/>
+    <functioncall functionName="getIntegerType"/>
+    <functioncall functionName="getInterface"/>
+    <functioncall functionName="getIntroduced"/>
+    <functioncall functionName="getKey"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLength"/>
+    <functioncall functionName="getLiteralData"/>
+    <functioncall functionName="getLocForEndOfToken"/>
+    <functioncall functionName="getLocForStartOfFile"/>
+    <functioncall functionName="getLocWithOffset"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMacroDefinitionAtLoc"/>
+    <functioncall functionName="getMemBufferCopy"/>
+    <functioncall functionName="getMemBufferRef"/>
+    <functioncall functionName="getMethod"/>
+    <functioncall functionName="getMethodDecl"/>
+    <functioncall functionName="getMethodFamily"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameAsString"/>
+    <functioncall functionName="getNameForSlot"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getObjCInstanceType"/>
+    <functioncall functionName="getObjCLifetime"/>
+    <functioncall functionName="getObjKind"/>
+    <functioncall functionName="getObjectType"/>
+    <functioncall functionName="getObsoleted"/>
+    <functioncall functionName="getOptionalFileRef"/>
+    <functioncall functionName="getPointeeType"/>
+    <functioncall functionName="getPreprocessor"/>
+    <functioncall functionName="getPrintingPolicy"/>
+    <functioncall functionName="getPropertyAttributes"/>
+    <functioncall functionName="getPropertyImplementation"/>
+    <functioncall functionName="getQualifiedType"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getQueryKind"/>
+    <functioncall functionName="getRangeSize"/>
+    <functioncall functionName="getRawToken"/>
+    <functioncall functionName="getReceiverEffect"/>
+    <functioncall functionName="getReceiverKind"/>
+    <functioncall functionName="getReferencedProtocols"/>
+    <functioncall functionName="getRetEffect"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getReturnTypeSourceInfo"/>
+    <functioncall functionName="getRewriteBufferFor"/>
+    <functioncall functionName="getRoot"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSelectorLoc"/>
+    <functioncall functionName="getSelectorStartLoc"/>
+    <functioncall functionName="getSelectorTable"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getSummary"/>
+    <functioncall functionName="getSummaryManager"/>
+    <functioncall functionName="getSuperClass"/>
+    <functioncall functionName="getSuperClassLoc"/>
+    <functioncall functionName="getSuperLoc"/>
+    <functioncall functionName="getTokenID"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getUnavailable"/>
+    <functioncall functionName="getUnderlyingType"/>
+    <functioncall functionName="getUnqualifiedType"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getZExtValue"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasAttrs"/>
+    <functioncall functionName="hasBody"/>
+    <functioncall functionName="hasDesignatedInitializers"/>
+    <functioncall functionName="hasObjCLifetime"/>
+    <functioncall functionName="hasSameType"/>
+    <functioncall functionName="hasSameUnqualifiedType"/>
+    <functioncall functionName="hasSuperInitCall"/>
+    <functioncall functionName="hash_combine"/>
+    <functioncall functionName="increment"/>
+    <functioncall functionName="inferDesignatedInitializers"/>
+    <functioncall functionName="initFromDisk"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertAfterToken"/>
+    <functioncall functionName="insertBefore"/>
+    <functioncall functionName="insertFromRange"/>
+    <functioncall functionName="insertWrap"/>
+    <functioncall functionName="instance_methods"/>
+    <functioncall functionName="instance_properties"/>
+    <functioncall functionName="isAnyPointerType"/>
+    <functioncall functionName="isAsciiIdentifierStart"/>
+    <functioncall functionName="isBitwiseOp"/>
+    <functioncall functionName="isBlockPointerType"/>
+    <functioncall functionName="isCFObjectRef"/>
+    <functioncall functionName="isCharRange"/>
+    <functioncall functionName="isCompleteDefinition"/>
+    <functioncall functionName="isDeprecated"/>
+    <functioncall functionName="isDesignatedInitializerForTheInterface"/>
+    <functioncall functionName="isFunctionPointerType"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isInstanceMethod"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isLiteral"/>
+    <functioncall functionName="isMacroDefined"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjCBuiltinType"/>
+    <functioncall functionName="isObjCIdType"/>
+    <functioncall functionName="isObjCNSIntegerType"/>
+    <functioncall functionName="isObjCNSUIntegerType"/>
+    <functioncall functionName="isObjCObjectPointerType"/>
+    <functioncall functionName="isObjCRetainableType"/>
+    <functioncall functionName="isOwned"/>
+    <functioncall functionName="isPointerType"/>
+    <functioncall functionName="isPowerOf2_64"/>
+    <functioncall functionName="isPropertyAccessor"/>
+    <functioncall functionName="isRealType"/>
+    <functioncall functionName="isRecordType"/>
+    <functioncall functionName="isShiftOp"/>
+    <functioncall functionName="isUppercase"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isVoidType"/>
+    <functioncall functionName="is_directory"/>
+    <functioncall functionName="is_regular_file"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="lookupInheritedClass"/>
+    <functioncall functionName="lookupNestedProtocol"/>
+    <functioncall functionName="lookupProtocolNamed"/>
+    <functioncall functionName="lower"/>
+    <functioncall functionName="make_absolute"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="meth_begin"/>
+    <functioncall functionName="meth_end"/>
+    <functioncall functionName="methods"/>
+    <functioncall functionName="migrateARCSafeAnnotation"/>
+    <functioncall functionName="migrateAddFunctionAnnotation"/>
+    <functioncall functionName="migrateAddMethodAnnotation"/>
+    <functioncall functionName="migrateAllMethodInstaceType"/>
+    <functioncall functionName="migrateCFAnnotation"/>
+    <functioncall functionName="migrateDecl"/>
+    <functioncall functionName="migrateFactoryMethod"/>
+    <functioncall functionName="migrateMethodInstanceType"/>
+    <functioncall functionName="migrateNSEnumDecl"/>
+    <functioncall functionName="migrateNsReturnsInnerPointer"/>
+    <functioncall functionName="migrateObjCContainerDecl"/>
+    <functioncall functionName="migrateProperty"/>
+    <functioncall functionName="migratePropertyNsReturnsInnerPointer"/>
+    <functioncall functionName="migrateProtocolConformance"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="notOwned"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="param_begin"/>
+    <functioncall functionName="param_end"/>
+    <functioncall functionName="param_size"/>
+    <functioncall functionName="parse"/>
+    <functioncall functionName="parseEdit"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="protocol_loc_end"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="remap"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="removeObjCLifetime"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="reportDiag"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="rewritePropertyAttribute"/>
+    <functioncall functionName="rewriteToNSEnumDecl"/>
+    <functioncall functionName="rewriteToNSMacroDecl"/>
+    <functioncall functionName="rewriteToObjCInterfaceDecl"/>
+    <functioncall functionName="rewriteToObjCLiteralSyntax"/>
+    <functioncall functionName="rewriteToObjCProperty"/>
+    <functioncall functionName="rewriteToObjCSubscriptSyntax"/>
+    <functioncall functionName="rewriteToPropertyDotSyntax"/>
+    <functioncall functionName="rfind"/>
+    <functioncall functionName="setIgnoreAllWarnings"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="subscriptOperatorNeedsParens"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="toLowercase"/>
+    <functioncall functionName="transformBody"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="versionsMatch"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="writeLoc"/>
+    <functioncall functionName="writeRemove"/>
+    <functioncall functionName="writeText"/>
+    <functioncall functionName="write_escaped"/>
+  </FileInfo>
+</analyzerinfo>

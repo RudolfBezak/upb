@@ -1,0 +1,34 @@
+findAnonymousUnionVarDeclName call:[assert,findFirstNamedDataMember,getDecl,getIdentifier,getType,isUnion] noreturn:[getIdentifier]
+Iterator
+operator* call:[getIdentifier,return] noreturn:[getIdentifier]
+begin call:[Iterator,begin] noreturn:[Iterator]
+end call:[Iterator,end] noreturn:[Iterator]
+isDenseMapKeyEmpty call:[getEmptyKey,isEqual] noreturn:[isEqual]
+isDenseMapKeyTombstone call:[getTombstoneKey,isEqual] noreturn:[isEqual]
+areDenseMapKeysEqualSpecialValues call:[isDenseMapKeyEmpty,isDenseMapKeyTombstone]
+getEmptyKey call:[getEmptyKey]
+getTombstoneKey call:[getTombstoneKey]
+getHashValue call:[assert,begin,end,getEmptyKey,getTombstoneKey,hash_combine_range,isEqual] noreturn:[hash_combine_range]
+isEqual call:[areDenseMapKeysEqualSpecialValues,begin,end,equal,size] noreturn:[equal]
+ItaniumNumberingContext
+getManglingNumber call:[Out,assert,getParent,isLambda,mangleLambdaSig]
+getManglingNumber
+getStaticLocalNumber
+getManglingNumber call:[bindings,findAnonymousUnionVarDeclName,getIdentifier] noreturn:[findAnonymousUnionVarDeclName]
+getManglingNumber call:[getIdentifier]
+ItaniumSYCLNumberingContext
+getManglingNumber call:[assert,getManglingNumber,try_emplace]
+getDeviceManglingNumber call:[assert,end,find]
+ItaniumCXXABI
+getMemberPointerInfo call:[getPtrDiffType,getTargetInfo,getTypeAlign,getTypeWidth,isMemberFunctionPointer]
+getDefaultMethodCallConv call:[getArch,getDefaultCallingConv,getTargetInfo,getTriple,isWindowsGNUEnvironment] noreturn:[getDefaultCallingConv]
+isNearlyEmpty call:[getASTRecordLayout,getNonVirtualSize,getPointerWidth,getTargetInfo,isDynamicClass,toCharUnitsFromBits]
+getCopyConstructorForExceptionObject
+addCopyConstructorForExceptionObject
+addTypedefNameForUnnamedTagDecl
+getTypedefNameForUnnamedTagDecl
+addDeclaratorForUnnamedTagDecl
+getDeclaratorForUnnamedTagDecl
+createMangleNumberingContext call:[get,getLangOpts,isSYCL]
+CreateItaniumCXXABI call:[ItaniumCXXABI] noreturn:[ItaniumCXXABI]
+createItaniumNumberingContext

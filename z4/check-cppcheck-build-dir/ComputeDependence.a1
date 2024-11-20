@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14897182057810409764">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found." verbose="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclarationName.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclarationName.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found." verbose="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprConcepts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprOpenMP.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprOpenMP.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/ExceptionSpecificationType.h&quot; not found." verbose="Include file: &quot;clang/Basic/ExceptionSpecificationType.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="20" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComputeDependence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;FD&apos; is always true" verbose="Condition &apos;FD&apos; is always true" cwe="571" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComputeDependence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="697" column="9" info="Condition &apos;FD&apos; is always true"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;D&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;D&apos;. The initialized value is overwritten before it is read." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComputeDependence.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="288" column="7" info="D is overwritten"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComputeDependence.cpp" line="286" column="10" info="D is initialized"/>
+            <symbol>D</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComputeDependence.cpp" functionName="getDependenceInExpr" lineNumber="665"/>
+    <functioncall functionName="AlignedAttr"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="ContainsErrors"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="DeclaratorDecl"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ErrorDependent"/>
+    <functioncall functionName="EvaluateAsConstantExpr"/>
+    <functioncall functionName="ExplicitCastExpr"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="FieldDecl"/>
+    <functioncall functionName="IgnoreParens"/>
+    <functioncall functionName="Instantiation"/>
+    <functioncall functionName="MemberExpr"/>
+    <functioncall functionName="NonTypeTemplateParmDecl"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="PartialDiagnosticAt"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="TypeValue"/>
+    <functioncall functionName="TypeValueInstantiation"/>
+    <functioncall functionName="UnexpandedPack"/>
+    <functioncall functionName="UnresolvedUsingValueDecl"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="ValueInstantiation"/>
+    <functioncall functionName="ValueStmt"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="arguments"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="computeDependence"/>
+    <functioncall functionName="containsErrors"/>
+    <functioncall functionName="containsUnexpandedParameterPack"/>
+    <functioncall functionName="decls"/>
+    <functioncall functionName="designators"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="exprs"/>
+    <functioncall functionName="getAllocatedType"/>
+    <functioncall functionName="getAllocatedTypeSourceInfo"/>
+    <functioncall functionName="getAnyInitializer"/>
+    <functioncall functionName="getArgs"/>
+    <functioncall functionName="getArgument"/>
+    <functioncall functionName="getArgumentExpr"/>
+    <functioncall functionName="getArgumentType"/>
+    <functioncall functionName="getArrayIndex"/>
+    <functioncall functionName="getArrayRangeEnd"/>
+    <functioncall functionName="getArrayRangeStart"/>
+    <functioncall functionName="getArraySize"/>
+    <functioncall functionName="getAssocExprs"/>
+    <functioncall functionName="getBase"/>
+    <functioncall functionName="getBaseExpr"/>
+    <functioncall functionName="getBitWidth"/>
+    <functioncall functionName="getBlockDecl"/>
+    <functioncall functionName="getCXXNameType"/>
+    <functioncall functionName="getCallee"/>
+    <functioncall functionName="getColumnIdx"/>
+    <functioncall functionName="getCommon"/>
+    <functioncall functionName="getCommonExpr"/>
+    <functioncall functionName="getCond"/>
+    <functioncall functionName="getControllingExpr"/>
+    <functioncall functionName="getControllingType"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getDependence"/>
+    <functioncall functionName="getDependenceInExpr"/>
+    <functioncall functionName="getDestroyedTypeInfo"/>
+    <functioncall functionName="getDimensionExpression"/>
+    <functioncall functionName="getDimensions"/>
+    <functioncall functionName="getElements"/>
+    <functioncall functionName="getEncodedType"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getExprOperand"/>
+    <functioncall functionName="getExprStmt"/>
+    <functioncall functionName="getExpressions"/>
+    <functioncall functionName="getFalseExpr"/>
+    <functioncall functionName="getFirstDecl"/>
+    <functioncall functionName="getIdx"/>
+    <functioncall functionName="getIndexExpr"/>
+    <functioncall functionName="getInit"/>
+    <functioncall functionName="getInitExprs"/>
+    <functioncall functionName="getInitializer"/>
+    <functioncall functionName="getInstanceReceiver"/>
+    <functioncall functionName="getIteratorDecl"/>
+    <functioncall functionName="getIteratorRange"/>
+    <functioncall functionName="getKeyExpr"/>
+    <functioncall functionName="getKeyValueElement"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getLValueBase"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLength"/>
+    <functioncall functionName="getLowerBound"/>
+    <functioncall functionName="getMemberDecl"/>
+    <functioncall functionName="getMemberNameInfo"/>
+    <functioncall functionName="getNameInfo"/>
+    <functioncall functionName="getNameKind"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumElements"/>
+    <functioncall functionName="getNumExpressions"/>
+    <functioncall functionName="getNumSubExprs"/>
+    <functioncall functionName="getNumTemplateArgs"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getPackIdExpression"/>
+    <functioncall functionName="getPattern"/>
+    <functioncall functionName="getQualifier"/>
+    <functioncall functionName="getQueriedExpression"/>
+    <functioncall functionName="getQueriedType"/>
+    <functioncall functionName="getRHS"/>
+    <functioncall functionName="getReplacement"/>
+    <functioncall functionName="getResultExpr"/>
+    <functioncall functionName="getResumeExpr"/>
+    <functioncall functionName="getRowIdx"/>
+    <functioncall functionName="getSatisfaction"/>
+    <functioncall functionName="getScopeTypeInfo"/>
+    <functioncall functionName="getSelectedIndex"/>
+    <functioncall functionName="getSemanticForm"/>
+    <functioncall functionName="getSourceExpr"/>
+    <functioncall functionName="getSrcExpr"/>
+    <functioncall functionName="getStmtExprResult"/>
+    <functioncall functionName="getStride"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSubExprs"/>
+    <functioncall functionName="getSubStmt"/>
+    <functioncall functionName="getSuperReceiverType"/>
+    <functioncall functionName="getSyntacticForm"/>
+    <functioncall functionName="getTemplateArgs"/>
+    <functioncall functionName="getTemplateArgsAsWritten"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeAsWritten"/>
+    <functioncall functionName="getTypeOperandSourceInfo"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getWrittenTypeInfo"/>
+    <functioncall functionName="hasInit"/>
+    <functioncall functionName="hasLocalStorage"/>
+    <functioncall functionName="inits"/>
+    <functioncall functionName="isAlignmentDependent"/>
+    <functioncall functionName="isAlignmentErrorDependent"/>
+    <functioncall functionName="isArgumentType"/>
+    <functioncall functionName="isArrayDesignator"/>
+    <functioncall functionName="isArrayRangeDesignator"/>
+    <functioncall functionName="isBitField"/>
+    <functioncall functionName="isCapturedByCopyInLambdaWithExplicitObjectParameter"/>
+    <functioncall functionName="isClassReceiver"/>
+    <functioncall functionName="isConditionDependent"/>
+    <functioncall functionName="isConditionTrue"/>
+    <functioncall functionName="isCurrentInstantiation"/>
+    <functioncall functionName="isDependentContext"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isExprPredicate"/>
+    <functioncall functionName="isImplicitAccess"/>
+    <functioncall functionName="isIncompleteArrayType"/>
+    <functioncall functionName="isInstantiationDependent"/>
+    <functioncall functionName="isInstantiationDependentType"/>
+    <functioncall functionName="isLValue"/>
+    <functioncall functionName="isOMPArraySection"/>
+    <functioncall functionName="isObjectReceiver"/>
+    <functioncall functionName="isParameterPack"/>
+    <functioncall functionName="isResultDependent"/>
+    <functioncall functionName="isStatic"/>
+    <functioncall functionName="isStaticDataMember"/>
+    <functioncall functionName="isSuperReceiver"/>
+    <functioncall functionName="isTemplated"/>
+    <functioncall functionName="isTypeDependent"/>
+    <functioncall functionName="isTypeOperand"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isValueDependent"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="mightBeUsableInConstantExpressions"/>
+    <functioncall functionName="numOfIterators"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="placement_arguments"/>
+    <functioncall functionName="semantics"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="specific_attrs"/>
+    <functioncall functionName="subExpressions"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="template_arguments"/>
+    <functioncall functionName="toExprDependence"/>
+    <functioncall functionName="toExprDependenceAsWritten"/>
+    <functioncall functionName="toExprDependenceForImpliedType"/>
+    <functioncall functionName="turnTypeToValueDependence"/>
+    <functioncall functionName="turnValueToTypeDependence"/>
+  </FileInfo>
+</analyzerinfo>

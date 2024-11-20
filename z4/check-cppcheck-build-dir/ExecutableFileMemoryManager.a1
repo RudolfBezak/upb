@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3965099758399211753">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/ExecutableFileMemoryManager.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/ExecutableFileMemoryManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\ExecutableFileMemoryManager.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/JITLinkLinker.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/JITLinkLinker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\ExecutableFileMemoryManager.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\ExecutableFileMemoryManager.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ExecutionEngine/JITLink/JITLink.h&quot; not found." verbose="Include file: &quot;llvm/ExecutionEngine/JITLink/JITLink.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\ExecutableFileMemoryManager.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MemAlloc.h&quot; not found." verbose="Include file: &quot;llvm/Support/MemAlloc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\ExecutableFileMemoryManager.cpp" line="13" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\ExecutableFileMemoryManager.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;BOLTInFlightAlloc&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;BOLTInFlightAlloc&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\ExecutableFileMemoryManager.cpp" line="89" column="3"/>
+            <symbol>BOLTInFlightAlloc</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp:28:33" my-argnr="1" my-argname="G" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" line="30" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp:37:8" my-argnr="1" my-argname="Section" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" line="38" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp:42:11" my-argnr="1" my-argname="Section" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" line="44" col="15" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp:42:11" my-argnr="2" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" line="46" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" functionName="orderedSections" lineNumber="28"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" functionName="sectionAlignment" lineNumber="37"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" functionName="sectionName" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/ExecutableFileMemoryManager.cpp" functionName="allocateSection" lineNumber="72"/>
+    <functioncall functionName="BC"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="FinalizedAlloc"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="ObjectsLoaded"/>
+    <functioncall functionName="OrgSecPrefix"/>
+    <functioncall functionName="SHT_PROGBITS"/>
+    <functioncall functionName="Section"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="alignToBlock"/>
+    <functioncall functionName="allocateSection"/>
+    <functioncall functionName="allocate_buffer"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="deallocate_buffer"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="fromPtr"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAlignment"/>
+    <functioncall functionName="getContent"/>
+    <functioncall functionName="getFlags"/>
+    <functioncall functionName="getMemProt"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOrdinal"/>
+    <functioncall functionName="getOutputName"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getUniqueSectionByName"/>
+    <functioncall functionName="hasSectionRef"/>
+    <functioncall functionName="isAllocatable"/>
+    <functioncall functionName="isDebugSection"/>
+    <functioncall functionName="isELF"/>
+    <functioncall functionName="isMachO"/>
+    <functioncall functionName="isZeroFill"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="map_range"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="orderedBlocks"/>
+    <functioncall functionName="orderedSections"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerOrUpdateNoteSection"/>
+    <functioncall functionName="registerOrUpdateSection"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="sectionAlignment"/>
+    <functioncall functionName="sectionName"/>
+    <functioncall functionName="sectionSize"/>
+    <functioncall functionName="sections"/>
+    <functioncall functionName="setMutableContent"/>
+    <functioncall functionName="setOutputName"/>
+    <functioncall functionName="setSectionID"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="toPtr"/>
+    <functioncall functionName="toStringRef"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="updateContents"/>
+    <functioncall functionName="updateSection"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

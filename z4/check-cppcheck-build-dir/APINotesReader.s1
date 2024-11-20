@@ -1,0 +1,145 @@
+ContextTableKey
+ContextTableKey
+ContextTableKey
+ContextTableKey
+hashValue call:[hash_value] noreturn:[hash_value]
+operator==
+SingleDeclTableKey
+SingleDeclTableKey
+SingleDeclTableKey
+hashValue call:[hash_value,make_pair] noreturn:[hash_value]
+operator==
+getEmptyKey call:[getEmptyKey]
+getTombstoneKey call:[getTombstoneKey]
+getHashValue call:[hash_combine,hash_value,size] noreturn:[hash_combine]
+isEqual
+getEmptyKey call:[ContextTableKey] noreturn:[ContextTableKey]
+getTombstoneKey call:[getTombstoneKey]
+getHashValue call:[hashValue] noreturn:[hashValue]
+isEqual
+getEmptyKey call:[SingleDeclTableKey] noreturn:[SingleDeclTableKey]
+getTombstoneKey call:[getTombstoneKey]
+getHashValue call:[hashValue] noreturn:[hashValue]
+isEqual
+ReadVersionTuple call:[VersionTuple] noreturn:[VersionTuple]
+ReadCommonEntityInfo call:[setSwiftPrivate,string] noreturn:[setSwiftPrivate]
+ReadCommonTypeInfo call:[ReadCommonEntityInfo,setNSErrorDomain,setSwiftBridge,string]
+GetInternalKey
+GetExternalKey
+ComputeHash call:[djbHash] noreturn:[djbHash]
+EqualKey
+ReadKeyDataLength
+ReadKey call:[StringRef] noreturn:[StringRef]
+ReadData
+GetInternalKey
+GetExternalKey
+ComputeHash call:[hashValue]
+EqualKey
+ReadKeyDataLength
+ReadKey
+ReadData
+ReadKey
+ComputeHash call:[hash_value]
+readUnversioned call:[ReadCommonTypeInfo,setDefaultNullability,setHasDesignatedInits,setSwiftImportAsNonGeneric,setSwiftObjCMembers] noreturn:[setDefaultNullability,setHasDesignatedInits,setSwiftImportAsNonGeneric,setSwiftObjCMembers]
+ReadVariableInfo call:[ReadCommonEntityInfo,setNullabilityAudited,setType,string] noreturn:[setNullabilityAudited]
+ReadKey
+ComputeHash call:[hash_value]
+readUnversioned call:[ReadVariableInfo,setSwiftImportAsAccessors] noreturn:[setSwiftImportAsAccessors]
+ReadKey
+ComputeHash call:[hashValue]
+readUnversioned call:[ReadVariableInfo]
+ReadParamInfo call:[ReadVariableInfo,assert,setLifetimebound,setNoEscape,setRetainCountConvention] noreturn:[assert,setLifetimebound,setNoEscape,setRetainCountConvention]
+ReadFunctionInfo call:[ReadCommonEntityInfo,ReadParamInfo,assert,push_back,setRetainCountConvention,string] noreturn:[setRetainCountConvention]
+ReadKey
+ComputeHash call:[hash_value]
+readUnversioned call:[ReadFunctionInfo,ReadParamInfo,assert] noreturn:[ReadParamInfo]
+GetInternalKey
+GetExternalKey
+ComputeHash call:[getHashValue] noreturn:[getHashValue]
+EqualKey call:[isEqual] noreturn:[isEqual]
+ReadKeyDataLength
+ReadKey call:[push_back,sizeof] noreturn:[push_back]
+ReadData
+ReadKey
+ComputeHash call:[hashValue]
+readUnversioned call:[ReadVariableInfo]
+ReadKey
+ComputeHash call:[hashValue]
+readUnversioned call:[ReadFunctionInfo]
+ReadKey
+ComputeHash call:[hashValue]
+readUnversioned call:[ReadFunctionInfo,ReadParamInfo,assert] noreturn:[ReadParamInfo]
+ReadKey
+ComputeHash call:[hash_value]
+readUnversioned call:[ReadCommonEntityInfo]
+ReadKey
+ComputeHash call:[hashValue]
+readUnversioned call:[ReadCommonTypeInfo,optional,setFlagEnum,setSwiftCopyable,string] noreturn:[setFlagEnum,setSwiftCopyable]
+ReadKey
+ComputeHash call:[hashValue]
+readUnversioned call:[ReadCommonTypeInfo]
+getIdentifier call:[IdentifierID,empty,end,find] noreturn:[IdentifierID]
+getSelector call:[end,find,getIdentifier,push_back] noreturn:[push_back]
+readControlBlock call:[EnterSubBlock,SkipBlock,advance,clear,consumeError,get,readRecord,str,takeError] noreturn:[get]
+readIdentifierBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readContextBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readObjCPropertyBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readObjCMethodBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readCXXMethodBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readFieldBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readObjCSelectorBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readGlobalVariableBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readGlobalFunctionBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readEnumConstantBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readTagBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+readTypedefBlock call:[Create,EnterSubBlock,SkipBlock,advance,clear,consumeError,data,get,readRecord,reset,sizeof,takeError] noreturn:[get]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]
+GetInternalKey
+GetExternalKey
+EqualKey
+ReadKeyDataLength
+ReadData call:[ReadVersionTuple,assert,push_back,readUnversioned,reserve] noreturn:[push_back]

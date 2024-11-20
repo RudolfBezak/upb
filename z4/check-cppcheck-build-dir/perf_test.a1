@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1692420976805021460">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/perf2bolt/Inputs/perf_test.c" functionName="add" lineNumber="1"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/perf2bolt/Inputs/perf_test.c" functionName="minus" lineNumber="2"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/perf2bolt/Inputs/perf_test.c" functionName="multiple" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/perf2bolt/Inputs/perf_test.c" functionName="divide" lineNumber="4"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/perf2bolt/Inputs/perf_test.c" functionName="main" lineNumber="10"/>
+    <functioncall functionName="add"/>
+    <functioncall functionName="divide"/>
+    <functioncall functionName="minus"/>
+    <functioncall functionName="multiple"/>
+  </FileInfo>
+</analyzerinfo>

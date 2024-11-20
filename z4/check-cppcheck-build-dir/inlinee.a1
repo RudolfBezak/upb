@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16608888827876593670">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/inlinee.cpp" functionName="question" lineNumber="1"/>
+  </FileInfo>
+</analyzerinfo>

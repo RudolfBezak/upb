@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8088996881524168827">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrImpl.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrImpl.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrImpl.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrImpl.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrImpl.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/AttrImpl.inc&quot; not found." verbose="Include file: &quot;clang/AST/AttrImpl.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\AttrImpl.cpp" line="273" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ConvertBranchStateTyToStr"/>
+    <functioncall functionName="ConvertDevTypeTyToStr"/>
+    <functioncall functionName="ConvertMapTypeTyToStr"/>
+    <functioncall functionName="DevTypeTy"/>
+    <functioncall functionName="EvaluateKnownConstInt"/>
+    <functioncall functionName="MapTypeTy"/>
+    <functioncall functionName="OMPC_linear"/>
+    <functioncall functionName="OMPDeclareTargetDeclAttr"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="adjustArgsNeedDevicePtr_begin"/>
+    <functioncall functionName="adjustArgsNeedDevicePtr_end"/>
+    <functioncall functionName="adjustArgsNeedDevicePtr_size"/>
+    <functioncall functionName="adjustArgsNothing_begin"/>
+    <functioncall functionName="adjustArgsNothing_end"/>
+    <functioncall functionName="adjustArgsNothing_size"/>
+    <functioncall functionName="aligneds"/>
+    <functioncall functionName="alignmentExpr"/>
+    <functioncall functionName="alignments_begin"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="appendArgs_begin"/>
+    <functioncall functionName="appendArgs_end"/>
+    <functioncall functionName="appendArgs_size"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="getActiveAttr"/>
+    <functioncall functionName="getAlignmentType"/>
+    <functioncall functionName="getAttributeSpellingListIndex"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getBranchState"/>
+    <functioncall functionName="getCachedAlignmentValue"/>
+    <functioncall functionName="getCharWidth"/>
+    <functioncall functionName="getDevType"/>
+    <functioncall functionName="getIndirect"/>
+    <functioncall functionName="getIndirectExpr"/>
+    <functioncall functionName="getInteropTypeString"/>
+    <functioncall functionName="getLevel"/>
+    <functioncall functionName="getMapType"/>
+    <functioncall functionName="getNonReferenceType"/>
+    <functioncall functionName="getOpenMPSimpleClauseTypeName"/>
+    <functioncall functionName="getOptionName"/>
+    <functioncall functionName="getQualifiers"/>
+    <functioncall functionName="getQuantity"/>
+    <functioncall functionName="getRange"/>
+    <functioncall functionName="getSimdlen"/>
+    <functioncall functionName="getTargetDefaultAlignForAttributeAligned"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeAlignInChars"/>
+    <functioncall functionName="getTypePtr"/>
+    <functioncall functionName="getValueString"/>
+    <functioncall functionName="getVariantFuncRef"/>
+    <functioncall functionName="getZExtValue"/>
+    <functioncall functionName="hasAttrs"/>
+    <functioncall functionName="hasUnaligned"/>
+    <functioncall functionName="isAlignmentDependent"/>
+    <functioncall functionName="isAlignmentExpr"/>
+    <functioncall functionName="linears"/>
+    <functioncall functionName="modifiers_begin"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="option"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="printPretty"/>
+    <functioncall functionName="redecls"/>
+    <functioncall functionName="specific_attrs"/>
+    <functioncall functionName="steps_begin"/>
+    <functioncall functionName="uniforms"/>
+    <functioncall functionName="uniforms_size"/>
+    <functioncall functionName="value"/>
+  </FileInfo>
+</analyzerinfo>

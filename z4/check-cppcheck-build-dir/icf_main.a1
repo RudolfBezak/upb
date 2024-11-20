@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8233306299254254373">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\Inputs\icf_main.c" line="2" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/icf_main.c" functionName="foo" lineNumber="4"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/icf_main.c" functionName="bar" lineNumber="8"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/icf_main.c" functionName="main" lineNumber="12"/>
+    <functioncall functionName="foo"/>
+  </FileInfo>
+</analyzerinfo>

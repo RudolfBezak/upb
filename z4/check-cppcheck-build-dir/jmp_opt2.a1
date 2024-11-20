@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7513561111207808250">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/jmp_opt2.cpp" functionName="f" lineNumber="1"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,5 @@
+ClusterArc
+operator==
+operator() call:[Hasher,hashCombine,int64_t] noreturn:[hashCombine]
+orderFuncs call:[arcs,back,dst,front,max,reverseTargets,src,targets,weight] noreturn:[reverseTargets,weight]
+pettisAndHansen call:[FuncCluster,LLVM_DEBUG,arcs,back,begin,c_str,clear,dbgs,dst,emplace,emplace_back,empty,end,erase,format,frozen,getNode,insert,insertOrInc,max_element,merge,move,numNodes,orderFuncs,push_back,reserve,samples,size,sort,src,targets,toString,weight] noreturn:[clear,emplace,erase,insert,insertOrInc,push_back]

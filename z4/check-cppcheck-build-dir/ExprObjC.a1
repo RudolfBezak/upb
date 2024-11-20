@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16944528267910229502">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found." verbose="Include file: &quot;clang/AST/ComputeDependence.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found." verbose="Include file: &quot;clang/AST/DependenceFlags.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/SelectorLocationsKind.h&quot; not found." verbose="Include file: &quot;clang/AST/SelectorLocationsKind.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeLoc.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ExprObjC.cpp" line="24" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ArrayWithObjectsMethod"/>
+    <functioncall functionName="Class"/>
+    <functioncall functionName="DictWithObjectsMethod"/>
+    <functioncall functionName="EllipsisLoc"/>
+    <functioncall functionName="EmptyShell"/>
+    <functioncall functionName="ExpansionData"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="HasMethod"/>
+    <functioncall functionName="Instance"/>
+    <functioncall functionName="IsDelegateInitCall"/>
+    <functioncall functionName="IsImplicit"/>
+    <functioncall functionName="Key"/>
+    <functioncall functionName="KeyValuePair"/>
+    <functioncall functionName="Kind"/>
+    <functioncall functionName="NumElements"/>
+    <functioncall functionName="NumExpansions"/>
+    <functioncall functionName="OK_Ordinary"/>
+    <functioncall functionName="ObjCArrayLiteral"/>
+    <functioncall functionName="ObjCArrayLiteralClass"/>
+    <functioncall functionName="ObjCDictionaryElement"/>
+    <functioncall functionName="ObjCDictionaryLiteral"/>
+    <functioncall functionName="ObjCDictionaryLiteralClass"/>
+    <functioncall functionName="ObjCMessageExpr"/>
+    <functioncall functionName="ObjCMessageExprClass"/>
+    <functioncall functionName="ObjCObjectPointerType"/>
+    <functioncall functionName="ObjCObjectType"/>
+    <functioncall functionName="Range"/>
+    <functioncall functionName="Selector"/>
+    <functioncall functionName="SelectorLocationsKind"/>
+    <functioncall functionName="SelectorOrMethod"/>
+    <functioncall functionName="SmallVectorImpl"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="Stmt"/>
+    <functioncall functionName="SuperClass"/>
+    <functioncall functionName="SuperInstance"/>
+    <functioncall functionName="VK_PRValue"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="alloc"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="child_range"/>
+    <functioncall functionName="children"/>
+    <functioncall functionName="computeDependence"/>
+    <functioncall functionName="const_child_range"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getArgs"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsOpaquePtr"/>
+    <functioncall functionName="getBase"/>
+    <functioncall functionName="getBridgeKind"/>
+    <functioncall functionName="getClassReceiver"/>
+    <functioncall functionName="getClassReceiverTypeInfo"/>
+    <functioncall functionName="getElements"/>
+    <functioncall functionName="getInstanceReceiver"/>
+    <functioncall functionName="getInterface"/>
+    <functioncall functionName="getInterfaceDecl"/>
+    <functioncall functionName="getMethodDecl"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumSelectorLocs"/>
+    <functioncall functionName="getObjCInstanceType"/>
+    <functioncall functionName="getObjCInterfaceType"/>
+    <functioncall functionName="getReceiverKind"/>
+    <functioncall functionName="getReceiverType"/>
+    <functioncall functionName="getReferenceQualifiedType"/>
+    <functioncall functionName="getReturnType"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSelectorLoc"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getStoredSelLocs"/>
+    <functioncall functionName="getSuperLoc"/>
+    <functioncall functionName="getSuperReceiverType"/>
+    <functioncall functionName="getSuperType"/>
+    <functioncall functionName="getTrailingObjects"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="hasStandardSelectorLocs"/>
+    <functioncall functionName="initArgsAndSelLocs"/>
+    <functioncall functionName="isClassReceiver"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isSuperReceiver"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="setDependence"/>
+    <functioncall functionName="setNumArgs"/>
+    <functioncall functionName="setReceiverPointer"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="totalSizeToAlloc"/>
+  </FileInfo>
+</analyzerinfo>

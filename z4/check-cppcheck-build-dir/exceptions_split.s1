@@ -1,0 +1,4 @@
+foo
+bar call:[int] noreturn:[int]
+filter_only call:[foo] noreturn:[foo]
+main call:[bar,foo,int,printf] noreturn:[int,printf]

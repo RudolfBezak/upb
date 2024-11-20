@@ -1,0 +1,5 @@
+computeCostFor call:[SkipPredicate,getSize,llvm_unreachable,size] noreturn:[llvm_unreachable]
+estimateTotalCost call:[computeCostFor,getBinaryFunctions,outs,size] noreturn:[computeCostFor,size]
+getThreadPool call:[get,hardware_concurrency]
+runOnEachFunction call:[LLVM_DEBUG,SkipPredicate,T,WorkFunction,async,begin,computeCostFor,end,estimateTotalCost,getBinaryFunctions,getThreadPool,next,runBlock,size,startTimer,stopTimer,wait] noreturn:[LLVM_DEBUG,WorkFunction,wait]
+runOnEachFunctionWithUniqueAllocId call:[EnsureAllocatorExists,LLVM_DEBUG,Lock,SkipPredicate,T,WorkFunction,assert,async,begin,checkAllocatorExists,computeCostFor,end,estimateTotalCost,getBinaryFunctions,getThreadPool,initializeNewAnnotationAllocator,next,runBlock,size,startTimer,stopTimer,unlock,wait] noreturn:[LLVM_DEBUG,WorkFunction,assert,wait]

@@ -1,0 +1,2 @@
+isSupported call:[isData,isTLS] noreturn:[isTLS]
+filterSymbol call:[any_of,empty,hasName,isAtomic,isJumpTable,isMoveable] noreturn:[any_of,hasName]

@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="165043771793337193">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/BoltAddressTranslation.h&quot; not found." verbose="Include file: &quot;bolt/Profile/BoltAddressTranslation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/APInt.h&quot; not found." verbose="Include file: &quot;llvm/ADT/APInt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Error.h&quot; not found." verbose="Include file: &quot;llvm/Support/Error.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="14" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/BoltAddressTranslation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;PrevOffset&apos; can be reduced." verbose="The scope of the variable &apos;PrevOffset&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/BoltAddressTranslation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="280" column="14"/>
+            <symbol>PrevOffset</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;Iter&apos; shadows outer variable" verbose="Local variable &apos;Iter&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/BoltAddressTranslation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="548" column="13" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="525" column="8" info="Shadowed declaration"/>
+            <symbol>Iter</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;BFI&apos; can be declared as reference to const" verbose="Variable &apos;BFI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/BoltAddressTranslation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="80" column="14" info="Variable &apos;BFI&apos; can be declared as reference to const"/>
+            <symbol>BFI</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;KeyVal&apos; can be declared as reference to const" verbose="Variable &apos;KeyVal&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/BoltAddressTranslation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="159" column="45" info="Variable &apos;KeyVal&apos; can be declared as reference to const"/>
+            <symbol>KeyVal</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/BoltAddressTranslation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="80" column="3"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Profile/BoltAddressTranslation.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Profile\BoltAddressTranslation.cpp" line="568" column="3"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="APInt"/>
+    <functioncall functionName="BRANCHENTRY"/>
+    <functioncall functionName="ColdPartSource"/>
+    <functioncall functionName="DataExtractor"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="FallthroughListTy"/>
+    <functioncall functionName="HotFuncs"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="LoadIntFromMemory"/>
+    <functioncall functionName="MapTy"/>
+    <functioncall functionName="Maps"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="addEntry"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="calculateBranchEntriesBitMask"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="computeBlockHashes"/>
+    <functioncall functionName="computeHash"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="count_if"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="distance"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="encodeSLEB128"/>
+    <functioncall functionName="encodeULEB128"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errorOrToExpected"/>
+    <functioncall functionName="errorToErrorCode"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fetchParentAddress"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="forEachEntryPoint"/>
+    <functioncall functionName="formatv"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBBHash"/>
+    <functioncall functionName="getBBHashMap"/>
+    <functioncall functionName="getBBIndex"/>
+    <functioncall functionName="getBFHash"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctionAtAddress"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getBytes"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getHash"/>
+    <functioncall functionName="getIOAddressMap"/>
+    <functioncall functionName="getIndex"/>
+    <functioncall functionName="getInputOffset"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLocSyms"/>
+    <functioncall functionName="getMainFragment"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumBasicBlocks"/>
+    <functioncall functionName="getNumEqualOffsets"/>
+    <functioncall functionName="getNumFunctions"/>
+    <functioncall functionName="getOutputAddress"/>
+    <functioncall functionName="getOutputAddressRange"/>
+    <functioncall functionName="getOutputSize"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getRawData"/>
+    <functioncall functionName="getSLEB128"/>
+    <functioncall functionName="getSLEB128Size"/>
+    <functioncall functionName="getSecondaryEntryPointId"/>
+    <functioncall functionName="getSplitFragments"/>
+    <functioncall functionName="getSymbolValue"/>
+    <functioncall functionName="getU32"/>
+    <functioncall functionName="getU64"/>
+    <functioncall functionName="getULEB128"/>
+    <functioncall functionName="getULEB128Size"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="io_error"/>
+    <functioncall functionName="isIgnored"/>
+    <functioncall functionName="isInputBlock"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isSplit"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="make_error_code"/>
+    <functioncall functionName="make_first_range"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="parseMaps"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="sections"/>
+    <functioncall functionName="setBit"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="slice"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="translate"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unordered_set"/>
+    <functioncall functionName="upper_bound"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="writeEntriesForBB"/>
+    <functioncall functionName="writeMaps"/>
+  </FileInfo>
+</analyzerinfo>

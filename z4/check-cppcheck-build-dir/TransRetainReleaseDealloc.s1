@@ -1,0 +1,55 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+RetainReleaseDeallocRemover call:[get,getNullarySelector] noreturn:[getNullarySelector]
+transformBody call:[ParentMap,TraverseStmt,collectRemovables,reset] noreturn:[TraverseStmt]
+VisitObjCMessageExpr call:[IgnoreParenImpCasts,Trans,checkForGCDOrXPC,clearDiagnostics,getAsString,getBeginLoc,getEnd,getInstanceReceiver,getMethodFamily,getNilString,getObjCLifetime,getReceiverKind,getSelector,getSelectorLoc,getSourceRange,getType,hasSideEffects,insertAfterToken,isCommonUnusedAutorelease,isDelegateMessage,isGlobalVar,isInAtFinally,isInstanceMessage,isRemovable,replace,reportError,tryRemoving] noreturn:[replace]
+isCommonUnusedAutorelease call:[isPlusOneAssignBeforeOrAfterAutorelease,isReturnedAfterAutorelease] noreturn:[isReturnedAfterAutorelease]
+isReturnedAfterAutorelease call:[getInstanceReceiver,getNextStmt,getReferencedDecl,getRetValue] noreturn:[getReferencedDecl]
+isPlusOneAssignBeforeOrAfterAutorelease call:[getInstanceReceiver,getPreviousAndNextStmt,getReferencedDecl,isPlusOneAssignToVar,tie] noreturn:[isPlusOneAssignToVar]
+isPlusOneAssignToVar call:[getInit,getLHS,getReferencedDecl,getSingleDecl,isPlusOne,isPlusOneAssign,isSingleDecl,return] noreturn:[isPlusOne,isPlusOneAssign]
+getNextStmt call:[getPreviousAndNextStmt]
+getPreviousAndNextStmt call:[IgnoreImplicit,child_begin,child_end,getParent,make_pair,while] noreturn:[IgnoreImplicit,getParent,make_pair]
+getReferencedDecl call:[IgnoreParenCasts,getDecl,getInstanceReceiver,getMemberDecl,getMethodFamily,getReferencedDecl] noreturn:[getDecl,getMemberDecl]
+checkForGCDOrXPC call:[Case,Default,IgnoreParenImpCasts,begin,children,end,getBegin,getEnd,getExprLoc,getImmediateMacroName,getImmediateSpellingLoc,getInit,getLangOpts,getParent,getSingleDecl,getSourceManager,getSourceRange,getSubExpr,isMacroArgExpansion,isMacroID,isSingleDecl,setBegin,setEnd] noreturn:[IgnoreParenImpCasts,getParent,setBegin,setEnd]
+clearDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+isDelegateMessage call:[IgnoreImplicit,IgnoreParenCasts,getResultExpr,getSelector,isInstanceMessage,return] noreturn:[IgnoreImplicit,return]
+isInAtFinally call:[assert,getParent] noreturn:[getParent]
+isRemovable call:[count] noreturn:[count]
+tryRemoving call:[getLHS,getOpcode,getParent,getRHS,getSourceRange,isRemovable,removeStmt,replace,tryRemoving] noreturn:[tryRemoving]
+removeRetainReleaseDeallocFinalize call:[TraverseDecl,getTranslationUnitDecl,trans] noreturn:[TraverseDecl]

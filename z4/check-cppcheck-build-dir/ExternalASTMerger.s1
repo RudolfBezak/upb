@@ -1,0 +1,38 @@
+CanonicalizeDC call:[getRedeclContext] noreturn:[getRedeclContext]
+LookupSameContext call:[CanonicalizeDC,Import,LookupSameContext,consumeError,front,get,getDeclKind,getDeclName,getKind,getParent,getPrimaryContext,isSingleResult,isTranslationUnit,lookup,takeError] noreturn:[getPrimaryContext]
+logs call:[logs] noreturn:[logs]
+LazyASTImporter
+ImportImpl call:[FindOriginalDecl,Import,ImportImpl,ImporterForOrigin,MapImported,assert,getASTContext,getFromContext,takeError] noreturn:[ImportImpl,takeError]
+GetOriginalDecl call:[lookup] noreturn:[lookup]
+Imported call:[CanComplete,ForceRecordOrigin,FromDC,HasImporterForOrigin,LoggingEnabled,MaybeRecordOrigin,assert,at,count,getFromContext,getPrimaryContext,getToContext,logs,setHasExternalLexicalStorage,setHasExternalVisibleStorage,setMustBuildLookupTable] noreturn:[ForceRecordOrigin,MaybeRecordOrigin,assert]
+GetReverse
+HasDeclOfSameType call:[any_of,get,getKind] noreturn:[any_of,getKind]
+LazyImporterForOrigin call:[ImporterForOrigin]
+IsSameDC call:[CanonicalizeDC,getFirstDecl] noreturn:[CanonicalizeDC]
+importSpecializations call:[Import,consumeError,specializations,takeError]
+importSpecializationsIfNeeded call:[importSpecializations] noreturn:[importSpecializations]
+Source < const DeclContext * >
+operatorT
+get
+get
+operatorSource
+Source < TranslationUnitDecl * >
+operatorT
+get
+get
+operatorSource
+Source < DeclarationName >
+operatorT
+get
+get
+operatorSource
+Source < DeclContext * >
+operatorT
+get
+get
+operatorSource
+Source < NamedDecl * >
+operatorT
+get
+get
+operatorSource

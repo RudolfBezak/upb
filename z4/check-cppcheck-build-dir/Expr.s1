@@ -1,0 +1,19 @@
+getExprLocImpl call:[getExprLoc] noreturn:[getExprLoc]
+getExprLocImpl call:[getBeginLoc] noreturn:[getBeginLoc]
+AssertResultStorageKind call:[assert]
+PrettyCallbacks
+remapPath call:[p,remapPathPrefix,string] noreturn:[string]
+ignoreImplicitSemaNodes call:[getInitExprs,getSubExpr,size] noreturn:[getSubExpr]
+skipTemporaryBindingsNoOpCastsAndParens call:[IgnoreParens,getCastKind,getSubExpr] noreturn:[IgnoreParens,getSubExpr]
+SideEffectFinder
+hasSideEffects
+VisitDecl call:[isThisDeclarationADefinition,needsDestruction]
+VisitDeclStmt call:[VisitDecl,VisitDeclStmt,decls] noreturn:[VisitDecl,VisitDeclStmt]
+VisitExpr call:[HasSideEffects]
+NonTrivialCallFinder
+hasNonTrivialCall
+VisitCallExpr call:[VisitStmt,getCalleeDecl,isTrivial]
+VisitCXXConstructExpr call:[VisitStmt,getConstructor,isTrivial]
+VisitCXXBindTemporaryExpr call:[VisitStmt,getDestructor,getTemporary,isTrivial]
+getOverflowPatternBinOp call:[IgnoreParenImpCasts,getLHS,getOpcode,getRHS,getReferencedDeclOfCallee] noreturn:[getLHS,getRHS]
+computeOverflowPatternExclusion call:[getLangOpts,getOverflowPatternBinOp,getType,has_value,isOverflowPatternExcluded,isSignedIntegerType,isUnsignedIntegerType,setExcludedOverflowPattern,value] noreturn:[setExcludedOverflowPattern]

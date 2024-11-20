@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4284484792333150459">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/RegReAssign.h&quot; not found." verbose="Include file: &quot;bolt/Passes/RegReAssign.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunctionCallGraph.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlus.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlus.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RegReAssign.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RegReAssign.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="AggressiveReAssign"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="BinaryFunctionCallGraph"/>
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="CalleeSaved"/>
+    <functioncall functionName="ClassicCSR"/>
+    <functioncall functionName="ClassicRegs"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="ExtendedCSR"/>
+    <functioncall functionName="GPRegs"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="RankedRegs"/>
+    <functioncall functionName="RegAnalysis"/>
+    <functioncall functionName="RegScore"/>
+    <functioncall functionName="TIED_TO"/>
+    <functioncall functionName="UpdateDebugSections"/>
+    <functioncall functionName="aggressivePassOverFunction"/>
+    <functioncall functionName="any"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="buildCallGraph"/>
+    <functioncall functionName="cannotUseREX"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="conservativePassOverFunction"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createRegister"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fill"/>
+    <functioncall functionName="find_first"/>
+    <functioncall functionName="flip"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAliasSized"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCFIFor"/>
+    <functioncall functionName="getCalleeSavedRegs"/>
+    <functioncall functionName="getClassicGPRegs"/>
+    <functioncall functionName="getDefaultLiveOut"/>
+    <functioncall functionName="getDwarfRegNum"/>
+    <functioncall functionName="getFirstPointAt"/>
+    <functioncall functionName="getFragments"/>
+    <functioncall functionName="getFramePointer"/>
+    <functioncall functionName="getGPRegs"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLLVMRegNum"/>
+    <functioncall functionName="getLivenessAnalysis"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOperandConstraint"/>
+    <functioncall functionName="getOperation"/>
+    <functioncall functionName="getParentFragments"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getRegSize"/>
+    <functioncall functionName="getRegister"/>
+    <functioncall functionName="getRegister2"/>
+    <functioncall functionName="getStateAt"/>
+    <functioncall functionName="getValues"/>
+    <functioncall functionName="implicit_defs"/>
+    <functioncall functionName="implicit_uses"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="iota"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isFragment"/>
+    <functioncall functionName="isIgnored"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isUpper8BitReg"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="mutateCFIRegisterFor"/>
+    <functioncall functionName="numeric_limits"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="primeOperands"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="rankRegisters"/>
+    <functioncall functionName="readDWARFExpressionTargetReg"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="setCFIFor"/>
+    <functioncall functionName="setReg"/>
+    <functioncall functionName="set_bits"/>
+    <functioncall functionName="setupAggressivePass"/>
+    <functioncall functionName="setupConservativePass"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="test"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="value_type"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

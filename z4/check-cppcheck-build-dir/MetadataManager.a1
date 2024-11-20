@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10047786143336975774">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataManager.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MetadataManager.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\MetadataManager.cpp" line="10" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MetadataRewriter"/>
+    <functioncall functionName="Rewriters"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="postCFGInitializer"/>
+    <functioncall functionName="postEmitFinalizer"/>
+    <functioncall functionName="preCFGInitializer"/>
+    <functioncall functionName="preEmitFinalizer"/>
+    <functioncall functionName="sectionInitializer"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

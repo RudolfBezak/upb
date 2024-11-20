@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6231158523184737970">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTImporterLookupTable.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTImporterLookupTable.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTImporterLookupTable.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTImporterLookupTable.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTImporterLookupTable.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FormatVariadic.h&quot; not found." verbose="Include file: &quot;llvm/Support/FormatVariadic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTImporterLookupTable.cpp" line="17" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Builder&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Builder&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ASTImporterLookupTable.cpp" line="25" column="3"/>
+            <symbol>Builder</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp:27:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" line="28" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp:49:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" line="50" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp:27:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" line="28" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp:49:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" line="50" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" functionName="VisitTypedefNameDecl" lineNumber="27"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" functionName="VisitNamedDecl" lineNumber="40"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" functionName="VisitFriendDecl" lineNumber="49"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" functionName="shouldVisitTemplateInstantiations" lineNumber="81"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ASTImporterLookupTable.cpp" functionName="shouldVisitImplicitCode" lineNumber="82"/>
+    <functioncall functionName="ASTImporterLookupTable"/>
+    <functioncall functionName="Builder"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="ElaboratedType"/>
+    <functioncall functionName="LookupTable"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="RecursiveASTVisitor"/>
+    <functioncall functionName="SubstTemplateTypeParmType"/>
+    <functioncall functionName="TemplateSpecializationType"/>
+    <functioncall functionName="TraverseDecl"/>
+    <functioncall functionName="TypedefType"/>
+    <functioncall functionName="UsingType"/>
+    <functioncall functionName="add"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="fields"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="formatv"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAsRecordDecl"/>
+    <functioncall functionName="getAsString"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeclKindName"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getFriendType"/>
+    <functioncall functionName="getNamedType"/>
+    <functioncall functionName="getPrimaryContext"/>
+    <functioncall functionName="getRedeclContext"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getUnderlyingType"/>
+    <functioncall functionName="getVaListTagDecl"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isDependentType"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

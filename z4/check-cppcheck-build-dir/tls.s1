@@ -1,0 +1,1 @@
+main global:[extstruct,tbssstruct,tdatastruct] call:[processAddr] noreturn:[processAddr]

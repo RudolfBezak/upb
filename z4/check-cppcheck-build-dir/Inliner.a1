@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1306499471820456720">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/Inliner.h&quot; not found." verbose="Include file: &quot;bolt/Passes/Inliner.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Inliner.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlus.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlus.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Inliner.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Inliner.cpp" line="29" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Inliner.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\Inliner.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Inliner.cpp:146:14" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Inliner.cpp" line="147" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Inliner.cpp" functionName="inliningEnabled" lineNumber="96"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Inliner.cpp" functionName="mustConsider" lineNumber="101"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Inliner.cpp" functionName="syncOptions" lineNumber="108"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/Inliner.cpp" functionName="getInliningInfo" lineNumber="146"/>
+    <functioncall functionName="AdjustProfile"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="CommaSeparated"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="INL_ANY"/>
+    <functioncall functionName="INL_NONE"/>
+    <functioncall functionName="INL_TAILCALL"/>
+    <functioncall functionName="InlineIgnoreCFI"/>
+    <functioncall functionName="InlineIgnoreLeafCFI"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="NumInlinedCallSites"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="SizeOfCallInst"/>
+    <functioncall functionName="SizeOfTailCallInst"/>
+    <functioncall functionName="addBasicBlock"/>
+    <functioncall functionName="addEHInfo"/>
+    <functioncall functionName="addGnuArgsSize"/>
+    <functioncall functionName="addSuccessor"/>
+    <functioncall functionName="addSuccessors"/>
+    <functioncall functionName="adjustExecutionCount"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="branch_info_begin"/>
+    <functioncall functionName="branch_info_end"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="computeInstructionSize"/>
+    <functioncall functionName="convertTailCallToCall"/>
+    <functioncall functionName="createCall"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createTailCall"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="drop_begin"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="estimateSize"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findInliningCandidates"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCFIState"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getGnuArgsSize"/>
+    <functioncall functionName="getInliningInfo"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLastNonPseudoInstr"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getSizeOfCallInst"/>
+    <functioncall functionName="getSizeOfTailCallInst"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="getSuccessor"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasDefOfPhysReg"/>
+    <functioncall functionName="hasEHRanges"/>
+    <functioncall functionName="hasJumpTables"/>
+    <functioncall functionName="hasName"/>
+    <functioncall functionName="hasSDTMarker"/>
+    <functioncall functionName="hasUseOfPhysReg"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="inlineCall"/>
+    <functioncall functionName="inlineCallsInFunction"/>
+    <functioncall functionName="inliningEnabled"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertInstruction"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isMultiEntry"/>
+    <functioncall functionName="isPop"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isPush"/>
+    <functioncall functionName="isReturn"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="mustConsider"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="recomputeLandingPads"/>
+    <functioncall functionName="removeSuccessor"/>
+    <functioncall functionName="replaceBranchTarget"/>
+    <functioncall functionName="setCFIState"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="shouldOptimize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="splitAt"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="stripAnnotations"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="syncOptions"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="transform"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="value_desc"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

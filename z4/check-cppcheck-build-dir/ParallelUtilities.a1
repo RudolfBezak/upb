@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8910750952811820266">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/RWMutex.h&quot; not found." verbose="Include file: &quot;llvm/Support/RWMutex.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ThreadPool.h&quot; not found." verbose="Include file: &quot;llvm/Support/ThreadPool.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Timer.h&quot; not found." verbose="Include file: &quot;llvm/Support/Timer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="19" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;BFI&apos; can be declared as reference to const" verbose="Variable &apos;BFI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\ParallelUtilities.cpp" line="86" column="14" info="Variable &apos;BFI&apos; can be declared as reference to const"/>
+            <symbol>BFI</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp:117:6" my-argnr="1" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp" line="121" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp:170:6" my-argnr="1" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp" line="174" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp" functionName="computeCostFor" lineNumber="54"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp" functionName="estimateTotalCost" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp" functionName="getThreadPool" lineNumber="105"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp" functionName="runOnEachFunction" lineNumber="117"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/ParallelUtilities.cpp" functionName="runOnEachFunctionWithUniqueAllocId" lineNumber="170"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="DefaultThreadPool"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="RWMutex"/>
+    <functioncall functionName="SP_TRIVIAL"/>
+    <functioncall functionName="SingleThreadExecutor"/>
+    <functioncall functionName="ThreadPoolInterface"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="async"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="checkAllocatorExists"/>
+    <functioncall functionName="computeCostFor"/>
+    <functioncall functionName="compute_thread_count"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="estimateTotalCost"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getThreadPool"/>
+    <functioncall functionName="hardware_concurrency"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="initializeNewAnnotationAllocator"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="shared_lock"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="startTimer"/>
+    <functioncall functionName="stopTimer"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_lock"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unlock"/>
+    <functioncall functionName="wait"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,3 @@
+DataInCodeRegion call:[getKind,getLength,getOffset] noreturn:[getKind]
+readDataInCode call:[begin_dices,emplace_back,end_dices,getDataInCodeLoadCommand,reserve,sizeof,stable_sort] noreturn:[emplace_back]
+readStartAddress call:[SegmentName,getEntryPointCommand,getSegment64LoadCommand,getSegmentLoadCommand,load_commands,return,sizeof,strnlen]

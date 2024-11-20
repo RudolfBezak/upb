@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1786132267615364086">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ParentMap.h&quot; not found." verbose="Include file: &quot;clang/AST/ParentMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found." verbose="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found." verbose="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/Lexer.h&quot; not found." verbose="Include file: &quot;clang/Lex/Lexer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallString.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallString.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/TinyPtrVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/TinyPtrVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found." verbose="Include file: &quot;llvm/Support/SaveAndRestore.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="17" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;BodyTransform&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;BodyTransform&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Transforms.h" line="191" column="3"/>
+            <symbol>BodyTransform</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="129" column="3"/>
+            <symbol>Transaction</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransGCAttrs.cpp" line="134" column="7"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="81" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="86" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="12"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp:85:8" call-funcname="handleAttr" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" line="68" col="13" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp:60:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:129:3" my-argnr="1" my-argname="TA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="130" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp:219:13" my-argnr="3" my-argname="IndProps" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" line="222" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp:296:13" my-argnr="2" my-argname="AllProps" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" line="301" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getMigrationContext" lineNumber="54"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getParentMap" lineNumber="55"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getTopStmt" lineNumber="56"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getMigrationContext" lineNumber="68"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="getImplementationDecl" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="traversers_begin" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="traversers_end" lineNumber="108"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="addTraverser" lineNumber="110"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="removePropertyAttribute" lineNumber="115"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="TraverseStmt" lineNumber="193"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="TraverseObjCMethodDecl" lineNumber="199"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Transforms.h" functionName="clearRefsIn" lineNumber="209"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="push_back" lineNumber="31"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="begin" lineNumber="41"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="end" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearAllDiagnostics" lineNumber="76"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="89"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="93"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasReportedErrors" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="abort" lineNumber="138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isAborted" lineNumber="143"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getDiags" lineNumber="163"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isGCMigration" lineNumber="165"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="noFinalizeRemoval" lineNumber="166"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="setNoFinalizeRemoval" lineNumber="167"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getARCMTMacroName" lineNumber="172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="shouldWalkTypesOfTypeLocs" lineNumber="38"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="VisitAttributedTypeLoc" lineNumber="40"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="TraverseDecl" lineNumber="45"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="lookForAttribute" lineNumber="60"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="handleAttr" lineNumber="85"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="isMigratable" lineNumber="120"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="hasObjCImpl" lineNumber="144"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="isInMainFile" lineNumber="157"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="isInMainFile" lineNumber="168"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="errorForGCAttrsOnNonObjC" lineNumber="179"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="checkWeakGCAttrs" lineNumber="195"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="checkAllAtProps" lineNumber="219"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="checkAllProps" lineNumber="296"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="traverseTU" lineNumber="320"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransGCAttrs.cpp" functionName="dumpGCAttrs" lineNumber="330"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="ArrayTypeLoc"/>
+    <functioncall functionName="AttributedTypeLoc"/>
+    <functioncall functionName="BODY_TRANS"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="DeclaratorDecl"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="GCAttrsCollector"/>
+    <functioncall functionName="MacroQualifiedTypeLoc"/>
+    <functioncall functionName="MigrationPass"/>
+    <functioncall functionName="ObjCCategoryDecl"/>
+    <functioncall functionName="ObjCContainerDecl"/>
+    <functioncall functionName="ObjCImplDecl"/>
+    <functioncall functionName="ObjCInterfaceDecl"/>
+    <functioncall functionName="ObjCOwnershipAttr"/>
+    <functioncall functionName="ObjCPropertyDecl"/>
+    <functioncall functionName="PointerTypeLoc"/>
+    <functioncall functionName="QualifiedTypeLoc"/>
+    <functioncall functionName="RecursiveASTVisitor"/>
+    <functioncall functionName="ReferenceTypeLoc"/>
+    <functioncall functionName="SaveAndRestore"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StoredDiagnostic"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TinyPtrVector"/>
+    <functioncall functionName="TranslationUnitDecl"/>
+    <functioncall functionName="TraverseDecl"/>
+    <functioncall functionName="TraverseObjCMethodDecl"/>
+    <functioncall functionName="abortTransaction"/>
+    <functioncall functionName="addPropertyAttribute"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="canApplyWeak"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="checkAllAtProps"/>
+    <functioncall functionName="checkAllProps"/>
+    <functioncall functionName="checkWeakGCAttrs"/>
+    <functioncall functionName="clearDiagnostic"/>
+    <functioncall functionName="clearRefsIn"/>
+    <functioncall functionName="commitTransaction"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="err_arc_inconsistent_property_ownership"/>
+    <functioncall functionName="err_arc_unsupported_weak_class"/>
+    <functioncall functionName="err_arc_weak_no_runtime"/>
+    <functioncall functionName="err_objc_property_attr_mutually_exclusive"/>
+    <functioncall functionName="errorForGCAttrsOnNonObjC"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAtLoc"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getAttrAs"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getElementLoc"/>
+    <functioncall functionName="getExpansionLoc"/>
+    <functioncall functionName="getImmediateExpansionRange"/>
+    <functioncall functionName="getImplementation"/>
+    <functioncall functionName="getInnerLoc"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMainFileID"/>
+    <functioncall functionName="getModifiedLoc"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getObjCLifetime"/>
+    <functioncall functionName="getPointeeLoc"/>
+    <functioncall functionName="getPropertyAttributesAsWritten"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeLoc"/>
+    <functioncall functionName="getTypeSourceInfo"/>
+    <functioncall functionName="getUnqualifiedLoc"/>
+    <functioncall functionName="handleAttr"/>
+    <functioncall functionName="hasBody"/>
+    <functioncall functionName="hasDiagnostic"/>
+    <functioncall functionName="hasObjCImpl"/>
+    <functioncall functionName="hasUnrecoverableErrorOccurred"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isAborted"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="isInFileID"/>
+    <functioncall functionName="isInMainFile"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isMacroID"/>
+    <functioncall functionName="isMigratable"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjCRetainableType"/>
+    <functioncall functionName="isOutOfLine"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="kind_noattr"/>
+    <functioncall functionName="kind_readonly"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="lookForAttribute"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="methods"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="redecls"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="replaceText"/>
+    <functioncall functionName="reportError"/>
+    <functioncall functionName="rewritePropertyAttribute"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="startTransaction"/>
+    <functioncall functionName="transformBody"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

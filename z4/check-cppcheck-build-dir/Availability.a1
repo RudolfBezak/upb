@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16730059646579307138">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Availability.h&quot; not found." verbose="Include file: &quot;clang/AST/Availability.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Availability.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Availability.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Availability.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Availability.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Availability.cpp" line="17" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Availability.cpp:46:13" my-argnr="1" my-argname="Decl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Availability.cpp" line="49" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Availability.cpp:46:13" my-argnr="1" my-argname="Decl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Availability.cpp" line="49" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Availability.cpp" functionName="insert" lineNumber="26"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Availability.cpp" functionName="getForPlatform" lineNumber="34"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Availability.cpp" functionName="createInfoForDecl" lineNumber="46"/>
+    <functioncall functionName="AvailabilityAttr"/>
+    <functioncall functionName="AvailabilityInfo"/>
+    <functioncall functionName="Decl"/>
+    <functioncall functionName="Deprecated"/>
+    <functioncall functionName="DeprecatedAttr"/>
+    <functioncall functionName="Introduced"/>
+    <functioncall functionName="Obsoleted"/>
+    <functioncall functionName="UnavailableAttr"/>
+    <functioncall functionName="cast_or_null"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="createInfoForDecl"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDeprecated"/>
+    <functioncall functionName="getForPlatform"/>
+    <functioncall functionName="getIntroduced"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getObsoleted"/>
+    <functioncall functionName="getPlatform"/>
+    <functioncall functionName="getPlatformName"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getUnavailable"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isDefault"/>
+    <functioncall functionName="isImplicit"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="mergeWith"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="redecls"/>
+    <functioncall functionName="specific_attrs"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

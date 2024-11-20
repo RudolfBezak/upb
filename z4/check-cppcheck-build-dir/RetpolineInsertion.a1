@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11834933147604856300">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/RetpolineInsertion.h&quot; not found." verbose="Include file: &quot;bolt/Passes/RetpolineInsertion.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RetpolineInsertion.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInstPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RetpolineInsertion.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RetpolineInsertion.cpp" line="26" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;It&apos; shadows outer variable" verbose="Local variable &apos;It&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RetpolineInsertion.cpp" line="286" column="17" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\RetpolineInsertion.cpp" line="283" column="14" info="Shadowed declaration"/>
+            <symbol>It</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp:78:17" my-argnr="2" my-argname="RetpolineTag" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp" line="85" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp:174:13" my-argnr="2" my-argname="BrInfo" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp" line="181" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp:229:6" my-argnr="2" my-argname="BrInfo" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp" line="236" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp" functionName="createNewRetpoline" lineNumber="78"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp" functionName="createRetpolineFunctionTag" lineNumber="174"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/RetpolineInsertion.cpp" functionName="createBranchReplacement" lineNumber="229"/>
+    <functioncall functionName="ABI"/>
+    <functioncall functionName="ALWAYS"/>
+    <functioncall functionName="AvailabilityOptions"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="CFG_Finalized"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="IndirectBranchInfo"/>
+    <functioncall functionName="InsertRetpolines"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="NEVER"/>
+    <functioncall functionName="RetpolineLfence"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="X86MemOperand"/>
+    <functioncall functionName="ZeroOrMore"/>
+    <functioncall functionName="addInstruction"/>
+    <functioncall functionName="addInstructions"/>
+    <functioncall functionName="addSuccessor"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createBasicBlock"/>
+    <functioncall functionName="createBranchReplacement"/>
+    <functioncall functionName="createDirectCall"/>
+    <functioncall functionName="createInjectedBinaryFunction"/>
+    <functioncall functionName="createLfence"/>
+    <functioncall functionName="createLoad"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createNewRetpoline"/>
+    <functioncall functionName="createPause"/>
+    <functioncall functionName="createPopRegister"/>
+    <functioncall functionName="createPushRegister"/>
+    <functioncall functionName="createRetpolineFunctionTag"/>
+    <functioncall functionName="createReturn"/>
+    <functioncall functionName="createSaveToStack"/>
+    <functioncall functionName="createShortJmp"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="evaluateX86MemoryOperand"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getNoRegister"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getOrCreateRetpoline"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getStackPointer"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getX86R11"/>
+    <functioncall functionName="hasAnnotation"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insertBasicBlocks"/>
+    <functioncall functionName="isBranchOnMem"/>
+    <functioncall functionName="isBranchOnReg"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isIndirectCall"/>
+    <functioncall functionName="isJump"/>
+    <functioncall functionName="isMem"/>
+    <functioncall functionName="isReg"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="printRegName"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="replaceInstruction"/>
+    <functioncall functionName="setCFIState"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="updateState"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

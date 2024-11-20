@@ -1,0 +1,2 @@
+dummy call:[printf]
+main call:[dummy,printf]

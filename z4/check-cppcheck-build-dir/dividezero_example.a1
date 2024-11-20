@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6315374264880686935">
+        <error id="zerodivcond" severity="warning" msg="Either the condition &apos;z==0&apos; is redundant or there is division by zero at line 3." verbose="Either the condition &apos;z==0&apos; is redundant or there is division by zero at line 3." cwe="369" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/dividezero_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\dividezero_example.c" line="3" column="15" info="Division by zero"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\dividezero_example.c" line="2" column="9" info="Assuming that condition &apos;z==0&apos; is not redundant"/>
+        </error>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/dividezero_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\dividezero_example.c" line="8" column="13" info="Division by zero"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/dividezero_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\dividezero_example.c" line="3" column="11"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/dividezero_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\dividezero_example.c" line="8" column="9"/>
+            <symbol>y</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/dividezero_example.c" functionName="test" lineNumber="1"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/dividezero_example.c" functionName="test" lineNumber="6"/>
+  </FileInfo>
+</analyzerinfo>

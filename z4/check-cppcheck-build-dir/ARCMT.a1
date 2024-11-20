@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15729848976195516321">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/ARCMigrate/ARCMT.h&quot; not found." verbose="Include file: &quot;clang/ARCMigrate/ARCMT.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found." verbose="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/DiagnosticCategories.h&quot; not found." verbose="Include file: &quot;clang/Basic/DiagnosticCategories.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/ASTUnit.h&quot; not found." verbose="Include file: &quot;clang/Frontend/ASTUnit.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found." verbose="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/FrontendAction.h&quot; not found." verbose="Include file: &quot;clang/Frontend/FrontendAction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/TextDiagnosticPrinter.h&quot; not found." verbose="Include file: &quot;clang/Frontend/TextDiagnosticPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/Utils.h&quot; not found." verbose="Include file: &quot;clang/Frontend/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found." verbose="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/PreprocessorOptions.h&quot; not found." verbose="Include file: &quot;clang/Lex/PreprocessorOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Rewrite/Core/Rewriter.h&quot; not found." verbose="Include file: &quot;clang/Rewrite/Core/Rewriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Serialization/ASTReader.h&quot; not found." verbose="Include file: &quot;clang/Serialization/ASTReader.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MemoryBuffer.h&quot; not found." verbose="Include file: &quot;llvm/Support/MemoryBuffer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/TargetParser/Triple.h&quot; not found." verbose="Include file: &quot;llvm/TargetParser/Triple.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="25" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="129" column="3"/>
+            <symbol>Transaction</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ARCMTMacroTrackerPPCallbacks&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ARCMTMacroTrackerPPCallbacks&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="437" column="3"/>
+            <symbol>ARCMTMacroTrackerPPCallbacks</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ARCMTMacroTrackerAction&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ARCMTMacroTrackerAction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMT.cpp" line="451" column="3"/>
+            <symbol>ARCMTMacroTrackerAction</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="81" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="86" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="12"/>  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:129:3" my-argnr="1" my-argname="TA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="130" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp:133:8" my-argnr="2" my-argname="Info" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" line="135" col="40" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp:149:13" my-argnr="1" my-argname="origCI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" line="153" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp:216:13" my-argnr="1" my-argname="arcDiags" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" line="227" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp:216:13" my-argnr="3" my-argname="PP" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" line="224" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp:337:1" my-argnr="1" my-argname="origCI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" line="341" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp:440:8" my-argnr="1" my-argname="MacroNameTok" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" line="442" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp:454:32" my-argnr="1" my-argname="CI" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" line="456" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="push_back" lineNumber="31"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="begin" lineNumber="41"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="end" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearAllDiagnostics" lineNumber="76"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="89"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="93"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasReportedErrors" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="abort" lineNumber="138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isAborted" lineNumber="143"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getDiags" lineNumber="163"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isGCMigration" lineNumber="165"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="noFinalizeRemoval" lineNumber="166"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="setNoFinalizeRemoval" lineNumber="167"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getARCMTMacroName" lineNumber="172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="clearDiagnostic" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="hasDiagnostic" lineNumber="59"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="reportDiagnostics" lineNumber="81"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="hasErrors" lineNumber="86"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="FinishCapture" lineNumber="119"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="HasARCRuntime" lineNumber="149"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="createInvocationForMigration" lineNumber="172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="emitPremigrationErrors" lineNumber="216"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/ARCMT.cpp" functionName="applyTransforms" lineNumber="337"/>
+    <functioncall functionName="ARCMTMacroTrackerAction"/>
+    <functioncall functionName="ASTConsumer"/>
+    <functioncall functionName="ASTUnit"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BeginSourceFile"/>
+    <functioncall functionName="CompilerInvocation"/>
+    <functioncall functionName="DiagClient"/>
+    <functioncall functionName="DiagnosticIDs"/>
+    <functioncall functionName="DiagnosticsEngine"/>
+    <functioncall functionName="EndSourceFile"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="FinishCapture"/>
+    <functioncall functionName="FixupRelativePath"/>
+    <functioncall functionName="HadARCErrors"/>
+    <functioncall functionName="HasARCRuntime"/>
+    <functioncall functionName="IgnoringDiagConsumer"/>
+    <functioncall functionName="IncreaseIndentation"/>
+    <functioncall functionName="InsertText"/>
+    <functioncall functionName="IntrusiveRefCntPtr"/>
+    <functioncall functionName="LoadFromCompilerInvocationAction"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="MigrationPass"/>
+    <functioncall functionName="MigrationProcess"/>
+    <functioncall functionName="NoFinalizeRemoval"/>
+    <functioncall functionName="NoNSAllocReallocError"/>
+    <functioncall functionName="NonGC"/>
+    <functioncall functionName="ObjC"/>
+    <functioncall functionName="ObjCWeakRuntime"/>
+    <functioncall functionName="OrigCI"/>
+    <functioncall functionName="PCHContainerOperations"/>
+    <functioncall functionName="PCHContainerOps"/>
+    <functioncall functionName="RemoveText"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="Reset"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="StoredDiagnostic"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TransformFn"/>
+    <functioncall functionName="Triple"/>
+    <functioncall functionName="VersionTuple"/>
+    <functioncall functionName="abortTransaction"/>
+    <functioncall functionName="addMacroDef"/>
+    <functioncall functionName="addPPCallbacks"/>
+    <functioncall functionName="applyMappings"/>
+    <functioncall functionName="applyRewrites"/>
+    <functioncall functionName="applyTransform"/>
+    <functioncall functionName="applyTransforms"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="buffer_begin"/>
+    <functioncall functionName="buffer_end"/>
+    <functioncall functionName="checkForManualIssues"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clearDiagnostic"/>
+    <functioncall functionName="commitTransaction"/>
+    <functioncall functionName="createInvocationForMigration"/>
+    <functioncall functionName="emitPremigrationErrors"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="finish"/>
+    <functioncall functionName="flushToDisk"/>
+    <functioncall functionName="forEachMapping"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getARCMTMacroName"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAllTransformations"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getDiagnosticOpts"/>
+    <functioncall functionName="getEnd"/>
+    <functioncall functionName="getFileEntryRefForID"/>
+    <functioncall functionName="getFileManager"/>
+    <functioncall functionName="getFileSystemOpts"/>
+    <functioncall functionName="getFrontendOpts"/>
+    <functioncall functionName="getGC"/>
+    <functioncall functionName="getID"/>
+    <functioncall functionName="getIdentifierInfo"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLevel"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMemBufferCopy"/>
+    <functioncall functionName="getMigratorOpts"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumErrors"/>
+    <functioncall functionName="getOS"/>
+    <functioncall functionName="getOSMajorVersion"/>
+    <functioncall functionName="getOSVersion"/>
+    <functioncall functionName="getOriginalSourceFile"/>
+    <functioncall functionName="getPreprocessor"/>
+    <functioncall functionName="getPreprocessorOpts"/>
+    <functioncall functionName="getRawReader"/>
+    <functioncall functionName="getRemapper"/>
+    <functioncall functionName="getSema"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getTargetOpts"/>
+    <functioncall functionName="hasDiagnostic"/>
+    <functioncall functionName="hasErrors"/>
+    <functioncall functionName="hasFatalErrorOccurred"/>
+    <functioncall functionName="hasReportedErrors"/>
+    <functioncall functionName="hasUnrecoverableErrorOccurred"/>
+    <functioncall functionName="initFromDisk"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isARCDiagnostic"/>
+    <functioncall functionName="isAborted"/>
+    <functioncall functionName="isBeforeInTranslationUnitThan"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isWatchOS"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="isiOS"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="overwriteOriginal"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="remap"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="reportDiagnostics"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="setClient"/>
+    <functioncall functionName="setGC"/>
+    <functioncall functionName="setLastDiagnosticIgnored"/>
+    <functioncall functionName="setNoFinalizeRemoval"/>
+    <functioncall functionName="setOwnsRemappedFileBuffers"/>
+    <functioncall functionName="setSeverity"/>
+    <functioncall functionName="setSourceManager"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="startTransaction"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="warn_arcmt_nsalloc_realloc"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="writeARCDiagsToPlist"/>
+  </FileInfo>
+</analyzerinfo>

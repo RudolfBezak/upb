@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1764998498457960169">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found." verbose="Include file: &quot;clang/Frontend/MigratorOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found." verbose="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/DenseSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="15" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Transaction&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\Internals.h" line="129" column="3"/>
+            <symbol>Transaction</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: data.S" verbose="Uninitialized variable: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="291" column="27"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: data.S" verbose="Uninitialized variable: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="301" column="27"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: data.S" verbose="Uninitialized variable: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="309" column="27"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: data.S" verbose="Uninitialized variable: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="336" column="27"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: data.S" verbose="Uninitialized variable: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="348" column="27"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: data.S" verbose="Uninitialized variable: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="366" column="27"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: data.S" verbose="Uninitialized variable: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="379" column="27"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.S" verbose="Uninitialized struct member: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="291" column="27"/>
+            <symbol>data.S</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.S" verbose="Uninitialized struct member: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="301" column="27"/>
+            <symbol>data.S</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.S" verbose="Uninitialized struct member: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="309" column="27"/>
+            <symbol>data.S</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.S" verbose="Uninitialized struct member: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="336" column="27"/>
+            <symbol>data.S</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.S" verbose="Uninitialized struct member: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="348" column="27"/>
+            <symbol>data.S</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.S" verbose="Uninitialized struct member: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="366" column="27"/>
+            <symbol>data.S</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.S" verbose="Uninitialized struct member: data.S" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\TransformActions.cpp" line="379" column="27"/>
+            <symbol>data.S</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="81" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:75:8" call-funcname="clearDiagnostic" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="86" col="27" call-argexpr="IDs" call-argvaluetype="7" call-argvalue="12"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp:139:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" line="354" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h:129:3" my-argnr="1" my-argname="TA" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" line="130" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp:139:8" my-argnr="1" my-argname="S" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" line="354" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="push_back" lineNumber="31"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="begin" lineNumber="41"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="end" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearAllDiagnostics" lineNumber="76"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="clearDiagnostic" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="89"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasDiagnostic" lineNumber="93"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="hasReportedErrors" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="abort" lineNumber="138"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isAborted" lineNumber="143"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getDiags" lineNumber="163"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="isGCMigration" lineNumber="165"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="noFinalizeRemoval" lineNumber="166"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="setNoFinalizeRemoval" lineNumber="167"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/Internals.h" functionName="getARCMTMacroName" lineNumber="172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="compareWith" lineNumber="80"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="compare" lineNumber="97"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="getASTContext" lineNumber="125"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="isInTransaction" lineNumber="131"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="startTransaction" lineNumber="183"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitTransaction" lineNumber="189"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="abortTransaction" lineNumber="278"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="insert" lineNumber="284"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="insertAfterToken" lineNumber="294"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="remove" lineNumber="304"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="removeStmt" lineNumber="312"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replace" lineNumber="322"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replace" lineNumber="329"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replaceText" lineNumber="339"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replaceStmt" lineNumber="351"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="increaseIndentation" lineNumber="358"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="clearDiagnostic" lineNumber="369"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="canInsert" lineNumber="383"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="canInsertAfterToken" lineNumber="396"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="canRemoveRange" lineNumber="409"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="canReplaceRange" lineNumber="413"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="canReplaceText" lineNumber="418"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitInsert" lineNumber="437"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitInsertAfterToken" lineNumber="441"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitRemove" lineNumber="446"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitRemoveStmt" lineNumber="450"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitReplace" lineNumber="464"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitReplaceText" lineNumber="480"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitIncreaseIndentation" lineNumber="492"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitClearDiagnostic" lineNumber="501"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="addInsertion" lineNumber="506"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="addRemoval" lineNumber="519"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="applyRewrites" lineNumber="557"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="getUniqueText" lineNumber="584"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="getLocForEndOfToken" lineNumber="591"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="startTransaction" lineNumber="616"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="commitTransaction" lineNumber="620"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="abortTransaction" lineNumber="624"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="insert" lineNumber="629"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="insertAfterToken" lineNumber="633"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="remove" lineNumber="638"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="removeStmt" lineNumber="642"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replace" lineNumber="646"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replace" lineNumber="650"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replaceStmt" lineNumber="655"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="replaceText" lineNumber="659"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="increaseIndentation" lineNumber="665"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="clearDiagnostic" lineNumber="671"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="applyRewrites" lineNumber="676"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="report" lineNumber="680"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="reportError" lineNumber="687"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="reportWarning" lineNumber="692"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/ARCMigrate/TransformActions.cpp" functionName="reportNote" lineNumber="697"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BeforeThanCompare"/>
+    <functioncall functionName="CapturedDiags"/>
+    <functioncall functionName="CharRange"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="Diags"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="FileID"/>
+    <functioncall functionName="FullSourceLoc"/>
+    <functioncall functionName="IgnoreImplicit"/>
+    <functioncall functionName="Impl"/>
+    <functioncall functionName="MigrationPass"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="Stmt"/>
+    <functioncall functionName="StoredDiagnostic"/>
+    <functioncall functionName="StringMap"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TransformActions"/>
+    <functioncall functionName="TransformActionsImpl"/>
+    <functioncall functionName="abortTransaction"/>
+    <functioncall functionName="addInsertion"/>
+    <functioncall functionName="addRemoval"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="applyRewrites"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="canInsert"/>
+    <functioncall functionName="canInsertAfterToken"/>
+    <functioncall functionName="canRemoveRange"/>
+    <functioncall functionName="canReplaceRange"/>
+    <functioncall functionName="canReplaceText"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clearDiagnostic"/>
+    <functioncall functionName="commitClearDiagnostic"/>
+    <functioncall functionName="commitIncreaseIndentation"/>
+    <functioncall functionName="commitInsert"/>
+    <functioncall functionName="commitInsertAfterToken"/>
+    <functioncall functionName="commitRemove"/>
+    <functioncall functionName="commitRemoveStmt"/>
+    <functioncall functionName="commitReplace"/>
+    <functioncall functionName="commitReplaceText"/>
+    <functioncall functionName="commitTransaction"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="compareWith"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="err_mt_message"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="getARCMTMacroName"/>
+    <functioncall functionName="getBegin"/>
+    <functioncall functionName="getBeginLoc"/>
+    <functioncall functionName="getBufferData"/>
+    <functioncall functionName="getCharRange"/>
+    <functioncall functionName="getDecomposedLoc"/>
+    <functioncall functionName="getEnd"/>
+    <functioncall functionName="getExpansionLoc"/>
+    <functioncall functionName="getExpansionRange"/>
+    <functioncall functionName="getLocForEndOfToken"/>
+    <functioncall functionName="getLocWithOffset"/>
+    <functioncall functionName="getSourceManager"/>
+    <functioncall functionName="getSourceRange"/>
+    <functioncall functionName="getTokenRange"/>
+    <functioncall functionName="getUniqueText"/>
+    <functioncall functionName="hasDiagnostic"/>
+    <functioncall functionName="hasUnrecoverableErrorOccurred"/>
+    <functioncall functionName="increaseIndentation"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertAfterToken"/>
+    <functioncall functionName="isAborted"/>
+    <functioncall functionName="isAtEndOfMacroExpansion"/>
+    <functioncall functionName="isAtStartOfMacroExpansion"/>
+    <functioncall functionName="isBeforeInTranslationUnit"/>
+    <functioncall functionName="isBeforeInTranslationUnitThan"/>
+    <functioncall functionName="isCharRange"/>
+    <functioncall functionName="isFileID"/>
+    <functioncall functionName="isInSystemHeader"/>
+    <functioncall functionName="isInTransaction"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="isMacroID"/>
+    <functioncall functionName="isTokenRange"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="note_mt_message"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="removeStmt"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="replaceStmt"/>
+    <functioncall functionName="replaceText"/>
+    <functioncall functionName="report"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="startTransaction"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="upper_bound"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="warn_mt_message"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="522606840177265766">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/AsmDump.h&quot; not found." verbose="Include file: &quot;bolt/Passes/AsmDump.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/CodeGen/AsmPrinter.h&quot; not found." verbose="Include file: &quot;llvm/CodeGen/AsmPrinter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/TargetRegistry.h&quot; not found." verbose="Include file: &quot;llvm/MC/TargetRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Path.h&quot; not found." verbose="Include file: &quot;llvm/Support/Path.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Target/TargetMachine.h&quot; not found." verbose="Include file: &quot;llvm/Target/TargetMachine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="19" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;JTI&apos; can be declared as reference to const" verbose="Variable &apos;JTI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\AsmDump.cpp" line="228" column="14" info="Variable &apos;JTI&apos; can be declared as reference to const"/>
+            <symbol>JTI</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp:73:6" my-argnr="2" my-argname="JT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" line="75" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp:85:6" my-argnr="2" my-argname="BD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" line="87" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp:39:6" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" line="40" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp:58:6" my-argnr="2" my-argname="BC" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" line="61" col="38" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp:73:6" my-argnr="2" my-argname="JT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" line="75" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp:85:6" my-argnr="2" my-argname="BD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" line="87" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp:97:6" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" line="98" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" functionName="dumpCFI" lineNumber="39"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" functionName="dumpTargetFunctionStub" lineNumber="58"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" functionName="dumpJumpTableSymbols" lineNumber="73"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" functionName="dumpBinaryDataSymbols" lineNumber="85"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/AsmDump.cpp" functionName="dumpFunction" lineNumber="97"/>
+    <functioncall functionName="AsmDump"/>
+    <functioncall functionName="AsmPrinter"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="MCAsmBackend"/>
+    <functioncall functionName="MCStreamer"/>
+    <functioncall functionName="MCTargetOptions"/>
+    <functioncall functionName="OF_None"/>
+    <functioncall functionName="SetUnbuffered"/>
+    <functioncall functionName="TargetMachine"/>
+    <functioncall functionName="TargetOptions"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="ValueOptional"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="createAsmPrinter"/>
+    <functioncall functionName="createAsmStreamer"/>
+    <functioncall functionName="createIndependentMCCodeEmitter"/>
+    <functioncall functionName="createMCAsmBackend"/>
+    <functioncall functionName="createMCInstPrinter"/>
+    <functioncall functionName="createTargetMachine"/>
+    <functioncall functionName="create_directories"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dumpBinaryDataSymbols"/>
+    <functioncall functionName="dumpCFI"/>
+    <functioncall functionName="dumpFunction"/>
+    <functioncall functionName="dumpJumpTableSymbols"/>
+    <functioncall functionName="dumpTargetFunctionStub"/>
+    <functioncall functionName="emitCFIEndProc"/>
+    <functioncall functionName="emitCFIInstruction"/>
+    <functioncall functionName="emitCFIStartProc"/>
+    <functioncall functionName="emitSymbolValue"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="formatted_raw_ostream"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAssemblerDialect"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getBranchInfo"/>
+    <functioncall functionName="getCFIFor"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLastNonPseudoInstr"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOneName"/>
+    <functioncall functionName="getOperation"/>
+    <functioncall functionName="getOriginSection"/>
+    <functioncall functionName="getOriginSectionName"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="getSection"/>
+    <functioncall functionName="getSectionName"/>
+    <functioncall functionName="getTargetSymbolInfo"/>
+    <functioncall functionName="get_separator"/>
+    <functioncall functionName="initSections"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isJumpTable"/>
+    <functioncall functionName="isPLTFunction"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="jumpTables"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="primeOperands"/>
+    <functioncall functionName="printInst"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="shouldPrint"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_set"/>
+    <functioncall functionName="value_desc"/>
+  </FileInfo>
+</analyzerinfo>

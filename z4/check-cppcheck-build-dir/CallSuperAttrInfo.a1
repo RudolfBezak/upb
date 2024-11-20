@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17871815467779472417">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found." verbose="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/ParsedAttr.h&quot; not found." verbose="Include file: &quot;clang/Sema/ParsedAttr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/Sema.h&quot; not found." verbose="Include file: &quot;clang/Sema/Sema.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="33" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CallSuperVisitor&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CallSuperVisitor&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\CallSuperAttribute\CallSuperAttrInfo.cpp" line="72" column="3"/>
+            <symbol>CallSuperVisitor</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp:80:8" my-argnr="1" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" line="81" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp:128:8" my-argnr="2" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" line="130" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp:72:3" my-argnr="1" my-argname="Diags" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" line="73" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp:80:8" my-argnr="1" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" line="81" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp:113:8" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" line="114" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp:128:8" my-argnr="2" my-argname="MethodDecl" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" line="130" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp:146:8" my-argnr="2" my-argname="args" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" line="148" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" functionName="isMarkedAsCallSuper" lineNumber="39"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" functionName="VisitCallExpr" lineNumber="50"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" functionName="VisitCXXMethodDecl" lineNumber="80"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/CallSuperAttribute/CallSuperAttrInfo.cpp" functionName="lateDiagAppertainsToDecl" lineNumber="128"/>
+    <functioncall functionName="ASTConsumer"/>
+    <functioncall functionName="AS_CXX11"/>
+    <functioncall functionName="AS_GNU"/>
+    <functioncall functionName="AddBeforeMainAction"/>
+    <functioncall functionName="AttributeNotApplied"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CallSuperAttrInfo"/>
+    <functioncall functionName="Diag"/>
+    <functioncall functionName="FinalAttr"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="SmallPtrSet"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TraverseDecl"/>
+    <functioncall functionName="Warning"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getCalleeDecl"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getLoc"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasBody"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isMarkedAsCallSuper"/>
+    <functioncall functionName="isRegularKeywordAttribute"/>
+    <functioncall functionName="isThisDeclarationADefinition"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="lateDiagAppertainsToDecl"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="overridden_methods"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="warn_attribute_wrong_decl_type_str"/>
+  </FileInfo>
+</analyzerinfo>

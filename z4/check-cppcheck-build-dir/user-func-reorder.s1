@@ -1,0 +1,4 @@
+foo
+fib call:[fib] noreturn:[fib]
+bar
+main call:[fib,printf]

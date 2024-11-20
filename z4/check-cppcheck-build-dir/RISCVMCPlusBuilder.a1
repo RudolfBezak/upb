@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15073283649283036645">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/RISCVMCExpr.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/RISCVMCExpr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;MCTargetDesc/RISCVMCTargetDesc.h&quot; not found." verbose="Include file: &quot;MCTargetDesc/RISCVMCTargetDesc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found." verbose="Include file: &quot;bolt/Core/MCPlusBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCInst.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCInst.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCSubtargetInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCSubtargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="19" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;PrevInst&apos; can be declared as reference to const" verbose="Variable &apos;PrevInst&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="192" column="15" info="Variable &apos;PrevInst&apos; can be declared as reference to const"/>
+            <symbol>PrevInst</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:312:8" call-funcname="getSymbolRefOperandNum" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="354" col="42" call-argexpr="OpNum" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Target\RISCV\RISCVMCPlusBuilder.cpp" line="354" col="9" info="Assuming that condition &apos;!OpNum&apos; is not redundant"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:161:8" call-funcname="replaceBranchTarget" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="158" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:154:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:161:8" call-funcname="replaceBranchTarget" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="158" col="5" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:154:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:241:8" call-funcname="createCall" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="252" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:250:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:241:8" call-funcname="createCall" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="252" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:250:8" my-argnr="3"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:241:8" call-funcname="createCall" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="257" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:255:8" my-argnr="2"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:241:8" call-funcname="createCall" call-argnr="4" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="257" col="12" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:255:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:161:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="172" col="65" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:228:8" my-argnr="3" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="234" col="65" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:241:8" my-argnr="4" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="246" col="68" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:43:8" my-argnr="1" my-argname="Regs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="44" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:81:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="82" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:88:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="89" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:92:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="93" col="18" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:96:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="97" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:120:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="121" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:154:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="156" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:175:22" my-argnr="1" my-argname="Instruction" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="191" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:219:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="221" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:228:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="230" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:241:8" my-argnr="2" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="243" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:312:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="313" col="13" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:459:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="460" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp:480:8" my-argnr="1" my-argname="First" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" line="481" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" functionName="isNop" lineNumber="81"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" functionName="isCNop" lineNumber="88"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" functionName="getInvertedBranchOpcode" lineNumber="130"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" functionName="createCall" lineNumber="241"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" functionName="getSymbolRefOperandNum" lineNumber="312"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" functionName="isCallAuipc" lineNumber="459"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Target/RISCV/RISCVMCPlusBuilder.cpp" functionName="createRISCVMCPlusBuilder" lineNumber="501"/>
+    <functioncall functionName="BEQ"/>
+    <functioncall functionName="BGE"/>
+    <functioncall functionName="BGEU"/>
+    <functioncall functionName="BLT"/>
+    <functioncall functionName="BLTU"/>
+    <functioncall functionName="BNE"/>
+    <functioncall functionName="C_BEQZ"/>
+    <functioncall functionName="C_BNEZ"/>
+    <functioncall functionName="FeatureStdExtC"/>
+    <functioncall functionName="FeatureStdExtZca"/>
+    <functioncall functionName="JAL"/>
+    <functioncall functionName="JALR"/>
+    <functioncall functionName="MCBinaryExpr"/>
+    <functioncall functionName="MCPlusBuilder"/>
+    <functioncall functionName="MCSymbolRefExpr"/>
+    <functioncall functionName="POSSIBLE_TAIL_CALL"/>
+    <functioncall functionName="PseudoCALL"/>
+    <functioncall functionName="PseudoTAIL"/>
+    <functioncall functionName="RISCVMCExpr"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="UNKNOWN"/>
+    <functioncall functionName="VK_None"/>
+    <functioncall functionName="VK_RISCV_CALL"/>
+    <functioncall functionName="VK_RISCV_CALL_PLT"/>
+    <functioncall functionName="VK_RISCV_HI"/>
+    <functioncall functionName="VK_RISCV_LO"/>
+    <functioncall functionName="VK_RISCV_PCREL_HI"/>
+    <functioncall functionName="VK_RISCV_PCREL_LO"/>
+    <functioncall functionName="X0"/>
+    <functioncall functionName="X1"/>
+    <functioncall functionName="X18"/>
+    <functioncall functionName="X19"/>
+    <functioncall functionName="X2"/>
+    <functioncall functionName="X20"/>
+    <functioncall functionName="X21"/>
+    <functioncall functionName="X22"/>
+    <functioncall functionName="X23"/>
+    <functioncall functionName="X24"/>
+    <functioncall functionName="X25"/>
+    <functioncall functionName="X26"/>
+    <functioncall functionName="X27"/>
+    <functioncall functionName="X8"/>
+    <functioncall functionName="X9"/>
+    <functioncall functionName="addOperand"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createCall"/>
+    <functioncall functionName="createExpr"/>
+    <functioncall functionName="createImm"/>
+    <functioncall functionName="createReg"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="equals"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAliases"/>
+    <functioncall functionName="getConditionalTailCall"/>
+    <functioncall functionName="getExpr"/>
+    <functioncall functionName="getImm"/>
+    <functioncall functionName="getInvertedBranchOpcode"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLHS"/>
+    <functioncall functionName="getNumPrimeOperands"/>
+    <functioncall functionName="getOpcode"/>
+    <functioncall functionName="getOperand"/>
+    <functioncall functionName="getReg"/>
+    <functioncall functionName="getSubExpr"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getSymbolRefOperandNum"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasFeature"/>
+    <functioncall functionName="isBranch"/>
+    <functioncall functionName="isCNop"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isCallAuipc"/>
+    <functioncall functionName="isExpr"/>
+    <functioncall functionName="isImm"/>
+    <functioncall functionName="isIndirectBranch"/>
+    <functioncall functionName="isNoop"/>
+    <functioncall functionName="isNop"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isRISCVCall"/>
+    <functioncall functionName="isTailCall"/>
+    <functioncall functionName="isTerminator"/>
+    <functioncall functionName="isUnconditionalBranch"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="kTailCall"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="removeAnnotation"/>
+    <functioncall functionName="replaceBranchTarget"/>
+    <functioncall functionName="setOpcode"/>
+    <functioncall functionName="setOperandToSymbolRef"/>
+    <functioncall functionName="setTailCall"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unsetConditionalTailCall"/>
+  </FileInfo>
+</analyzerinfo>

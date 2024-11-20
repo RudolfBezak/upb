@@ -1,0 +1,2 @@
+isGLValueFromPointerDeref call:[IgnoreParens,getFalseExpr,getOpcode,getRHS,getSourceExpr,getSubExpr,getTrueExpr,isGLValue,isGLValueFromPointerDeref] noreturn:[isGLValueFromPointerDeref]
+hasOnlyNonStaticMemberFunctions call:[getAsFunction,getUnderlyingDecl,isStatic,while]

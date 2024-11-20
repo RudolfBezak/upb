@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4378251143788343341">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentLexer.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentLexer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentCommandTraits.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/AST/CommentDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/CharInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/CharInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringSwitch.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringSwitch.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ConvertUTF.h&quot; not found." verbose="Include file: &quot;llvm/Support/ConvertUTF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentHTMLTags.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentHTMLTags.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="52" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CommentHTMLNamedCharacterReferences.inc&quot; not found." verbose="Include file: &quot;clang/AST/CommentHTMLNamedCharacterReferences.inc&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="53" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CommentLexer.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp:191:13" call-funcname="skipWhitespace" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" line="200" col="10" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp:199:6" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp:191:13" call-funcname="skipWhitespace" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" line="200" col="10" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp:199:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp:177:13" my-argnr="1" my-argname="BufferPtr" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" line="179" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp:39:25" my-argnr="1" my-argname="Allocator" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" line="42" col="20" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp:177:13" my-argnr="1" my-argname="BufferPtr" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" line="179" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isHTMLNamedCharacterReferenceCharacter" lineNumber="27"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isHTMLDecimalCharacterReferenceCharacter" lineNumber="31"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isHTMLHexCharacterReferenceCharacter" lineNumber="35"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="convertCodePointToUTF8" lineNumber="39"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="findNewline" lineNumber="107"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipNewline" lineNumber="115"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipNamedCharacterReference" lineNumber="130"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipDecimalCharacterReference" lineNumber="139"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipHexCharacterReference" lineNumber="148"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isHTMLIdentifierStartingCharacter" lineNumber="157"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isHTMLIdentifierCharacter" lineNumber="161"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipHTMLIdentifier" lineNumber="165"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipHTMLQuotedString" lineNumber="177"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipWhitespace" lineNumber="191"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isWhitespace" lineNumber="199"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isCommandNameStartCharacter" lineNumber="203"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="isCommandNameCharacter" lineNumber="207"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="skipCommandName" lineNumber="211"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="findBCPLCommentEnd" lineNumber="221"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CommentLexer.cpp" functionName="findCCommentEnd" lineNumber="247"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="Allocator"/>
+    <functioncall functionName="BufferEnd"/>
+    <functioncall functionName="BufferPtr"/>
+    <functioncall functionName="Case"/>
+    <functioncall functionName="CommentEnd"/>
+    <functioncall functionName="CommentState"/>
+    <functioncall functionName="ConvertCodePointToUTF8"/>
+    <functioncall functionName="CreateReplacement"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="Diag"/>
+    <functioncall functionName="FileID"/>
+    <functioncall functionName="LCS_BeforeComment"/>
+    <functioncall functionName="LCS_BetweenComments"/>
+    <functioncall functionName="LCS_InsideBCPLComment"/>
+    <functioncall functionName="LCS_InsideCComment"/>
+    <functioncall functionName="LS_HTMLEndTag"/>
+    <functioncall functionName="LS_HTMLStartTag"/>
+    <functioncall functionName="LS_Normal"/>
+    <functioncall functionName="LS_VerbatimBlockBody"/>
+    <functioncall functionName="LS_VerbatimBlockFirstLine"/>
+    <functioncall functionName="LS_VerbatimLineText"/>
+    <functioncall functionName="Lexer"/>
+    <functioncall functionName="ParseCommands"/>
+    <functioncall functionName="SourceRange"/>
+    <functioncall functionName="State"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="StringSwitch"/>
+    <functioncall functionName="UNI_MAX_UTF8_BYTES_PER_CODE_POINT"/>
+    <functioncall functionName="VerbatimBlockEndCommandName"/>
+    <functioncall functionName="again"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="at_command"/>
+    <functioncall functionName="backslash_command"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="convertCodePointToUTF8"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="eof"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findBCPLCommentEnd"/>
+    <functioncall functionName="findCCommentEnd"/>
+    <functioncall functionName="findNewline"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="formTextToken"/>
+    <functioncall functionName="formTokenWithChars"/>
+    <functioncall functionName="getBufferData"/>
+    <functioncall functionName="getCommandInfo"/>
+    <functioncall functionName="getCommandInfoOrNULL"/>
+    <functioncall functionName="getDecomposedLoc"/>
+    <functioncall functionName="getEndLocation"/>
+    <functioncall functionName="getID"/>
+    <functioncall functionName="getLength"/>
+    <functioncall functionName="getLocWithOffset"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getSourceLocation"/>
+    <functioncall functionName="getSpelling"/>
+    <functioncall functionName="getTypoCorrectCommandInfo"/>
+    <functioncall functionName="hexDigitValue"/>
+    <functioncall functionName="html_end_tag"/>
+    <functioncall functionName="html_equals"/>
+    <functioncall functionName="html_greater"/>
+    <functioncall functionName="html_ident"/>
+    <functioncall functionName="html_quoted_string"/>
+    <functioncall functionName="html_slash_greater"/>
+    <functioncall functionName="html_start_tag"/>
+    <functioncall functionName="isAlphanumeric"/>
+    <functioncall functionName="isCommandNameCharacter"/>
+    <functioncall functionName="isCommandNameStartCharacter"/>
+    <functioncall functionName="isDigit"/>
+    <functioncall functionName="isHTMLDecimalCharacterReferenceCharacter"/>
+    <functioncall functionName="isHTMLHexCharacterReferenceCharacter"/>
+    <functioncall functionName="isHTMLIdentifierCharacter"/>
+    <functioncall functionName="isHTMLIdentifierStartingCharacter"/>
+    <functioncall functionName="isHTMLNamedCharacterReferenceCharacter"/>
+    <functioncall functionName="isHTMLTagName"/>
+    <functioncall functionName="isHexDigit"/>
+    <functioncall functionName="isHorizontalWhitespace"/>
+    <functioncall functionName="isLetter"/>
+    <functioncall functionName="isVerticalWhitespace"/>
+    <functioncall functionName="isWhitespace"/>
+    <functioncall functionName="lexCommentText"/>
+    <functioncall functionName="lexHTMLCharacterReference"/>
+    <functioncall functionName="lexHTMLEndTag"/>
+    <functioncall functionName="lexHTMLStartTag"/>
+    <functioncall functionName="lexVerbatimBlockBody"/>
+    <functioncall functionName="lexVerbatimBlockFirstLine"/>
+    <functioncall functionName="lexVerbatimLineText"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="newline"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="resolveHTMLDecimalCharacterReference"/>
+    <functioncall functionName="resolveHTMLHexCharacterReference"/>
+    <functioncall functionName="resolveHTMLNamedCharacterReference"/>
+    <functioncall functionName="setCommandID"/>
+    <functioncall functionName="setHTMLIdent"/>
+    <functioncall functionName="setHTMLQuotedString"/>
+    <functioncall functionName="setHTMLTagEndName"/>
+    <functioncall functionName="setHTMLTagStartName"/>
+    <functioncall functionName="setKind"/>
+    <functioncall functionName="setLength"/>
+    <functioncall functionName="setLocation"/>
+    <functioncall functionName="setText"/>
+    <functioncall functionName="setUnknownCommandName"/>
+    <functioncall functionName="setVerbatimBlockID"/>
+    <functioncall functionName="setVerbatimBlockText"/>
+    <functioncall functionName="setVerbatimLineID"/>
+    <functioncall functionName="setVerbatimLineText"/>
+    <functioncall functionName="setupAndLexHTMLEndTag"/>
+    <functioncall functionName="setupAndLexHTMLStartTag"/>
+    <functioncall functionName="setupAndLexVerbatimBlock"/>
+    <functioncall functionName="setupAndLexVerbatimLine"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="skipCommandName"/>
+    <functioncall functionName="skipDecimalCharacterReference"/>
+    <functioncall functionName="skipHTMLIdentifier"/>
+    <functioncall functionName="skipHTMLQuotedString"/>
+    <functioncall functionName="skipHexCharacterReference"/>
+    <functioncall functionName="skipLineStartingDecorations"/>
+    <functioncall functionName="skipNamedCharacterReference"/>
+    <functioncall functionName="skipNewline"/>
+    <functioncall functionName="skipTextToken"/>
+    <functioncall functionName="skipWhitespace"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="translateHTMLNamedCharacterReferenceToUTF8"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unknown_command"/>
+    <functioncall functionName="verbatim_block_begin"/>
+    <functioncall functionName="verbatim_block_end"/>
+    <functioncall functionName="verbatim_block_line"/>
+    <functioncall functionName="verbatim_line_name"/>
+    <functioncall functionName="verbatim_line_text"/>
+    <functioncall functionName="warn_correct_comment_command_name"/>
+    <functioncall functionName="warn_unknown_comment_command_name"/>
+  </FileInfo>
+</analyzerinfo>

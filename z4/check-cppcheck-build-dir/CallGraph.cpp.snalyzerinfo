@@ -1,0 +1,3 @@
+hash_int64_fallback
+hash_int64 call:[hash_int64_fallback] noreturn:[hash_int64_fallback]
+hash_int64_pair call:[hash_int64,return] noreturn:[hash_int64]

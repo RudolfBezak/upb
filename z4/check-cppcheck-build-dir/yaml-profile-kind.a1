@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9666642595365770013">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/yaml-profile-kind.c" functionName="main" lineNumber="13"/>
+  </FileInfo>
+</analyzerinfo>

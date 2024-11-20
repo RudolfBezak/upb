@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15828062870466597419">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/ProfileYAMLMapping.h&quot; not found." verbose="Include file: &quot;bolt/Profile/ProfileYAMLMapping.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringMap.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringMap.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ManagedStatic.h&quot; not found." verbose="Include file: &quot;llvm/Support/ManagedStatic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/PrettyStackTrace.h&quot; not found." verbose="Include file: &quot;llvm/Support/PrettyStackTrace.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Signals.h&quot; not found." verbose="Include file: &quot;llvm/Support/Signals.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ThreadPool.h&quot; not found." verbose="Include file: &quot;llvm/Support/ThreadPool.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="26" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;CS&apos; can be declared as reference to const" verbose="Variable &apos;CS&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="180" column="31" info="Variable &apos;CS&apos; can be declared as reference to const"/>
+            <symbol>CS</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;SI&apos; can be declared as reference to const" verbose="Variable &apos;SI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="204" column="20" info="Variable &apos;SI&apos; can be declared as reference to const"/>
+            <symbol>SI</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;FI&apos; can be declared as reference to const" verbose="Variable &apos;FI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="484" column="42" info="Variable &apos;FI&apos; can be declared as reference to const"/>
+            <symbol>FI</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\merge-fdata\merge-fdata.cpp" line="471" column="27"/>
+        </error>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:347:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="349" col="37" value="0"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:347:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="349" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:106:6" my-argnr="1" my-argname="MergedHeader" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="108" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:106:6" my-argnr="2" my-argname="Header" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="128" col="39" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:154:6" my-argnr="1" my-argname="MergedBB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="158" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:154:6" my-argnr="2" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="158" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:216:6" my-argnr="1" my-argname="MergedBF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="219" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:216:6" my-argnr="2" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="219" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp:265:6" my-argnr="1" my-argname="Filenames" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" line="322" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="report_error" lineNumber="83"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="report_error" lineNumber="89"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="output" lineNumber="94"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="mergeProfileHeaders" lineNumber="106"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="mergeBasicBlockProfile" lineNumber="154"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="mergeFunctionProfile" lineNumber="216"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="isYAML" lineNumber="254"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="mergeLegacyProfiles" lineNumber="265"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/merge-fdata/merge-fdata.cpp" functionName="main" lineNumber="347"/>
+    <functioncall functionName="BinaryBasicBlockProfile"/>
+    <functioncall functionName="BinaryFunctionProfile"/>
+    <functioncall functionName="CommaSeparated"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="E"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="F"/>
+    <functioncall functionName="HideUnrelatedOptions"/>
+    <functioncall functionName="InputDataFilenames"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="OneOrMore"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="PF_SAMPLE"/>
+    <functioncall functionName="ParseCommandLineOptions"/>
+    <functioncall functionName="Positional"/>
+    <functioncall functionName="PrintStackTraceOnErrorSignal"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SplitString"/>
+    <functioncall functionName="StringMap"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="SuccessorInfo"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="async"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="cref"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="drop_front"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAsInteger"/>
+    <functioncall functionName="getBuffer"/>
+    <functioncall functionName="getError"/>
+    <functioncall functionName="getFileOrSTDIN"/>
+    <functioncall functionName="getMaxConcurrency"/>
+    <functioncall functionName="get_id"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="increment"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insert_or_assign"/>
+    <functioncall functionName="isYAML"/>
+    <functioncall functionName="is_directory"/>
+    <functioncall functionName="is_regular_file"/>
+    <functioncall functionName="lock_guard"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="make_error_code"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_second_range"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="mergeBasicBlockProfile"/>
+    <functioncall functionName="mergeFunctionProfile"/>
+    <functioncall functionName="mergeLegacyProfiles"/>
+    <functioncall functionName="mergeProfileHeaders"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="no_such_file_or_directory"/>
+    <functioncall functionName="optimal_concurrency"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="output"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="ref"/>
+    <functioncall functionName="report_error"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="rfind"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setAllowUnknownKeys"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="transform"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="value_desc"/>
+    <functioncall functionName="value_or"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="wait"/>
+  </FileInfo>
+</analyzerinfo>

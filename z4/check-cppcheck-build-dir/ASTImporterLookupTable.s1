@@ -1,0 +1,6 @@
+Builder
+VisitTypedefNameDecl call:[add,fields,getAsRecordDecl,getCanonicalType,getUnderlyingType] noreturn:[add]
+VisitNamedDecl call:[add]
+VisitFriendDecl call:[add,getAsCXXRecordDecl,getFriendType,getNamedType,getType,isDependentType,llvm_unreachable] noreturn:[add,getNamedType,llvm_unreachable]
+shouldVisitTemplateInstantiations
+shouldVisitImplicitCode

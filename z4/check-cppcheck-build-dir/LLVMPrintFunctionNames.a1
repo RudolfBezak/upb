@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16553009697961684431">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/AST.h&quot; not found." verbose="Include file: &quot;clang/AST/AST.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found." verbose="Include file: &quot;clang/AST/RecursiveASTVisitor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found." verbose="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found." verbose="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/Sema.h&quot; not found." verbose="Include file: &quot;clang/Sema/Sema.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/IR/Module.h&quot; not found." verbose="Include file: &quot;llvm/IR/Module.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/IR/PassManager.h&quot; not found." verbose="Include file: &quot;llvm/IR/PassManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Passes/OptimizationLevel.h&quot; not found." verbose="Include file: &quot;llvm/Passes/OptimizationLevel.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Passes/PassBuilder.h&quot; not found." verbose="Include file: &quot;llvm/Passes/PassBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="25" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;LLVMPrintFunctionsConsumer&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;LLVMPrintFunctionsConsumer&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="53" column="3"/>
+            <symbol>LLVMPrintFunctionsConsumer</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;MAM&apos; can be declared as reference to const" verbose="Parameter &apos;MAM&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\LLVMPrintFunctionNames\LLVMPrintFunctionNames.cpp" line="36" column="60" info="Parameter &apos;MAM&apos; can be declared as reference to const"/>
+            <symbol>MAM</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp:44:6" my-argnr="1" my-argname="PB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp" line="45" col="3" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp:53:3" my-argnr="1" my-argname="Instance" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp" line="54" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp" functionName="run" lineNumber="36"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp" functionName="isRequired" lineNumber="41"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/LLVMPrintFunctionNames/LLVMPrintFunctionNames.cpp" functionName="PrintCallback" lineNumber="44"/>
+    <functioncall functionName="ASTConsumer"/>
+    <functioncall functionName="AddBeforeMainAction"/>
+    <functioncall functionName="OptimizationLevel"/>
+    <functioncall functionName="PrintCallback"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="addPass"/>
+    <functioncall functionName="all"/>
+    <functioncall functionName="getCodeGenOpts"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerPipelineStartEPCallback"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

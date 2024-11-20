@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11492128308270260707">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BuildIDRewriter.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MetadataRewriters.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BuildIDRewriter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\BuildIDRewriter.cpp" line="15" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/BuildIDRewriter.cpp" functionName="getPrintableBuildID" lineNumber="24"/>
+    <functioncall functionName="BinarySection"/>
+    <functioncall functionName="DataExtractor"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="MetadataRewriter"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="addPatch"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="bad_address"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="createStringError"/>
+    <functioncall functionName="eof"/>
+    <functioncall functionName="executable_format_error"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="getCodePointerSize"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getPrintableBuildID"/>
+    <functioncall functionName="getU32"/>
+    <functioncall functionName="isLittleEndian"/>
+    <functioncall functionName="isNote"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="sections"/>
+    <functioncall functionName="seek"/>
+    <functioncall functionName="setFileBuildID"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="slice"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="tell"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

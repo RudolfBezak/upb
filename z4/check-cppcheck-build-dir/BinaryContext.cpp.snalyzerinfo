@@ -1,0 +1,7 @@
+SetUp call:[initalizeLLVM,initializeBOLT,prepareElf] noreturn:[initializeBOLT]
+initalizeLLVM call:[InitializeAllAsmParsers,InitializeAllAsmPrinters,InitializeAllDisassemblers,InitializeAllTargetInfos,InitializeAllTargetMCs,InitializeAllTargets] noreturn:[InitializeAllAsmPrinters]
+prepareElf call:[GetParam,Source,StringRef,cantFail,createObjectFile,memcpy,sizeof] noreturn:[cantFail]
+initializeBOLT call:[ASSERT_FALSE,cantFail,create,createBinaryContext,errs,get,getArch,getFileName,makeTriple,outs] noreturn:[ASSERT_FALSE]
+TEST_P call:[ASSERT_EQ,ASSERT_FALSE,ASSERT_TRUE,getBaseAddressForMapping,has_value] noreturn:[ASSERT_FALSE]
+TEST_P call:[ASSERT_EQ,ASSERT_FALSE,ASSERT_TRUE,getBaseAddressForMapping,has_value] noreturn:[ASSERT_FALSE]
+TEST_P call:[ASSERT_EQ,ASSERT_TRUE,getBaseAddressForMapping,has_value] noreturn:[ASSERT_EQ]

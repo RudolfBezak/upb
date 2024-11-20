@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16403216708836421610">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\retpoline_synthetic.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\retpoline_synthetic.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\retpoline_synthetic.cpp" line="3" column="0"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;argv&apos; can be declared as const array" verbose="Parameter &apos;argv&apos; can be declared as const array" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\X86\Inputs\retpoline_synthetic.cpp" line="27" column="26" info="Parameter &apos;argv&apos; can be declared as const array"/>
+            <symbol>argv</symbol>
+        </error>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp:27:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp" line="29" col="25" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Derived1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp" line="12" col="1" hash="14587824062983341135"/>
+<class name="Derived2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp" line="17" col="1" hash="15496162725000815141"/>
+<class name="Derived3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp" line="22" col="1" hash="7264783557968708535"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp:27:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp" line="29" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp:27:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp" line="29" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/X86/Inputs/retpoline_synthetic.cpp" functionName="main" lineNumber="27"/>
+    <functioncall functionName="Foo"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

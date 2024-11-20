@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2342297792411934657">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\CXXABI.h" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found." verbose="Include file: &quot;clang/AST/CXXInheritance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Mangle.h&quot; not found." verbose="Include file: &quot;clang/AST/Mangle.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/MangleNumberingContext.h&quot; not found." verbose="Include file: &quot;clang/AST/MangleNumberingContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/RecordLayout.h&quot; not found." verbose="Include file: &quot;clang/AST/RecordLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="23" column="0"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;DeviceCtx&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;DeviceCtx&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="72" column="5"/>
+            <symbol>DeviceCtx</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;DeviceCtx&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;DeviceCtx&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="99" column="5"/>
+            <symbol>DeviceCtx</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;MSHIPNumberingContext&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;MSHIPNumberingContext&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="71" column="3"/>
+            <symbol>MSHIPNumberingContext</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;MSSYCLNumberingContext&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;MSSYCLNumberingContext&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="98" column="3"/>
+            <symbol>MSSYCLNumberingContext</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;MicrosoftCXXABI&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;MicrosoftCXXABI&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\MicrosoftCXXABI.cpp" line="121" column="3"/>
+            <symbol>MicrosoftCXXABI</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXABI.h:79:1" call-funcname="createItaniumNumberingContext" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="72" col="17" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:71:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/CXXABI.h:79:1" call-funcname="createItaniumNumberingContext" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="99" col="17" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:98:3" my-argnr="1"/>
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:280:1" call-funcname="getMSMemberPointerSlots" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="308" col="26" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:136:3" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:49:12" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="50" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:162:8" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="164" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:162:8" my-argnr="2" my-argname="DD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="165" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:171:20" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="173" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:176:8" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="178" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:185:19" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="187" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:208:13" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="209" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:280:1" my-argnr="1" my-argname="MPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="281" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:49:12" my-argnr="1" my-argname="VD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="50" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:150:3" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="151" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:155:3" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="158" col="29" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:171:20" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="173" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:185:19" my-argnr="1" my-argname="TD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="187" col="31" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:208:13" my-argnr="1" my-argname="RD" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="209" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp:280:1" my-argnr="1" my-argname="MPT" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" line="281" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" functionName="getManglingNumber" lineNumber="79"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" functionName="usesMultipleInheritanceModel" lineNumber="208"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" functionName="getMSMemberPointerSlots" lineNumber="280"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/MicrosoftCXXABI.cpp" functionName="CreateMicrosoftCXXABI" lineNumber="330"/>
+    <functioncall functionName="CC_X86ThisCall"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="DeclaratorDecl"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="MSHIPNumberingContext"/>
+    <functioncall functionName="MSInheritanceAttr"/>
+    <functioncall functionName="MSVtorDispAttr"/>
+    <functioncall functionName="MangleContext"/>
+    <functioncall functionName="MangleNumberingContext"/>
+    <functioncall functionName="MicrosoftCXXABI"/>
+    <functioncall functionName="Multiple"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="Single"/>
+    <functioncall functionName="SmallDenseMap"/>
+    <functioncall functionName="TagDecl"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="Virtual"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bases_begin"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createItaniumNumberingContext"/>
+    <functioncall functionName="createMangleContext"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getAuxTargetInfo"/>
+    <functioncall functionName="getCXXABI"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getDefaultCallingConv"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getInheritanceModel"/>
+    <functioncall functionName="getIntAlign"/>
+    <functioncall functionName="getIntWidth"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="getMSInheritanceModel"/>
+    <functioncall functionName="getMSMemberPointerSlots"/>
+    <functioncall functionName="getManglingNumber"/>
+    <functioncall functionName="getMostRecentCXXRecordDecl"/>
+    <functioncall functionName="getNumBases"/>
+    <functioncall functionName="getNumVBases"/>
+    <functioncall functionName="getPointerAlign"/>
+    <functioncall functionName="getPointerWidth"/>
+    <functioncall functionName="getTLSKind"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getTriple"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getVtorDispMode"/>
+    <functioncall functionName="hasDefinition"/>
+    <functioncall functionName="inheritanceModelHasNVOffsetField"/>
+    <functioncall functionName="inheritanceModelHasOnlyOneField"/>
+    <functioncall functionName="inheritanceModelHasVBPtrOffsetField"/>
+    <functioncall functionName="inheritanceModelHasVBTableOffsetField"/>
+    <functioncall functionName="isArch32Bit"/>
+    <functioncall functionName="isArch64Bit"/>
+    <functioncall functionName="isItaniumFamily"/>
+    <functioncall functionName="isMemberFunctionPointer"/>
+    <functioncall functionName="isMicrosoft"/>
+    <functioncall functionName="isParsingBaseSpecifiers"/>
+    <functioncall functionName="isPolymorphic"/>
+    <functioncall functionName="isSYCL"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="usesMultipleInheritanceModel"/>
+  </FileInfo>
+</analyzerinfo>

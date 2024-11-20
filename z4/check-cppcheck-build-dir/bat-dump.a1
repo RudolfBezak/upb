@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12658827724624059730">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/BoltAddressTranslation.h&quot; not found." verbose="Include file: &quot;bolt/Profile/BoltAddressTranslation.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/ArrayRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallString.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallString.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringRef.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringRef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/Twine.h&quot; not found." verbose="Include file: &quot;llvm/ADT/Twine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/Binary.h&quot; not found." verbose="Include file: &quot;llvm/Object/Binary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/ELFObjectFile.h&quot; not found." verbose="Include file: &quot;llvm/Object/ELFObjectFile.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/Error.h&quot; not found." verbose="Include file: &quot;llvm/Object/Error.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/ObjectFile.h&quot; not found." verbose="Include file: &quot;llvm/Object/ObjectFile.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/SymbolicFile.h&quot; not found." verbose="Include file: &quot;llvm/Object/SymbolicFile.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Casting.h&quot; not found." verbose="Include file: &quot;llvm/Support/Casting.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Error.h&quot; not found." verbose="Include file: &quot;llvm/Support/Error.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorOr.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorOr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Program.h&quot; not found." verbose="Include file: &quot;llvm/Support/Program.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;assert.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;assert.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;system_error&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;system_error&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="35" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="0" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;EC&apos; is assigned a value that is never used." verbose="Variable &apos;EC&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="117" column="23"/>
+            <symbol>EC</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ToolPath&apos; is assigned a value that is never used." verbose="Variable &apos;ToolPath&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\bat-dump\bat-dump.cpp" line="166" column="24"/>
+            <symbol>ToolPath</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp" functionName="report_error" lineNumber="63"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp" functionName="report_error" lineNumber="69"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp" functionName="GetExecutablePath" lineNumber="76"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp" functionName="dumpBATFor" lineNumber="86"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/bat-dump/bat-dump.cpp" functionName="main" lineNumber="158"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="Binary"/>
+    <functioncall functionName="ELFObjectFileBase"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="GetExecutablePath"/>
+    <functioncall functionName="HideUnrelatedOptions"/>
+    <functioncall functionName="InputFilename"/>
+    <functioncall functionName="OwningBinary"/>
+    <functioncall functionName="ParseCommandLineOptions"/>
+    <functioncall functionName="Positional"/>
+    <functioncall functionName="Required"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="createBinary"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="dumpBATFor"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="enabledFor"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="findProgramByName"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getBinary"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="invalid_file_type"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="no_such_file_or_directory"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="parse"/>
+    <functioncall functionName="report_error"/>
+    <functioncall functionName="sections"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="symbols"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="translate"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="upper_bound"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="value_desc"/>
+  </FileInfo>
+</analyzerinfo>

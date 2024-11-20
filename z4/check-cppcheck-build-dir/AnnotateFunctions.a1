@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3143737692338601937">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found." verbose="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\AnnotateFunctions\AnnotateFunctions.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/AST.h&quot; not found." verbose="Include file: &quot;clang/AST/AST.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\AnnotateFunctions\AnnotateFunctions.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\AnnotateFunctions\AnnotateFunctions.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\AnnotateFunctions\AnnotateFunctions.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found." verbose="Include file: &quot;clang/Lex/Preprocessor.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\AnnotateFunctions\AnnotateFunctions.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Lex/LexDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/Lex/LexDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\AnnotateFunctions\AnnotateFunctions.cpp" line="19" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/AnnotateFunctions/AnnotateFunctions.cpp:62:8" my-argnr="1" my-argname="PP" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/AnnotateFunctions/AnnotateFunctions.cpp" line="66" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ASTConsumer"/>
+    <functioncall functionName="AddBeforeMainAction"/>
+    <functioncall functionName="CreateImplicit"/>
+    <functioncall functionName="Diag"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="LexUnexpandedToken"/>
+    <functioncall functionName="PragmaHandler"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="addAttr"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="eod"/>
+    <functioncall functionName="ext_pp_extra_tokens_at_eol"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getLocation"/>
+    <functioncall functionName="isNot"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14628161704950986201">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/HFSort.h&quot; not found." verbose="Include file: &quot;bolt/Passes/HFSort.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Format.h&quot; not found." verbose="Include file: &quot;llvm/Support/Format.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="18" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;Ca&apos; can be declared as pointer to const" verbose="Parameter &apos;Ca&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="32" column="23" info="Parameter &apos;Ca&apos; can be declared as pointer to const"/>
+            <symbol>Ca</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;Cb&apos; can be declared as pointer to const" verbose="Parameter &apos;Cb&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="32" column="36" info="Parameter &apos;Cb&apos; can be declared as pointer to const"/>
+            <symbol>Cb</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\PettisAndHansen.cpp" line="208" column="17"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:54:6" my-argnr="2" my-argname="C1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="55" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:54:6" my-argnr="3" my-argname="C2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="57" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:35:15" my-argnr="1" my-argname="Lhs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="36" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:35:15" my-argnr="2" my-argname="Rhs" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="36" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:54:6" my-argnr="1" my-argname="Cg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="65" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:54:6" my-argnr="2" my-argname="C1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="55" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:54:6" my-argnr="3" my-argname="C2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="57" col="19" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp:97:22" my-argnr="1" my-argname="Cg" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" line="99" col="38" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" functionName="orderFuncs" lineNumber="54"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/PettisAndHansen.cpp" functionName="pettisAndHansen" lineNumber="97"/>
+    <functioncall functionName="Cluster"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="NodeId"/>
+    <functioncall functionName="arcs"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="compareClustersDensity"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="dst"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="frozen"/>
+    <functioncall functionName="getNode"/>
+    <functioncall functionName="hash"/>
+    <functioncall functionName="hashCombine"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int64_t"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="max_element"/>
+    <functioncall functionName="merge"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="numNodes"/>
+    <functioncall functionName="orderFuncs"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="reverseTargets"/>
+    <functioncall functionName="samples"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="targets"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="weight"/>
+  </FileInfo>
+</analyzerinfo>

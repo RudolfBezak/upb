@@ -1,0 +1,21 @@
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+getLevelName call:[llvm_unreachable] noreturn:[llvm_unreachable]
+writeARCDiagsToPlist call:[AddFID,EmitLocation,EmitPlistHeader,EmitRange,EmitString,begin,empty,end,errs,getAsCharRange,getBegin,getCategoryNameFromID,getCategoryNumberForDiag,getEnd,getExpansionRange,getFileEntryRefForID,getID,getLevel,getLevelName,getLocation,getMessage,getName,getRanges,o,range_begin,range_end] noreturn:[AddFID,EmitRange]

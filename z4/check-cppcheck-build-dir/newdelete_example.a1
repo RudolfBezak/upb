@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4636407807852301684">
+        <error id="autovarInvalidDeallocation" severity="error" msg="Deallocation of an auto-variable results in undefined behaviour." verbose="The deallocation of an auto-variable results in undefined behaviour. You should only free memory that has been allocated dynamically." cwe="590" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="32" column="11" info="Deallocating memory that was not dynamically allocated"/>
+        </error>
+        <error id="deallocuse" severity="error" msg="Dereferencing &apos;c&apos; after it is deallocated / released" verbose="Dereferencing &apos;c&apos; after it is deallocated / released" cwe="416" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="16" column="3"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="doubleFree" severity="error" msg="Memory pointed to by &apos;p&apos; is freed twice." verbose="Memory pointed to by &apos;p&apos; is freed twice." cwe="415" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="27" column="10"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="26" column="3"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: p" verbose="Memory leak: p" cwe="401" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="40" column="1"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="20" column="12"/>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: p" verbose="Memory is allocated but not initialized: p" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="26" column="10"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: p" verbose="Memory is allocated but not initialized: p" cwe="457" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="37" column="15"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;p&apos; is allocated memory that is never used." verbose="Variable &apos;p&apos; is allocated memory that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\newdelete_example.cpp" line="25" column="8"/>
+            <symbol>p</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp:3:6" my-argnr="1" my-argname="p" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp" line="4" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp" functionName="testUseMiddleArgAfterDelete" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp" functionName="test" lineNumber="13"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp" functionName="test" lineNumber="19"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp" functionName="test" lineNumber="24"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp" functionName="test" lineNumber="30"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/newdelete_example.cpp" functionName="test" lineNumber="35"/>
+    <functioncall functionName="__builtin_alloca"/>
+    <functioncall functionName="f"/>
+  </FileInfo>
+</analyzerinfo>

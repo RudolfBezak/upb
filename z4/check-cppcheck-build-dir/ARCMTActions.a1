@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16238712053728811383">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/ARCMigrate/ARCMTActions.h&quot; not found." verbose="Include file: &quot;clang/ARCMigrate/ARCMTActions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMTActions.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/ARCMigrate/ARCMT.h&quot; not found." verbose="Include file: &quot;clang/ARCMigrate/ARCMT.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMTActions.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found." verbose="Include file: &quot;clang/Frontend/CompilerInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\ARCMigrate\ARCMTActions.cpp" line="11" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CheckAction"/>
+    <functioncall functionName="EmitPremigrationARCErrors"/>
+    <functioncall functionName="FrontendAction"/>
+    <functioncall functionName="MigrateAction"/>
+    <functioncall functionName="MigrateDir"/>
+    <functioncall functionName="ModifyAction"/>
+    <functioncall functionName="PlistOut"/>
+    <functioncall functionName="WrapperFrontendAction"/>
+    <functioncall functionName="applyTransformations"/>
+    <functioncall functionName="checkForManualIssues"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getClient"/>
+    <functioncall functionName="getCurrentInput"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getInvocation"/>
+    <functioncall functionName="getPCHContainerOperations"/>
+    <functioncall functionName="migrateWithTemporaryFiles"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="setIgnoreAllWarnings"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

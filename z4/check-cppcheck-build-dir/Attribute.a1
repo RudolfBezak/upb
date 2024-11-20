@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5123778484681696296">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/ParsedAttr.h&quot; not found." verbose="Include file: &quot;clang/Sema/ParsedAttr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/Sema.h&quot; not found." verbose="Include file: &quot;clang/Sema/Sema.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found." verbose="Include file: &quot;clang/Sema/SemaDiagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/IR/Attributes.h&quot; not found." verbose="Include file: &quot;llvm/IR/Attributes.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="21" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Literal&apos; can be declared as pointer to const" verbose="Variable &apos;Literal&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="75" column="22" info="Variable &apos;Literal&apos; can be declared as pointer to const"/>
+            <symbol>Literal</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;Literal&apos; can be declared as pointer to const" verbose="Variable &apos;Literal&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\Attribute\Attribute.cpp" line="124" column="22" info="Variable &apos;Literal&apos; can be declared as pointer to const"/>
+            <symbol>Literal</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp:52:16" my-argnr="2" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp" line="55" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp:52:16" my-argnr="2" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp" line="55" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp:109:16" my-argnr="3" my-argname="Attr" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/examples/Attribute/Attribute.cpp" line="114" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="AS_C23"/>
+    <functioncall functionName="AS_CXX11"/>
+    <functioncall functionName="AS_GNU"/>
+    <functioncall functionName="AttributeApplied"/>
+    <functioncall functionName="AttributeNotApplied"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="Diag"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="ExampleAttrInfo"/>
+    <functioncall functionName="Expr"/>
+    <functioncall functionName="ForStmt"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="IgnoreParenCasts"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringLiteral"/>
+    <functioncall functionName="addAttr"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getArgAsExpr"/>
+    <functioncall functionName="getCustomDiagID"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getLoc"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getRange"/>
+    <functioncall functionName="isFileContext"/>
+    <functioncall functionName="isRegularKeywordAttribute"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="warn_attribute_wrong_decl_type_str"/>
+  </FileInfo>
+</analyzerinfo>

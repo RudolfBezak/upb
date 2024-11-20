@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1859748440926000435">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Attr.h&quot; not found." verbose="Include file: &quot;clang/AST/Attr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclTemplate.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ExprCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/ExprCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Mangle.h&quot; not found." verbose="Include file: &quot;clang/AST/Mangle.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/VTableBuilder.h&quot; not found." verbose="Include file: &quot;clang/AST/VTableBuilder.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/ABI.h&quot; not found." verbose="Include file: &quot;clang/Basic/ABI.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found." verbose="Include file: &quot;clang/Basic/TargetInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/IR/DataLayout.h&quot; not found." verbose="Include file: &quot;llvm/IR/DataLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/IR/Mangler.h&quot; not found." verbose="Include file: &quot;llvm/IR/Mangler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found." verbose="Include file: &quot;llvm/Support/ErrorHandling.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Format.h&quot; not found." verbose="Include file: &quot;llvm/Support/Format.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="29" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\Mangle.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:582:15" call-funcname="getMangledThunk" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="521" col="32" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:445:20" call-funcname="getClassSymbolPrefix" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="559" col="31" call-argexpr="ObjCClass" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:404:8" call-funcname="writeName" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="435" col="7" my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:431:15" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:558:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="559" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:36:13" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="40" col="28" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:66:19" my-argnr="1" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="68" col="26" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:445:20" my-argnr="2" my-argname="Context" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="447" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:558:8" my-argnr="1" my-argname="D" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="559" col="43" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp:558:8" my-argnr="2" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" line="559" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="mangleFunctionBlock" lineNumber="36"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="isExternC" lineNumber="58"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="getCallingConvMangling" lineNumber="66"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="writeName" lineNumber="404"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="getName" lineNumber="431"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="getClassSymbolPrefix" lineNumber="445"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="getAllManglings" lineNumber="452"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="getAllManglings" lineNumber="475"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="writeFuncOrVarName" lineNumber="536"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="writeObjCClassName" lineNumber="558"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="getMangledStructor" lineNumber="563"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/Mangle.cpp" functionName="getMangledThunk" lineNumber="582"/>
+    <functioncall functionName="ASTNameGenerator"/>
+    <functioncall functionName="AsmLabelAttr"/>
+    <functioncall functionName="BlockDecl"/>
+    <functioncall functionName="CUDAGlobalAttr"/>
+    <functioncall functionName="CXXConstructorDecl"/>
+    <functioncall functionName="CXXCtorType"/>
+    <functioncall functionName="CXXDestructorDecl"/>
+    <functioncall functionName="CXXDtorType"/>
+    <functioncall functionName="CXXMethodDecl"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="Ctor_Base"/>
+    <functioncall functionName="Ctor_Complete"/>
+    <functioncall functionName="Ctor_DefaultClosure"/>
+    <functioncall functionName="DLLExportAttr"/>
+    <functioncall functionName="DataLayout"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="Dtor_Base"/>
+    <functioncall functionName="Dtor_Complete"/>
+    <functioncall functionName="Dtor_Deleting"/>
+    <functioncall functionName="FunctionDecl"/>
+    <functioncall functionName="FunctionProtoType"/>
+    <functioncall functionName="FunctionType"/>
+    <functioncall functionName="GlobalDecl"/>
+    <functioncall functionName="Impl"/>
+    <functioncall functionName="Implementation"/>
+    <functioncall functionName="MSGuidDecl"/>
+    <functioncall functionName="MangleContext"/>
+    <functioncall functionName="NamedDecl"/>
+    <functioncall functionName="ObjCContainerDecl"/>
+    <functioncall functionName="ObjCImplementationDecl"/>
+    <functioncall functionName="ObjCInterfaceDecl"/>
+    <functioncall functionName="ObjCMethodDecl"/>
+    <functioncall functionName="RegCall4"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="TranslationUnitDecl"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="createMangleContext"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAllManglings"/>
+    <functioncall functionName="getAttr"/>
+    <functioncall functionName="getBlockId"/>
+    <functioncall functionName="getCXXABI"/>
+    <functioncall functionName="getCallConv"/>
+    <functioncall functionName="getCallingConvMangling"/>
+    <functioncall functionName="getCategory"/>
+    <functioncall functionName="getClassInterface"/>
+    <functioncall functionName="getClassSymbolPrefix"/>
+    <functioncall functionName="getDataLayoutString"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclContext"/>
+    <functioncall functionName="getDefaultCallingConvention"/>
+    <functioncall functionName="getGlobalPrefix"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getIdentifierInfoForSlot"/>
+    <functioncall functionName="getIsLiteralLabel"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getMangledStructor"/>
+    <functioncall functionName="getMangledThunk"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNameWithPrefix"/>
+    <functioncall functionName="getNumArgs"/>
+    <functioncall functionName="getNumParams"/>
+    <functioncall functionName="getObjCRuntimeNameAsString"/>
+    <functioncall functionName="getOwningModuleForLinkage"/>
+    <functioncall functionName="getParent"/>
+    <functioncall functionName="getParts"/>
+    <functioncall functionName="getPointerWidth"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getTargetInfo"/>
+    <functioncall functionName="getThunkInfo"/>
+    <functioncall functionName="getTriple"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeSize"/>
+    <functioncall functionName="getUserLabelPrefix"/>
+    <functioncall functionName="getVTableContext"/>
+    <functioncall functionName="hasAttr"/>
+    <functioncall functionName="hasAttrs"/>
+    <functioncall functionName="hasExternalFormalLinkage"/>
+    <functioncall functionName="isAbstract"/>
+    <functioncall functionName="isClassMethod"/>
+    <functioncall functionName="isDefaultConstructor"/>
+    <functioncall functionName="isDependentContext"/>
+    <functioncall functionName="isExternC"/>
+    <functioncall functionName="isGNUFamily"/>
+    <functioncall functionName="isImplicitObjectMemberFunction"/>
+    <functioncall functionName="isIncompleteType"/>
+    <functioncall functionName="isInstanceMethod"/>
+    <functioncall functionName="isItaniumFamily"/>
+    <functioncall functionName="isMain"/>
+    <functioncall functionName="isMicrosoft"/>
+    <functioncall functionName="isOSWindows"/>
+    <functioncall functionName="isUniqueInternalLinkageDecl"/>
+    <functioncall functionName="isVariadic"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isWasm"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="isa_and_nonnull"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="mangleCXXName"/>
+    <functioncall functionName="mangleCtorBlock"/>
+    <functioncall functionName="mangleDtorBlock"/>
+    <functioncall functionName="mangleFunctionBlock"/>
+    <functioncall functionName="mangleMSGuidDecl"/>
+    <functioncall functionName="mangleName"/>
+    <functioncall functionName="mangleObjCMethodName"/>
+    <functioncall functionName="mangleObjCMethodNameAsSourceName"/>
+    <functioncall functionName="mangleThunk"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="param_types"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="shouldMangleCXXName"/>
+    <functioncall functionName="shouldMangleDeclName"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="useAbbreviatedThunkName"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="writeFuncOrVarName"/>
+    <functioncall functionName="writeName"/>
+    <functioncall functionName="writeObjCClassName"/>
+  </FileInfo>
+</analyzerinfo>

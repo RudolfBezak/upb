@@ -1,0 +1,3 @@
+printDistribution call:[begin,empty,end,format,int,length,printLine,size,sizeof,sort,string,to_string] noreturn:[printLine]
+printCFGContinuityStats call:[LLVM_DEBUG,assert,begin,branch_info_begin,dump,empty,end,find,format,front,getIndex,getKnownExecutionCount,getPrintName,insert,int,isEntryPoint,pop,printDistribution,push,push_back,size,sort,successors] noreturn:[LLVM_DEBUG,getKnownExecutionCount,insert,printDistribution,push_back]
+printAll call:[Functions,begin,format,getKnownExecutionCount,min,outs,printCFGContinuityStats,size,sort] noreturn:[getKnownExecutionCount,printCFGContinuityStats]

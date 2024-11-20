@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16819518889684247978">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/NSAPI.h&quot; not found." verbose="Include file: &quot;clang/AST/NSAPI.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclObjC.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclObjC.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Expr.h&quot; not found." verbose="Include file: &quot;clang/AST/Expr.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/StringSwitch.h&quot; not found." verbose="Include file: &quot;llvm/ADT/StringSwitch.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLImageTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="437" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/OpenCLExtensionTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="440" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AArch64SVEACLETypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="448" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/PPCTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="451" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/RISCVVTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="453" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/WebAssemblyReferenceTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="455" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/AMDGPUTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="457" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found." verbose="Include file: &quot;clang/Basic/HLSLIntangibleTypes.def&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="459" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ClassName&apos; can be reduced." verbose="The scope of the variable &apos;ClassName&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/NSAPI.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\NSAPI.cpp" line="24" column="22"/>
+            <symbol>ClassName</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BOOLId"/>
+    <functioncall functionName="BuiltinType"/>
+    <functioncall functionName="Case"/>
+    <functioncall functionName="ClassIds"/>
+    <functioncall functionName="Ctx"/>
+    <functioncall functionName="DeclRefExpr"/>
+    <functioncall functionName="Default"/>
+    <functioncall functionName="EnumConstantDecl"/>
+    <functioncall functionName="IgnoreParenImpCasts"/>
+    <functioncall functionName="NSAPI"/>
+    <functioncall functionName="NSASCIIStringEncodingId"/>
+    <functioncall functionName="NSArrayMethodKind"/>
+    <functioncall functionName="NSDictionaryMethodKind"/>
+    <functioncall functionName="NSIntegerId"/>
+    <functioncall functionName="NSNumberClassSelectors"/>
+    <functioncall functionName="NSNumberInstanceSelectors"/>
+    <functioncall functionName="NSNumberLiteralMethodKind"/>
+    <functioncall functionName="NSNumberWithBool"/>
+    <functioncall functionName="NSNumberWithChar"/>
+    <functioncall functionName="NSNumberWithDouble"/>
+    <functioncall functionName="NSNumberWithFloat"/>
+    <functioncall functionName="NSNumberWithInt"/>
+    <functioncall functionName="NSNumberWithInteger"/>
+    <functioncall functionName="NSNumberWithLong"/>
+    <functioncall functionName="NSNumberWithLongLong"/>
+    <functioncall functionName="NSNumberWithShort"/>
+    <functioncall functionName="NSNumberWithUnsignedChar"/>
+    <functioncall functionName="NSNumberWithUnsignedInt"/>
+    <functioncall functionName="NSNumberWithUnsignedInteger"/>
+    <functioncall functionName="NSNumberWithUnsignedLong"/>
+    <functioncall functionName="NSNumberWithUnsignedLongLong"/>
+    <functioncall functionName="NSNumberWithUnsignedShort"/>
+    <functioncall functionName="NSSetMethodKind"/>
+    <functioncall functionName="NSUIntegerId"/>
+    <functioncall functionName="NSUTF8StringEncodingId"/>
+    <functioncall functionName="NumClassIds"/>
+    <functioncall functionName="NumNSNumberLiteralMethods"/>
+    <functioncall functionName="ObjC"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="StringSwitch"/>
+    <functioncall functionName="TypedefType"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="desugar"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="dyn_cast_or_null"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAs"/>
+    <functioncall functionName="getAsIdentifierInfo"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getDeclName"/>
+    <functioncall functionName="getIdentifier"/>
+    <functioncall functionName="getKind"/>
+    <functioncall functionName="getLangOpts"/>
+    <functioncall functionName="getNSArraySelector"/>
+    <functioncall functionName="getNSClassId"/>
+    <functioncall functionName="getNSDictionarySelector"/>
+    <functioncall functionName="getNSSetSelector"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNullarySelector"/>
+    <functioncall functionName="getSelector"/>
+    <functioncall functionName="getSuperClass"/>
+    <functioncall functionName="getUnarySelector"/>
+    <functioncall functionName="hasMacroDefinition"/>
+    <functioncall functionName="isNSNumberLiteralSelector"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjCBOOLType"/>
+    <functioncall functionName="isObjCNSIntegerType"/>
+    <functioncall functionName="isObjCNSUIntegerType"/>
+    <functioncall functionName="isObjCTypedef"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13137292109843327609">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/RuntimeLibs/HugifyRuntimeLibrary.h&quot; not found." verbose="Include file: &quot;bolt/RuntimeLibs/HugifyRuntimeLibrary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\HugifyRuntimeLibrary.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\HugifyRuntimeLibrary.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/Linker.h&quot; not found." verbose="Include file: &quot;bolt/Core/Linker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\HugifyRuntimeLibrary.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\HugifyRuntimeLibrary.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\RuntimeLibs\HugifyRuntimeLibrary.cpp" line="17" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="RuntimeStartAddress"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="getLibPath"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="loadLibrary"/>
+    <functioncall functionName="lookupSymbol"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="value_or"/>
+  </FileInfo>
+</analyzerinfo>

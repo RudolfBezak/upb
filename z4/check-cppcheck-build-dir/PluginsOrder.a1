@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16671959816126991559">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/AST.h&quot; not found." verbose="Include file: &quot;clang/AST/AST.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PluginsOrder\PluginsOrder.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTConsumer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PluginsOrder\PluginsOrder.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found." verbose="Include file: &quot;clang/Frontend/FrontendPluginRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\examples\PluginsOrder\PluginsOrder.cpp" line="11" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ASTConsumer"/>
+    <functioncall functionName="AddAfterMainAction"/>
+    <functioncall functionName="AddBeforeMainAction"/>
+    <functioncall functionName="CmdlineAfterMainAction"/>
+    <functioncall functionName="CmdlineBeforeMainAction"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,73 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+ASTTraverser
+CFBridgingFunctionsDefined call:[ObjC,isKnownName] noreturn:[isKnownName]
+canApplyWeak call:[getInterfaceDecl,getLangOpts,getName,getPointeeType,getTargetInfo,getTriple,hasDefinition,isArcWeakrefUnavailable,isNull,isWatchOS,isiOS] noreturn:[getPointeeType]
+isPlusOneAssign call:[getOpcode,getRHS,isPlusOne] noreturn:[isPlusOne]
+isPlusOne call:[IgnoreParenCasts,contains,ends_with,getCastKind,getDirectCallee,getIdentifier,getMethodFamily,getName,getParent,getSubExpr,getType,isExternallyVisible,isGlobal,isRefType,isTranslationUnit] noreturn:[getSubExpr]
+findLocationAfterSemi call:[SourceLocation,findSemiAfterLocation,getLocWithOffset,isInvalid] noreturn:[SourceLocation,getLocWithOffset]
+findSemiAfterLocation call:[LexFromRawLexer,SourceLocation,begin,data,end,findSemiAfterLocation,getBufferData,getDecomposedLoc,getLangOpts,getLocForEndOfToken,getLocForStartOfFile,getLocation,getSourceManager,isAtEndOfMacroExpansion,isMacroID,isNot,lexer] noreturn:[SourceLocation,findSemiAfterLocation,getLocation]
+hasSideEffects call:[HasSideEffects,IgnoreParenCasts,getInstanceReceiver,getMethodFamily,getReceiverKind,hasSideEffects]
+isGlobalVar call:[IgnoreParenCasts,getDecl,getDeclContext,getFalseExpr,getTrueExpr,isExternallyVisible,isFileContext,isGlobalVar] noreturn:[isExternallyVisible,isGlobalVar]
+getNilString call:[isMacroDefined]
+ReferenceClear
+VisitDeclRefExpr call:[erase]
+ReferenceCollector
+VisitDeclRefExpr call:[getDecl,insert] noreturn:[insert]
+RemovablesCollector
+shouldWalkTypesOfTypeLocs
+TraverseStmtExpr call:[TraverseStmt,body_begin,body_end,getSubStmt,mark] noreturn:[TraverseStmt,mark]
+VisitCompoundStmt call:[body,mark] noreturn:[mark]
+VisitIfStmt call:[getElse,getThen,mark]
+VisitWhileStmt call:[getBody,mark]
+VisitDoStmt call:[getBody,mark]
+VisitForStmt call:[getBody,getInc,getInit,mark]
+mark call:[IgnoreImplicit,getSubStmt,insert] noreturn:[IgnoreImplicit,getSubStmt,insert]
+ASTTransform
+shouldWalkTypesOfTypeLocs
+TraverseObjCImplementationDecl call:[ImplCtx,TraverseObjCImplementationDecl,traverseObjCImplementation,traversers_begin,traversers_end] noreturn:[TraverseObjCImplementationDecl,traverseObjCImplementation]
+TraverseStmt call:[BodyCtx,traverseBody,traversers_begin,traversers_end] noreturn:[traverseBody]
+MigrationContext call:[traversers_begin,traversers_end]
+isGCOwnedNonObjC call:[getAttrKind,getBaseElementType,getModifiedType,getPointeeType,isArrayType,isNull,isObjCRetainableType] noreturn:[getBaseElementType,getPointeeType,isObjCRetainableType]
+rewritePropertyAttribute call:[LexFromRawLexer,SourceRange,begin,data,empty,end,getBufferData,getDecomposedLoc,getLangOpts,getLocForStartOfFile,getLocation,getRawIdentifier,getSourceManager,is,isInvalid,isMacroID,isNot,isValid,lexer,remove,replaceText,startToken,while] noreturn:[LexFromRawLexer,getLocation,remove]
+addPropertyAttribute call:[LexFromRawLexer,begin,data,end,getBufferData,getDecomposedLoc,getLangOpts,getLocForStartOfFile,getLocation,getRawIdentifier,getSourceManager,insert,is,isMacroID,isNot,lexer,str,string]
+traverse call:[ASTTransform,TraverseDecl,traverseTU,traversers_begin,traversers_end] noreturn:[TraverseDecl,traverseTU]
+GCRewriteFinalize call:[Trans,decls_begin,decls_end,get,getBegin,getEnd,getLangOpts,getNullarySelector,getSelector,getSourceManager,getSourceRange,getSourceText,getTokenRange,getTranslationUnitDecl,hasBody,insert,insertAfterToken,instance_methods,isInstanceMethod]
+traverseAST call:[BlockObjCVariableTraverser,GCAttrsTraverser,MigrateCtx,PropertyRewriteTraverser,ProtectedScopeTraverser,addTraverser,getTranslationUnitDecl,isGCMigration,traverse] noreturn:[addTraverser,traverse]
+independentTransforms call:[checkAPIUses,makeAssignARCSafe,removeRetainReleaseDeallocFinalize,removeZeroOutPropsInDeallocFinalize,rewriteAutoreleasePool,rewriteUnbridgedCasts,rewriteUnusedInitDelegate,traverseAST] noreturn:[traverseAST]

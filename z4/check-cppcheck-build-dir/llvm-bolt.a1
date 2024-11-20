@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12180646259352892725">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/DataAggregator.h&quot; not found." verbose="Include file: &quot;bolt/Profile/DataAggregator.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/MachORewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/MachORewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/RewriteInstance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/TargetRegistry.h&quot; not found." verbose="Include file: &quot;llvm/MC/TargetRegistry.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Object/Binary.h&quot; not found." verbose="Include file: &quot;llvm/Object/Binary.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Errc.h&quot; not found." verbose="Include file: &quot;llvm/Support/Errc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Error.h&quot; not found." verbose="Include file: &quot;llvm/Support/Error.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/ManagedStatic.h&quot; not found." verbose="Include file: &quot;llvm/Support/ManagedStatic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Path.h&quot; not found." verbose="Include file: &quot;llvm/Support/Path.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/PrettyStackTrace.h&quot; not found." verbose="Include file: &quot;llvm/Support/PrettyStackTrace.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Signals.h&quot; not found." verbose="Include file: &quot;llvm/Support/Signals.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found." verbose="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="28" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\tools\driver\llvm-bolt.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp:186:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" line="188" col="37" value="0"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp:186:5" my-argnr="2" my-argname="argv" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" line="188" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp:101:13" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" line="102" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="report_error" lineNumber="88"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="report_error" lineNumber="94"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="printBoltRevision" lineNumber="101"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="perf2boltMode" lineNumber="105"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="boltDiffMode" lineNumber="135"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="boltMode" lineNumber="161"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="GetExecutablePath" lineNumber="176"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/tools/driver/llvm-bolt.cpp" functionName="main" lineNumber="186"/>
+    <functioncall functionName="AddExtraVersionPrinter"/>
+    <functioncall functionName="AggregateOnly"/>
+    <functioncall functionName="AggregatorCategory"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="Binary"/>
+    <functioncall functionName="BoltCategory"/>
+    <functioncall functionName="BoltDiffCategory"/>
+    <functioncall functionName="BoltInstrCategory"/>
+    <functioncall functionName="BoltOptCategory"/>
+    <functioncall functionName="BoltOutputCategory"/>
+    <functioncall functionName="BoltRelocCategory"/>
+    <functioncall functionName="DiffOnly"/>
+    <functioncall functionName="ELFObjectFileBase"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Expected"/>
+    <functioncall functionName="GetExecutablePath"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="HideUnrelatedOptions"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="InputFilename"/>
+    <functioncall functionName="InputFilename2"/>
+    <functioncall functionName="MachOObjectFile"/>
+    <functioncall functionName="OF_None"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="OwningBinary"/>
+    <functioncall functionName="ParseCommandLineOptions"/>
+    <functioncall functionName="PerfData"/>
+    <functioncall functionName="Positional"/>
+    <functioncall functionName="PrintStackTraceOnErrorSignal"/>
+    <functioncall functionName="Required"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="aliasopt"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="boltDiffMode"/>
+    <functioncall functionName="boltMode"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="checkPerfDataMagic"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinary"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="findProgramByName"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAll"/>
+    <functioncall functionName="getBinary"/>
+    <functioncall functionName="invalid_file_type"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="no_such_file_or_directory"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="perf2boltMode"/>
+    <functioncall functionName="printBoltRevision"/>
+    <functioncall functionName="printRegisteredTargetsForVersion"/>
+    <functioncall functionName="raw_fd_ostream"/>
+    <functioncall functionName="report_error"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="setProfile"/>
+    <functioncall functionName="starts_with"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="sub"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

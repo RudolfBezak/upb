@@ -1,0 +1,5 @@
+getDWOName call:[append,assert,empty,filename,find,getDWOId,getUnitDIE,string,toString,to_string]
+addStringHelper call:[DIEInteger,addString,getAttribute,getDIEInteger,getForm,getValue,getVersion,replaceValue,updateAddressMap] noreturn:[replaceValue]
+getCUNum call:[getNumCompileUnits,getNumDWOCompileUnits,getNumDWOTypeUnits,getNumTypeUnits]
+getUnitForOffset call:[begin,call_once,compile_units,emplace_back,end,findUnit,get,getCurrentProcessingState,getDWARF4TUVector,getDWARF5TUVector,getDWARFCUVector,getNextUnitOffset,getNumCompileUnits,getOffset,reserve,upper_bound] noreturn:[emplace_back,findUnit,getNextUnitOffset]
+getHash call:[getOffset,getTypeHash,getVersion,hash_combine,hash_value,isTypeUnit] noreturn:[getOffset,hash_combine]

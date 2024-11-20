@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4519489283581833405">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StackAvailableExpressions.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StackAvailableExpressions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAvailableExpressions.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/FrameAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAvailableExpressions.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/RegAnalysis.h&quot; not found." verbose="Include file: &quot;bolt/Passes/RegAnalysis.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAvailableExpressions.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCRegisterInfo.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackAvailableExpressions.cpp" line="16" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StackAvailableExpressions.cpp:69:6" my-argnr="1" my-argname="LoadFIE" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StackAvailableExpressions.cpp" line="71" col="7" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/StackAvailableExpressions.cpp" functionName="isLoadRedundant" lineNumber="69"/>
+    <functioncall functionName="BitVector"/>
+    <functioncall functionName="ErrorOr"/>
+    <functioncall functionName="Func"/>
+    <functioncall functionName="InstrsDataflowAnalysis"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="NumInstrs"/>
+    <functioncall functionName="StackAvailableExpressions"/>
+    <functioncall functionName="any"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="doesXKillsY"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="expr_begin"/>
+    <functioncall functionName="expr_end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getBitVectorIndex"/>
+    <functioncall functionName="getFIEFor"/>
+    <functioncall functionName="getInstClobberList"/>
+    <functioncall functionName="getNumRegs"/>
+    <functioncall functionName="getPrintName"/>
+    <functioncall functionName="isLoadRedundant"/>
+    <functioncall functionName="pred_size"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="throw_size"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3780999227816276535">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\iplt.c" line="16" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\iplt.c" line="17" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c:28:1" call-funcname="imemcpy" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c" line="32" col="10" call-argexpr="&amp;b" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c:28:1" call-funcname="imemcpy" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c" line="32" col="10" call-argexpr="&amp;a" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c" functionName="foo" lineNumber="19"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c" functionName="resolver_foo" lineNumber="21"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c" functionName="resolver_memcpy" lineNumber="25"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/iplt.c" functionName="main" lineNumber="30"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="ifoo"/>
+    <functioncall functionName="imemcpy"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

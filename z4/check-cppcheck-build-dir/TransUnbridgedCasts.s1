@@ -1,0 +1,57 @@
+BodyContext
+getMigrationContext
+getParentMap
+getTopStmt
+ObjCImplementationContext
+getMigrationContext
+getImplementationDecl
+traverseTU
+traverseBody
+traverseObjCImplementation
+MigrationContext
+traversers_begin call:[begin] noreturn:[begin]
+traversers_end call:[end] noreturn:[end]
+addTraverser call:[push_back] noreturn:[push_back]
+removePropertyAttribute call:[StringRef,rewritePropertyAttribute] noreturn:[rewritePropertyAttribute]
+BodyTransform
+TraverseStmt call:[BODY_TRANS,transformBody] noreturn:[transformBody]
+TraverseObjCMethodDecl call:[SetParent,TraverseObjCMethodDecl] noreturn:[TraverseObjCMethodDecl]
+clearRefsIn call:[clearRefsIn] noreturn:[clearRefsIn]
+push_back call:[push_back] noreturn:[push_back]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+clearAllDiagnostics call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+clearDiagnostic call:[clearDiagnostic] noreturn:[clearDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasDiagnostic call:[hasDiagnostic] noreturn:[hasDiagnostic]
+hasReportedErrors call:[hasUnrecoverableErrorOccurred] noreturn:[hasUnrecoverableErrorOccurred]
+Transaction call:[startTransaction] noreturn:[startTransaction]
+Transaction call:[commitTransaction,isAborted] noreturn:[commitTransaction]
+abort call:[abortTransaction]
+isAborted
+MigrationPass
+getDiags
+isGCMigration
+noFinalizeRemoval
+setNoFinalizeRemoval
+getARCMTMacroName
+UnbridgedCastRewriter call:[get] noreturn:[get]
+transformBody call:[ParentMap,TraverseStmt,reset] noreturn:[TraverseStmt]
+TraverseBlockDecl call:[UnbridgedCastRewriter,getBody,transformBody]
+VisitCastExpr call:[getCastKind,getExprLoc,getSourceManager,getSubExpr,getType,isInSystemHeader,isNullPointerConstant,isObjCIndirectLifetimeType,isObjCRetainableType,isValid,transformNonObjCToObjCCast,transformObjCToNonObjCCast] noreturn:[transformNonObjCToObjCCast,transformObjCToNonObjCCast]
+transformNonObjCToObjCCast call:[IgnoreParenCasts,IgnoreParenImpCasts,castToObjCObject,contains,ends_with,getArg,getBase,getDirectCallee,getIdentifier,getName,getNumParams,getParent,getParentIgnoreParenCasts,getSubExpr,getType,isExternallyVisible,isGlobal,isGlobalVar,isObjCObjectPointerType,isPointerType,isRefType,isTranslationUnit] noreturn:[IgnoreParenImpCasts]
+castToObjCObject call:[rewriteToBridgedCast] noreturn:[rewriteToBridgedCast]
+rewriteToBridgedCast call:[Trans,rewriteToBridgedCast] noreturn:[rewriteToBridgedCast]
+rewriteToBridgedCast call:[CFBridgingFunctionsDefined,abort,assert,clearDiagnostic,getAsString,getBeginLoc,getCharacterData,getEndLoc,getLParenLoc,getLangOpts,getLocWithOffset,getPrintingPolicy,getSourceManager,getSubExpr,getType,hasDiagnostic,insert,insertAfterToken,isAsciiIdentifierContinueChar,str] noreturn:[insert,insertAfterToken]
+rewriteCastForCFRetain call:[Trans,getArg,getSourceRange,replace,rewriteToBridgedCast] noreturn:[rewriteToBridgedCast]
+getBlockMacroRanges call:[IgnoreParenImpCasts,SourceRange,assert,getAsRange,getBegin,getEnd,getExprLoc,getImmediateExpansionRange,getImmediateMacroCallerLoc,getSourceManager,getSourceRange,getSubExpr,isMacroID] noreturn:[SourceRange]
+rewriteBlockCopyMacro call:[Trans,clearDiagnostic,getBegin,getBlockMacroRanges,getEnd,insert,insertAfterToken,replace] noreturn:[clearDiagnostic]
+removeBlockReleaseMacro call:[Trans,clearDiagnostic,getBlockMacroRanges,getParentIgnoreParenCasts,hasSideEffects,replace,tryRemoving] noreturn:[replace]
+tryRemoving call:[collectRemovables,count,removeStmt,reset] noreturn:[collectRemovables]
+transformObjCToNonObjCCast call:[assert,getAsString,getBeginLoc,getCastKind,getExprLoc,getFamilyOfMessage,getImmediateMacroName,getLangOpts,getParentIgnoreParenImpCasts,getPrintingPolicy,getResultExpr,getSourceManager,getSourceRange,getSubExpr,getType,isMacroID,isPassedToCFRetain,isPassedToCParamWithKnownOwnership,isSelf,removeBlockReleaseMacro,reportError,reportNote,rewriteBlockCopyMacro,rewriteCastForCFRetain,rewriteToBridgedCast,while] noreturn:[assert,getParentIgnoreParenImpCasts,reportNote,rewriteCastForCFRetain,rewriteToBridgedCast]
+getFamilyOfMessage call:[IgnoreParenCasts,getMethodFamily] noreturn:[getMethodFamily]
+isPassedToCFRetain call:[getCalleeDecl,getName,getNumParams,getParent,getParentIgnoreParenImpCasts,isExternallyVisible,isTranslationUnit]
+isPassedToCParamWithKnownOwnership call:[IgnoreParenImpCasts,getArg,getCalleeDecl,getNumArgs,getNumParams,getParamDecl,getParentIgnoreParenImpCasts]
+isSelf call:[IgnoreParenLValueCasts,getDecl,getIdentifier]
+rewriteUnbridgedCasts call:[TraverseDecl,getTranslationUnitDecl,trans] noreturn:[TraverseDecl]

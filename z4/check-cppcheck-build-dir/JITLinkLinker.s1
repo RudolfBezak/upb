@@ -1,0 +1,11 @@
+hasSymbols call:[any_of,getBlock,getSection,symbols] noreturn:[any_of]
+markSectionsLive call:[addAnonymousSymbol,blocks,getMemLifetime,hasSymbols,markAllSymbolsLive,sectionSize,sections] noreturn:[addAnonymousSymbol,markAllSymbolsLive]
+reassignSectionAddress call:[ExecutorAddr,assert,findSectionByName,getSectionID,getSize,orderedBlocks,setAddress] noreturn:[getSize]
+Context
+getMemoryManager
+shouldAddDefaultTargetPasses
+modifyPassConfig call:[MapSections,createRelaxationPass_ELF_riscv,getTargetTriple,isRISCV,push_back,reassignSectionAddress,success] noreturn:[push_back,reassignSectionAddress,success]
+notifyFailed call:[errs,exit] noreturn:[exit]
+lookup call:[ExecutorAddr,ExecutorSymbolDef,JITSymbolFlags,LLVM_DEBUG,dbgs,getAddress,getBinaryDataByName,getGOTSymbol,getOutputAddress,isGOTSymbol,isJumpTable,isMoved,lookupSymbol,move,run,str,utohexstr] noreturn:[ExecutorSymbolDef,run]
+notifyResolved call:[defined_symbols,getAddress,getName,getSize,getValue,insert,str,success] noreturn:[insert,success]
+notifyFinalized call:[move,push_back] noreturn:[push_back]

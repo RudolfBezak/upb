@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9417538160277829238">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/text-data.c:11:13" call-funcname="exit" call-argnr="1" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/text-data.c" line="15" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/text-data.c" functionName="exitOk" lineNumber="15"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/AArch64/text-data.c" functionName="main" lineNumber="19"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="exitOk"/>
+  </FileInfo>
+</analyzerinfo>

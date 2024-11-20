@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4462244998749030594">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;exception&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;exception&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\exceptions-no-pie.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\exceptions-no-pie.cpp" line="13" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;e&apos; can be declared as reference to const" verbose="Variable &apos;e&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/exceptions-no-pie.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\runtime\exceptions-no-pie.cpp" line="35" column="23" info="Variable &apos;e&apos; can be declared as reference to const"/>
+            <symbol>e</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="ValIsZero" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/exceptions-no-pie.cpp" line="15" col="1" hash="11686008655757721475"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/exceptions-no-pie.cpp" functionName="dummy" lineNumber="18"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/runtime/exceptions-no-pie.cpp" functionName="main" lineNumber="27"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="invalid_argument"/>
+    <functioncall functionName="out_of_range"/>
+    <functioncall functionName="strtol"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

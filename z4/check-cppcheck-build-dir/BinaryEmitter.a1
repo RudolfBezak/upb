@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14546683836775461102">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryEmitter.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryEmitter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/DebugData.h&quot; not found." verbose="Include file: &quot;bolt/Core/DebugData.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/FunctionLayout.h&quot; not found." verbose="Include file: &quot;bolt/Core/FunctionLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/Utils.h&quot; not found." verbose="Include file: &quot;bolt/Utils/Utils.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFCompileUnit.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFCompileUnit.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCSection.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCSection.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found." verbose="Include file: &quot;llvm/MC/MCStreamer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/LEB128.h&quot; not found." verbose="Include file: &quot;llvm/Support/LEB128.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/SMLoc.h&quot; not found." verbose="Include file: &quot;llvm/Support/SMLoc.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="26" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;Padding&apos; can be reduced." verbose="The scope of the variable &apos;Padding&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="89" column="12"/>
+            <symbol>Padding</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;Spec&apos; can be declared as reference to const" verbose="Variable &apos;Spec&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="77" column="23" info="Variable &apos;Spec&apos; can be declared as reference to const"/>
+            <symbol>Spec</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;FPI&apos; can be declared as reference to const" verbose="Variable &apos;FPI&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="87" column="14" info="Variable &apos;FPI&apos; can be declared as reference to const"/>
+            <symbol>FPI</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;It&apos; can be declared as reference to const" verbose="Variable &apos;It&apos; can be declared as reference to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="1074" column="14" info="Variable &apos;It&apos; can be declared as reference to const"/>
+            <symbol>It</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\BinaryEmitter.cpp" line="918" column="25"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:119:8" call-funcname="emitFunctionBody" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="373" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:131:8" call-funcname="emitConstantIslands" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="647" col="24" call-argexpr="&amp;BF" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:127:8" my-argnr="1" my-argname="Function" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="289" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:119:8" my-argnr="2" my-argname="FF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="419" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:131:8" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="501" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:160:9" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="653" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:167:8" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="715" col="27" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:135:8" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="731" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:141:8" my-argnr="1" my-argname="Inst" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="856" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:144:8" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="905" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:144:8" my-argnr="2" my-argname="FF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="905" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp:1177:6" my-argnr="2" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" line="1179" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="padFunction" lineNumber="73"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitAll" lineNumber="182"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitFunctions" lineNumber="220"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitFunction" lineNumber="287"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitFunctionBody" lineNumber="411"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitConstantIslands" lineNumber="499"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitLineInfo" lineNumber="650"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitLineInfoEnd" lineNumber="713"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitJumpTables" lineNumber="726"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitJumpTable" lineNumber="774"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitCFIInstruction" lineNumber="855"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitLSDA" lineNumber="903"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitDebugLineInfoForOriginalFunctions" lineNumber="1070"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitDebugLineInfoForUnprocessedCUs" lineNumber="1118"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitDataSections" lineNumber="1158"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitBinaryContext" lineNumber="1172"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/BinaryEmitter.cpp" functionName="emitFunctionBody" lineNumber="1177"/>
+    <functioncall functionName="AddComment"/>
+    <functioncall functionName="Align"/>
+    <functioncall functionName="AlignFunctions"/>
+    <functioncall functionName="AlignText"/>
+    <functioncall functionName="BinaryEmitter"/>
+    <functioncall functionName="BinaryFunction"/>
+    <functioncall functionName="BoltCategory"/>
+    <functioncall functionName="BoltOptCategory"/>
+    <functioncall functionName="CommaSeparated"/>
+    <functioncall functionName="Count"/>
+    <functioncall functionName="DWARF2_FLAG_END_SEQUENCE"/>
+    <functioncall functionName="DWARFUnit"/>
+    <functioncall functionName="DW_AT_stmt_list"/>
+    <functioncall functionName="DW_EH_PE_omit"/>
+    <functioncall functionName="DW_EH_PE_sdata4"/>
+    <functioncall functionName="DW_EH_PE_udata4"/>
+    <functioncall functionName="Data"/>
+    <functioncall functionName="File"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="HotText"/>
+    <functioncall functionName="JumpTableSupportLevel"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCCFIInstruction"/>
+    <functioncall functionName="MCDwarfLineEntry"/>
+    <functioncall functionName="MCSA_ELF_TypeFunction"/>
+    <functioncall functionName="MCSectionELF"/>
+    <functioncall functionName="MCSymbol"/>
+    <functioncall functionName="PrintCacheMetrics"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="SHF_ALLOC"/>
+    <functioncall functionName="SHT_PROGBITS"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="UndefSection"/>
+    <functioncall functionName="UpdateDebugSections"/>
+    <functioncall functionName="addDebugFilenameToUnit"/>
+    <functioncall functionName="addGenDwarfSection"/>
+    <functioncall functionName="addLineEntry"/>
+    <functioncall functionName="addLineTableSequence"/>
+    <functioncall functionName="addRawContents"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="cie"/>
+    <functioncall functionName="clearDwarfLocSeen"/>
+    <functioncall functionName="clearRelocations"/>
+    <functioncall functionName="compile_units"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createNamedTempSymbol"/>
+    <functioncall functionName="createSub"/>
+    <functioncall functionName="createTempSymbol"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="duplicateConstantIslands"/>
+    <functioncall functionName="emit"/>
+    <functioncall functionName="emitAbsoluteSymbolDiff"/>
+    <functioncall functionName="emitAll"/>
+    <functioncall functionName="emitAsData"/>
+    <functioncall functionName="emitBinary"/>
+    <functioncall functionName="emitBytes"/>
+    <functioncall functionName="emitCFIAdjustCfaOffset"/>
+    <functioncall functionName="emitCFIDefCfa"/>
+    <functioncall functionName="emitCFIDefCfaOffset"/>
+    <functioncall functionName="emitCFIDefCfaRegister"/>
+    <functioncall functionName="emitCFIEndProc"/>
+    <functioncall functionName="emitCFIEscape"/>
+    <functioncall functionName="emitCFIGnuArgsSize"/>
+    <functioncall functionName="emitCFIInstruction"/>
+    <functioncall functionName="emitCFILsda"/>
+    <functioncall functionName="emitCFINegateRAState"/>
+    <functioncall functionName="emitCFIOffset"/>
+    <functioncall functionName="emitCFIPersonality"/>
+    <functioncall functionName="emitCFIRegister"/>
+    <functioncall functionName="emitCFIRestore"/>
+    <functioncall functionName="emitCFISameValue"/>
+    <functioncall functionName="emitCFIStartProc"/>
+    <functioncall functionName="emitCFIUndefined"/>
+    <functioncall functionName="emitCFIWindowSave"/>
+    <functioncall functionName="emitCodeAlignment"/>
+    <functioncall functionName="emitConstantIslands"/>
+    <functioncall functionName="emitDataSections"/>
+    <functioncall functionName="emitDebugLineInfoForOriginalFunctions"/>
+    <functioncall functionName="emitDebugLineInfoForUnprocessedCUs"/>
+    <functioncall functionName="emitELFSize"/>
+    <functioncall functionName="emitFill"/>
+    <functioncall functionName="emitFunction"/>
+    <functioncall functionName="emitFunctionBody"/>
+    <functioncall functionName="emitFunctions"/>
+    <functioncall functionName="emitInstruction"/>
+    <functioncall functionName="emitIntValue"/>
+    <functioncall functionName="emitJumpTable"/>
+    <functioncall functionName="emitJumpTables"/>
+    <functioncall functionName="emitLSDA"/>
+    <functioncall functionName="emitLabel"/>
+    <functioncall functionName="emitLineInfo"/>
+    <functioncall functionName="emitLineInfoEnd"/>
+    <functioncall functionName="emitSymbolAttribute"/>
+    <functioncall functionName="emitSymbolValue"/>
+    <functioncall functionName="emitULEB128IntValue"/>
+    <functioncall functionName="emitValue"/>
+    <functioncall functionName="emitValueToAlignment"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="ensureMinAlignment"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="fragment_size"/>
+    <functioncall functionName="fromSMLoc"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getAlign"/>
+    <functioncall functionName="getAlignment"/>
+    <functioncall functionName="getAlignmentMaxBytes"/>
+    <functioncall functionName="getAllowAutoPadding"/>
+    <functioncall functionName="getAsmInfo"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getBinaryFunctions"/>
+    <functioncall functionName="getCFIFor"/>
+    <functioncall functionName="getCallSites"/>
+    <functioncall functionName="getCodeSection"/>
+    <functioncall functionName="getCodeSectionName"/>
+    <functioncall functionName="getComment"/>
+    <functioncall functionName="getCompileUnitForOffset"/>
+    <functioncall functionName="getConstantIslandAlignment"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getContext"/>
+    <functioncall functionName="getCurrentDwarfLoc"/>
+    <functioncall functionName="getCurrentSectionOnly"/>
+    <functioncall functionName="getDWARFEncodingSize"/>
+    <functioncall functionName="getDWARFLineTable"/>
+    <functioncall functionName="getDWARFUnit"/>
+    <functioncall functionName="getDataSection"/>
+    <functioncall functionName="getDwarfLineSection"/>
+    <functioncall functionName="getDwarfLineStrSection"/>
+    <functioncall functionName="getDwarfLineTable"/>
+    <functioncall functionName="getELFSection"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getFunctionColdConstantIslandLabel"/>
+    <functioncall functionName="getFunctionConstantIslandLabel"/>
+    <functioncall functionName="getFunctionEndLabel"/>
+    <functioncall functionName="getFunctionNumber"/>
+    <functioncall functionName="getHotTextEndSymbol"/>
+    <functioncall functionName="getHotTextStartSymbol"/>
+    <functioncall functionName="getInitialFrameState"/>
+    <functioncall functionName="getInjectedBinaryFunctions"/>
+    <functioncall functionName="getInstLabel"/>
+    <functioncall functionName="getIslandInfo"/>
+    <functioncall functionName="getLSDAActionTable"/>
+    <functioncall functionName="getLSDASection"/>
+    <functioncall functionName="getLSDASymbol"/>
+    <functioncall functionName="getLSDATypeAddressTable"/>
+    <functioncall functionName="getLSDATypeEncoding"/>
+    <functioncall functionName="getLSDATypeIndexTable"/>
+    <functioncall functionName="getLSDATypeTable"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLineSection"/>
+    <functioncall functionName="getLineTableForUnit"/>
+    <functioncall functionName="getLoc"/>
+    <functioncall functionName="getLocSyms"/>
+    <functioncall functionName="getMCLineSections"/>
+    <functioncall functionName="getMainFragment"/>
+    <functioncall functionName="getMaxAlignmentBytes"/>
+    <functioncall functionName="getMaxColdAlignmentBytes"/>
+    <functioncall functionName="getMaxSize"/>
+    <functioncall functionName="getMinAlign"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getNumCompileUnits"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getOperation"/>
+    <functioncall functionName="getOrCreateGlobalSymbol"/>
+    <functioncall functionName="getOriginSection"/>
+    <functioncall functionName="getPersonalityEncoding"/>
+    <functioncall functionName="getPersonalityFunction"/>
+    <functioncall functionName="getPointer"/>
+    <functioncall functionName="getReadOnlySection"/>
+    <functioncall functionName="getRegister"/>
+    <functioncall functionName="getRegister2"/>
+    <functioncall functionName="getRuntimeLibrary"/>
+    <functioncall functionName="getSecondaryEntryPointSymbol"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getSizeForType"/>
+    <functioncall functionName="getSortedFunctions"/>
+    <functioncall functionName="getSplitFragments"/>
+    <functioncall functionName="getState"/>
+    <functioncall functionName="getSymbol"/>
+    <functioncall functionName="getSymbols"/>
+    <functioncall functionName="getTextAlignFillValue"/>
+    <functioncall functionName="getTextSection"/>
+    <functioncall functionName="getTrapFillValue"/>
+    <functioncall functionName="getULEB128Size"/>
+    <functioncall functionName="getUnitDIE"/>
+    <functioncall functionName="getValues"/>
+    <functioncall functionName="getWarmCodeSectionName"/>
+    <functioncall functionName="hasCFI"/>
+    <functioncall functionName="hasConstantIsland"/>
+    <functioncall functionName="hasDotTypeDotSizeDirective"/>
+    <functioncall functionName="hasIslandsInfo"/>
+    <functioncall functionName="hasJumpTables"/>
+    <functioncall functionName="hasName"/>
+    <functioncall functionName="hasNameRegex"/>
+    <functioncall functionName="hasNonPseudoInstructions"/>
+    <functioncall functionName="hasProfile"/>
+    <functioncall functionName="hasRelocations"/>
+    <functioncall functionName="hasSectionRef"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="initSections"/>
+    <functioncall functionName="isCFI"/>
+    <functioncall functionName="isCold"/>
+    <functioncall functionName="isELF"/>
+    <functioncall functionName="isEmitted"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isHotColdSplit"/>
+    <functioncall functionName="isInjected"/>
+    <functioncall functionName="isLandingPad"/>
+    <functioncall functionName="isMainFragment"/>
+    <functioncall functionName="isNoop"/>
+    <functioncall functionName="isPseudo"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isSplit"/>
+    <functioncall functionName="isSplitFragment"/>
+    <functioncall functionName="isUndefined"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="is_contained"/>
+    <functioncall functionName="jumpTables"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookupAddressRange"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="opt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="padFunction"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="registerOrUpdateSection"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="requiresAddressTranslation"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="sections"/>
+    <functioncall functionName="setAlignment"/>
+    <functioncall functionName="setAllowAutoPadding"/>
+    <functioncall functionName="setAnonymous"/>
+    <functioncall functionName="setCurrentDwarfLoc"/>
+    <functioncall functionName="setEmitted"/>
+    <functioncall functionName="setFlags"/>
+    <functioncall functionName="setHasInstructions"/>
+    <functioncall functionName="setOutputSection"/>
+    <functioncall functionName="setUseAssemblerInfoForParsing"/>
+    <functioncall functionName="shouldEmit"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="slice"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="stoull"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="switchSection"/>
+    <functioncall functionName="toSectionOffset"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="updateOriginal"/>
+    <functioncall functionName="upper_bound"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="value_desc"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="writeNopData"/>
+  </FileInfo>
+</analyzerinfo>

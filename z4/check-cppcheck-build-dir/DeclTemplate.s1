@@ -1,0 +1,7 @@
+DefaultTemplateArgumentContainsUnexpandedPack call:[containsUnexpandedParameterPack,getArgument,getDefaultArgument,hasDefaultArgument] noreturn:[containsUnexpandedParameterPack]
+AdoptTemplateParameterList call:[AdoptTemplateParameterList,getTemplateParameters,isInvalidDecl,setDeclContext]
+allocateDefaultArgStorageChain call:[new,sizeof]
+createMakeIntegerSeqParameterList call:[Create,QualType,SourceLocation,getTrivialTypeSourceInfo,getType,getTypeForDecl,setImplicit] noreturn:[Create]
+createTypePackElementParameterList call:[ArrayRef,Create,SourceLocation,getSizeType,getTrivialTypeSourceInfo,getType,setImplicit] noreturn:[Create]
+createBuiltinCommonTypeList call:[Create,SourceLocation] noreturn:[Create]
+createBuiltinTemplateParameterList call:[createBuiltinCommonTypeList,createMakeIntegerSeqParameterList,createTypePackElementParameterList,llvm_unreachable] noreturn:[createBuiltinCommonTypeList,llvm_unreachable]

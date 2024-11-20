@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1646492579455294866">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/ADRRelaxationPass.h&quot; not found." verbose="Include file: &quot;bolt/Passes/ADRRelaxationPass.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ADRRelaxationPass.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ADRRelaxationPass.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ADRRelaxationPass.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ADRRelaxationPass.cpp" line="16" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/ADRRelaxationPass.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\ADRRelaxationPass.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="SP_TRIVIAL"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createFatalBOLTError"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="eraseInstruction"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="formatv"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getADRReg"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getIslandInfo"/>
+    <functioncall functionName="getOneName"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getTargetAddend"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="hasIslandsInfo"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isADR"/>
+    <functioncall functionName="isNoop"/>
+    <functioncall functionName="isSimple"/>
+    <functioncall functionName="isSplit"/>
+    <functioncall functionName="materializeAddress"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="replaceInstruction"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="runOnFunction"/>
+    <functioncall functionName="scopeLock"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

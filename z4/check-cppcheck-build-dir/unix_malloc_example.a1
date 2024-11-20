@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12482950561859577494">
+        <error id="autovarInvalidDeallocation" severity="error" msg="Deallocation of an auto-variable results in undefined behaviour." verbose="The deallocation of an auto-variable results in undefined behaviour. You should only free memory that has been allocated dynamically." cwe="590" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_malloc_example.c" line="22" column="8" info="Deallocating memory that was not dynamically allocated"/>
+        </error>
+        <error id="doubleFree" severity="error" msg="Memory pointed to by &apos;p&apos; is freed twice." verbose="Memory pointed to by &apos;p&apos; is freed twice." cwe="415" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_malloc_example.c" line="5" column="3"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_malloc_example.c" line="4" column="3"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="deallocuse" severity="error" msg="Dereferencing &apos;p&apos; after it is deallocated / released" verbose="Dereferencing &apos;p&apos; after it is deallocated / released" cwe="416" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_malloc_example.c" line="11" column="4"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: p" verbose="Memory leak: p" cwe="401" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_malloc_example.c" line="17" column="5"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_malloc_example.c" line="15" column="8" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;p&apos; is allocated memory that is never used." verbose="Variable &apos;p&apos; is allocated memory that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_malloc_example.c" line="3" column="12"/>
+            <symbol>p</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c" functionName="test" lineNumber="2"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c" functionName="test" lineNumber="8"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c" functionName="test" lineNumber="14"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c" functionName="test" lineNumber="20"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_malloc_example.c" functionName="test" lineNumber="25"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="malloc"/>
+  </FileInfo>
+</analyzerinfo>

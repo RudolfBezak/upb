@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7516476077593274614">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/ifunc.c" functionName="foo" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/ifunc.c" functionName="bar" lineNumber="4"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/ifunc.c" functionName="resolver_foo" lineNumber="8"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/ifunc.c" functionName="_start" lineNumber="12"/>
+    <functioncall functionName="bar"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="ifoo"/>
+  </FileInfo>
+</analyzerinfo>

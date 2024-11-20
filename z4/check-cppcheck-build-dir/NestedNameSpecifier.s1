@@ -1,0 +1,5 @@
+LoadSourceLocation call:[getFromRawEncoding,memcpy,sizeof] noreturn:[getFromRawEncoding]
+LoadPointer call:[memcpy,sizeof]
+Append call:[assert,max,memcpy,safe_malloc,safe_realloc,sizeof] noreturn:[memcpy]
+SaveSourceLocation call:[Append,getRawEncoding,sizeof] noreturn:[Append]
+SavePointer call:[Append,sizeof] noreturn:[Append]

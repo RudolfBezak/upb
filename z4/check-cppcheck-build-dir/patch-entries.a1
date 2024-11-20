@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15483751350052236852">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;stub.h&quot; not found." verbose="Include file: &quot;stub.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\X86\Inputs\patch-entries.c" line="1" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/patch-entries.c" functionName="foo" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/X86/Inputs/patch-entries.c" functionName="main" lineNumber="5"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

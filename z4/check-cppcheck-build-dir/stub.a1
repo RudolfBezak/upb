@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6197611639083472343">
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;dest&apos; can be declared as pointer to const" verbose="Parameter &apos;dest&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\Inputs\stub.c" line="3" column="20" info="Parameter &apos;dest&apos; can be declared as pointer to const"/>
+            <symbol>dest</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;dest&apos; can be declared as pointer to const" verbose="Parameter &apos;dest&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\Inputs\stub.c" line="4" column="20" info="Parameter &apos;dest&apos; can be declared as pointer to const"/>
+            <symbol>dest</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c" functionName="memcpy" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c" functionName="memset" lineNumber="4"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c" functionName="printf" lineNumber="5"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c" functionName="exit" lineNumber="6"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c" functionName="puts" lineNumber="7"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/Inputs/stub.c" functionName="rand" lineNumber="8"/>
+  </FileInfo>
+</analyzerinfo>

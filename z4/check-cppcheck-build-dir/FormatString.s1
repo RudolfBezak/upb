@@ -1,0 +1,17 @@
+SpecifierResult
+SpecifierResult
+getStart
+shouldStop
+hasValue
+getValue call:[assert,hasValue]
+getValue
+ParseAmount call:[OptionalAmount,UpdateBeg] noreturn:[OptionalAmount]
+ParseNonPositionAmount call:[OptionalAmount,ParseAmount] noreturn:[OptionalAmount,ParseAmount]
+ParsePositionAmount call:[HandleIncompleteSpecifier,HandleInvalidPosition,HandleZeroPosition,OptionalAmount,ParseAmount,assert,getConstantAmount,getHowSpecified] noreturn:[OptionalAmount,ParseAmount]
+ParseFieldWidth call:[ParseNonPositionAmount,ParsePositionAmount,isInvalid,setFieldWidth] noreturn:[setFieldWidth]
+ParseArgPosition call:[HandleIncompleteSpecifier,HandlePosition,HandleZeroPosition,ParseAmount,getConstantAmount,getHowSpecified,setArgIndex,setUsesPositionalArg]
+ParseVectorModifier call:[HandleIncompleteSpecifier,ParseAmount,getHowSpecified,setVectorNumElts] noreturn:[setVectorNumElts]
+ParseLengthModifier call:[lm,setLengthModifier]
+ParseUTF8InvalidSpecifier call:[getNumBytesForUTF8]
+UpdateOnReturn < const char * >
+UpdateOnReturn < const char * >

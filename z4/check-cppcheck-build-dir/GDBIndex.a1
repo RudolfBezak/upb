@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11511120438052671998">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/GDBIndex.h&quot; not found." verbose="Include file: &quot;bolt/Core/GDBIndex.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\GDBIndex.cpp" line="9" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Core/GDBIndex.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\GDBIndex.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CUInfo"/>
+    <functioncall functionName="DebugAddressRange"/>
+    <functioncall functionName="DebugAddressRangesVector"/>
+    <functioncall functionName="DenseSet"/>
+    <functioncall functionName="GDBIndexMutex"/>
+    <functioncall functionName="GDBIndexTUEntry"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getCUAddressRanges"/>
+    <functioncall functionName="getContents"/>
+    <functioncall functionName="getGDBIndexTUEntryVector"/>
+    <functioncall functionName="getGdbIndexSection"/>
+    <functioncall functionName="getMaxVersion"/>
+    <functioncall functionName="getNumCompileUnits"/>
+    <functioncall functionName="getNumTypeUnits"/>
+    <functioncall functionName="getOffset"/>
+    <functioncall functionName="getUnitAtIndex"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isTypeUnit"/>
+    <functioncall functionName="lock_guard"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="read32le"/>
+    <functioncall functionName="read64le"/>
+    <functioncall functionName="registerOrUpdateNoteSection"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="sortGDBIndexTUEntryVector"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="write32le"/>
+    <functioncall functionName="write64le"/>
+  </FileInfo>
+</analyzerinfo>

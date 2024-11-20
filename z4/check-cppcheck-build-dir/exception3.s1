@@ -1,0 +1,2 @@
+foo call:[ExcC,ExcG] noreturn:[ExcC,ExcG]
+main call:[ExcA,asm,foo,int,printf] noreturn:[ExcA,foo,int,printf]

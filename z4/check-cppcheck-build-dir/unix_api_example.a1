@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18111088379093188563">
+        <error id="allocaCalled" severity="warning" msg="Obsolete function &apos;alloca&apos; called. In C99 and later it is recommended to use a variable length array instead." verbose="The obsolete function &apos;alloca&apos; is called. In C99 and later it is recommended to use a variable length array or a dynamically allocated array instead. The function &apos;alloca&apos; is dangerous for many reasons (http://stackoverflow.com/questions/1018853/why-is-alloca-not-considered-good-practice and http://linux.die.net/man/3/alloca)." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="31" column="13"/>
+            <symbol>alloca</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: p" verbose="Memory leak: p" cwe="401" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="19" column="1"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: p" verbose="Memory leak: p" cwe="401" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="23" column="1"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: p" verbose="Memory leak: p" cwe="401" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="28" column="1"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;p&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;p&apos; nulled but not freed upon failure" cwe="401" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="27" column="3"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="18" column="9" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="22" column="9" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="31" column="9" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="35" column="9" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fd&apos; is assigned a value that is never used." verbose="Variable &apos;fd&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="4" column="10"/>
+            <symbol>fd</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="18" column="11"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;p&apos; is allocated memory that is never used." verbose="Variable &apos;p&apos; is allocated memory that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="18" column="13"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="22" column="11"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;p&apos; is allocated memory that is never used." verbose="Variable &apos;p&apos; is allocated memory that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="22" column="13"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="27" column="5"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="31" column="11"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\docs\analyzer\checkers\unix_api_example.c" line="35" column="11"/>
+            <symbol>p</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c" functionName="test" lineNumber="3"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c" functionName="test" lineNumber="11"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c" functionName="test" lineNumber="17"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c" functionName="test" lineNumber="21"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c" functionName="test" lineNumber="25"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c" functionName="test" lineNumber="30"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/docs/analyzer/checkers/unix_api_example.c" functionName="test" lineNumber="34"/>
+    <functioncall functionName="O_CREAT"/>
+    <functioncall functionName="alloca"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="pthread_once"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="valloc"/>
+  </FileInfo>
+</analyzerinfo>

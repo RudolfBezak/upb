@@ -1,0 +1,4 @@
+PrettyStackTraceDoubleString
+print
+checkPrivateAPINotesName call:[Report,SourceLocation,empty,ends_with,filename,stem,tryGetRealPathName]
+hasPrivateSubmodules call:[any_of,submodules] noreturn:[any_of]

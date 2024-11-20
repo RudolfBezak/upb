@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11932794961790058295">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/reorder-data-writable-ptload.c" functionName="_start" lineNumber="20"/>
+  </FileInfo>
+</analyzerinfo>

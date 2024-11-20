@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2660726409742554335">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/bindings/python/tests/cindex/INPUTS/include.cpp" functionName="main" lineNumber="5"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1976060567886259354">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found." verbose="Include file: &quot;clang/AST/ComparisonCategories.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComparisonCategories.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComparisonCategories.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComparisonCategories.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComparisonCategories.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Type.h&quot; not found." verbose="Include file: &quot;clang/AST/Type.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComparisonCategories.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComparisonCategories.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\ComparisonCategories.cpp" line="20" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp:101:29" my-argnr="2" my-argname="StdNS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp" line="105" col="36" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp:101:29" my-argnr="1" my-argname="Ctx" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp" line="105" col="51" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp:101:29" my-argnr="2" my-argname="StdNS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp" line="105" col="36" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp" functionName="lookupStdNamespace" lineNumber="90"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/ComparisonCategories.cpp" functionName="lookupCXXRecordDecl" lineNumber="101"/>
+    <functioncall functionName="CCT"/>
+    <functioncall functionName="CXXRecordDecl"/>
+    <functioncall functionName="ComparisonCategoryResult"/>
+    <functioncall functionName="ComparisonCategoryType"/>
+    <functioncall functionName="Ctx"/>
+    <functioncall functionName="Data"/>
+    <functioncall functionName="Equal"/>
+    <functioncall functionName="Equivalent"/>
+    <functioncall functionName="First"/>
+    <functioncall functionName="Greater"/>
+    <functioncall functionName="Last"/>
+    <functioncall functionName="Less"/>
+    <functioncall functionName="NamespaceDecl"/>
+    <functioncall functionName="Objects"/>
+    <functioncall functionName="PartialOrdering"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="Record"/>
+    <functioncall functionName="StdNS"/>
+    <functioncall functionName="StrongOrdering"/>
+    <functioncall functionName="Unordered"/>
+    <functioncall functionName="VarDecl"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="cast"/>
+    <functioncall functionName="distance"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="evaluateValue"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="field_begin"/>
+    <functioncall functionName="field_end"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getASTContext"/>
+    <functioncall functionName="getAsCXXRecordDecl"/>
+    <functioncall functionName="getCanonicalDecl"/>
+    <functioncall functionName="getCategoryString"/>
+    <functioncall functionName="getEnclosingNamespaceContext"/>
+    <functioncall functionName="getInt"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getResultString"/>
+    <functioncall functionName="getStructField"/>
+    <functioncall functionName="getTranslationUnitDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeForDecl"/>
+    <functioncall functionName="hasValidIntValue"/>
+    <functioncall functionName="isIntegralOrEnumerationType"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="isObjectPointerType"/>
+    <functioncall functionName="isRealFloatingType"/>
+    <functioncall functionName="isStdNamespace"/>
+    <functioncall functionName="isUsableInConstantExpressions"/>
+    <functioncall functionName="isa"/>
+    <functioncall functionName="llvm_unreachable"/>
+    <functioncall functionName="lookup"/>
+    <functioncall functionName="lookupCXXRecordDecl"/>
+    <functioncall functionName="lookupInfoForType"/>
+    <functioncall functionName="lookupStdNamespace"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="try_emplace"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

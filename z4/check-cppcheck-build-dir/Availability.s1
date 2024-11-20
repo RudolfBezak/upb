@@ -1,0 +1,3 @@
+insert call:[emplace_back,getForPlatform,mergeWith,move] noreturn:[emplace_back,mergeWith]
+getForPlatform call:[compare,end,find_if]
+createInfoForDecl call:[AvailabilityInfo,getDeprecated,getIntroduced,getName,getObsoleted,getPlatform,getUnavailable,insert,isImplicit,redecls] noreturn:[insert]

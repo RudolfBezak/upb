@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7382002037688902493">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/StackPointerTracking.h&quot; not found." verbose="Include file: &quot;bolt/Passes/StackPointerTracking.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\StackPointerTracking.cpp" line="13" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="StackPointerTracking"/>
+  </FileInfo>
+</analyzerinfo>

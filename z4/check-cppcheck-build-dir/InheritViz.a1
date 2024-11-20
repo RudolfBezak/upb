@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16398317402111348374">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/ASTContext.h&quot; not found." verbose="Include file: &quot;clang/AST/ASTContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/Decl.h&quot; not found." verbose="Include file: &quot;clang/AST/Decl.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/DeclCXX.h&quot; not found." verbose="Include file: &quot;clang/AST/DeclCXX.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/AST/TypeOrdering.h&quot; not found." verbose="Include file: &quot;clang/AST/TypeOrdering.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FileSystem.h&quot; not found." verbose="Include file: &quot;llvm/Support/FileSystem.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/GraphWriter.h&quot; not found." verbose="Include file: &quot;llvm/Support/GraphWriter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found." verbose="Include file: &quot;llvm/Support/raw_ostream.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="23" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp:53:8" call-funcname="WriteNode" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp" line="46" col="14" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp:58:16" call-funcname="WriteNodeReference" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp" line="75" col="21" call-argexpr="FromVirtual" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\AST\InheritViz.cpp" line="65" col="7" info="Assuming that condition &apos;FromVirtual&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp" functionName="WriteGraph" lineNumber="43"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp" functionName="WriteNode" lineNumber="62"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/AST/InheritViz.cpp" functionName="WriteNodeReference" lineNumber="123"/>
+    <functioncall functionName="DisplayGraph"/>
+    <functioncall functionName="EscapeString"/>
+    <functioncall functionName="QualType"/>
+    <functioncall functionName="QualTypeOrdering"/>
+    <functioncall functionName="RecordType"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="WriteGraph"/>
+    <functioncall functionName="WriteNode"/>
+    <functioncall functionName="WriteNodeReference"/>
+    <functioncall functionName="bases"/>
+    <functioncall functionName="castAs"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="createTemporaryFile"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getAsOpaquePtr"/>
+    <functioncall functionName="getAsString"/>
+    <functioncall functionName="getCanonicalType"/>
+    <functioncall functionName="getDecl"/>
+    <functioncall functionName="getType"/>
+    <functioncall functionName="getTypeDeclType"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

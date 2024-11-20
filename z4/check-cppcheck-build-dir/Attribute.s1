@@ -1,0 +1,5 @@
+ExampleAttrInfo
+diagAppertainsToDecl call:[Diag,getLoc,isRegularKeywordAttribute]
+handleDeclAttribute call:[Create,Diag,IgnoreParenCasts,addAttr,data,getArgAsExpr,getCustomDiagID,getDeclContext,getDiagnostics,getLoc,getNumArgs,getRange,isFileContext,push_back,size] noreturn:[addAttr,push_back]
+diagAppertainsToStmt call:[Diag,getLoc,isRegularKeywordAttribute]
+handleStmtAttribute call:[Create,Diag,IgnoreParenCasts,data,getArgAsExpr,getCustomDiagID,getDiagnostics,getLoc,getNumArgs,getRange,push_back,size] noreturn:[Create,push_back]

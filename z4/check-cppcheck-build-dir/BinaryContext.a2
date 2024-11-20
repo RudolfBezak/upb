@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12486633830381591330">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found." verbose="Include file: &quot;llvm/BinaryFormat/ELF.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/DebugInfo/DWARF/DWARFContext.h&quot; not found." verbose="Include file: &quot;llvm/DebugInfo/DWARF/DWARFContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found." verbose="Include file: &quot;llvm/Support/TargetSelect.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;gtest/gtest.h&quot; not found." verbose="Include file: &quot;gtest/gtest.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="13" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="initalizeLLVM" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="prepareElf" lineNumber="38"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="initializeBOLT" lineNumber="48"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="160"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="181"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="202"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="ASSERT_FALSE"/>
+    <functioncall functionName="ASSERT_TRUE"/>
+    <functioncall functionName="ArchType"/>
+    <functioncall functionName="BaseAddress"/>
+    <functioncall functionName="BaseAddress2"/>
+    <functioncall functionName="BaseAddressSegmentsSmallerThanAlignment"/>
+    <functioncall functionName="BinaryContext"/>
+    <functioncall functionName="EI_CLASS"/>
+    <functioncall functionName="EI_DATA"/>
+    <functioncall functionName="ELFCLASS64"/>
+    <functioncall functionName="ELFDATA2LSB"/>
+    <functioncall functionName="EM_AARCH64"/>
+    <functioncall functionName="EM_X86_64"/>
+    <functioncall functionName="Ehdr"/>
+    <functioncall functionName="GetParam"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST_P"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinaryContext"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getBaseAddressForMapping"/>
+    <functioncall functionName="getFileName"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="initalizeLLVM"/>
+    <functioncall functionName="initializeBOLT"/>
+    <functioncall functionName="makeTriple"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="prepareElf"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="133" column="7"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: EC" verbose="Unused variable: EC" cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="100" column="19"/>
+            <symbol>EC</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: EC" verbose="Unused variable: EC" cwe="563" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Core\BinaryContext.cpp" line="141" column="19"/>
+            <symbol>EC</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="initalizeLLVM" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="prepareElf" lineNumber="38"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="initializeBOLT" lineNumber="48"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="74"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="115"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="160"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="181"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="202"/>
+    <functioncall functionName="AArch64"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="ASSERT_FALSE"/>
+    <functioncall functionName="ASSERT_TRUE"/>
+    <functioncall functionName="ArchType"/>
+    <functioncall functionName="BaseAddress"/>
+    <functioncall functionName="BaseAddress2"/>
+    <functioncall functionName="BaseAddressSegmentsSmallerThanAlignment"/>
+    <functioncall functionName="BinaryContext"/>
+    <functioncall functionName="EI_CLASS"/>
+    <functioncall functionName="EI_DATA"/>
+    <functioncall functionName="ELFCLASS64"/>
+    <functioncall functionName="ELFDATA2LSB"/>
+    <functioncall functionName="EM_AARCH64"/>
+    <functioncall functionName="EM_X86_64"/>
+    <functioncall functionName="EXPECT_FALSE"/>
+    <functioncall functionName="Ehdr"/>
+    <functioncall functionName="FlushPendingRelocCALL26"/>
+    <functioncall functionName="FlushPendingRelocJUMP26"/>
+    <functioncall functionName="GTEST_SKIP"/>
+    <functioncall functionName="GetParam"/>
+    <functioncall functionName="INSTANTIATE_TEST_SUITE_P"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="R_AARCH64_CALL26"/>
+    <functioncall functionName="R_AARCH64_JUMP26"/>
+    <functioncall functionName="SHF_ALLOC"/>
+    <functioncall functionName="SHT_PROGBITS"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST_P"/>
+    <functioncall functionName="Values"/>
+    <functioncall functionName="aarch64"/>
+    <functioncall functionName="addRelocation"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinaryContext"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="flushPendingRelocations"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getBaseAddressForMapping"/>
+    <functioncall functionName="getFileName"/>
+    <functioncall functionName="getOrCreateGlobalSymbol"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="initalizeLLVM"/>
+    <functioncall functionName="initializeBOLT"/>
+    <functioncall functionName="makeTriple"/>
+    <functioncall functionName="memcmp"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="prepareElf"/>
+    <functioncall functionName="registerOrUpdateSection"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="initalizeLLVM" lineNumber="29"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="prepareElf" lineNumber="38"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="initializeBOLT" lineNumber="48"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="160"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="181"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Core/BinaryContext.cpp" functionName="TEST_P" lineNumber="202"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="ASSERT_FALSE"/>
+    <functioncall functionName="ASSERT_TRUE"/>
+    <functioncall functionName="ArchType"/>
+    <functioncall functionName="BaseAddress"/>
+    <functioncall functionName="BaseAddress2"/>
+    <functioncall functionName="BaseAddressSegmentsSmallerThanAlignment"/>
+    <functioncall functionName="BinaryContext"/>
+    <functioncall functionName="EI_CLASS"/>
+    <functioncall functionName="EI_DATA"/>
+    <functioncall functionName="ELFCLASS64"/>
+    <functioncall functionName="ELFDATA2LSB"/>
+    <functioncall functionName="EM_AARCH64"/>
+    <functioncall functionName="EM_X86_64"/>
+    <functioncall functionName="Ehdr"/>
+    <functioncall functionName="GetParam"/>
+    <functioncall functionName="INSTANTIATE_TEST_SUITE_P"/>
+    <functioncall functionName="InitializeAllAsmParsers"/>
+    <functioncall functionName="InitializeAllAsmPrinters"/>
+    <functioncall functionName="InitializeAllDisassemblers"/>
+    <functioncall functionName="InitializeAllTargetInfos"/>
+    <functioncall functionName="InitializeAllTargetMCs"/>
+    <functioncall functionName="InitializeAllTargets"/>
+    <functioncall functionName="ObjectFile"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST_P"/>
+    <functioncall functionName="Values"/>
+    <functioncall functionName="X86"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="create"/>
+    <functioncall functionName="createBinaryContext"/>
+    <functioncall functionName="createObjectFile"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getBaseAddressForMapping"/>
+    <functioncall functionName="getFileName"/>
+    <functioncall functionName="has_value"/>
+    <functioncall functionName="initalizeLLVM"/>
+    <functioncall functionName="initializeBOLT"/>
+    <functioncall functionName="makeTriple"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="prepareElf"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="x86_64"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,4 @@
+foo
+bar call:[fn] noreturn:[fn]
+sigHandler call:[bar] noreturn:[bar]
+main call:[bar,fork,kill,printf,signal,usleep,waitpid,while] noreturn:[bar,printf,waitpid]

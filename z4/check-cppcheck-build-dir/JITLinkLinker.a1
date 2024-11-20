@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11245519715700370258">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Rewrite/JITLinkLinker.h&quot; not found." verbose="Include file: &quot;bolt/Rewrite/JITLinkLinker.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryContext.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryData.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryData.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinarySection.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinarySection.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ExecutionEngine/JITLink/ELF_riscv.h&quot; not found." verbose="Include file: &quot;llvm/ExecutionEngine/JITLink/ELF_riscv.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ExecutionEngine/JITLink/JITLink.h&quot; not found." verbose="Include file: &quot;llvm/ExecutionEngine/JITLink/JITLink.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ExecutionEngine/Orc/Shared/ExecutorAddress.h&quot; not found." verbose="Include file: &quot;llvm/ExecutionEngine/Orc/Shared/ExecutorAddress.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ExecutionEngine/Orc/Shared/ExecutorSymbolDef.h&quot; not found." verbose="Include file: &quot;llvm/ExecutionEngine/Orc/Shared/ExecutorSymbolDef.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Debug.h&quot; not found." verbose="Include file: &quot;llvm/Support/Debug.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Rewrite\JITLinkLinker.cpp" line="17" column="0"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp:26:6" my-argnr="1" my-argname="B" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" line="27" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp:34:7" my-argnr="1" my-argname="G" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" line="35" col="24" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp:57:6" my-argnr="1" my-argname="LG" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" line="59" col="21" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp:57:6" my-argnr="2" my-argname="BinSection" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" line="59" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp:96:9" my-argnr="2" my-argname="Config" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" line="98" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp:167:9" my-argnr="1" my-argname="G" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" line="168" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" functionName="hasSymbols" lineNumber="26"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" functionName="markSectionsLive" lineNumber="34"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Rewrite/JITLinkLinker.cpp" functionName="reassignSectionAddress" lineNumber="57"/>
+    <functioncall functionName="Allocs"/>
+    <functioncall functionName="Block"/>
+    <functioncall functionName="Context"/>
+    <functioncall functionName="ExecutableFileMemoryManager"/>
+    <functioncall functionName="ExecutorAddr"/>
+    <functioncall functionName="ExecutorSymbolDef"/>
+    <functioncall functionName="JITLinkAsyncLookupContinuation"/>
+    <functioncall functionName="JITLinkContext"/>
+    <functioncall functionName="JITLinkLinker"/>
+    <functioncall functionName="JITSymbolFlags"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SymbolInfo"/>
+    <functioncall functionName="addAnonymousSymbol"/>
+    <functioncall functionName="alignToBlock"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="cantFail"/>
+    <functioncall functionName="createLinkGraphFromObject"/>
+    <functioncall functionName="createRelaxationPass_ELF_riscv"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="deallocate"/>
+    <functioncall functionName="defined_symbols"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findSectionByName"/>
+    <functioncall functionName="getAddress"/>
+    <functioncall functionName="getArch"/>
+    <functioncall functionName="getArchName"/>
+    <functioncall functionName="getBinaryDataByName"/>
+    <functioncall functionName="getBlock"/>
+    <functioncall functionName="getGOTSymbol"/>
+    <functioncall functionName="getMemLifetime"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOutputAddress"/>
+    <functioncall functionName="getSection"/>
+    <functioncall functionName="getSectionID"/>
+    <functioncall functionName="getSize"/>
+    <functioncall functionName="getTargetTriple"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="hasSymbols"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isGOTSymbol"/>
+    <functioncall functionName="isJumpTable"/>
+    <functioncall functionName="isMoved"/>
+    <functioncall functionName="isRISCV"/>
+    <functioncall functionName="link"/>
+    <functioncall functionName="lookupSymbol"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="markAllSymbolsLive"/>
+    <functioncall functionName="markSectionsLive"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="orderedBlocks"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reassignSectionAddress"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="sectionSize"/>
+    <functioncall functionName="sections"/>
+    <functioncall functionName="setAddress"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="symbols"/>
+    <functioncall functionName="takeError"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="utohexstr"/>
+  </FileInfo>
+</analyzerinfo>

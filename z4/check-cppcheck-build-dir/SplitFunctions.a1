@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16857639444674507908">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/SplitFunctions.h&quot; not found." verbose="Include file: &quot;bolt/Passes/SplitFunctions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryFunction.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/FunctionLayout.h&quot; not found." verbose="Include file: &quot;bolt/Core/FunctionLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found." verbose="Include file: &quot;bolt/Core/ParallelUtilities.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found." verbose="Include file: &quot;bolt/Utils/CommandLineOpts.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/iterator_range.h&quot; not found." verbose="Include file: &quot;llvm/ADT/iterator_range.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/FormatVariadic.h&quot; not found." verbose="Include file: &quot;llvm/Support/FormatVariadic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="29" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HotSize&apos; can be reduced." verbose="The scope of the variable &apos;HotSize&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="795" column="10"/>
+            <symbol>HotSize</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;CurrentFragment&apos; shadows outer variable" verbose="Local variable &apos;CurrentFragment&apos; shadows outer variable" cwe="398" file0="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="887" column="17" info="Shadow variable"/>
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="879" column="15" info="Shadowed declaration"/>
+            <symbol>CurrentFragment</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:307:3" call-funcname="estimatePostSplitBBAddress" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="514" col="35" call-argexpr="SplitIndex" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="585" col="25" info="Assignment &apos;Index=0&apos;, assigned value is 0"/>
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="590" col="41" info="Assuming condition is false"/>
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="595" col="45" info="Calling function &apos;computeSplitScore&apos;, 3rd argument &apos;Index&apos; value is 0"/>
+</function-call><function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:505:14" call-funcname="computeSplitScore" call-argnr="3" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="595" col="28" call-argexpr="Index" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="585" col="25" info="Assignment &apos;Index=0&apos;, assigned value is 0"/>
+  <path file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\SplitFunctions.cpp" line="590" col="41" info="Assuming condition is false"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:543:27" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="544" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:129:6" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="130" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:135:6" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="136" col="23" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:142:8" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="143" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:160:8" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="161" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:225:8" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="228" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:307:3" my-argnr="1" my-argname="BlockOrder" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="309" col="25" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:413:8" my-argnr="1" my-argname="BlockOrder" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="416" col="42" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:543:27" my-argnr="1" my-argname="BB" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="544" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:562:10" my-argnr="1" my-argname="BF" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="567" col="64" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp:562:10" my-argnr="2" my-argname="BlockOrder" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" line="564" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="parse" lineNumber="42"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="hasFullProfile" lineNumber="129"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="allBlocksCold" lineNumber="135"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="sum" lineNumber="211"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="shouldConsiderForCallGraph" lineNumber="225"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="initializeAuxiliaryVariables" lineNumber="231"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="buildCallGraph" lineNumber="257"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="estimatePostSplitBBAddress" lineNumber="307"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="extractCoverCalls" lineNumber="353"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="computeCallScore" lineNumber="398"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="computeJumpScore" lineNumber="405"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="computeJumpScore" lineNumber="413"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="computeLocalCallScore" lineNumber="440"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="computeCoverCallScore" lineNumber="482"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="computeSplitScore" lineNumber="505"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="getMostLikelySuccessor" lineNumber="543"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/lib/Passes/SplitFunctions.cpp" functionName="findSplitIndex" lineNumber="562"/>
+    <functioncall functionName="AbsoluteDifference"/>
+    <functioncall functionName="AggressiveSplitting"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="BlockIt"/>
+    <functioncall functionName="CDSplit"/>
+    <functioncall functionName="Count"/>
+    <functioncall functionName="DenseMap"/>
+    <functioncall functionName="FragmentNum"/>
+    <functioncall functionName="Hidden"/>
+    <functioncall functionName="LLVM_DEBUG"/>
+    <functioncall functionName="MCLandingPad"/>
+    <functioncall functionName="MIB"/>
+    <functioncall functionName="Profile2"/>
+    <functioncall functionName="Random2"/>
+    <functioncall functionName="RandomN"/>
+    <functioncall functionName="ReallyHidden"/>
+    <functioncall functionName="SP_BB_LINEAR"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SplitAlignThreshold"/>
+    <functioncall functionName="SplitBytesCold"/>
+    <functioncall functionName="SplitEH"/>
+    <functioncall functionName="SplitFunctions"/>
+    <functioncall functionName="SplitFunctionsStrategy"/>
+    <functioncall functionName="SplitRandom2"/>
+    <functioncall functionName="SplitRandomN"/>
+    <functioncall functionName="SplitStrategy"/>
+    <functioncall functionName="SplitThreshold"/>
+    <functioncall functionName="Target"/>
+    <functioncall functionName="addBasicBlock"/>
+    <functioncall functionName="addSuccessor"/>
+    <functioncall functionName="alignTo"/>
+    <functioncall functionName="allBlocksCold"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_empty"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="branch_info"/>
+    <functioncall functionName="buildCallGraph"/>
+    <functioncall functionName="calculateEmittedSize"/>
+    <functioncall functionName="canOutline"/>
+    <functioncall functionName="canSplit"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="clEnumValN"/>
+    <functioncall functionName="cold"/>
+    <functioncall functionName="compactFragments"/>
+    <functioncall functionName="computeCallScore"/>
+    <functioncall functionName="computeCoverCallScore"/>
+    <functioncall functionName="computeJumpScore"/>
+    <functioncall functionName="computeLocalCallScore"/>
+    <functioncall functionName="computeSplitScore"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="createEHTrampolines"/>
+    <functioncall functionName="dbgs"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="errs"/>
+    <functioncall functionName="estimatePostSplitBBAddress"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="extractCoverCalls"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findSplitIndex"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="fixBranches"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="formatv"/>
+    <functioncall functionName="fragment"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBasicBlockForLabel"/>
+    <functioncall functionName="getBinaryContext"/>
+    <functioncall functionName="getCFIState"/>
+    <functioncall functionName="getConditionalSuccessor"/>
+    <functioncall functionName="getEHInfo"/>
+    <functioncall functionName="getExecutionCount"/>
+    <functioncall functionName="getFallthroughBranchInfo"/>
+    <functioncall functionName="getFirst"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getFunction"/>
+    <functioncall functionName="getFunctionForSymbol"/>
+    <functioncall functionName="getKnownExecutionCount"/>
+    <functioncall functionName="getLabel"/>
+    <functioncall functionName="getLayout"/>
+    <functioncall functionName="getLayoutIndex"/>
+    <functioncall functionName="getMostLikelySuccessor"/>
+    <functioncall functionName="getOutputAddressRange"/>
+    <functioncall functionName="getOutputSize"/>
+    <functioncall functionName="getSecond"/>
+    <functioncall functionName="getSortedFunctions"/>
+    <functioncall functionName="getSuccessor"/>
+    <functioncall functionName="getTakenBranchInfo"/>
+    <functioncall functionName="getTargetSymbol"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="hasEHRanges"/>
+    <functioncall functionName="hasFullProfile"/>
+    <functioncall functionName="hasValidIndex"/>
+    <functioncall functionName="hasValidProfile"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="initializeAuxiliaryVariables"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="iota"/>
+    <functioncall functionName="isAArch64"/>
+    <functioncall functionName="isCall"/>
+    <functioncall functionName="isDynamicBranch"/>
+    <functioncall functionName="isEntryPoint"/>
+    <functioncall functionName="isInvoke"/>
+    <functioncall functionName="isLandingPad"/>
+    <functioncall functionName="isSplit"/>
+    <functioncall functionName="isX86"/>
+    <functioncall functionName="iterator_traits"/>
+    <functioncall functionName="main"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_range"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="mergeEHTrampolines"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="outs"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="parse"/>
+    <functioncall functionName="parser"/>
+    <functioncall functionName="pbegin"/>
+    <functioncall functionName="pend"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="recomputeLandingPads"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="runOnEachFunction"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setCFIState"/>
+    <functioncall functionName="setCanOutline"/>
+    <functioncall functionName="setExecutionCount"/>
+    <functioncall functionName="setFragmentNum"/>
+    <functioncall functionName="setOutputEndAddress"/>
+    <functioncall functionName="setOutputStartAddress"/>
+    <functioncall functionName="shouldConsiderForCallGraph"/>
+    <functioncall functionName="shouldOptimize"/>
+    <functioncall functionName="shuffle"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="splitFunction"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="succ_size"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="successors"/>
+    <functioncall functionName="sum"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uniform_int_distribution"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="update"/>
+    <functioncall functionName="updateEHInfo"/>
+    <functioncall functionName="updateLayoutIndices"/>
+    <functioncall functionName="utohexstr"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="warm"/>
+    <functioncall functionName="zip"/>
+  </FileInfo>
+</analyzerinfo>

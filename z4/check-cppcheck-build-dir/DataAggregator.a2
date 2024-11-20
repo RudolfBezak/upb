@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2863323459179859516">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Profile/DataAggregator.h&quot; not found." verbose="Include file: &quot;bolt/Profile/DataAggregator.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Profile\DataAggregator.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/CommandLine.h&quot; not found." verbose="Include file: &quot;llvm/Support/CommandLine.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Profile\DataAggregator.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;gtest/gtest.h&quot; not found." verbose="Include file: &quot;gtest/gtest.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\unittests\Profile\DataAggregator.cpp" line="11" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/unittests/Profile/DataAggregator.cpp" functionName="TEST" lineNumber="20"/>
+    <functioncall functionName="ASSERT_EQ"/>
+    <functioncall functionName="ASSERT_FALSE"/>
+    <functioncall functionName="ASSERT_TRUE"/>
+    <functioncall functionName="DataAggregatorTest"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="TEST"/>
+    <functioncall functionName="buildID"/>
+    <functioncall functionName="getFileNameForBuildID"/>
+    <functioncall functionName="hasAllBuildIDs"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="setParsingBuffer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

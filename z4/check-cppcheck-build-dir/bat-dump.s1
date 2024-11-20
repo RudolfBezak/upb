@@ -1,0 +1,5 @@
+report_error global:[ToolName] call:[assert,errs,exit,message] noreturn:[exit]
+report_error global:[ToolName] call:[assert,errs,exit,move,toString] noreturn:[exit]
+GetExecutablePath call:[ExecutablePath,exists,findProgramByName,string] noreturn:[string]
+dumpBATFor call:[begin,cantFail,dump,empty,enabledFor,errs,exit,get,getAddress,getContents,getName,getType,outs,parse,sections,symbols,takeError,translate,upper_bound,utohexstr] noreturn:[dump,exit,get]
+main global:[ToolName] call:[ArrayRef,GetExecutablePath,HideUnrelatedOptions,ParseCommandLineOptions,createBinary,dumpBATFor,exists,get,getBinary,move,report_error,takeError] noreturn:[dumpBATFor,report_error]

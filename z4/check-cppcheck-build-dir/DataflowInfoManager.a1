@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12488606970048154561">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found." verbose="Include file: &quot;bolt/Passes/DataflowInfoManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Passes\DataflowInfoManager.cpp" line="13" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="AllocatorId"/>
+    <functioncall functionName="BF"/>
+    <functioncall functionName="DA"/>
+    <functioncall functionName="DominatorAnalysis"/>
+    <functioncall functionName="InsnToBB"/>
+    <functioncall functionName="LA"/>
+    <functioncall functionName="LivenessAnalysis"/>
+    <functioncall functionName="PDA"/>
+    <functioncall functionName="RD"/>
+    <functioncall functionName="RI"/>
+    <functioncall functionName="RIB"/>
+    <functioncall functionName="RU"/>
+    <functioncall functionName="ReachingDefOrUse"/>
+    <functioncall functionName="ReachingInsns"/>
+    <functioncall functionName="SAA"/>
+    <functioncall functionName="SPT"/>
+    <functioncall functionName="SRU"/>
+    <functioncall functionName="StackAllocationAnalysis"/>
+    <functioncall functionName="StackPointerTracking"/>
+    <functioncall functionName="StackReachingUses"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getStackPointerTracking"/>
+    <functioncall functionName="invalidateDominatorAnalysis"/>
+    <functioncall functionName="invalidateInsnToBBMap"/>
+    <functioncall functionName="invalidateLivenessAnalysis"/>
+    <functioncall functionName="invalidatePostDominatorAnalysis"/>
+    <functioncall functionName="invalidateReachingDefs"/>
+    <functioncall functionName="invalidateReachingInsns"/>
+    <functioncall functionName="invalidateReachingInsnsBackwards"/>
+    <functioncall functionName="invalidateReachingUses"/>
+    <functioncall functionName="invalidateStackAllocationAnalysis"/>
+    <functioncall functionName="invalidateStackPointerTracking"/>
+    <functioncall functionName="invalidateStackReachingUses"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unordered_map"/>
+  </FileInfo>
+</analyzerinfo>

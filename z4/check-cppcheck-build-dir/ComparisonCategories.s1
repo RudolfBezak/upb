@@ -1,0 +1,2 @@
+lookupStdNamespace call:[empty,front,get,getTranslationUnitDecl,lookup]
+lookupCXXRecordDecl call:[empty,front,get,getCategoryString,lookup]

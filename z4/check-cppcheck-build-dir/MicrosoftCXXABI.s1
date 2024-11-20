@@ -1,0 +1,24 @@
+getManglingNumber
+getManglingNumber
+getStaticLocalNumber call:[getTLSKind]
+getManglingNumber
+getManglingNumber
+MSHIPNumberingContext call:[createItaniumNumberingContext] noreturn:[createItaniumNumberingContext]
+getDeviceManglingNumber call:[getManglingNumber] noreturn:[getManglingNumber]
+getManglingNumber call:[Report,getASTContext,getCustomDiagID,getDiagnostics,getLocation,getManglingNumber,return] noreturn:[Report]
+MSSYCLNumberingContext call:[createItaniumNumberingContext] noreturn:[createItaniumNumberingContext]
+getDeviceManglingNumber call:[getManglingNumber] noreturn:[getManglingNumber]
+MicrosoftCXXABI call:[assert,create,createMangleContext,getAuxTargetInfo,getCXXABI,getDiagnostics,getLangOpts,getTargetInfo,isItaniumFamily,isMicrosoft,isSYCL,reset] noreturn:[reset]
+getDefaultMethodCallConv call:[getArch,getDefaultCallingConv,getTargetInfo,getTriple] noreturn:[getDefaultCallingConv]
+isNearlyEmpty call:[llvm_unreachable] noreturn:[llvm_unreachable]
+getCopyConstructorForExceptionObject
+addCopyConstructorForExceptionObject call:[assert]
+addTypedefNameForUnnamedTagDecl call:[getCanonicalDecl]
+getTypedefNameForUnnamedTagDecl call:[getCanonicalDecl,lookup] noreturn:[lookup]
+addDeclaratorForUnnamedTagDecl call:[getCanonicalDecl]
+getDeclaratorForUnnamedTagDecl call:[getCanonicalDecl,lookup] noreturn:[lookup]
+createMangleNumberingContext call:[assert,get,getAuxTargetInfo,getLangOpts,isSYCL]
+usesMultipleInheritanceModel call:[assert,bases_begin,getAsCXXRecordDecl,getNumBases,getType,isPolymorphic]
+getMSMemberPointerSlots call:[getMSInheritanceModel,getMostRecentCXXRecordDecl,inheritanceModelHasNVOffsetField,inheritanceModelHasVBPtrOffsetField,inheritanceModelHasVBTableOffsetField,isMemberFunctionPointer,make_pair] noreturn:[make_pair]
+getMemberPointerInfo call:[alignTo,getIntAlign,getIntWidth,getMSMemberPointerSlots,getPointerAlign,getPointerWidth,getTargetInfo,getTriple,isArch32Bit,isArch64Bit,tie] noreturn:[getIntAlign,getPointerAlign]
+CreateMicrosoftCXXABI call:[MicrosoftCXXABI] noreturn:[MicrosoftCXXABI]

@@ -1,0 +1,3 @@
+bar
+foo call:[asm]
+_start call:[foo] noreturn:[foo]

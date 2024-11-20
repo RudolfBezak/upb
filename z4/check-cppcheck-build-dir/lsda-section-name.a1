@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14278717487417789957">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\test\lsda-section-name.cpp" line="12" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/lsda-section-name.cpp:21:5" call-funcname="divide" call-argnr="2" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/lsda-section-name.cpp" line="32" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="MyException" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/lsda-section-name.cpp" line="14" col="1" hash="6268632526756841301"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/lsda-section-name.cpp" functionName="what" lineNumber="16"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/lsda-section-name.cpp" functionName="divide" lineNumber="21"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/lsda-section-name.cpp" functionName="main" lineNumber="28"/>
+    <functioncall functionName="divide"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

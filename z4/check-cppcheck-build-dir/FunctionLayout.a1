@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9711909930631574107">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/FunctionLayout.h&quot; not found." verbose="Include file: &quot;bolt/Core/FunctionLayout.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\FunctionLayout.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found." verbose="Include file: &quot;bolt/Core/BinaryBasicBlock.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\FunctionLayout.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found." verbose="Include file: &quot;llvm/ADT/STLExtras.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\FunctionLayout.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/edit_distance.h&quot; not found." verbose="Include file: &quot;llvm/ADT/edit_distance.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\FunctionLayout.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\FunctionLayout.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\bolt\lib\Core\FunctionLayout.cpp" line="14" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="BasicBlockListType"/>
+    <functioncall functionName="BinaryBasicBlock"/>
+    <functioncall functionName="Blocks"/>
+    <functioncall functionName="ComputeEditDistance"/>
+    <functioncall functionName="FragmentNum"/>
+    <functioncall functionName="Fragments"/>
+    <functioncall functionName="FunctionFragment"/>
+    <functioncall functionName="FunctionLayout"/>
+    <functioncall functionName="Size"/>
+    <functioncall functionName="StartIndex"/>
+    <functioncall functionName="addBasicBlock"/>
+    <functioncall functionName="addFragment"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block_begin"/>
+    <functioncall functionName="block_const_iterator"/>
+    <functioncall functionName="block_end"/>
+    <functioncall functionName="block_size"/>
+    <functioncall functionName="blocks"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="const_iterator"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="count_if"/>
+    <functioncall functionName="drop_begin"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="enumerate"/>
+    <functioncall functionName="equal"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="erase_if"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findBasicBlockPos"/>
+    <functioncall functionName="find_if_not"/>
+    <functioncall functionName="for_each"/>
+    <functioncall functionName="fragment_begin"/>
+    <functioncall functionName="fragment_end"/>
+    <functioncall functionName="fragments"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getFragment"/>
+    <functioncall functionName="getFragmentNum"/>
+    <functioncall functionName="getLayoutIndex"/>
+    <functioncall functionName="getMainFragment"/>
+    <functioncall functionName="inserter"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="main"/>
+    <functioncall functionName="make_range"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="setFragmentNum"/>
+    <functioncall functionName="setLayoutIndex"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="updateLayoutIndices"/>
+  </FileInfo>
+</analyzerinfo>

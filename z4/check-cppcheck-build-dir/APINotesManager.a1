@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6552577342373145893">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/APINotesManager.h&quot; not found." verbose="Include file: &quot;clang/APINotes/APINotesManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/APINotesReader.h&quot; not found." verbose="Include file: &quot;clang/APINotes/APINotesReader.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/APINotes/APINotesYAMLCompiler.h&quot; not found." verbose="Include file: &quot;clang/APINotes/APINotesYAMLCompiler.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found." verbose="Include file: &quot;clang/Basic/Diagnostic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/FileManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/FileManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/LangOptions.h&quot; not found." verbose="Include file: &quot;clang/Basic/LangOptions.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Module.h&quot; not found." verbose="Include file: &quot;clang/Basic/Module.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="15" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceManager.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceManager.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="16" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/SourceMgrAdapter.h&quot; not found." verbose="Include file: &quot;clang/Basic/SourceMgrAdapter.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="17" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;clang/Basic/Version.h&quot; not found." verbose="Include file: &quot;clang/Basic/Version.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="18" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/APInt.h&quot; not found." verbose="Include file: &quot;llvm/ADT/APInt.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="19" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/Hashing.h&quot; not found." verbose="Include file: &quot;llvm/ADT/Hashing.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SetVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SetVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallPtrSet.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found." verbose="Include file: &quot;llvm/ADT/SmallVector.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/ADT/Statistic.h&quot; not found." verbose="Include file: &quot;llvm/ADT/Statistic.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/MemoryBuffer.h&quot; not found." verbose="Include file: &quot;llvm/Support/MemoryBuffer.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="25" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/Path.h&quot; not found." verbose="Include file: &quot;llvm/Support/Path.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;llvm/Support/PrettyStackTrace.h&quot; not found." verbose="Include file: &quot;llvm/Support/PrettyStackTrace.h&quot; not found.">
+            <location file="C:\Users\floduR\Desktop\upb\upb\z4\llvm-project\clang\lib\APINotes\APINotesManager.cpp" line="27" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp:194:13" my-argnr="2" my-argname="File" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp" line="196" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp:214:13" my-argnr="1" my-argname="M" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp" line="215" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp:49:8" my-argnr="1" my-argname="OS" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp" line="49" col="48" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp:194:13" my-argnr="2" my-argname="File" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp" line="196" col="7" value="0"/>
+    <unsafe-usage my-id="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp:214:13" my-argnr="1" my-argname="M" file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp" line="215" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp" functionName="checkPrivateAPINotesName" lineNumber="194"/>
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/clang/lib/APINotes/APINotesManager.cpp" functionName="hasPrivateSubmodules" lineNumber="214"/>
+    <functioncall functionName="APINotesManager"/>
+    <functioncall functionName="APINotesReader"/>
+    <functioncall functionName="ArrayRef"/>
+    <functioncall functionName="C_User"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="DirectoryEntryRef"/>
+    <functioncall functionName="ExportAsModule"/>
+    <functioncall functionName="FileEntryRef"/>
+    <functioncall functionName="ImplicitAPINotes"/>
+    <functioncall functionName="MemoryBuffer"/>
+    <functioncall functionName="NumDirectoriesSearched"/>
+    <functioncall functionName="NumDirectoryCacheHits"/>
+    <functioncall functionName="NumFrameworksSearched"/>
+    <functioncall functionName="NumHeaderAPINotes"/>
+    <functioncall functionName="NumPrivateFrameworkAPINotes"/>
+    <functioncall functionName="NumPublicFrameworkAPINotes"/>
+    <functioncall functionName="Private"/>
+    <functioncall functionName="Public"/>
+    <functioncall functionName="ReaderEntry"/>
+    <functioncall functionName="Readers"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="SM"/>
+    <functioncall functionName="SOURCE_APINOTES_EXTENSION"/>
+    <functioncall functionName="STATISTIC"/>
+    <functioncall functionName="SetVector"/>
+    <functioncall functionName="SmallPtrSet"/>
+    <functioncall functionName="SmallString"/>
+    <functioncall functionName="SmallVector"/>
+    <functioncall functionName="SourceLocation"/>
+    <functioncall functionName="StringRef"/>
+    <functioncall functionName="SwiftVersion"/>
+    <functioncall functionName="Twine"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="checkPrivateAPINotesName"/>
+    <functioncall functionName="compileAPINotes"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dyn_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="ends_with"/>
+    <functioncall functionName="err_apinotes_message"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findAPINotesFile"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getBuffer"/>
+    <functioncall functionName="getBufferOrNone"/>
+    <functioncall functionName="getCurrentModuleAPINotes"/>
+    <functioncall functionName="getCurrentModuleReaders"/>
+    <functioncall functionName="getDiagContext"/>
+    <functioncall functionName="getDiagHandler"/>
+    <functioncall functionName="getDiagnostics"/>
+    <functioncall functionName="getDir"/>
+    <functioncall functionName="getExpansionLoc"/>
+    <functioncall functionName="getFileEntryForID"/>
+    <functioncall functionName="getFileEntryRefForID"/>
+    <functioncall functionName="getFileID"/>
+    <functioncall functionName="getFileManager"/>
+    <functioncall functionName="getMemBufferCopy"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOptionalDirectoryRef"/>
+    <functioncall functionName="getOptionalFileRef"/>
+    <functioncall functionName="getOrCreateFileID"/>
+    <functioncall functionName="getTopLevelModule"/>
+    <functioncall functionName="getTopLevelModuleName"/>
+    <functioncall functionName="hasPrivateSubmodules"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="is"/>
+    <functioncall functionName="isInvalid"/>
+    <functioncall functionName="loadAPINotes"/>
+    <functioncall functionName="loadFrameworkAPINotes"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="note_apinotes_message"/>
+    <functioncall functionName="nullopt"/>
+    <functioncall functionName="parent_path"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stem"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="submodules"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tryGetRealPathName"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="warn_apinotes_message"/>
+    <functioncall functionName="warn_apinotes_private_case"/>
+    <functioncall functionName="warn_apinotes_private_case_system"/>
+  </FileInfo>
+</analyzerinfo>

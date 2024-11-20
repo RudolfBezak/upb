@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17640831900485576298">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/floduR/Desktop/upb/upb/z4/llvm-project/bolt/test/timers.c" functionName="main" lineNumber="22"/>
+  </FileInfo>
+</analyzerinfo>
